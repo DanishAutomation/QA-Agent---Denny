@@ -1,0 +1,13 @@
+{
+  "domain": "uat2.purlifedental.com",
+  "updatedAt": "2026-05-31T02:05:47.307Z",
+  "successfulSelectors": [],
+  "failedSelectors": [],
+  "successfulFlowPaths": [],
+  "failedFlowPaths": [
+    "https://uat2.purlifedental.com/"
+  ],
+  "provenJourneySteps": [],
+  "assumptions": [],
+  "customCommandMappings": []
+}

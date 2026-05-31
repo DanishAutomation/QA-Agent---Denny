@@ -1,0 +1,358 @@
+{
+  "runId": "run-1780186120986",
+  "status": "completed",
+  "orchestrationState": "COMPLETE",
+  "currentPhase": "Reporting",
+  "totalGeneratedTestCases": 7,
+  "currentExecutingTestCaseNumber": 7,
+  "currentTestCaseTitle": "Execution completed",
+  "currentUrl": "https://ecommerce.folio3.com/",
+  "browser": "Chrome",
+  "device": "Desktop",
+  "progressPercentage": 100,
+  "passCount": 0,
+  "failCount": 0,
+  "skippedCount": 7,
+  "liveLogs": [
+    "[5:08:40 am] Run queued (run-1780186120986)",
+    "[5:08:41 am] Discovery started for https://ecommerce.folio3.com/",
+    "[5:08:41 am] Using cached discovery for https://ecommerce.folio3.com (20 pages, 80 links).",
+    "[5:08:41 am] Discovery classified as Corporate (static suite). 20 pages, 2 forms.",
+    "[5:08:41 am] Generated 10 scenarios (7 executable, 3 skipped).",
+    "[5:08:41 am] Starting Playwright scenario execution.",
+    "[5:08:41 am] Launching browser contexts.",
+    "[5:08:41 am] Blocked: Primary navigation routes resolve correctly",
+    "[5:08:41 am] Blocked: Contact form can be submitted with valid data",
+    "[5:08:41 am] Blocked: Discovered forms validate required fields safely",
+    "[5:08:41 am] Blocked: Static informational pages load and render expected sections",
+    "[5:08:41 am] Blocked: Accessibility risk checks run on key templates",
+    "[5:08:41 am] Blocked: Site links return healthy HTTP responses",
+    "[5:08:41 am] Blocked: Responsive layout remains stable across breakpoints",
+    "[5:08:41 am] Running post-execution analysis checks (responsive/broken links/forms/accessibility).",
+    "[5:08:50 am] Execution reports generated.",
+    "[5:08:50 am] Execution finished. Collecting run artifacts and terminal statuses.",
+    "[5:08:50 am] Generating user-friendly bug intelligence and confidence scores.",
+    "[5:08:50 am] Run completed and reports generated."
+  ],
+  "testCases": [
+    {
+      "id": "scenario-1",
+      "title": "Primary navigation routes resolve correctly",
+      "status": "blocked"
+    },
+    {
+      "id": "scenario-2",
+      "title": "Contact form can be submitted with valid data",
+      "status": "blocked"
+    },
+    {
+      "id": "scenario-3",
+      "title": "Discovered forms validate required fields safely",
+      "status": "blocked"
+    },
+    {
+      "id": "scenario-4",
+      "title": "Static informational pages load and render expected sections",
+      "status": "blocked"
+    },
+    {
+      "id": "scenario-5",
+      "title": "Accessibility risk checks run on key templates",
+      "status": "blocked"
+    },
+    {
+      "id": "scenario-6",
+      "title": "Site links return healthy HTTP responses",
+      "status": "blocked"
+    },
+    {
+      "id": "scenario-7",
+      "title": "Responsive layout remains stable across breakpoints",
+      "status": "blocked"
+    }
+  ],
+  "updatedAt": "2026-05-31T00:08:50.933Z",
+  "log": "Run completed and reports generated.",
+  "testCaseUpdate": {
+    "id": "scenario-7",
+    "title": "Responsive layout remains stable across breakpoints",
+    "status": "skipped"
+  },
+  "result": {
+    "runId": "run-1780186120986",
+    "startedAt": "2026-05-31T00:08:41.113Z",
+    "completedAt": "2026-05-31T00:08:50.907Z",
+    "durationMs": 9794,
+    "passed": 0,
+    "failed": 0,
+    "skipped": 7,
+    "reportPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780186120986\\result.json",
+    "scenarios": [
+      {
+        "scenarioId": "scenario-1",
+        "feature": "Navigation",
+        "scenario": "Primary navigation routes resolve correctly",
+        "status": "blocked",
+        "lifecycleState": "BLOCKED",
+        "errorReason": "Checkout address validation depends on successful add to cart and checkout access. Missing: homepage-loaded.",
+        "screenshots": [],
+        "consoleErrors": [],
+        "networkErrors": [],
+        "pageUrl": "https://ecommerce.folio3.com/",
+        "timestamp": "2026-05-31T00:08:41.905Z",
+        "durationMs": 0,
+        "selfHealing": {
+          "attempted": false,
+          "recovered": false,
+          "attempts": 0,
+          "strategyLogs": []
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [
+            "homepage-loaded"
+          ],
+          "actionsTaken": [
+            "Checkout address validation depends on successful add to cart and checkout access. Missing: homepage-loaded."
+          ],
+          "retryResult": "not-needed"
+        },
+        "dependencyInfo": {
+          "prerequisites": [
+            "homepage-loaded"
+          ],
+          "dependsOn": [],
+          "executionGroup": 3,
+          "addressFlowType": "none"
+        }
+      },
+      {
+        "scenarioId": "scenario-2",
+        "feature": "Contact Form",
+        "scenario": "Contact form can be submitted with valid data",
+        "status": "blocked",
+        "lifecycleState": "BLOCKED",
+        "errorReason": "Checkout address validation depends on successful add to cart and checkout access. Missing: homepage-loaded.",
+        "screenshots": [],
+        "consoleErrors": [],
+        "networkErrors": [],
+        "pageUrl": "https://ecommerce.folio3.com/",
+        "timestamp": "2026-05-31T00:08:41.907Z",
+        "durationMs": 0,
+        "selfHealing": {
+          "attempted": false,
+          "recovered": false,
+          "attempts": 0,
+          "strategyLogs": []
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [
+            "homepage-loaded"
+          ],
+          "actionsTaken": [
+            "Checkout address validation depends on successful add to cart and checkout access. Missing: homepage-loaded."
+          ],
+          "retryResult": "not-needed"
+        },
+        "dependencyInfo": {
+          "prerequisites": [
+            "homepage-loaded"
+          ],
+          "dependsOn": [],
+          "executionGroup": 8,
+          "addressFlowType": "none"
+        }
+      },
+      {
+        "scenarioId": "scenario-3",
+        "feature": "Forms",
+        "scenario": "Discovered forms validate required fields safely",
+        "status": "blocked",
+        "lifecycleState": "BLOCKED",
+        "errorReason": "Checkout address validation depends on successful add to cart and checkout access. Missing: homepage-loaded.",
+        "screenshots": [],
+        "consoleErrors": [],
+        "networkErrors": [],
+        "pageUrl": "https://ecommerce.folio3.com/",
+        "timestamp": "2026-05-31T00:08:41.909Z",
+        "durationMs": 0,
+        "selfHealing": {
+          "attempted": false,
+          "recovered": false,
+          "attempts": 0,
+          "strategyLogs": []
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [
+            "homepage-loaded"
+          ],
+          "actionsTaken": [
+            "Checkout address validation depends on successful add to cart and checkout access. Missing: homepage-loaded."
+          ],
+          "retryResult": "not-needed"
+        },
+        "dependencyInfo": {
+          "prerequisites": [
+            "homepage-loaded"
+          ],
+          "dependsOn": [],
+          "executionGroup": 8,
+          "addressFlowType": "none"
+        }
+      },
+      {
+        "scenarioId": "scenario-4",
+        "feature": "Static Pages",
+        "scenario": "Static informational pages load and render expected sections",
+        "status": "blocked",
+        "lifecycleState": "BLOCKED",
+        "errorReason": "Checkout address validation depends on successful add to cart and checkout access. Missing: homepage-loaded.",
+        "screenshots": [],
+        "consoleErrors": [],
+        "networkErrors": [],
+        "pageUrl": "https://ecommerce.folio3.com/",
+        "timestamp": "2026-05-31T00:08:41.911Z",
+        "durationMs": 0,
+        "selfHealing": {
+          "attempted": false,
+          "recovered": false,
+          "attempts": 0,
+          "strategyLogs": []
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [
+            "homepage-loaded"
+          ],
+          "actionsTaken": [
+            "Checkout address validation depends on successful add to cart and checkout access. Missing: homepage-loaded."
+          ],
+          "retryResult": "not-needed"
+        },
+        "dependencyInfo": {
+          "prerequisites": [
+            "homepage-loaded"
+          ],
+          "dependsOn": [],
+          "executionGroup": 8,
+          "addressFlowType": "none"
+        }
+      },
+      {
+        "scenarioId": "scenario-5",
+        "feature": "Accessibility",
+        "scenario": "Accessibility risk checks run on key templates",
+        "status": "blocked",
+        "lifecycleState": "BLOCKED",
+        "errorReason": "Checkout address validation depends on successful add to cart and checkout access. Missing: homepage-loaded.",
+        "screenshots": [],
+        "consoleErrors": [],
+        "networkErrors": [],
+        "pageUrl": "https://ecommerce.folio3.com/",
+        "timestamp": "2026-05-31T00:08:41.914Z",
+        "durationMs": 0,
+        "selfHealing": {
+          "attempted": false,
+          "recovered": false,
+          "attempts": 0,
+          "strategyLogs": []
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [
+            "homepage-loaded"
+          ],
+          "actionsTaken": [
+            "Checkout address validation depends on successful add to cart and checkout access. Missing: homepage-loaded."
+          ],
+          "retryResult": "not-needed"
+        },
+        "dependencyInfo": {
+          "prerequisites": [
+            "homepage-loaded"
+          ],
+          "dependsOn": [],
+          "executionGroup": 9,
+          "addressFlowType": "none"
+        }
+      },
+      {
+        "scenarioId": "scenario-6",
+        "feature": "Broken Link",
+        "scenario": "Site links return healthy HTTP responses",
+        "status": "blocked",
+        "lifecycleState": "BLOCKED",
+        "errorReason": "Checkout address validation depends on successful add to cart and checkout access. Missing: homepage-loaded.",
+        "screenshots": [],
+        "consoleErrors": [],
+        "networkErrors": [],
+        "pageUrl": "https://ecommerce.folio3.com/",
+        "timestamp": "2026-05-31T00:08:41.917Z",
+        "durationMs": 0,
+        "selfHealing": {
+          "attempted": false,
+          "recovered": false,
+          "attempts": 0,
+          "strategyLogs": []
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [
+            "homepage-loaded"
+          ],
+          "actionsTaken": [
+            "Checkout address validation depends on successful add to cart and checkout access. Missing: homepage-loaded."
+          ],
+          "retryResult": "not-needed"
+        },
+        "dependencyInfo": {
+          "prerequisites": [
+            "homepage-loaded"
+          ],
+          "dependsOn": [],
+          "executionGroup": 9,
+          "addressFlowType": "none"
+        }
+      },
+      {
+        "scenarioId": "scenario-7",
+        "feature": "Responsive",
+        "scenario": "Responsive layout remains stable across breakpoints",
+        "status": "blocked",
+        "lifecycleState": "BLOCKED",
+        "errorReason": "Checkout address validation depends on successful add to cart and checkout access. Missing: homepage-loaded.",
+        "screenshots": [],
+        "consoleErrors": [],
+        "networkErrors": [],
+        "pageUrl": "https://ecommerce.folio3.com/",
+        "timestamp": "2026-05-31T00:08:41.920Z",
+        "durationMs": 0,
+        "selfHealing": {
+          "attempted": false,
+          "recovered": false,
+          "attempts": 0,
+          "strategyLogs": []
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [
+            "homepage-loaded"
+          ],
+          "actionsTaken": [
+            "Checkout address validation depends on successful add to cart and checkout access. Missing: homepage-loaded."
+          ],
+          "retryResult": "not-needed"
+        },
+        "dependencyInfo": {
+          "prerequisites": [
+            "homepage-loaded"
+          ],
+          "dependsOn": [],
+          "executionGroup": 9,
+          "addressFlowType": "none"
+        }
+      }
+    ],
+    "bugReports": [],
+    "productionReportPaths": {
+      "html": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780186120986\\client-report.html",
+      "json": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780186120986\\client-report.json",
+      "markdown": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780186120986\\summary.md"
+    }
+  }
+}

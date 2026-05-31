@@ -1,0 +1,928 @@
+{
+  "executiveSummary": {
+    "runId": "run-1780232243316",
+    "environment": "development",
+    "url": "https://uat2.purelifedental.com/",
+    "testType": "Full Regression",
+    "browser": "Chrome",
+    "devices": [
+      "Desktop"
+    ],
+    "totalCases": 16,
+    "passed": 14,
+    "failed": 2,
+    "skipped": 0,
+    "bugsFound": 2,
+    "confidenceScore": 95
+  },
+  "rootCauseAnalysis": [
+    "Cart: Step failed after 3 attempts: No executable UI action matched intent:...: Step failed after 3 attempts: No executable UI action matched intent: \"Remove item from cart\". Iframe detected; target action may be inside nested browsing context. Modal/dialog present; interactions may be blocked.",
+    "Checkout: locator.click: Timeout 10000ms exceeded.\nCall log:\n  - waiting for lo...: locator.click: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('button[data-role=\\'proceed-to-checkout\\']').first()\n    - locator resolved to <button type=\"button\" title=\"Proceed to Checkout\" data-role=\"proceed-to-checkout\" class=\"action primary checkout\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    18 × waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n Network: [404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js Network: [FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED"
+  ],
+  "recoveryAttempts": [
+    "Applied 2 memory-backed regression step(s) for \"Remove item works from cart workflow\".",
+    "Detected action: moveToCart",
+    "Detected action: removeCartItem",
+    "Attempt 1: Root error: Step failed after 3 attempts: No executable UI action matched intent: \"Remove item from cart\".",
+    "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+    "Attempt 1: Strategy 2: no blocking overlays detected.",
+    "Attempt 1: Strategy 3 skipped: reload avoided on checkout flow to preserve session.",
+    "Attempt 1: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+    "Attempt 1: retry failed (Step failed after 3 attempts: Loop protection triggered: maximum step action threshold exceeded.)",
+    "Attempt 2: Root error: Step failed after 3 attempts: No executable UI action matched intent: \"Remove item from cart\".",
+    "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+    "Attempt 2: Strategy 2: no blocking overlays detected.",
+    "Attempt 2: Strategy 3 skipped: reload avoided on checkout flow to preserve session.",
+    "Attempt 2: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+    "Attempt 2: retry failed (Step failed after 3 attempts: Loop protection triggered: maximum step action threshold exceeded.)",
+    "Applied 3 memory-backed regression step(s) for \"Address step validates correctly\".",
+    "Attempt 1: Root error: locator.click: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('button[data-role=\\'proceed-to-checkout\\']').first()\n    - locator resolved to <button type=\"button\" title=\"Proceed to Checkout\" data-role=\"proceed-to-checkout\" class=\"action primary checkout\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    18 × waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n",
+    "Attempt 1: retry failed (locator.click: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('button[data-role=\\'proceed-to-checkout\\']').first()\n    - locator resolved to <button type=\"button\" title=\"Proceed to Checkout\" data-role=\"proceed-to-checkout\" class=\"action primary checkout\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    17 × waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n)",
+    "Attempt 2: Root error: locator.click: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('button[data-role=\\'proceed-to-checkout\\']').first()\n    - locator resolved to <button type=\"button\" title=\"Proceed to Checkout\" data-role=\"proceed-to-checkout\" class=\"action primary checkout\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    18 × waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n",
+    "Attempt 2: retry failed (locator.click: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('button[data-role=\\'proceed-to-checkout\\']').first()\n    - locator resolved to <button type=\"button\" title=\"Proceed to Checkout\" data-role=\"proceed-to-checkout\" class=\"action primary checkout\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    18 × waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n)"
+  ],
+  "aiAssumptions": [
+    "Execution assertions rely on generated BDD scenario intent and detected capabilities.",
+    "Fallback test data may be used for missing non-sensitive fields where configured.",
+    "Sensitive/destructive operations are skipped unless safe test mode is explicitly enabled.",
+    "Browser/device matrix reflects configured run values: Chrome / Desktop."
+  ],
+  "screenshots": [
+    {
+      "scenarioId": "scenario-4",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780232243316\\screenshots\\scenario-4-step-1-product-listing-behavior-is-corr-product-prophyflex-cleaning-powder-html-Desktop-landing.png"
+    },
+    {
+      "scenarioId": "scenario-5",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780232243316\\screenshots\\scenario-5-step-1-search-behavior-is-correct-catalogsearch-result-Desktop-landing.png"
+    },
+    {
+      "scenarioId": "scenario-6",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780232243316\\screenshots\\scenario-6-step-1-categories-behavior-is-correct-catalogsearch-result-Desktop-landing.png"
+    },
+    {
+      "scenarioId": "scenario-7",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780232243316\\screenshots\\scenario-7-step-1-add-to-cart-behavior-on-product--product-prophyflex-cleaning-powder-html-Desktop-landing.png"
+    },
+    {
+      "scenarioId": "scenario-8",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780232243316\\screenshots\\scenario-8-step-1-child-sku-selection-behavior-on--product-prophyflex-cleaning-powder-html-Desktop-landing.png"
+    },
+    {
+      "scenarioId": "scenario-9",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780232243316\\screenshots\\scenario-9-step-1-inventory-behavior-on-product-de-product-encore-af-core-buildup-composite-Desktop-landing.png"
+    },
+    {
+      "scenarioId": "scenario-10",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780232243316\\screenshots\\scenario-10-step-1-product-image-behavior-on-produc-product-encore-af-core-buildup-composite-Desktop-landing.png"
+    },
+    {
+      "scenarioId": "scenario-11",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780232243316\\screenshots\\scenario-11-step-1-quantity-behavior-on-product-det-product-encore-af-core-buildup-composite-Desktop-landing.png"
+    },
+    {
+      "scenarioId": "scenario-12",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780232243316\\screenshots\\scenario-12-step-1-add-item-works-from-cart-workflo-checkout-cart-Desktop-landing.png"
+    },
+    {
+      "scenarioId": "scenario-13",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780232243316\\screenshots\\scenario-13-step-1-coupon-if-available-works-from-c-checkout-cart-Desktop-landing.png"
+    },
+    {
+      "scenarioId": "scenario-14",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780232243316\\screenshots\\scenario-14-step-1-remove-item-works-from-cart-work-checkout-cart-Desktop-failure.png"
+    },
+    {
+      "scenarioId": "scenario-15",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780232243316\\screenshots\\scenario-15-step-1-update-quantity-works-from-cart--checkout-cart-Desktop-landing.png"
+    },
+    {
+      "scenarioId": "scenario-16",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780232243316\\screenshots\\scenario-16-step-1-address-step-validates-correctly-checkout-Desktop-failure.png"
+    }
+  ],
+  "bugs": [
+    {
+      "summary": "Cart: Step failed after 3 attempts: No executable UI action matched intent:...",
+      "description": "While testing \"Remove item works from cart workflow\" on https://uat2.purelifedental.com/, the run failed because Step failed after 3 attempts: No executable UI action matched intent: \"Remove item from cart\". Additional signals: Iframe detected; target action may be inside nested browsing context.; Modal/dialog present; interactions may be blocked..",
+      "stepsToReproduce": [
+        "Open https://uat2.purelifedental.com/",
+        "Applied 2 memory-backed regression step(s) for \"Remove item works from cart workflow\".",
+        "Detected action: moveToCart",
+        "Detected action: removeCartItem",
+        "Observe failure signal in console, network, layout, or form behavior."
+      ],
+      "expectedResult": "Users should complete \"Remove item works from cart workflow\" on https://uat2.purelifedental.com/ without defects.",
+      "actualResult": "Step failed after 3 attempts: No executable UI action matched intent: \"Remove item from cart\".",
+      "screenshot": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780232243316\\screenshots\\scenario-14-step-1-remove-item-works-from-cart-work-checkout-cart-Desktop-failure.png",
+      "suggestedFix": "Investigate the failure on https://uat2.purelifedental.com/ and fix the underlying UI or backend dependency.",
+      "severity": "Medium",
+      "priority": "P2",
+      "confidenceScore": 91,
+      "businessImpact": "Checkout instability directly threatens conversion and revenue.",
+      "userImpact": "Users on https://uat2.purelifedental.com/ may hit the defect while attempting: Remove item works from cart workflow.",
+      "revenueImpact": "Indirect impact possible depending on page traffic and funnel position.",
+      "recoveryAttempts": [
+        "Applied 2 memory-backed regression step(s) for \"Remove item works from cart workflow\".",
+        "Detected action: moveToCart",
+        "Detected action: removeCartItem",
+        "Detected action: removeCartItem",
+        "Detected action: removeCartItem",
+        "Detected action: removeCartItem",
+        "Detected action: removeCartItem",
+        "Detected action: removeCartItem",
+        "Applied 2 memory-backed regression step(s) for \"Remove item works from cart workflow\".",
+        "Detected action: moveToCart",
+        "Detected action: removeCartItem",
+        "Detected action: removeCartItem",
+        "Detected action: removeCartItem",
+        "Detected action: removeCartItem",
+        "Applied 2 memory-backed regression step(s) for \"Remove item works from cart workflow\".",
+        "Attempt 1: Root error: Step failed after 3 attempts: No executable UI action matched intent: \"Remove item from cart\".",
+        "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+        "Attempt 1: Strategy 2: no blocking overlays detected.",
+        "Attempt 1: Strategy 3 skipped: reload avoided on checkout flow to preserve session.",
+        "Attempt 1: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+        "Attempt 1: retry failed (Step failed after 3 attempts: Loop protection triggered: maximum step action threshold exceeded.)",
+        "Attempt 2: Root error: Step failed after 3 attempts: No executable UI action matched intent: \"Remove item from cart\".",
+        "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+        "Attempt 2: Strategy 2: no blocking overlays detected.",
+        "Attempt 2: Strategy 3 skipped: reload avoided on checkout flow to preserve session.",
+        "Attempt 2: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+        "Attempt 2: retry failed (Step failed after 3 attempts: Loop protection triggered: maximum step action threshold exceeded.)"
+      ],
+      "rootCauseAnalysis": "Step failed after 3 attempts: No executable UI action matched intent: \"Remove item from cart\". Iframe detected; target action may be inside nested browsing context. Modal/dialog present; interactions may be blocked.",
+      "technicalDetails": {
+        "errorReason": "Step failed after 3 attempts: No executable UI action matched intent: \"Remove item from cart\".",
+        "consoleErrors": [],
+        "networkErrors": [],
+        "pageUrl": "https://uat2.purelifedental.com/",
+        "timestamp": "2026-05-31T12:59:55.567Z",
+        "selfHealing": {
+          "attempted": true,
+          "recovered": false,
+          "attempts": 2,
+          "strategyLogs": [
+            "Attempt 1: Root error: Step failed after 3 attempts: No executable UI action matched intent: \"Remove item from cart\".",
+            "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+            "Attempt 1: Strategy 2: no blocking overlays detected.",
+            "Attempt 1: Strategy 3 skipped: reload avoided on checkout flow to preserve session.",
+            "Attempt 1: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+            "Attempt 1: retry failed (Step failed after 3 attempts: Loop protection triggered: maximum step action threshold exceeded.)",
+            "Attempt 2: Root error: Step failed after 3 attempts: No executable UI action matched intent: \"Remove item from cart\".",
+            "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+            "Attempt 2: Strategy 2: no blocking overlays detected.",
+            "Attempt 2: Strategy 3 skipped: reload avoided on checkout flow to preserve session.",
+            "Attempt 2: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+            "Attempt 2: retry failed (Step failed after 3 attempts: Loop protection triggered: maximum step action threshold exceeded.)"
+          ]
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [
+            "Applied 2 memory-backed regression step(s) for \"Remove item works from cart workflow\".",
+            "Detected action: moveToCart",
+            "Detected action: removeCartItem",
+            "Detected action: removeCartItem",
+            "Detected action: removeCartItem",
+            "Detected action: removeCartItem",
+            "Detected action: removeCartItem",
+            "Detected action: removeCartItem",
+            "Applied 2 memory-backed regression step(s) for \"Remove item works from cart workflow\".",
+            "Detected action: moveToCart",
+            "Detected action: removeCartItem",
+            "Detected action: removeCartItem",
+            "Detected action: removeCartItem",
+            "Detected action: removeCartItem",
+            "Applied 2 memory-backed regression step(s) for \"Remove item works from cart workflow\"."
+          ],
+          "retryResult": "failed",
+          "investigationFindings": [
+            "Iframe detected; target action may be inside nested browsing context.",
+            "Modal/dialog present; interactions may be blocked.",
+            "Overlay detected; click targets may be obscured.",
+            "Disabled controls present; prerequisite steps may be missing.",
+            "Validation/error messages detected on page."
+          ]
+        }
+      }
+    },
+    {
+      "summary": "Checkout: locator.click: Timeout 10000ms exceeded.\nCall log:\n  - waiting for lo...",
+      "description": "While testing \"Address step validates correctly\" on https://uat2.purelifedental.com/, the run failed because locator.click: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('button[data-role=\\'proceed-to-checkout\\']').first()\n    - locator resolved to <button type=\"button\" title=\"Proceed to Checkout\" data-role=\"proceed-to-checkout\" class=\"action primary checkout\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    18 × waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms Additional signals: Network: [404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js; Network: [FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED.",
+      "stepsToReproduce": [
+        "Open https://uat2.purelifedental.com/",
+        "Applied 3 memory-backed regression step(s) for \"Address step validates correctly\".",
+        "Detected action: moveToCart",
+        "Applied 3 memory-backed regression step(s) for \"Address step validates correctly\".",
+        "Observe failure signal in console, network, layout, or form behavior."
+      ],
+      "expectedResult": "Users should complete \"Address step validates correctly\" on https://uat2.purelifedental.com/ without defects.",
+      "actualResult": "locator.click: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('button[data-role=\\'proceed-to-checkout\\']').first()\n    - locator resolved to <button type=\"button\" title=\"Proceed to Checkout\" data-role=\"proceed-to-checkout\" class=\"action primary checkout\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    18 × waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms",
+      "screenshot": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780232243316\\screenshots\\scenario-16-step-1-address-step-validates-correctly-checkout-Desktop-failure.png",
+      "suggestedFix": "Repair or redirect the failing URLs identified in the broken-links report (header, footer, CTA, and content links).",
+      "severity": "Critical",
+      "priority": "P0",
+      "confidenceScore": 99,
+      "businessImpact": "Checkout instability directly threatens conversion and revenue.",
+      "userImpact": "Users on https://uat2.purelifedental.com/ may hit the defect while attempting: Address step validates correctly.",
+      "revenueImpact": "Conversion or lead-generation paths may lose measurable traffic.",
+      "recoveryAttempts": [
+        "Applied 3 memory-backed regression step(s) for \"Address step validates correctly\".",
+        "Detected action: moveToCart",
+        "Applied 3 memory-backed regression step(s) for \"Address step validates correctly\".",
+        "Detected action: moveToCart",
+        "Applied 3 memory-backed regression step(s) for \"Address step validates correctly\".",
+        "Detected action: moveToCart",
+        "Attempt 1: Root error: locator.click: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('button[data-role=\\'proceed-to-checkout\\']').first()\n    - locator resolved to <button type=\"button\" title=\"Proceed to Checkout\" data-role=\"proceed-to-checkout\" class=\"action primary checkout\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    18 × waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n",
+        "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+        "Attempt 1: Strategy 2: no blocking overlays detected.",
+        "Attempt 1: Strategy 3 skipped: reload avoided on checkout flow to preserve session.",
+        "Attempt 1: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+        "Attempt 1: retry failed (locator.click: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('button[data-role=\\'proceed-to-checkout\\']').first()\n    - locator resolved to <button type=\"button\" title=\"Proceed to Checkout\" data-role=\"proceed-to-checkout\" class=\"action primary checkout\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    17 × waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n)",
+        "Attempt 2: Root error: locator.click: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('button[data-role=\\'proceed-to-checkout\\']').first()\n    - locator resolved to <button type=\"button\" title=\"Proceed to Checkout\" data-role=\"proceed-to-checkout\" class=\"action primary checkout\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    18 × waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n",
+        "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+        "Attempt 2: Strategy 2: no blocking overlays detected.",
+        "Attempt 2: Strategy 3 skipped: reload avoided on checkout flow to preserve session.",
+        "Attempt 2: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+        "Attempt 2: retry failed (locator.click: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('button[data-role=\\'proceed-to-checkout\\']').first()\n    - locator resolved to <button type=\"button\" title=\"Proceed to Checkout\" data-role=\"proceed-to-checkout\" class=\"action primary checkout\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    18 × waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n)"
+      ],
+      "rootCauseAnalysis": "locator.click: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('button[data-role=\\'proceed-to-checkout\\']').first()\n    - locator resolved to <button type=\"button\" title=\"Proceed to Checkout\" data-role=\"proceed-to-checkout\" class=\"action primary checkout\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    18 × waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n Network: [404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js Network: [FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+      "technicalDetails": {
+        "errorReason": "locator.click: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('button[data-role=\\'proceed-to-checkout\\']').first()\n    - locator resolved to <button type=\"button\" title=\"Proceed to Checkout\" data-role=\"proceed-to-checkout\" class=\"action primary checkout\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    18 × waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n",
+        "consoleErrors": [
+          "Refused to execute script from 'https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled."
+        ],
+        "networkErrors": [
+          "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780232382809&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAGQC&ae=a&are=1&cid=467806944.1780232254&frm=0&pscdl=noapi&rcb=18&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938465~115938469~118228214~119027223~119034491~119064971&uid=20650&sid=1780232254&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcheckout%2Fcart&dt=Shopping%20Cart&en=scroll&epn.percent_scrolled=90&_et=16918&tfd=21399 :: net::ERR_ABORTED",
+          "[FAILED] https://www.google.com.pk/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-WK1Z55XV42&cid=467806944.1780232254&gtm=45je65r2v873808596za20gzb842537924zd842537924&rcb=18&aip=1&uid=20650&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=0~115938465~115938469~118228214~119027223~119034491~119064971&z=1706638964 :: csp",
+          "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780232382809&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=467806944.1780232254&frm=0&pscdl=noapi&rcb=18&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=3&tag_exp=0~115938465~115938469~118228214~119027223~119034491~119064971&uid=20650&sid=1780232254&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcheckout%2Fcart&dt=Shopping%20Cart&en=user_engagement&_et=126440&tfd=147865 :: net::ERR_ABORTED",
+          "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+          "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED"
+        ],
+        "pageUrl": "https://uat2.purelifedental.com/",
+        "timestamp": "2026-05-31T12:59:59.435Z",
+        "selfHealing": {
+          "attempted": true,
+          "recovered": false,
+          "attempts": 2,
+          "strategyLogs": [
+            "Attempt 1: Root error: locator.click: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('button[data-role=\\'proceed-to-checkout\\']').first()\n    - locator resolved to <button type=\"button\" title=\"Proceed to Checkout\" data-role=\"proceed-to-checkout\" class=\"action primary checkout\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    18 × waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n",
+            "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+            "Attempt 1: Strategy 2: no blocking overlays detected.",
+            "Attempt 1: Strategy 3 skipped: reload avoided on checkout flow to preserve session.",
+            "Attempt 1: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+            "Attempt 1: retry failed (locator.click: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('button[data-role=\\'proceed-to-checkout\\']').first()\n    - locator resolved to <button type=\"button\" title=\"Proceed to Checkout\" data-role=\"proceed-to-checkout\" class=\"action primary checkout\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    17 × waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n)",
+            "Attempt 2: Root error: locator.click: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('button[data-role=\\'proceed-to-checkout\\']').first()\n    - locator resolved to <button type=\"button\" title=\"Proceed to Checkout\" data-role=\"proceed-to-checkout\" class=\"action primary checkout\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    18 × waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n",
+            "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+            "Attempt 2: Strategy 2: no blocking overlays detected.",
+            "Attempt 2: Strategy 3 skipped: reload avoided on checkout flow to preserve session.",
+            "Attempt 2: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+            "Attempt 2: retry failed (locator.click: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('button[data-role=\\'proceed-to-checkout\\']').first()\n    - locator resolved to <button type=\"button\" title=\"Proceed to Checkout\" data-role=\"proceed-to-checkout\" class=\"action primary checkout\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    18 × waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n)"
+          ]
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [
+            "Applied 3 memory-backed regression step(s) for \"Address step validates correctly\".",
+            "Detected action: moveToCart",
+            "Applied 3 memory-backed regression step(s) for \"Address step validates correctly\".",
+            "Detected action: moveToCart",
+            "Applied 3 memory-backed regression step(s) for \"Address step validates correctly\".",
+            "Detected action: moveToCart"
+          ],
+          "retryResult": "not-needed",
+          "investigationFindings": []
+        }
+      }
+    }
+  ],
+  "technicalLogs": [
+    {
+      "scenarioId": "scenario-1",
+      "feature": "Authentication",
+      "scenario": "Login flow works as expected",
+      "status": "passed",
+      "consoleErrors": [
+        "Refused to execute script from 'https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled."
+      ],
+      "networkErrors": [
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780232250300&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGAC&are=1&cid=467806944.1780232254&frm=0&pscdl=noapi&rcb=5&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938465~115938469~119034491&sid=1780232254&sct=1&seg=0&dl=https%3A%2F%2Fuat2.purelifedental.com%2F&dt=PureLife%20Dental%20%7C%20Dentistry%20Evolved%20%7C%20Dental%20Supplies&en=page_view&_fv=1&_ss=1&tfd=9801 :: net::ERR_ABORTED",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/jquery/ui-modules/vendor/jquery-color/jquery.color.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/Magento_Ui/js/form/adapter/buttons.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://uat2.purelifedental.com/customer/section/load/?sections=membership&force_new_section_timestamp=false&_=1780232252344 :: net::ERR_ABORTED",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/Magento_Captcha/js/action/refresh.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780232250300&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=467806944.1780232254&frm=0&pscdl=noapi&rcb=5&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=3&tag_exp=0~115938465~115938469~119034491&sid=1780232254&sct=1&seg=0&dl=https%3A%2F%2Fuat2.purelifedental.com%2F&dt=PureLife%20Dental%20%7C%20Dentistry%20Evolved%20%7C%20Dental%20Supplies&en=user_engagement&_et=1725&tfd=13271 :: net::ERR_ABORTED",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/Aheadworks_Afptc/js/components/promo-products/storage.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/Folio3_Afptc/js/view/promo-offer-mixin.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/Folio3_Afptc/js/components/promo-products.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/vimeo/player.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780232250300&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAGQC&ae=a&are=1&cid=467806944.1780232254&frm=0&pscdl=noapi&rcb=5&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938465~115938469~119034491&sid=1780232254&sct=1&seg=0&dl=https%3A%2F%2Fuat2.purelifedental.com%2F&dt=PureLife%20Dental%20%7C%20Dentistry%20Evolved%20%7C%20Dental%20Supplies&en=scroll&epn.percent_scrolled=90&_et=1734&tfd=13270 :: net::ERR_ABORTED",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/Magento_Catalog/js/product/query-builder.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/Magento_Customer/js/invalidation-rules/website-rule.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/Aheadworks_Afptc/js/view/promo-offer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/jquery/ui-modules/jquery-var-for-color.min.js :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780232258221&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=467806944.1780232254&frm=0&pscdl=noapi&rcb=2&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938466~115938469~118128923~119034491~119064591&sid=1780232254&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcustomer%2Faccount%2Flogin%2Freferer%2FaHR0cHM6Ly91YXQyLnB1cmVsaWZlZGVudGFsLmNvbS9jdXN0b21lci9hY2NvdW50%2F&dr=https%3A%2F%2Fuat2.purelifedental.com%2F&dt=Customer%20Login&en=user_engagement&_et=4280&tfd=6811 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780232258221&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=467806944.1780232254&frm=0&pscdl=noapi&rcb=2&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938466~115938469~118128923~119034491~119064591&sid=1780232254&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcustomer%2Faccount%2Flogin%2Freferer%2FaHR0cHM6Ly91YXQyLnB1cmVsaWZlZGVudGFsLmNvbS9jdXN0b21lci9hY2NvdW50%2F&dr=https%3A%2F%2Fuat2.purelifedental.com%2F&dt=Customer%20Login&en=page_view&tfd=6810 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED"
+      ],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Applied 1 memory-backed regression step(s) for \"Login flow works as expected\".",
+          "Detected action: login",
+          "Login field fill: email=true password=false",
+          "Re-opened login form via role",
+          "Login field fill: email=true password=true",
+          "Authenticated session established and stored for run."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-2",
+      "feature": "Authentication",
+      "scenario": "Signup flow works as expected",
+      "status": "passed",
+      "consoleErrors": [
+        "Refused to execute script from 'https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled."
+      ],
+      "networkErrors": [
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780232263164&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=467806944.1780232254&frm=0&pscdl=noapi&rcb=3&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115616985~115938465~115938469~118128922~118228215~119027223~119034493&sid=1780232254&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcustomer%2Faccount%2Findex%2F%3Fis_logged_in%3D1&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fcustomer%2Faccount%2Flogin%2Freferer%2FaHR0cHM6Ly91YXQyLnB1cmVsaWZlZGVudGFsLmNvbS9jdXN0b21lci9hY2NvdW50%2F&dt=My%20Account&en=page_view&gap.plf=1&tfd=9815 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780232263164&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=467806944.1780232254&frm=0&pscdl=noapi&rcb=3&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115616985~115938465~115938469~118128922~118228215~119027223~119034493&sid=1780232254&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcustomer%2Faccount%2Findex%2F%3Fis_logged_in%3D1&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fcustomer%2Faccount%2Flogin%2Freferer%2FaHR0cHM6Ly91YXQyLnB1cmVsaWZlZGVudGFsLmNvbS9jdXN0b21lci9hY2NvdW50%2F&dt=My%20Account&en=user_engagement&gap.plf=1&_et=8823&tfd=13643 :: net::ERR_ABORTED",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/Magento_Catalog/template/product/image_with_borders.html :: net::ERR_ABORTED",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/Magento_Checkout/template/minicart/item/price.html :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED"
+      ],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Applied 1 memory-backed regression step(s) for \"Signup flow works as expected\".",
+          "Detected action: navigateSignup",
+          "Opened signup page."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-3",
+      "feature": "Authentication",
+      "scenario": "Forgot Password flow works as expected",
+      "status": "passed",
+      "consoleErrors": [
+        "Refused to execute script from 'https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled."
+      ],
+      "networkErrors": [
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780232272373&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=467806944.1780232254&frm=0&pscdl=noapi&rcb=11&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115616985~115938466~115938469~119034491~119064591&uid=20650&sid=1780232254&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcustomer%2Faccount%2F&dt=My%20Account&en=page_view&gap.plf=1&up.user_id_dimension=20650&tfd=8193 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780232272373&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=467806944.1780232254&frm=0&pscdl=noapi&rcb=11&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115616985~115938466~115938469~119034491~119064591&uid=20650&sid=1780232254&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcustomer%2Faccount%2F&dt=My%20Account&en=user_engagement&gap.plf=1&_et=4264&tfd=8195 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED"
+      ],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Applied 1 memory-backed regression step(s) for \"Forgot Password flow works as expected\".",
+          "Detected action: navigateForgotPassword",
+          "Opened forgot password page."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-4",
+      "feature": "Catalog",
+      "scenario": "Product Listing behavior is correct",
+      "status": "passed",
+      "consoleErrors": [
+        "Refused to execute script from 'https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+        "paypalCheckout error r"
+      ],
+      "networkErrors": [
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780232276925&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=467806944.1780232254&frm=0&pscdl=noapi&rcb=9&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115616986~115938465~115938468~119034493&uid=20650&sid=1780232254&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcustomer%2Faccount%2F&dt=My%20Account&en=page_view&up.user_id_dimension=20650&tfd=7459 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780232276925&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=467806944.1780232254&frm=0&pscdl=noapi&rcb=9&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115616986~115938465~115938468~119034493&uid=20650&sid=1780232254&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcustomer%2Faccount%2F&dt=My%20Account&en=user_engagement&_et=12215&tfd=14674 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780232289651&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAEAGQC&ae=a&are=1&cid=467806944.1780232254&frm=0&pscdl=noapi&rcb=11&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115616986~115938465~115938469~119034493~119064591&uid=20650&sid=1780232254&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fcustomer%2Faccount%2F&dt=Search%20results%20for%3A%20%27powder%27&en=view_search_results&ep.search_term=powder&up.user_id_dimension=20650&tfd=9567 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780232289651&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=467806944.1780232254&frm=0&pscdl=noapi&rcb=11&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115616986~115938465~115938469~119034493~119064591&uid=20650&sid=1780232254&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fcustomer%2Faccount%2F&dt=Search%20results%20for%3A%20%27powder%27&en=page_view&_et=1&tfd=14576 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780232289651&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=467806944.1780232254&frm=0&pscdl=noapi&rcb=11&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=3&tag_exp=0~115616986~115938465~115938469~119034493~119064591&uid=20650&sid=1780232254&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fcustomer%2Faccount%2F&dt=Search%20results%20for%3A%20%27powder%27&en=user_engagement&_et=6304&tfd=15883 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED"
+      ],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Applied 2 memory-backed regression step(s) for \"Product Listing behavior is correct\".",
+          "Detected action: search",
+          "Search submitted with query \"powder\".",
+          "Resolved action using search-input: input[type='search']",
+          "Detected action: openProduct",
+          "Resolved action using product-listing: .product-item-link"
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-5",
+      "feature": "Catalog",
+      "scenario": "Search behavior is correct",
+      "status": "passed",
+      "consoleErrors": [
+        "Refused to execute script from 'https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled."
+      ],
+      "networkErrors": [
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780232296775&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=467806944.1780232254&frm=0&pscdl=noapi&rcb=19&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115616986~115938465~115938469~118228214~119027223~119034493~119064971&uid=20650&sid=1780232254&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fprophyflex-cleaning-powder.html%3Fsku%3Dpowder&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dt=PROPHYflex%20Cleaning%20Powder&en=page_view&up.user_id_dimension=20650&tfd=10779 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780232296775&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=467806944.1780232254&frm=0&pscdl=noapi&rcb=19&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115616986~115938465~115938469~118228214~119027223~119034493~119064971&uid=20650&sid=1780232254&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fprophyflex-cleaning-powder.html%3Fsku%3Dpowder&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dt=PROPHYflex%20Cleaning%20Powder&en=user_engagement&_et=12744&tfd=18529 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780232310951&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAEAGQC&ae=a&are=1&cid=467806944.1780232254&frm=0&pscdl=noapi&rcb=15&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115616986~115938466~115938469~117776794~119027224~119034491&uid=20650&sid=1780232254&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fprophyflex-cleaning-powder.html%3Fsku%3Dpowder&dt=Search%20results%20for%3A%20%27powder%27&en=view_search_results&ep.search_term=powder&up.user_id_dimension=20650&tfd=10865 :: net::ERR_ABORTED"
+      ],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Applied 1 memory-backed regression step(s) for \"Search behavior is correct\".",
+          "Detected action: search",
+          "Search submitted with query \"powder\".",
+          "Resolved action using search-input: input[type='search']"
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-6",
+      "feature": "Catalog",
+      "scenario": "Categories behavior is correct",
+      "status": "passed",
+      "consoleErrors": [
+        "Refused to execute script from 'https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled."
+      ],
+      "networkErrors": [
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780232310951&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=467806944.1780232254&frm=0&pscdl=noapi&rcb=15&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115616986~115938466~115938469~117776794~119027224~119034491&uid=20650&sid=1780232254&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fprophyflex-cleaning-powder.html%3Fsku%3Dpowder&dt=Search%20results%20for%3A%20%27powder%27&en=page_view&_et=1&tfd=15873 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com.pk/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-WK1Z55XV42&cid=467806944.1780232254&gtm=45je65r2v873808596za20gzb842537924zd842537924&rcb=15&aip=1&uid=20650&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=0~115616986~115938466~115938469~117776794~119027224~119034491&z=854021044 :: csp",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780232310951&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=467806944.1780232254&frm=0&pscdl=noapi&rcb=15&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=3&tag_exp=0~115616986~115938466~115938469~117776794~119027224~119034491&uid=20650&sid=1780232254&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fprophyflex-cleaning-powder.html%3Fsku%3Dpowder&dt=Search%20results%20for%3A%20%27powder%27&en=user_engagement&_et=13236&tfd=24110 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780232324555&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAEAGQC&ae=a&are=1&cid=467806944.1780232254&frm=0&pscdl=noapi&rcb=7&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938465~115938469~119027222~119034491&uid=20650&sid=1780232254&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dt=Search%20results%20for%3A%20%27powder%27&en=view_search_results&ep.search_term=powder&up.user_id_dimension=20650&tfd=10865 :: net::ERR_ABORTED"
+      ],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Applied 1 memory-backed regression step(s) for \"Categories behavior is correct\".",
+          "Detected action: search",
+          "Search submitted with query \"powder\".",
+          "Resolved action using search-input: input[type='search']"
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-7",
+      "feature": "PDP",
+      "scenario": "Add to cart behavior on product detail page",
+      "status": "passed",
+      "consoleErrors": [
+        "Refused to execute script from 'https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+        "paypalCheckout error r"
+      ],
+      "networkErrors": [
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780232324555&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=467806944.1780232254&frm=0&pscdl=noapi&rcb=7&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938465~115938469~119027222~119034491&uid=20650&sid=1780232254&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dt=Search%20results%20for%3A%20%27powder%27&en=page_view&_et=1&tfd=15869 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780232324555&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=467806944.1780232254&frm=0&pscdl=noapi&rcb=7&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=3&tag_exp=0~115938465~115938469~119027222~119034491&uid=20650&sid=1780232254&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dt=Search%20results%20for%3A%20%27powder%27&en=user_engagement&_et=13272&tfd=24144 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780232338274&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAEAGQC&ae=a&are=1&cid=467806944.1780232254&frm=0&pscdl=noapi&rcb=19&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115616986~115938466~115938469~118228215~119027223~119034493&uid=20650&sid=1780232254&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dt=Search%20results%20for%3A%20%27powder%27&en=view_search_results&ep.search_term=powder&up.user_id_dimension=20650&tfd=10678 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780232338274&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=467806944.1780232254&frm=0&pscdl=noapi&rcb=19&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=3&tag_exp=0~115616986~115938466~115938469~118228215~119027223~119034493&uid=20650&sid=1780232254&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dt=Search%20results%20for%3A%20%27powder%27&en=user_engagement&_et=2830&tfd=13519 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780232338274&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=467806944.1780232254&frm=0&pscdl=noapi&rcb=19&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115616986~115938466~115938469~118228215~119027223~119034493&uid=20650&sid=1780232254&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dt=Search%20results%20for%3A%20%27powder%27&en=page_view&_et=1&tfd=13517 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780232341433&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=467806944.1780232254&frm=0&pscdl=noapi&rcb=18&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115616986~115938465~115938469~119027222~119034493&uid=20650&sid=1780232254&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fprophyflex-cleaning-powder.html%3Fsku%3Dpowder&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dt=PROPHYflex%20Cleaning%20Powder&en=page_view&up.user_id_dimension=20650&tfd=5359 :: net::ERR_ABORTED"
+      ],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Applied 6 memory-backed regression step(s) for \"Add to cart behavior on product detail page\".",
+          "Skipped redundant login — authenticated session reused.",
+          "Detected action: search",
+          "Search submitted with query \"powder\".",
+          "Resolved action using search-input: input[type='search']",
+          "Detected action: openProduct",
+          "Resolved action using product-listing: .product-item-link",
+          "Detected action: buyOnce",
+          "Buy once option not available on this product; skipped.",
+          "Detected action: selectQuantity",
+          "Quantity set to 1 via input-fill.",
+          "Quantity set to 1 on product page.",
+          "Resolved action using input-fill: pdp input[type='number']",
+          "Detected action: addToCart",
+          "Quantity set to 1 via input-fill.",
+          "Added product to cart from PDP.",
+          "Resolved action using pdp-add-to-cart: #product-addtocart-button"
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-8",
+      "feature": "PDP",
+      "scenario": "Child SKU selection behavior on product detail page",
+      "status": "passed",
+      "consoleErrors": [
+        "Refused to execute script from 'https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+        "paypalCheckout error r"
+      ],
+      "networkErrors": [
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780232341433&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=467806944.1780232254&frm=0&pscdl=noapi&rcb=18&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115616986~115938465~115938469~119027222~119034493&uid=20650&sid=1780232254&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fprophyflex-cleaning-powder.html%3Fsku%3Dpowder&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dt=PROPHYflex%20Cleaning%20Powder&en=user_engagement&_et=18192&tfd=18550 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780232360029&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAEAGQC&ae=a&are=1&cid=467806944.1780232254&frm=0&pscdl=noapi&rcb=13&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115616986~115938465~115938469~118228214~119027224~119034491~119064591&uid=20650&sid=1780232254&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fprophyflex-cleaning-powder.html%3Fsku%3Dpowder&dt=Search%20results%20for%3A%20%27powder%27&en=view_search_results&ep.search_term=powder&up.user_id_dimension=20650&tfd=10501 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780232360029&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=467806944.1780232254&frm=0&pscdl=noapi&rcb=13&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115616986~115938465~115938469~118228214~119027224~119034491~119064591&uid=20650&sid=1780232254&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fprophyflex-cleaning-powder.html%3Fsku%3Dpowder&dt=Search%20results%20for%3A%20%27powder%27&en=page_view&_et=1&tfd=13518 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780232360029&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=467806944.1780232254&frm=0&pscdl=noapi&rcb=13&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=3&tag_exp=0~115616986~115938465~115938469~118228214~119027224~119034491~119064591&uid=20650&sid=1780232254&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fprophyflex-cleaning-powder.html%3Fsku%3Dpowder&dt=Search%20results%20for%3A%20%27powder%27&en=user_engagement&_et=3009&tfd=13520 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED"
+      ],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Applied 3 memory-backed regression step(s) for \"Child SKU selection behavior on product detail page\".",
+          "Detected action: search",
+          "Search submitted with query \"powder\".",
+          "Resolved action using search-input: input[type='search']",
+          "Detected action: openProduct",
+          "Resolved action using product-listing: .product-item-link",
+          "Detected action: buyOnce",
+          "Buy once option not available on this product; skipped."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-9",
+      "feature": "PDP",
+      "scenario": "Inventory behavior on product detail page",
+      "status": "passed",
+      "consoleErrors": [
+        "Refused to execute script from 'https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+        "paypalCheckout error r"
+      ],
+      "networkErrors": [
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780232363314&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=467806944.1780232254&frm=0&pscdl=noapi&rcb=17&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938466~115938469~118228214~119034493~119064591&uid=20650&sid=1780232254&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fprophyflex-cleaning-powder.html%3Fsku%3Dpowder&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dt=PROPHYflex%20Cleaning%20Powder&en=page_view&up.user_id_dimension=20650&tfd=5354 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780232363314&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=467806944.1780232254&frm=0&pscdl=noapi&rcb=17&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938466~115938469~118228214~119034493~119064591&uid=20650&sid=1780232254&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fprophyflex-cleaning-powder.html%3Fsku%3Dpowder&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dt=PROPHYflex%20Cleaning%20Powder&en=user_engagement&_et=6365&tfd=6722 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED"
+      ],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Applied 1 memory-backed regression step(s) for \"Inventory behavior on product detail page\".",
+          "Detected action: navigateUrl",
+          "Navigated to https://uat2.purelifedental.com/product/encore-af-core-buildup-composite.html.",
+          "Resolved action using memory-url: https://uat2.purelifedental.com/product/encore-af-core-buildup-composite.html"
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-10",
+      "feature": "PDP",
+      "scenario": "Product image behavior on product detail page",
+      "status": "passed",
+      "consoleErrors": [
+        "Refused to execute script from 'https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+        "paypalCheckout error r"
+      ],
+      "networkErrors": [
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780232369994&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=467806944.1780232254&frm=0&pscdl=noapi&rcb=6&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938465~115938469~119034493&uid=20650&sid=1780232254&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fencore-af-core-buildup-composite.html&dt=Encore%C2%AE%20AF%20Core%20Buildup%20Composite&en=page_view&up.user_id_dimension=20650&tfd=6438 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780232369994&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=467806944.1780232254&frm=0&pscdl=noapi&rcb=6&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938465~115938469~119034493&uid=20650&sid=1780232254&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fencore-af-core-buildup-composite.html&dt=Encore%C2%AE%20AF%20Core%20Buildup%20Composite&en=user_engagement&_et=2706&tfd=6439 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED"
+      ],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Applied 1 memory-backed regression step(s) for \"Product image behavior on product detail page\".",
+          "Detected action: navigateUrl",
+          "Navigated to https://uat2.purelifedental.com/product/encore-af-core-buildup-composite.html.",
+          "Resolved action using memory-url: https://uat2.purelifedental.com/product/encore-af-core-buildup-composite.html"
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-11",
+      "feature": "PDP",
+      "scenario": "Quantity behavior on product detail page",
+      "status": "passed",
+      "consoleErrors": [
+        "Refused to execute script from 'https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+        "paypalCheckout error r"
+      ],
+      "networkErrors": [
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780232372890&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=467806944.1780232254&frm=0&pscdl=noapi&rcb=17&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938465~115938469~119027223~119034491~119205316&uid=20650&sid=1780232254&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fencore-af-core-buildup-composite.html&dt=Encore%C2%AE%20AF%20Core%20Buildup%20Composite&en=page_view&up.user_id_dimension=20650&tfd=2584 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780232372890&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=467806944.1780232254&frm=0&pscdl=noapi&rcb=17&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938465~115938469~119027223~119034491~119205316&uid=20650&sid=1780232254&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fencore-af-core-buildup-composite.html&dt=Encore%C2%AE%20AF%20Core%20Buildup%20Composite&en=user_engagement&_et=2324&tfd=2585 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED"
+      ],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Applied 2 memory-backed regression step(s) for \"Quantity behavior on product detail page\".",
+          "Detected action: navigateUrl",
+          "Navigated to https://uat2.purelifedental.com/product/encore-af-core-buildup-composite.html.",
+          "Resolved action using memory-url: https://uat2.purelifedental.com/product/encore-af-core-buildup-composite.html",
+          "Detected action: selectQuantity",
+          "Quantity set to 1 via input-fill.",
+          "Quantity set to 1 on product page.",
+          "Resolved action using input-fill: pdp input[type='number']"
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-12",
+      "feature": "Cart",
+      "scenario": "Add item works from cart workflow",
+      "status": "passed",
+      "consoleErrors": [
+        "Refused to execute script from 'https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled."
+      ],
+      "networkErrors": [
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780232375449&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=467806944.1780232254&frm=0&pscdl=noapi&rcb=5&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938466~115938469~119034491~119259605&uid=20650&sid=1780232254&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fencore-af-core-buildup-composite.html&dt=Encore%C2%AE%20AF%20Core%20Buildup%20Composite&en=page_view&up.user_id_dimension=20650&tfd=5257 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780232375449&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=467806944.1780232254&frm=0&pscdl=noapi&rcb=5&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938466~115938469~119034491~119259605&uid=20650&sid=1780232254&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fencore-af-core-buildup-composite.html&dt=Encore%C2%AE%20AF%20Core%20Buildup%20Composite&en=user_engagement&_et=7037&tfd=7295 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780232382809&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=467806944.1780232254&frm=0&pscdl=noapi&rcb=18&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938465~115938469~118228214~119027223~119034491~119064971&uid=20650&sid=1780232254&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcheckout%2Fcart&dt=Shopping%20Cart&en=page_view&up.user_id_dimension=20650&tfd=9470 :: net::ERR_ABORTED"
+      ],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Applied 1 memory-backed regression step(s) for \"Add item works from cart workflow\".",
+          "Detected action: moveToCart"
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-13",
+      "feature": "Cart",
+      "scenario": "Coupon if available works from cart workflow",
+      "status": "passed",
+      "consoleErrors": [],
+      "networkErrors": [],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Applied 2 memory-backed regression step(s) for \"Coupon if available works from cart workflow\".",
+          "Detected action: moveToCart",
+          "Detected action: applyCoupon",
+          "Coupon apply attempted.",
+          "Resolved action using coupon-apply: coupon apply"
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-14",
+      "feature": "Cart",
+      "scenario": "Remove item works from cart workflow",
+      "status": "failed",
+      "errorReason": "Step failed after 3 attempts: No executable UI action matched intent: \"Remove item from cart\".",
+      "consoleErrors": [],
+      "networkErrors": [],
+      "selfHealing": {
+        "attempted": true,
+        "recovered": false,
+        "attempts": 2,
+        "strategyLogs": [
+          "Attempt 1: Root error: Step failed after 3 attempts: No executable UI action matched intent: \"Remove item from cart\".",
+          "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 1: Strategy 2: no blocking overlays detected.",
+          "Attempt 1: Strategy 3 skipped: reload avoided on checkout flow to preserve session.",
+          "Attempt 1: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+          "Attempt 1: retry failed (Step failed after 3 attempts: Loop protection triggered: maximum step action threshold exceeded.)",
+          "Attempt 2: Root error: Step failed after 3 attempts: No executable UI action matched intent: \"Remove item from cart\".",
+          "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 2: Strategy 2: no blocking overlays detected.",
+          "Attempt 2: Strategy 3 skipped: reload avoided on checkout flow to preserve session.",
+          "Attempt 2: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+          "Attempt 2: retry failed (Step failed after 3 attempts: Loop protection triggered: maximum step action threshold exceeded.)"
+        ]
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Applied 2 memory-backed regression step(s) for \"Remove item works from cart workflow\".",
+          "Detected action: moveToCart",
+          "Detected action: removeCartItem",
+          "Detected action: removeCartItem",
+          "Detected action: removeCartItem",
+          "Detected action: removeCartItem",
+          "Detected action: removeCartItem",
+          "Detected action: removeCartItem",
+          "Applied 2 memory-backed regression step(s) for \"Remove item works from cart workflow\".",
+          "Detected action: moveToCart",
+          "Detected action: removeCartItem",
+          "Detected action: removeCartItem",
+          "Detected action: removeCartItem",
+          "Detected action: removeCartItem",
+          "Applied 2 memory-backed regression step(s) for \"Remove item works from cart workflow\"."
+        ],
+        "retryResult": "failed",
+        "investigationFindings": [
+          "Iframe detected; target action may be inside nested browsing context.",
+          "Modal/dialog present; interactions may be blocked.",
+          "Overlay detected; click targets may be obscured.",
+          "Disabled controls present; prerequisite steps may be missing.",
+          "Validation/error messages detected on page."
+        ]
+      }
+    },
+    {
+      "scenarioId": "scenario-15",
+      "feature": "Cart",
+      "scenario": "Update quantity works from cart workflow",
+      "status": "passed",
+      "consoleErrors": [],
+      "networkErrors": [],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Applied 2 memory-backed regression step(s) for \"Update quantity works from cart workflow\".",
+          "Detected action: moveToCart",
+          "Detected action: updateCartQuantity",
+          "Updated cart quantity to 2.",
+          "Resolved action using cart-qty-update: cart qty input"
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-16",
+      "feature": "Checkout",
+      "scenario": "Address step validates correctly",
+      "status": "failed",
+      "errorReason": "locator.click: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('button[data-role=\\'proceed-to-checkout\\']').first()\n    - locator resolved to <button type=\"button\" title=\"Proceed to Checkout\" data-role=\"proceed-to-checkout\" class=\"action primary checkout\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    18 × waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n",
+      "consoleErrors": [
+        "Refused to execute script from 'https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled."
+      ],
+      "networkErrors": [
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780232382809&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAGQC&ae=a&are=1&cid=467806944.1780232254&frm=0&pscdl=noapi&rcb=18&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938465~115938469~118228214~119027223~119034491~119064971&uid=20650&sid=1780232254&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcheckout%2Fcart&dt=Shopping%20Cart&en=scroll&epn.percent_scrolled=90&_et=16918&tfd=21399 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com.pk/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-WK1Z55XV42&cid=467806944.1780232254&gtm=45je65r2v873808596za20gzb842537924zd842537924&rcb=18&aip=1&uid=20650&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=0~115938465~115938469~118228214~119027223~119034491~119064971&z=1706638964 :: csp",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780232382809&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=467806944.1780232254&frm=0&pscdl=noapi&rcb=18&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=3&tag_exp=0~115938465~115938469~118228214~119027223~119034491~119064971&uid=20650&sid=1780232254&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcheckout%2Fcart&dt=Shopping%20Cart&en=user_engagement&_et=126440&tfd=147865 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED"
+      ],
+      "selfHealing": {
+        "attempted": true,
+        "recovered": false,
+        "attempts": 2,
+        "strategyLogs": [
+          "Attempt 1: Root error: locator.click: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('button[data-role=\\'proceed-to-checkout\\']').first()\n    - locator resolved to <button type=\"button\" title=\"Proceed to Checkout\" data-role=\"proceed-to-checkout\" class=\"action primary checkout\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    18 × waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n",
+          "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 1: Strategy 2: no blocking overlays detected.",
+          "Attempt 1: Strategy 3 skipped: reload avoided on checkout flow to preserve session.",
+          "Attempt 1: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+          "Attempt 1: retry failed (locator.click: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('button[data-role=\\'proceed-to-checkout\\']').first()\n    - locator resolved to <button type=\"button\" title=\"Proceed to Checkout\" data-role=\"proceed-to-checkout\" class=\"action primary checkout\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    17 × waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n)",
+          "Attempt 2: Root error: locator.click: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('button[data-role=\\'proceed-to-checkout\\']').first()\n    - locator resolved to <button type=\"button\" title=\"Proceed to Checkout\" data-role=\"proceed-to-checkout\" class=\"action primary checkout\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    18 × waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n",
+          "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 2: Strategy 2: no blocking overlays detected.",
+          "Attempt 2: Strategy 3 skipped: reload avoided on checkout flow to preserve session.",
+          "Attempt 2: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+          "Attempt 2: retry failed (locator.click: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('button[data-role=\\'proceed-to-checkout\\']').first()\n    - locator resolved to <button type=\"button\" title=\"Proceed to Checkout\" data-role=\"proceed-to-checkout\" class=\"action primary checkout\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    18 × waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div class=\"modals-overlay\"></div> from <div class=\"modals-wrapper\">…</div> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n)"
+        ]
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Applied 3 memory-backed regression step(s) for \"Address step validates correctly\".",
+          "Detected action: moveToCart",
+          "Applied 3 memory-backed regression step(s) for \"Address step validates correctly\".",
+          "Detected action: moveToCart",
+          "Applied 3 memory-backed regression step(s) for \"Address step validates correctly\".",
+          "Detected action: moveToCart"
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    }
+  ],
+  "generatedAt": "2026-05-31T13:02:08.106Z"
+}

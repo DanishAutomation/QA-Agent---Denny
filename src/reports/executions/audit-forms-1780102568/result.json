@@ -1,0 +1,81 @@
+{
+  "runId": "audit-forms-1780102568",
+  "startedAt": "2026-05-30T00:56:08.730Z",
+  "completedAt": "2026-05-30T00:56:11.004Z",
+  "durationMs": 2274,
+  "passed": 0,
+  "failed": 0,
+  "skipped": 2,
+  "reportPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\audit-forms-1780102568\\result.json",
+  "scenarios": [
+    {
+      "scenarioId": "opt-1",
+      "feature": "Contact Form",
+      "scenario": "Contact form can be submitted with valid data",
+      "status": "skipped",
+      "errorReason": "Contact form capability not detected.",
+      "screenshots": [],
+      "consoleErrors": [],
+      "networkErrors": [],
+      "pageUrl": "https://example.com",
+      "timestamp": "2026-05-30T00:56:09.320Z",
+      "durationMs": 0,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed"
+      }
+    },
+    {
+      "scenarioId": "opt-2",
+      "feature": "Newsletter Form",
+      "scenario": "Newsletter subscription accepts valid email",
+      "status": "skipped",
+      "errorReason": "Newsletter form not detected.",
+      "screenshots": [],
+      "consoleErrors": [],
+      "networkErrors": [],
+      "pageUrl": "https://example.com",
+      "timestamp": "2026-05-30T00:56:09.321Z",
+      "durationMs": 0,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed"
+      }
+    }
+  ],
+  "bugReports": [],
+  "brokenLinksReport": {
+    "baseUrl": "https://example.com",
+    "checkedAt": "2026-05-30T00:56:10.636Z",
+    "checkedCount": 0,
+    "failedCount": 0,
+    "findings": []
+  },
+  "formsReport": {
+    "baseUrl": "https://example.com",
+    "checkedAt": "2026-05-30T00:56:10.636Z",
+    "formsDetected": 0,
+    "results": []
+  },
+  "brokenLinksReportPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\audit-forms-1780102568\\broken-links-report.json",
+  "formsReportPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\audit-forms-1780102568\\forms-report.json",
+  "productionReportPaths": {
+    "html": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\audit-forms-1780102568\\client-report.html",
+    "json": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\audit-forms-1780102568\\client-report.json",
+    "markdown": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\audit-forms-1780102568\\summary.md"
+  }
+}

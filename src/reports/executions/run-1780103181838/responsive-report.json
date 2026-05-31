@@ -1,0 +1,84 @@
+{
+  "baseUrl": "https://uat2.purelifedental.com",
+  "generatedAt": "2026-05-30T01:11:01.094Z",
+  "findings": [
+    {
+      "viewport": "Android viewport",
+      "layoutBreakage": false,
+      "hiddenCtas": true,
+      "horizontalScroll": false,
+      "menuUsabilityIssue": false,
+      "formVisibilityIssue": false,
+      "overlappingElements": false,
+      "cartOrSearchVisibilityIssue": false,
+      "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780103181838\\responsive-screenshots\\android-viewport.png",
+      "notes": [
+        "One or more CTAs appear hidden."
+      ]
+    },
+    {
+      "viewport": "iPhone viewport",
+      "layoutBreakage": false,
+      "hiddenCtas": true,
+      "horizontalScroll": false,
+      "menuUsabilityIssue": false,
+      "formVisibilityIssue": false,
+      "overlappingElements": false,
+      "cartOrSearchVisibilityIssue": false,
+      "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780103181838\\responsive-screenshots\\iphone-viewport.png",
+      "notes": [
+        "One or more CTAs appear hidden."
+      ]
+    },
+    {
+      "viewport": "iPad viewport",
+      "layoutBreakage": false,
+      "hiddenCtas": true,
+      "horizontalScroll": false,
+      "menuUsabilityIssue": false,
+      "formVisibilityIssue": false,
+      "overlappingElements": true,
+      "cartOrSearchVisibilityIssue": false,
+      "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780103181838\\responsive-screenshots\\ipad-viewport.png",
+      "notes": [
+        "One or more CTAs appear hidden.",
+        "Potential overlapping clickable elements detected."
+      ]
+    },
+    {
+      "viewport": "Tablet viewport",
+      "layoutBreakage": false,
+      "hiddenCtas": true,
+      "horizontalScroll": false,
+      "menuUsabilityIssue": false,
+      "formVisibilityIssue": false,
+      "overlappingElements": true,
+      "cartOrSearchVisibilityIssue": false,
+      "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780103181838\\responsive-screenshots\\tablet-viewport.png",
+      "notes": [
+        "One or more CTAs appear hidden.",
+        "Potential overlapping clickable elements detected."
+      ]
+    },
+    {
+      "viewport": "Desktop viewport",
+      "layoutBreakage": false,
+      "hiddenCtas": true,
+      "horizontalScroll": false,
+      "menuUsabilityIssue": false,
+      "formVisibilityIssue": false,
+      "overlappingElements": true,
+      "cartOrSearchVisibilityIssue": false,
+      "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780103181838\\responsive-screenshots\\desktop-viewport.png",
+      "notes": [
+        "One or more CTAs appear hidden.",
+        "Potential overlapping clickable elements detected."
+      ]
+    }
+  ],
+  "summary": {
+    "totalViewports": 5,
+    "issueCount": 8,
+    "issueViewports": 5
+  }
+}

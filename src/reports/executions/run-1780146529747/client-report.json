@@ -1,0 +1,304 @@
+{
+  "executiveSummary": {
+    "runId": "run-1780146529747",
+    "environment": "development",
+    "url": "https://example.com",
+    "testType": "Custom Command Automation",
+    "browser": "Chrome",
+    "devices": [
+      "Desktop"
+    ],
+    "totalCases": 2,
+    "passed": 0,
+    "failed": 2,
+    "skipped": 0,
+    "bugsFound": 2,
+    "confidenceScore": 95
+  },
+  "rootCauseAnalysis": [
+    "Custom Command issue: Execute command 1: login with provided credentials: Frontend runtime errors were detected and likely caused interaction instability.",
+    "Custom Command issue: Execute command 2: search implant: Failure likely caused by page state inconsistency or unmet flow requirements."
+  ],
+  "recoveryAttempts": [
+    "Detected action: login",
+    "Login field fill: email=false password=false",
+    "Attempt 1: Root error: Step failed after 3 attempts: Loop protection triggered: repeated login attempts exceeded threshold.",
+    "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+    "Attempt 1: Strategy 2: no blocking overlays detected.",
+    "Attempt 1: Strategy 3: reloaded page successfully.",
+    "Attempt 1: Strategy 4: navigated back to base URL and stabilized network.",
+    "Attempt 1: retry failed (Step failed after 3 attempts: Loop protection triggered: repeated identical action \"login\" exceeded threshold.)",
+    "Attempt 2: Root error: Step failed after 3 attempts: Loop protection triggered: repeated login attempts exceeded threshold.",
+    "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+    "Attempt 2: Strategy 2: no blocking overlays detected.",
+    "Attempt 2: Strategy 3: reloaded page successfully.",
+    "Attempt 2: Strategy 4: navigated back to base URL and stabilized network.",
+    "Attempt 2: retry failed (Step failed after 3 attempts: Loop protection triggered: maximum step action threshold exceeded.)",
+    "Detected action: search",
+    "Attempt 1: Root error: Step failed after 3 attempts: No executable UI action matched intent: \"search implant\".",
+    "Attempt 1: retry failed (Step failed after 3 attempts: Loop protection triggered: repeated identical action \"search\" exceeded threshold.)",
+    "Attempt 2: Root error: Step failed after 3 attempts: No executable UI action matched intent: \"search implant\"."
+  ],
+  "aiAssumptions": [
+    "Execution assertions rely on generated BDD scenario intent and detected capabilities.",
+    "Fallback test data may be used for missing non-sensitive fields where configured.",
+    "Sensitive/destructive operations are skipped unless safe test mode is explicitly enabled.",
+    "Browser/device matrix reflects configured run values: Chrome / Desktop."
+  ],
+  "screenshots": [
+    {
+      "scenarioId": "scenario-1",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780146529747\\screenshots\\scenario-1-Desktop-failure.png"
+    },
+    {
+      "scenarioId": "scenario-2",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780146529747\\screenshots\\scenario-2-Desktop-failure.png"
+    }
+  ],
+  "bugs": [
+    {
+      "summary": "Custom Command issue: Execute command 1: login with provided credentials",
+      "description": "During automated validation of \"Custom Command - Execute command 1: login with provided credentials\", the system encountered a blocker that prevented expected user behavior.",
+      "stepsToReproduce": [
+        "Open https://example.com",
+        "Execute scenario: Custom Command - Execute command 1: login with provided credentials",
+        "Observe behavior and compare with expected journey outcome."
+      ],
+      "expectedResult": "User should be able to complete the intended flow without blockers.",
+      "actualResult": "Step failed after 3 attempts: Loop protection triggered: repeated login attempts exceeded threshold.",
+      "screenshot": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780146529747\\screenshots\\scenario-1-Desktop-failure.png",
+      "suggestedFix": "Inspect failing module logic and stabilize related frontend/backend dependencies.",
+      "severity": "High",
+      "priority": "P1",
+      "confidenceScore": 99,
+      "businessImpact": "Major feature instability impacts trust and operational confidence.",
+      "userImpact": "A significant segment of users experiences functional blockers.",
+      "revenueImpact": "Revenue can be impacted through drop-off in high-value journeys.",
+      "recoveryAttempts": [
+        "Detected action: login",
+        "Login field fill: email=false password=false",
+        "Detected action: login",
+        "Login field fill: email=false password=false",
+        "Detected action: login",
+        "Login field fill: email=false password=false",
+        "Attempt 1: Root error: Step failed after 3 attempts: Loop protection triggered: repeated login attempts exceeded threshold.",
+        "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+        "Attempt 1: Strategy 2: no blocking overlays detected.",
+        "Attempt 1: Strategy 3: reloaded page successfully.",
+        "Attempt 1: Strategy 4: navigated back to base URL and stabilized network.",
+        "Attempt 1: retry failed (Step failed after 3 attempts: Loop protection triggered: repeated identical action \"login\" exceeded threshold.)",
+        "Attempt 2: Root error: Step failed after 3 attempts: Loop protection triggered: repeated login attempts exceeded threshold.",
+        "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+        "Attempt 2: Strategy 2: no blocking overlays detected.",
+        "Attempt 2: Strategy 3: reloaded page successfully.",
+        "Attempt 2: Strategy 4: navigated back to base URL and stabilized network.",
+        "Attempt 2: retry failed (Step failed after 3 attempts: Loop protection triggered: maximum step action threshold exceeded.)"
+      ],
+      "rootCauseAnalysis": "Frontend runtime errors were detected and likely caused interaction instability.",
+      "technicalDetails": {
+        "errorReason": "Step failed after 3 attempts: Loop protection triggered: repeated login attempts exceeded threshold.",
+        "consoleErrors": [
+          "Failed to load resource: the server responded with a status of 404 ()"
+        ],
+        "networkErrors": [],
+        "pageUrl": "https://example.com",
+        "timestamp": "2026-05-30T13:08:51.861Z",
+        "selfHealing": {
+          "attempted": true,
+          "recovered": false,
+          "attempts": 2,
+          "strategyLogs": [
+            "Attempt 1: Root error: Step failed after 3 attempts: Loop protection triggered: repeated login attempts exceeded threshold.",
+            "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+            "Attempt 1: Strategy 2: no blocking overlays detected.",
+            "Attempt 1: Strategy 3: reloaded page successfully.",
+            "Attempt 1: Strategy 4: navigated back to base URL and stabilized network.",
+            "Attempt 1: retry failed (Step failed after 3 attempts: Loop protection triggered: repeated identical action \"login\" exceeded threshold.)",
+            "Attempt 2: Root error: Step failed after 3 attempts: Loop protection triggered: repeated login attempts exceeded threshold.",
+            "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+            "Attempt 2: Strategy 2: no blocking overlays detected.",
+            "Attempt 2: Strategy 3: reloaded page successfully.",
+            "Attempt 2: Strategy 4: navigated back to base URL and stabilized network.",
+            "Attempt 2: retry failed (Step failed after 3 attempts: Loop protection triggered: maximum step action threshold exceeded.)"
+          ]
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [
+            "Detected action: login",
+            "Login field fill: email=false password=false",
+            "Detected action: login",
+            "Login field fill: email=false password=false",
+            "Detected action: login",
+            "Login field fill: email=false password=false"
+          ],
+          "retryResult": "failed",
+          "investigationFindings": []
+        }
+      }
+    },
+    {
+      "summary": "Custom Command issue: Execute command 2: search implant",
+      "description": "During automated validation of \"Custom Command - Execute command 2: search implant\", the system encountered a blocker that prevented expected user behavior.",
+      "stepsToReproduce": [
+        "Open https://example.com",
+        "Execute scenario: Custom Command - Execute command 2: search implant",
+        "Observe behavior and compare with expected journey outcome."
+      ],
+      "expectedResult": "User should be able to complete the intended flow without blockers.",
+      "actualResult": "Step failed after 3 attempts: No executable UI action matched intent: \"search implant\".",
+      "screenshot": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780146529747\\screenshots\\scenario-2-Desktop-failure.png",
+      "suggestedFix": "Inspect failing module logic and stabilize related frontend/backend dependencies.",
+      "severity": "High",
+      "priority": "P1",
+      "confidenceScore": 91,
+      "businessImpact": "Major feature instability impacts trust and operational confidence.",
+      "userImpact": "A significant segment of users experiences functional blockers.",
+      "revenueImpact": "Revenue can be impacted through drop-off in high-value journeys.",
+      "recoveryAttempts": [
+        "Detected action: search",
+        "Detected action: search",
+        "Detected action: search",
+        "Detected action: search",
+        "Detected action: search",
+        "Attempt 1: Root error: Step failed after 3 attempts: No executable UI action matched intent: \"search implant\".",
+        "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+        "Attempt 1: Strategy 2: no blocking overlays detected.",
+        "Attempt 1: Strategy 3: reloaded page successfully.",
+        "Attempt 1: Strategy 4: navigated back to base URL and stabilized network.",
+        "Attempt 1: retry failed (Step failed after 3 attempts: Loop protection triggered: repeated identical action \"search\" exceeded threshold.)",
+        "Attempt 2: Root error: Step failed after 3 attempts: No executable UI action matched intent: \"search implant\".",
+        "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+        "Attempt 2: Strategy 2: no blocking overlays detected.",
+        "Attempt 2: Strategy 3: reloaded page successfully.",
+        "Attempt 2: Strategy 4: navigated back to base URL and stabilized network.",
+        "Attempt 2: retry failed (Step failed after 3 attempts: Loop protection triggered: maximum step action threshold exceeded.)"
+      ],
+      "rootCauseAnalysis": "Failure likely caused by page state inconsistency or unmet flow requirements.",
+      "technicalDetails": {
+        "errorReason": "Step failed after 3 attempts: No executable UI action matched intent: \"search implant\".",
+        "consoleErrors": [],
+        "networkErrors": [],
+        "pageUrl": "https://example.com",
+        "timestamp": "2026-05-30T13:08:54.902Z",
+        "selfHealing": {
+          "attempted": true,
+          "recovered": false,
+          "attempts": 2,
+          "strategyLogs": [
+            "Attempt 1: Root error: Step failed after 3 attempts: No executable UI action matched intent: \"search implant\".",
+            "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+            "Attempt 1: Strategy 2: no blocking overlays detected.",
+            "Attempt 1: Strategy 3: reloaded page successfully.",
+            "Attempt 1: Strategy 4: navigated back to base URL and stabilized network.",
+            "Attempt 1: retry failed (Step failed after 3 attempts: Loop protection triggered: repeated identical action \"search\" exceeded threshold.)",
+            "Attempt 2: Root error: Step failed after 3 attempts: No executable UI action matched intent: \"search implant\".",
+            "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+            "Attempt 2: Strategy 2: no blocking overlays detected.",
+            "Attempt 2: Strategy 3: reloaded page successfully.",
+            "Attempt 2: Strategy 4: navigated back to base URL and stabilized network.",
+            "Attempt 2: retry failed (Step failed after 3 attempts: Loop protection triggered: maximum step action threshold exceeded.)"
+          ]
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [
+            "Detected action: search",
+            "Detected action: search",
+            "Detected action: search",
+            "Detected action: search",
+            "Detected action: search"
+          ],
+          "retryResult": "failed",
+          "investigationFindings": []
+        }
+      }
+    }
+  ],
+  "technicalLogs": [
+    {
+      "scenarioId": "scenario-1",
+      "feature": "Custom Command",
+      "scenario": "Execute command 1: login with provided credentials",
+      "status": "failed",
+      "errorReason": "Step failed after 3 attempts: Loop protection triggered: repeated login attempts exceeded threshold.",
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "networkErrors": [],
+      "selfHealing": {
+        "attempted": true,
+        "recovered": false,
+        "attempts": 2,
+        "strategyLogs": [
+          "Attempt 1: Root error: Step failed after 3 attempts: Loop protection triggered: repeated login attempts exceeded threshold.",
+          "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 1: Strategy 2: no blocking overlays detected.",
+          "Attempt 1: Strategy 3: reloaded page successfully.",
+          "Attempt 1: Strategy 4: navigated back to base URL and stabilized network.",
+          "Attempt 1: retry failed (Step failed after 3 attempts: Loop protection triggered: repeated identical action \"login\" exceeded threshold.)",
+          "Attempt 2: Root error: Step failed after 3 attempts: Loop protection triggered: repeated login attempts exceeded threshold.",
+          "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 2: Strategy 2: no blocking overlays detected.",
+          "Attempt 2: Strategy 3: reloaded page successfully.",
+          "Attempt 2: Strategy 4: navigated back to base URL and stabilized network.",
+          "Attempt 2: retry failed (Step failed after 3 attempts: Loop protection triggered: maximum step action threshold exceeded.)"
+        ]
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Detected action: login",
+          "Login field fill: email=false password=false",
+          "Detected action: login",
+          "Login field fill: email=false password=false",
+          "Detected action: login",
+          "Login field fill: email=false password=false"
+        ],
+        "retryResult": "failed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-2",
+      "feature": "Custom Command",
+      "scenario": "Execute command 2: search implant",
+      "status": "failed",
+      "errorReason": "Step failed after 3 attempts: No executable UI action matched intent: \"search implant\".",
+      "consoleErrors": [],
+      "networkErrors": [],
+      "selfHealing": {
+        "attempted": true,
+        "recovered": false,
+        "attempts": 2,
+        "strategyLogs": [
+          "Attempt 1: Root error: Step failed after 3 attempts: No executable UI action matched intent: \"search implant\".",
+          "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 1: Strategy 2: no blocking overlays detected.",
+          "Attempt 1: Strategy 3: reloaded page successfully.",
+          "Attempt 1: Strategy 4: navigated back to base URL and stabilized network.",
+          "Attempt 1: retry failed (Step failed after 3 attempts: Loop protection triggered: repeated identical action \"search\" exceeded threshold.)",
+          "Attempt 2: Root error: Step failed after 3 attempts: No executable UI action matched intent: \"search implant\".",
+          "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 2: Strategy 2: no blocking overlays detected.",
+          "Attempt 2: Strategy 3: reloaded page successfully.",
+          "Attempt 2: Strategy 4: navigated back to base URL and stabilized network.",
+          "Attempt 2: retry failed (Step failed after 3 attempts: Loop protection triggered: maximum step action threshold exceeded.)"
+        ]
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Detected action: search",
+          "Detected action: search",
+          "Detected action: search",
+          "Detected action: search",
+          "Detected action: search"
+        ],
+        "retryResult": "failed",
+        "investigationFindings": []
+      }
+    }
+  ],
+  "generatedAt": "2026-05-30T13:08:57.400Z"
+}

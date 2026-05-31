@@ -1,0 +1,238 @@
+# DennyQA vNext Test Report
+
+## Executive Summary
+- Run ID: run-1780232243316
+- URL: https://uat2.purelifedental.com/
+- Test type: Full Regression
+- Browser: Chrome
+- Device(s): Desktop
+- Environment: development
+- Total cases: 16
+- Passed: 14
+- Failed: 2
+- Skipped: 0
+- Bugs found: 2
+- Confidence score: 95%
+
+## Root Cause Analysis
+- Cart: Step failed after 3 attempts: No executable UI action matched intent:...: Step failed after 3 attempts: No executable UI action matched intent: "Remove item from cart". Iframe detected; target action may be inside nested browsing context. Modal/dialog present; interactions may be blocked.
+- Checkout: locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for lo...: locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('button[data-role=\'proceed-to-checkout\']').first()
+    - locator resolved to <button type="button" title="Proceed to Checkout" data-role="proceed-to-checkout" class="action primary checkout">…</button>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="modals-overlay"></div> from <div class="modals-wrapper">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="modals-overlay"></div> from <div class="modals-wrapper">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    18 × waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div class="modals-overlay"></div> from <div class="modals-wrapper">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+ Network: [404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js Network: [FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED
+
+## Recovery Attempts
+- Applied 2 memory-backed regression step(s) for "Remove item works from cart workflow".
+- Detected action: moveToCart
+- Detected action: removeCartItem
+- Attempt 1: Root error: Step failed after 3 attempts: No executable UI action matched intent: "Remove item from cart".
+- Attempt 1: Strategy 1: synchronized to domcontentloaded state.
+- Attempt 1: Strategy 2: no blocking overlays detected.
+- Attempt 1: Strategy 3 skipped: reload avoided on checkout flow to preserve session.
+- Attempt 1: Strategy 4 skipped: base URL recovery disabled for session continuity.
+- Attempt 1: retry failed (Step failed after 3 attempts: Loop protection triggered: maximum step action threshold exceeded.)
+- Attempt 2: Root error: Step failed after 3 attempts: No executable UI action matched intent: "Remove item from cart".
+- Attempt 2: Strategy 1: synchronized to domcontentloaded state.
+- Attempt 2: Strategy 2: no blocking overlays detected.
+- Attempt 2: Strategy 3 skipped: reload avoided on checkout flow to preserve session.
+- Attempt 2: Strategy 4 skipped: base URL recovery disabled for session continuity.
+- Attempt 2: retry failed (Step failed after 3 attempts: Loop protection triggered: maximum step action threshold exceeded.)
+- Applied 3 memory-backed regression step(s) for "Address step validates correctly".
+- Attempt 1: Root error: locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('button[data-role=\'proceed-to-checkout\']').first()
+    - locator resolved to <button type="button" title="Proceed to Checkout" data-role="proceed-to-checkout" class="action primary checkout">…</button>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="modals-overlay"></div> from <div class="modals-wrapper">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="modals-overlay"></div> from <div class="modals-wrapper">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    18 × waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div class="modals-overlay"></div> from <div class="modals-wrapper">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+
+- Attempt 1: retry failed (locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('button[data-role=\'proceed-to-checkout\']').first()
+    - locator resolved to <button type="button" title="Proceed to Checkout" data-role="proceed-to-checkout" class="action primary checkout">…</button>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="modals-overlay"></div> from <div class="modals-wrapper">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="modals-overlay"></div> from <div class="modals-wrapper">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    17 × waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div class="modals-overlay"></div> from <div class="modals-wrapper">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+)
+- Attempt 2: Root error: locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('button[data-role=\'proceed-to-checkout\']').first()
+    - locator resolved to <button type="button" title="Proceed to Checkout" data-role="proceed-to-checkout" class="action primary checkout">…</button>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="modals-overlay"></div> from <div class="modals-wrapper">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="modals-overlay"></div> from <div class="modals-wrapper">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    18 × waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div class="modals-overlay"></div> from <div class="modals-wrapper">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+
+- Attempt 2: retry failed (locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('button[data-role=\'proceed-to-checkout\']').first()
+    - locator resolved to <button type="button" title="Proceed to Checkout" data-role="proceed-to-checkout" class="action primary checkout">…</button>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="modals-overlay"></div> from <div class="modals-wrapper">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="modals-overlay"></div> from <div class="modals-wrapper">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    18 × waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div class="modals-overlay"></div> from <div class="modals-wrapper">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+)
+
+## AI Assumptions
+- Execution assertions rely on generated BDD scenario intent and detected capabilities.
+- Fallback test data may be used for missing non-sensitive fields where configured.
+- Sensitive/destructive operations are skipped unless safe test mode is explicitly enabled.
+- Browser/device matrix reflects configured run values: Chrome / Desktop.
+
+## Screenshots
+- scenario-4: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780232243316\screenshots\scenario-4-step-1-product-listing-behavior-is-corr-product-prophyflex-cleaning-powder-html-Desktop-landing.png
+- scenario-5: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780232243316\screenshots\scenario-5-step-1-search-behavior-is-correct-catalogsearch-result-Desktop-landing.png
+- scenario-6: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780232243316\screenshots\scenario-6-step-1-categories-behavior-is-correct-catalogsearch-result-Desktop-landing.png
+- scenario-7: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780232243316\screenshots\scenario-7-step-1-add-to-cart-behavior-on-product--product-prophyflex-cleaning-powder-html-Desktop-landing.png
+- scenario-8: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780232243316\screenshots\scenario-8-step-1-child-sku-selection-behavior-on--product-prophyflex-cleaning-powder-html-Desktop-landing.png
+- scenario-9: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780232243316\screenshots\scenario-9-step-1-inventory-behavior-on-product-de-product-encore-af-core-buildup-composite-Desktop-landing.png
+- scenario-10: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780232243316\screenshots\scenario-10-step-1-product-image-behavior-on-produc-product-encore-af-core-buildup-composite-Desktop-landing.png
+- scenario-11: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780232243316\screenshots\scenario-11-step-1-quantity-behavior-on-product-det-product-encore-af-core-buildup-composite-Desktop-landing.png
+- scenario-12: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780232243316\screenshots\scenario-12-step-1-add-item-works-from-cart-workflo-checkout-cart-Desktop-landing.png
+- scenario-13: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780232243316\screenshots\scenario-13-step-1-coupon-if-available-works-from-c-checkout-cart-Desktop-landing.png
+- scenario-14: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780232243316\screenshots\scenario-14-step-1-remove-item-works-from-cart-work-checkout-cart-Desktop-failure.png
+- scenario-15: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780232243316\screenshots\scenario-15-step-1-update-quantity-works-from-cart--checkout-cart-Desktop-landing.png
+- scenario-16: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780232243316\screenshots\scenario-16-step-1-address-step-validates-correctly-checkout-Desktop-failure.png
+
+## Technical Logs
+- scenario-1 (passed) :: error=none, console=1, network=26
+- scenario-2 (passed) :: error=none, console=1, network=7
+- scenario-3 (passed) :: error=none, console=1, network=5
+- scenario-4 (passed) :: error=none, console=2, network=11
+- scenario-5 (passed) :: error=none, console=1, network=6
+- scenario-6 (passed) :: error=none, console=1, network=7
+- scenario-7 (passed) :: error=none, console=2, network=12
+- scenario-8 (passed) :: error=none, console=2, network=10
+- scenario-9 (passed) :: error=none, console=2, network=5
+- scenario-10 (passed) :: error=none, console=2, network=5
+- scenario-11 (passed) :: error=none, console=2, network=5
+- scenario-12 (passed) :: error=none, console=1, network=6
+- scenario-13 (passed) :: error=none, console=0, network=0
+- scenario-14 (failed) :: error=Step failed after 3 attempts: No executable UI action matched intent: "Remove item from cart"., console=0, network=0
+- scenario-15 (passed) :: error=none, console=0, network=0
+- scenario-16 (failed) :: error=locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('button[data-role=\'proceed-to-checkout\']').first()
+    - locator resolved to <button type="button" title="Proceed to Checkout" data-role="proceed-to-checkout" class="action primary checkout">…</button>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="modals-overlay"></div> from <div class="modals-wrapper">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="modals-overlay"></div> from <div class="modals-wrapper">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    18 × waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div class="modals-overlay"></div> from <div class="modals-wrapper">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+, console=1, network=5

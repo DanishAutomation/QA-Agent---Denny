@@ -1,0 +1,1315 @@
+{
+  "executiveSummary": {
+    "runId": "run-1780250918334",
+    "environment": "development",
+    "url": "https://uat2.purelifedental.com/",
+    "testType": "Full Regression",
+    "browser": "Chrome",
+    "devices": [
+      "Tablet"
+    ],
+    "totalCases": 23,
+    "passed": 7,
+    "failed": 16,
+    "skipped": 0,
+    "bugsFound": 5,
+    "confidenceScore": 82
+  },
+  "rootCauseAnalysis": [
+    "PDP: locator.count: Target page, context or browser has been closed: locator.count: Target page, context or browser has been closed Network: [404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js Network: [FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED Iframe detected; target action may be inside nested browsing context. Modal/dialog present; interactions may be blocked.",
+    "PDP: page.waitForSelector: Target page, context or browser has been closed: page.waitForSelector: Target page, context or browser has been closed",
+    "Cart: page.waitForSelector: Target page, context or browser has been closed: page.waitForSelector: Target page, context or browser has been closed",
+    "Checkout: page.waitForSelector: Target page, context or browser has been closed: page.waitForSelector: Target page, context or browser has been closed",
+    "Account: page.waitForSelector: Target page, context or browser has been closed: page.waitForSelector: Target page, context or browser has been closed"
+  ],
+  "recoveryAttempts": [
+    "Applied 5 memory-backed regression step(s) for \"Add to cart behavior on product detail page\".",
+    "Skipped redundant login — authenticated session reused.",
+    "Detected action: search",
+    "Search submitted with query \"powder\".",
+    "Resolved action using search-input: input[type='search']",
+    "Detected action: openProduct",
+    "Resolved action using product-listing-same-origin: .product-item-link",
+    "Detected action: buyOnce",
+    "Buy once option not available on this product; skipped.",
+    "Quantity set to 1 via input-fill.",
+    "Attempt 1: Root error: locator.count: Target page, context or browser has been closed",
+    "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+    "Attempt 1: Strategy 2: no blocking overlays detected.",
+    "Attempt 1: Strategy 3 failed: page reload did not stabilize.",
+    "Attempt 1: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+    "Attempt 1: retry failed (page.waitForSelector: Target page, context or browser has been closed)",
+    "Attempt 2: Root error: locator.count: Target page, context or browser has been closed",
+    "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+    "Attempt 2: Strategy 2: no blocking overlays detected.",
+    "Attempt 2: Strategy 3 failed: page reload did not stabilize.",
+    "Attempt 2: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+    "Attempt 2: retry failed (page.waitForSelector: Target page, context or browser has been closed)",
+    "Attempt 1: Root error: page.waitForSelector: Target page, context or browser has been closed",
+    "Attempt 2: Root error: page.waitForSelector: Target page, context or browser has been closed"
+  ],
+  "aiAssumptions": [
+    "Execution assertions rely on generated BDD scenario intent and detected capabilities.",
+    "Fallback test data may be used for missing non-sensitive fields where configured.",
+    "Sensitive/destructive operations are skipped unless safe test mode is explicitly enabled.",
+    "Browser/device matrix reflects configured run values: Chrome / Tablet."
+  ],
+  "screenshots": [
+    {
+      "scenarioId": "scenario-3",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780250918334\\screenshots\\scenario-3-step-1-product-listing-behavior-is-corr-product-ventyv-flamingo-nitrile-powder-f-Tablet-landing.png"
+    },
+    {
+      "scenarioId": "scenario-4",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780250918334\\screenshots\\scenario-4-step-1-search-behavior-is-correct-catalogsearch-result-Tablet-landing.png"
+    },
+    {
+      "scenarioId": "scenario-5",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780250918334\\screenshots\\scenario-5-step-1-categories-behavior-is-correct-gloves-html-Tablet-landing.png"
+    },
+    {
+      "scenarioId": "scenario-6",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780250918334\\screenshots\\scenario-6-step-1-filters-behavior-is-correct-gloves-html-Tablet-landing.png"
+    },
+    {
+      "scenarioId": "scenario-7",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780250918334\\screenshots\\scenario-7-step-1-pagination-behavior-is-correct-gloves-html-Tablet-landing.png"
+    }
+  ],
+  "bugs": [
+    {
+      "summary": "PDP: locator.count: Target page, context or browser has been closed",
+      "description": "While testing \"Add to cart behavior on product detail page\" on https://uat2.purelifedental.com/, the run failed because locator.count: Target page, context or browser has been closed Additional signals: Network: [404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js; Network: [FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED; Iframe detected; target action may be inside nested browsing context.; Modal/dialog present; interactions may be blocked..",
+      "stepsToReproduce": [
+        "Open https://uat2.purelifedental.com/",
+        "Applied 5 memory-backed regression step(s) for \"Add to cart behavior on product detail page\".",
+        "Skipped redundant login — authenticated session reused.",
+        "Detected action: search",
+        "Observe failure signal in console, network, layout, or form behavior."
+      ],
+      "expectedResult": "Users should complete \"Add to cart behavior on product detail page\" on https://uat2.purelifedental.com/ without defects.",
+      "actualResult": "locator.count: Target page, context or browser has been closed",
+      "screenshot": null,
+      "suggestedFix": "Investigate failing same-origin network requests and stabilize the API or asset endpoints.",
+      "severity": "High",
+      "priority": "P1",
+      "confidenceScore": 99,
+      "businessImpact": "A core user journey is impaired, which can reduce trust and completion rates.",
+      "userImpact": "Users on https://uat2.purelifedental.com/ may hit the defect while attempting: Add to cart behavior on product detail page.",
+      "revenueImpact": "Conversion or lead-generation paths may lose measurable traffic.",
+      "recoveryAttempts": [
+        "Applied 5 memory-backed regression step(s) for \"Add to cart behavior on product detail page\".",
+        "Skipped redundant login — authenticated session reused.",
+        "Detected action: search",
+        "Search submitted with query \"powder\".",
+        "Resolved action using search-input: input[type='search']",
+        "Detected action: openProduct",
+        "Resolved action using product-listing-same-origin: .product-item-link",
+        "Detected action: buyOnce",
+        "Buy once option not available on this product; skipped.",
+        "Quantity set to 1 via input-fill.",
+        "Attempt 1: Root error: locator.count: Target page, context or browser has been closed",
+        "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+        "Attempt 1: Strategy 2: no blocking overlays detected.",
+        "Attempt 1: Strategy 3 failed: page reload did not stabilize.",
+        "Attempt 1: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+        "Attempt 1: retry failed (page.waitForSelector: Target page, context or browser has been closed)",
+        "Attempt 2: Root error: locator.count: Target page, context or browser has been closed",
+        "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+        "Attempt 2: Strategy 2: no blocking overlays detected.",
+        "Attempt 2: Strategy 3 failed: page reload did not stabilize.",
+        "Attempt 2: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+        "Attempt 2: retry failed (page.waitForSelector: Target page, context or browser has been closed)"
+      ],
+      "rootCauseAnalysis": "locator.count: Target page, context or browser has been closed Network: [404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js Network: [FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED Iframe detected; target action may be inside nested browsing context. Modal/dialog present; interactions may be blocked.",
+      "technicalDetails": {
+        "errorReason": "locator.count: Target page, context or browser has been closed",
+        "consoleErrors": [
+          "Refused to execute script from 'https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "paypalCheckout error r"
+        ],
+        "networkErrors": [
+          "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780250984312&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=843766498.1780250928&frm=0&pscdl=noapi&rcb=0&sr=820x1180&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938466~115938469~119034493~119064971&uid=20650&sid=1780250928&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fgloves.html%3Fp%3D2&dt=Dental%20disposable%20gloves%20%7C%20PureLife%20dental%20supplies&en=page_view&up.user_id_dimension=20650&tfd=6578 :: net::ERR_ABORTED",
+          "[FAILED] https://www.google.com.pk/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-WK1Z55XV42&cid=843766498.1780250928&gtm=45je65r2v873808596za20gzb842537924zd842537924&rcb=0&aip=1&uid=20650&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=0~115938466~115938469~119034493~119064971&z=1223060124 :: csp",
+          "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780250984312&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=843766498.1780250928&frm=0&pscdl=noapi&rcb=0&sr=820x1180&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938466~115938469~119034493~119064971&uid=20650&sid=1780250928&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fgloves.html%3Fp%3D2&dt=Dental%20disposable%20gloves%20%7C%20PureLife%20dental%20supplies&en=user_engagement&_et=12150&tfd=13729 :: net::ERR_ABORTED",
+          "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+          "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+          "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED",
+          "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780250996696&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAEAGQC&ae=a&are=1&cid=843766498.1780250928&frm=0&pscdl=noapi&rcb=4&sr=820x1180&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938465~115938468~119027223~119034493&uid=20650&sid=1780250928&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fgloves.html%3Fp%3D2&dt=Search%20results%20for%3A%20%27powder%27&en=view_search_results&ep.search_term=powder&up.user_id_dimension=20650&tfd=10026 :: net::ERR_ABORTED",
+          "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780250996696&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=843766498.1780250928&frm=0&pscdl=noapi&rcb=4&sr=820x1180&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938465~115938468~119027223~119034493&uid=20650&sid=1780250928&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fgloves.html%3Fp%3D2&dt=Search%20results%20for%3A%20%27powder%27&en=page_view&_et=1&tfd=15030 :: net::ERR_ABORTED",
+          "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780250996696&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=843766498.1780250928&frm=0&pscdl=noapi&rcb=4&sr=820x1180&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&gaf=2&_s=3&tag_exp=0~115938465~115938468~119027223~119034493&uid=20650&sid=1780250928&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fgloves.html%3Fp%3D2&dt=Search%20results%20for%3A%20%27powder%27&en=user_engagement&_et=5879&tfd=15908 :: net::ERR_ABORTED",
+          "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+          "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+          "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED",
+          "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780251002784&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=843766498.1780250928&frm=0&pscdl=noapi&rcb=16&sr=820x1180&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115616985~115938465~115938469~119034491&uid=20650&sid=1780250928&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fprophyflex-cleaning-powder.html%3Fsku%3Dpowder&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dt=PROPHYflex%20Cleaning%20Powder&en=page_view&gap.plf=1&up.user_id_dimension=20650&tfd=6728 :: net::ERR_ABORTED",
+          "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780251002784&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAGQC&ae=a&are=1&cid=843766498.1780250928&frm=0&pscdl=noapi&rcb=16&sr=820x1180&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115616985~115938465~115938469~119034491&uid=20650&sid=1780250928&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fprophyflex-cleaning-powder.html%3Fsku%3Dpowder&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dt=PROPHYflex%20Cleaning%20Powder&en=scroll&gap.plf=1&epn.percent_scrolled=90&_et=2980&tfd=11730 :: net::ERR_ABORTED"
+        ],
+        "pageUrl": "https://uat2.purelifedental.com/",
+        "timestamp": "2026-05-31T18:09:46.651Z",
+        "selfHealing": {
+          "attempted": true,
+          "recovered": false,
+          "attempts": 2,
+          "strategyLogs": [
+            "Attempt 1: Root error: locator.count: Target page, context or browser has been closed",
+            "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+            "Attempt 1: Strategy 2: no blocking overlays detected.",
+            "Attempt 1: Strategy 3 failed: page reload did not stabilize.",
+            "Attempt 1: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+            "Attempt 1: retry failed (page.waitForSelector: Target page, context or browser has been closed)",
+            "Attempt 2: Root error: locator.count: Target page, context or browser has been closed",
+            "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+            "Attempt 2: Strategy 2: no blocking overlays detected.",
+            "Attempt 2: Strategy 3 failed: page reload did not stabilize.",
+            "Attempt 2: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+            "Attempt 2: retry failed (page.waitForSelector: Target page, context or browser has been closed)"
+          ]
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [
+            "Applied 5 memory-backed regression step(s) for \"Add to cart behavior on product detail page\".",
+            "Skipped redundant login — authenticated session reused.",
+            "Detected action: search",
+            "Search submitted with query \"powder\".",
+            "Resolved action using search-input: input[type='search']",
+            "Detected action: openProduct",
+            "Resolved action using product-listing-same-origin: .product-item-link",
+            "Detected action: buyOnce",
+            "Buy once option not available on this product; skipped.",
+            "Quantity set to 1 via input-fill."
+          ],
+          "retryResult": "failed",
+          "investigationFindings": [
+            "Iframe detected; target action may be inside nested browsing context.",
+            "Modal/dialog present; interactions may be blocked.",
+            "Overlay detected; click targets may be obscured.",
+            "Disabled controls present; prerequisite steps may be missing.",
+            "Validation/error messages detected on page."
+          ]
+        }
+      }
+    },
+    {
+      "summary": "PDP: page.waitForSelector: Target page, context or browser has been closed",
+      "description": "While testing \"Child SKU selection behavior on product detail page\" on https://uat2.purelifedental.com/, the run failed because page.waitForSelector: Target page, context or browser has been closed",
+      "stepsToReproduce": [
+        "Open https://uat2.purelifedental.com/",
+        "Run check: PDP — Child SKU selection behavior on product detail page",
+        "Observe failure signal in console, network, layout, or form behavior."
+      ],
+      "expectedResult": "Users should complete \"Child SKU selection behavior on product detail page\" on https://uat2.purelifedental.com/ without defects.",
+      "actualResult": "page.waitForSelector: Target page, context or browser has been closed",
+      "screenshot": null,
+      "suggestedFix": "Investigate the failure on https://uat2.purelifedental.com/ and fix the underlying UI or backend dependency.",
+      "severity": "Medium",
+      "priority": "P2",
+      "confidenceScore": 78,
+      "businessImpact": "Quality issues on public pages can increase bounce rate and support load.",
+      "userImpact": "Users on https://uat2.purelifedental.com/ may hit the defect while attempting: Child SKU selection behavior on product detail page.",
+      "revenueImpact": "Indirect impact possible depending on page traffic and funnel position.",
+      "recoveryAttempts": [
+        "Attempt 1: Root error: page.waitForSelector: Target page, context or browser has been closed",
+        "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+        "Attempt 1: Strategy 2: no blocking overlays detected.",
+        "Attempt 1: Strategy 3 failed: page reload did not stabilize.",
+        "Attempt 1: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+        "Attempt 1: retry failed (page.waitForSelector: Target page, context or browser has been closed)",
+        "Attempt 2: Root error: page.waitForSelector: Target page, context or browser has been closed",
+        "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+        "Attempt 2: Strategy 2: no blocking overlays detected.",
+        "Attempt 2: Strategy 3 failed: page reload did not stabilize.",
+        "Attempt 2: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+        "Attempt 2: retry failed (page.waitForSelector: Target page, context or browser has been closed)"
+      ],
+      "rootCauseAnalysis": "page.waitForSelector: Target page, context or browser has been closed",
+      "technicalDetails": {
+        "errorReason": "page.waitForSelector: Target page, context or browser has been closed",
+        "consoleErrors": [],
+        "networkErrors": [],
+        "pageUrl": "https://uat2.purelifedental.com/",
+        "timestamp": "2026-05-31T18:11:00.823Z",
+        "selfHealing": {
+          "attempted": true,
+          "recovered": false,
+          "attempts": 2,
+          "strategyLogs": [
+            "Attempt 1: Root error: page.waitForSelector: Target page, context or browser has been closed",
+            "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+            "Attempt 1: Strategy 2: no blocking overlays detected.",
+            "Attempt 1: Strategy 3 failed: page reload did not stabilize.",
+            "Attempt 1: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+            "Attempt 1: retry failed (page.waitForSelector: Target page, context or browser has been closed)",
+            "Attempt 2: Root error: page.waitForSelector: Target page, context or browser has been closed",
+            "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+            "Attempt 2: Strategy 2: no blocking overlays detected.",
+            "Attempt 2: Strategy 3 failed: page reload did not stabilize.",
+            "Attempt 2: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+            "Attempt 2: retry failed (page.waitForSelector: Target page, context or browser has been closed)"
+          ]
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [],
+          "retryResult": "not-needed",
+          "investigationFindings": []
+        }
+      }
+    },
+    {
+      "summary": "Cart: page.waitForSelector: Target page, context or browser has been closed",
+      "description": "While testing \"Add item works from cart workflow\" on https://uat2.purelifedental.com/, the run failed because page.waitForSelector: Target page, context or browser has been closed",
+      "stepsToReproduce": [
+        "Open https://uat2.purelifedental.com/",
+        "Run check: Cart — Add item works from cart workflow",
+        "Observe failure signal in console, network, layout, or form behavior."
+      ],
+      "expectedResult": "Users should complete \"Add item works from cart workflow\" on https://uat2.purelifedental.com/ without defects.",
+      "actualResult": "page.waitForSelector: Target page, context or browser has been closed",
+      "screenshot": null,
+      "suggestedFix": "Investigate the failure on https://uat2.purelifedental.com/ and fix the underlying UI or backend dependency.",
+      "severity": "Medium",
+      "priority": "P2",
+      "confidenceScore": 78,
+      "businessImpact": "Checkout instability directly threatens conversion and revenue.",
+      "userImpact": "Users on https://uat2.purelifedental.com/ may hit the defect while attempting: Add item works from cart workflow.",
+      "revenueImpact": "Indirect impact possible depending on page traffic and funnel position.",
+      "recoveryAttempts": [
+        "Attempt 1: Root error: page.waitForSelector: Target page, context or browser has been closed",
+        "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+        "Attempt 1: Strategy 2: no blocking overlays detected.",
+        "Attempt 1: Strategy 3 failed: page reload did not stabilize.",
+        "Attempt 1: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+        "Attempt 1: retry failed (page.waitForSelector: Target page, context or browser has been closed)",
+        "Attempt 2: Root error: page.waitForSelector: Target page, context or browser has been closed",
+        "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+        "Attempt 2: Strategy 2: no blocking overlays detected.",
+        "Attempt 2: Strategy 3 failed: page reload did not stabilize.",
+        "Attempt 2: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+        "Attempt 2: retry failed (page.waitForSelector: Target page, context or browser has been closed)"
+      ],
+      "rootCauseAnalysis": "page.waitForSelector: Target page, context or browser has been closed",
+      "technicalDetails": {
+        "errorReason": "page.waitForSelector: Target page, context or browser has been closed",
+        "consoleErrors": [],
+        "networkErrors": [],
+        "pageUrl": "https://uat2.purelifedental.com/",
+        "timestamp": "2026-05-31T18:11:00.936Z",
+        "selfHealing": {
+          "attempted": true,
+          "recovered": false,
+          "attempts": 2,
+          "strategyLogs": [
+            "Attempt 1: Root error: page.waitForSelector: Target page, context or browser has been closed",
+            "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+            "Attempt 1: Strategy 2: no blocking overlays detected.",
+            "Attempt 1: Strategy 3 failed: page reload did not stabilize.",
+            "Attempt 1: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+            "Attempt 1: retry failed (page.waitForSelector: Target page, context or browser has been closed)",
+            "Attempt 2: Root error: page.waitForSelector: Target page, context or browser has been closed",
+            "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+            "Attempt 2: Strategy 2: no blocking overlays detected.",
+            "Attempt 2: Strategy 3 failed: page reload did not stabilize.",
+            "Attempt 2: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+            "Attempt 2: retry failed (page.waitForSelector: Target page, context or browser has been closed)"
+          ]
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [],
+          "retryResult": "not-needed",
+          "investigationFindings": []
+        }
+      }
+    },
+    {
+      "summary": "Checkout: page.waitForSelector: Target page, context or browser has been closed",
+      "description": "While testing \"Address step validates correctly\" on https://uat2.purelifedental.com/, the run failed because page.waitForSelector: Target page, context or browser has been closed",
+      "stepsToReproduce": [
+        "Open https://uat2.purelifedental.com/",
+        "Run check: Checkout — Address step validates correctly",
+        "Observe failure signal in console, network, layout, or form behavior."
+      ],
+      "expectedResult": "Users should complete \"Address step validates correctly\" on https://uat2.purelifedental.com/ without defects.",
+      "actualResult": "page.waitForSelector: Target page, context or browser has been closed",
+      "screenshot": null,
+      "suggestedFix": "Investigate the failure on https://uat2.purelifedental.com/ and fix the underlying UI or backend dependency.",
+      "severity": "Critical",
+      "priority": "P0",
+      "confidenceScore": 78,
+      "businessImpact": "Checkout instability directly threatens conversion and revenue.",
+      "userImpact": "Users on https://uat2.purelifedental.com/ may hit the defect while attempting: Address step validates correctly.",
+      "revenueImpact": "Conversion or lead-generation paths may lose measurable traffic.",
+      "recoveryAttempts": [
+        "Attempt 1: Root error: page.waitForSelector: Target page, context or browser has been closed",
+        "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+        "Attempt 1: Strategy 2: no blocking overlays detected.",
+        "Attempt 1: Strategy 3 failed: page reload did not stabilize.",
+        "Attempt 1: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+        "Attempt 1: retry failed (page.waitForSelector: Target page, context or browser has been closed)",
+        "Attempt 2: Root error: page.waitForSelector: Target page, context or browser has been closed",
+        "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+        "Attempt 2: Strategy 2: no blocking overlays detected.",
+        "Attempt 2: Strategy 3 failed: page reload did not stabilize.",
+        "Attempt 2: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+        "Attempt 2: retry failed (page.waitForSelector: Target page, context or browser has been closed)"
+      ],
+      "rootCauseAnalysis": "page.waitForSelector: Target page, context or browser has been closed",
+      "technicalDetails": {
+        "errorReason": "page.waitForSelector: Target page, context or browser has been closed",
+        "consoleErrors": [],
+        "networkErrors": [],
+        "pageUrl": "https://uat2.purelifedental.com/",
+        "timestamp": "2026-05-31T18:11:01.032Z",
+        "selfHealing": {
+          "attempted": true,
+          "recovered": false,
+          "attempts": 2,
+          "strategyLogs": [
+            "Attempt 1: Root error: page.waitForSelector: Target page, context or browser has been closed",
+            "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+            "Attempt 1: Strategy 2: no blocking overlays detected.",
+            "Attempt 1: Strategy 3 failed: page reload did not stabilize.",
+            "Attempt 1: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+            "Attempt 1: retry failed (page.waitForSelector: Target page, context or browser has been closed)",
+            "Attempt 2: Root error: page.waitForSelector: Target page, context or browser has been closed",
+            "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+            "Attempt 2: Strategy 2: no blocking overlays detected.",
+            "Attempt 2: Strategy 3 failed: page reload did not stabilize.",
+            "Attempt 2: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+            "Attempt 2: retry failed (page.waitForSelector: Target page, context or browser has been closed)"
+          ]
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [],
+          "retryResult": "not-needed",
+          "investigationFindings": []
+        }
+      }
+    },
+    {
+      "summary": "Account: page.waitForSelector: Target page, context or browser has been closed",
+      "description": "While testing \"Orders section behaves as expected\" on https://uat2.purelifedental.com/, the run failed because page.waitForSelector: Target page, context or browser has been closed",
+      "stepsToReproduce": [
+        "Open https://uat2.purelifedental.com/",
+        "Run check: Account — Orders section behaves as expected",
+        "Observe failure signal in console, network, layout, or form behavior."
+      ],
+      "expectedResult": "Users should complete \"Orders section behaves as expected\" on https://uat2.purelifedental.com/ without defects.",
+      "actualResult": "page.waitForSelector: Target page, context or browser has been closed",
+      "screenshot": null,
+      "suggestedFix": "Investigate the failure on https://uat2.purelifedental.com/ and fix the underlying UI or backend dependency.",
+      "severity": "Medium",
+      "priority": "P2",
+      "confidenceScore": 78,
+      "businessImpact": "Quality issues on public pages can increase bounce rate and support load.",
+      "userImpact": "Users on https://uat2.purelifedental.com/ may hit the defect while attempting: Orders section behaves as expected.",
+      "revenueImpact": "Indirect impact possible depending on page traffic and funnel position.",
+      "recoveryAttempts": [
+        "Attempt 1: Root error: page.waitForSelector: Target page, context or browser has been closed",
+        "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+        "Attempt 1: Strategy 2: no blocking overlays detected.",
+        "Attempt 1: Strategy 3 failed: page reload did not stabilize.",
+        "Attempt 1: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+        "Attempt 1: retry failed (page.waitForSelector: Target page, context or browser has been closed)",
+        "Attempt 2: Root error: page.waitForSelector: Target page, context or browser has been closed",
+        "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+        "Attempt 2: Strategy 2: no blocking overlays detected.",
+        "Attempt 2: Strategy 3 failed: page reload did not stabilize.",
+        "Attempt 2: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+        "Attempt 2: retry failed (page.waitForSelector: Target page, context or browser has been closed)"
+      ],
+      "rootCauseAnalysis": "page.waitForSelector: Target page, context or browser has been closed",
+      "technicalDetails": {
+        "errorReason": "page.waitForSelector: Target page, context or browser has been closed",
+        "consoleErrors": [],
+        "networkErrors": [],
+        "pageUrl": "https://uat2.purelifedental.com/",
+        "timestamp": "2026-05-31T18:11:01.161Z",
+        "selfHealing": {
+          "attempted": true,
+          "recovered": false,
+          "attempts": 2,
+          "strategyLogs": [
+            "Attempt 1: Root error: page.waitForSelector: Target page, context or browser has been closed",
+            "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+            "Attempt 1: Strategy 2: no blocking overlays detected.",
+            "Attempt 1: Strategy 3 failed: page reload did not stabilize.",
+            "Attempt 1: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+            "Attempt 1: retry failed (page.waitForSelector: Target page, context or browser has been closed)",
+            "Attempt 2: Root error: page.waitForSelector: Target page, context or browser has been closed",
+            "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+            "Attempt 2: Strategy 2: no blocking overlays detected.",
+            "Attempt 2: Strategy 3 failed: page reload did not stabilize.",
+            "Attempt 2: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+            "Attempt 2: retry failed (page.waitForSelector: Target page, context or browser has been closed)"
+          ]
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [],
+          "retryResult": "not-needed",
+          "investigationFindings": []
+        }
+      }
+    }
+  ],
+  "technicalLogs": [
+    {
+      "scenarioId": "scenario-1",
+      "feature": "Authentication",
+      "scenario": "Login flow works as expected",
+      "status": "passed",
+      "consoleErrors": [
+        "Refused to execute script from 'https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled."
+      ],
+      "networkErrors": [
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780250924325&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGAC&are=1&cid=843766498.1780250928&frm=0&pscdl=noapi&rcb=7&sr=820x1180&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938466~115938469~119034491&sid=1780250928&sct=1&seg=0&dl=https%3A%2F%2Fuat2.purelifedental.com%2F&dt=PureLife%20Dental%20%7C%20Dentistry%20Evolved%20%7C%20Dental%20Supplies&en=page_view&_fv=1&_ss=1&tfd=9575 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780250924325&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=843766498.1780250928&frm=0&pscdl=noapi&rcb=7&sr=820x1180&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938466~115938469~119034491&sid=1780250928&sct=1&seg=0&dl=https%3A%2F%2Fuat2.purelifedental.com%2F&dt=PureLife%20Dental%20%7C%20Dentistry%20Evolved%20%7C%20Dental%20Supplies&en=user_engagement&_et=2012&tfd=11590 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780250931041&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=843766498.1780250928&frm=0&pscdl=noapi&rcb=1&sr=820x1180&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938466~115938469~119027223~119034491~119064591&sid=1780250928&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcustomer%2Faccount%2Flogin&dt=Customer%20Login&en=page_view&tfd=1644 :: net::ERR_ABORTED",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/Mageplaza_Core/lib/fileUploader/jquery.fileuploader.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780250931041&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=843766498.1780250928&frm=0&pscdl=noapi&rcb=1&sr=820x1180&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&gaf=2&_s=3&tag_exp=0~115938466~115938469~119027223~119034491~119064591&sid=1780250928&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcustomer%2Faccount%2Flogin&dt=Customer%20Login&en=user_engagement&_et=3650&tfd=5297 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780250931041&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAGQC&ae=a&are=1&cid=843766498.1780250928&frm=0&pscdl=noapi&rcb=1&sr=820x1180&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938466~115938469~119027223~119034491~119064591&sid=1780250928&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcustomer%2Faccount%2Flogin&dt=Customer%20Login&en=scroll&epn.percent_scrolled=90&_et=14&tfd=5297 :: net::ERR_ABORTED",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/Aheadworks_Afptc/template/view/promo-offer.html :: net::ERR_ABORTED",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/jquery/ui-modules/jquery-var-for-color.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/Magento_Customer/template/authentication-popup.html :: net::ERR_ABORTED",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/Aheadworks_Afptc/js/uikit/uikit.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/Magento_Ui/js/modal/modal-component.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/jquery/ui-modules/vendor/jquery-color/jquery.color.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/Magento_PageBuilder/js/resource/jarallax/jarallax-video.min.js :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED"
+      ],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Applied 1 memory-backed regression step(s) for \"Login flow works as expected\".",
+          "Detected action: login",
+          "Navigated to customer login page.",
+          "Login field fill: email=true password=true",
+          "Authenticated session established after credential login.",
+          "Authenticated session established and stored for run."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-2",
+      "feature": "Authentication",
+      "scenario": "Forgot Password flow works as expected",
+      "status": "passed",
+      "consoleErrors": [
+        "Refused to execute script from 'https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled."
+      ],
+      "networkErrors": [
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780250934975&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=843766498.1780250928&frm=0&pscdl=noapi&rcb=13&sr=820x1180&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938465~115938468~119034493~119064591~119168155&sid=1780250928&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcustomer%2Faccount%2F%3Fis_logged_in%3D1&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fcustomer%2Faccount%2Flogin&dt=My%20Account&en=page_view&tfd=7576 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780250934975&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=843766498.1780250928&frm=0&pscdl=noapi&rcb=13&sr=820x1180&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938465~115938468~119034493~119064591~119168155&sid=1780250928&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcustomer%2Faccount%2F%3Fis_logged_in%3D1&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fcustomer%2Faccount%2Flogin&dt=My%20Account&en=user_engagement&_et=4161&tfd=7577 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED"
+      ],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Applied 1 memory-backed regression step(s) for \"Forgot Password flow works as expected\".",
+          "Detected action: navigateForgotPassword",
+          "Opened forgot password page."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-3",
+      "feature": "Catalog",
+      "scenario": "Product Listing behavior is correct",
+      "status": "passed",
+      "consoleErrors": [
+        "Refused to execute script from 'https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+        "paypalCheckout error r"
+      ],
+      "networkErrors": [
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780250939325&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=843766498.1780250928&frm=0&pscdl=noapi&rcb=5&sr=820x1180&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938466~115938468~119034491&uid=20650&sid=1780250928&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcustomer%2Faccount%2F&dt=My%20Account&en=page_view&up.user_id_dimension=20650&tfd=7045 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780250939325&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=843766498.1780250928&frm=0&pscdl=noapi&rcb=5&sr=820x1180&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938466~115938468~119034491&uid=20650&sid=1780250928&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcustomer%2Faccount%2F&dt=My%20Account&en=user_engagement&_et=7052&tfd=9094 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780250946588&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=843766498.1780250928&frm=0&pscdl=noapi&rcb=15&sr=820x1180&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938465~115938468~119034493~119064971&uid=20650&sid=1780250928&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fgloves.html&dt=Dental%20disposable%20gloves%20%7C%20PureLife%20dental%20supplies&en=page_view&up.user_id_dimension=20650&tfd=10660 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780250946588&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=843766498.1780250928&frm=0&pscdl=noapi&rcb=15&sr=820x1180&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938465~115938468~119034493~119064971&uid=20650&sid=1780250928&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fgloves.html&dt=Dental%20disposable%20gloves%20%7C%20PureLife%20dental%20supplies&en=user_engagement&_et=6335&tfd=11992 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED"
+      ],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Applied 2 memory-backed regression step(s) for \"Product Listing behavior is correct\".",
+          "Detected action: navigateUrl",
+          "Navigated to https://uat2.purelifedental.com/gloves.html.",
+          "Resolved action using memory-url: https://uat2.purelifedental.com/gloves.html",
+          "Detected action: openProduct",
+          "Resolved action using product-listing-same-origin: .product-item-link"
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-4",
+      "feature": "Catalog",
+      "scenario": "Search behavior is correct",
+      "status": "passed",
+      "consoleErrors": [
+        "Refused to execute script from 'https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled."
+      ],
+      "networkErrors": [
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780250953584&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=843766498.1780250928&frm=0&pscdl=noapi&rcb=10&sr=820x1180&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115616986~115938465~115938469~119034491&uid=20650&sid=1780250928&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fventyv-flamingo-nitrile-powder-free-gloves.html&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fgloves.html&dt=Ventyv%C2%AE%20Flamingo%20Nitrile%20Powder-Free%20Gloves&en=page_view&up.user_id_dimension=20650&tfd=9512 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780250953584&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=843766498.1780250928&frm=0&pscdl=noapi&rcb=10&sr=820x1180&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115616986~115938465~115938469~119034491&uid=20650&sid=1780250928&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fventyv-flamingo-nitrile-powder-free-gloves.html&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fgloves.html&dt=Ventyv%C2%AE%20Flamingo%20Nitrile%20Powder-Free%20Gloves&en=user_engagement&_et=11648&tfd=16153 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780250965701&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAEAGQC&ae=a&are=1&cid=843766498.1780250928&frm=0&pscdl=noapi&rcb=1&sr=820x1180&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938465~115938468~118228214~119034493&uid=20650&sid=1780250928&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fventyv-flamingo-nitrile-powder-free-gloves.html&dt=Search%20results%20for%3A%20%27powder%27&en=view_search_results&ep.search_term=powder&up.user_id_dimension=20650&tfd=9552 :: net::ERR_ABORTED"
+      ],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Applied 1 memory-backed regression step(s) for \"Search behavior is correct\".",
+          "Detected action: search",
+          "Search submitted with query \"powder\".",
+          "Resolved action using search-input: input[type='search']"
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-5",
+      "feature": "Catalog",
+      "scenario": "Categories behavior is correct",
+      "status": "passed",
+      "consoleErrors": [
+        "Refused to execute script from 'https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled."
+      ],
+      "networkErrors": [
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780250965701&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=843766498.1780250928&frm=0&pscdl=noapi&rcb=1&sr=820x1180&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938465~115938468~118228214~119034493&uid=20650&sid=1780250928&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fventyv-flamingo-nitrile-powder-free-gloves.html&dt=Search%20results%20for%3A%20%27powder%27&en=page_view&_et=1&tfd=12262 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780250965701&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=843766498.1780250928&frm=0&pscdl=noapi&rcb=1&sr=820x1180&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&gaf=2&_s=3&tag_exp=0~115938465~115938468~118228214~119034493&uid=20650&sid=1780250928&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fventyv-flamingo-nitrile-powder-free-gloves.html&dt=Search%20results%20for%3A%20%27powder%27&en=user_engagement&_et=2704&tfd=12263 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED"
+      ],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Applied 1 memory-backed regression step(s) for \"Categories behavior is correct\".",
+          "Detected action: navigateUrl",
+          "Navigated to https://uat2.purelifedental.com/gloves.html.",
+          "Resolved action using memory-url: https://uat2.purelifedental.com/gloves.html"
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-6",
+      "feature": "Catalog",
+      "scenario": "Filters behavior is correct",
+      "status": "passed",
+      "consoleErrors": [
+        "Refused to execute script from 'https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled."
+      ],
+      "networkErrors": [
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780250968639&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=843766498.1780250928&frm=0&pscdl=noapi&rcb=1&sr=820x1180&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938465~115938468~119034493&uid=20650&sid=1780250928&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fgloves.html&dt=Dental%20disposable%20gloves%20%7C%20PureLife%20dental%20supplies&en=user_engagement&_et=2240&tfd=2473 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780250968639&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=843766498.1780250928&frm=0&pscdl=noapi&rcb=1&sr=820x1180&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938465~115938468~119034493&uid=20650&sid=1780250928&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fgloves.html&dt=Dental%20disposable%20gloves%20%7C%20PureLife%20dental%20supplies&en=page_view&up.user_id_dimension=20650&tfd=2472 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780250971089&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=843766498.1780250928&frm=0&pscdl=noapi&rcb=14&sr=820x1180&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938465~115938469~119034491&uid=20650&sid=1780250928&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fgloves.html&dt=Dental%20disposable%20gloves%20%7C%20PureLife%20dental%20supplies&en=page_view&up.user_id_dimension=20650&tfd=5202 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780250971089&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=843766498.1780250928&frm=0&pscdl=noapi&rcb=14&sr=820x1180&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938465~115938469~119034491&uid=20650&sid=1780250928&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fgloves.html&dt=Dental%20disposable%20gloves%20%7C%20PureLife%20dental%20supplies&en=user_engagement&_et=6757&tfd=6958 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED"
+      ],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Applied 2 memory-backed regression step(s) for \"Filters behavior is correct\".",
+          "Detected action: navigateUrl",
+          "Navigated to https://uat2.purelifedental.com/gloves.html.",
+          "Resolved action using memory-url: https://uat2.purelifedental.com/gloves.html",
+          "Detected action: applyCatalogFilter",
+          "Applied Price layered filter (e.g. $0.00–$9.99) on category listing.",
+          "Resolved action using catalog-price-filter: https://uat2.purelifedental.com/gloves.html?price=0-10"
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-7",
+      "feature": "Catalog",
+      "scenario": "Pagination behavior is correct",
+      "status": "passed",
+      "consoleErrors": [
+        "Refused to execute script from 'https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled."
+      ],
+      "networkErrors": [
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780250978026&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=843766498.1780250928&frm=0&pscdl=noapi&rcb=17&sr=820x1180&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938466~115938469~118128922~119034493&uid=20650&sid=1780250928&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fgloves.html%3Fprice%3D0-10&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fgloves.html&dt=Dental%20disposable%20gloves%20%7C%20PureLife%20dental%20supplies&en=user_engagement&_et=2501&tfd=7309 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780250978026&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=843766498.1780250928&frm=0&pscdl=noapi&rcb=17&sr=820x1180&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938466~115938469~118128922~119034493&uid=20650&sid=1780250928&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fgloves.html%3Fprice%3D0-10&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fgloves.html&dt=Dental%20disposable%20gloves%20%7C%20PureLife%20dental%20supplies&en=page_view&up.user_id_dimension=20650&tfd=7308 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780250980712&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=843766498.1780250928&frm=0&pscdl=noapi&rcb=6&sr=820x1180&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115616985~115938465~115938469~119034493&uid=20650&sid=1780250928&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fgloves.html&dt=Dental%20disposable%20gloves%20%7C%20PureLife%20dental%20supplies&en=page_view&gap.plf=1&up.user_id_dimension=20650&tfd=3633 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780250980712&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=843766498.1780250928&frm=0&pscdl=noapi&rcb=6&sr=820x1180&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115616985~115938465~115938469~119034493&uid=20650&sid=1780250928&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fgloves.html&dt=Dental%20disposable%20gloves%20%7C%20PureLife%20dental%20supplies&en=user_engagement&gap.plf=1&_et=3385&tfd=3634 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED"
+      ],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Applied 2 memory-backed regression step(s) for \"Pagination behavior is correct\".",
+          "Detected action: navigateUrl",
+          "Navigated to https://uat2.purelifedental.com/gloves.html.",
+          "Resolved action using memory-url: https://uat2.purelifedental.com/gloves.html",
+          "Detected action: goToListingPage2",
+          "Pagination: products before=16 after=0 emptyState=yes url=https://uat2.purelifedental.com/gloves.html?p=2.",
+          "Listing pagination validated on page 2.",
+          "Resolved action using catalog-pagination-direct-url: pagination direct p=2"
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-8",
+      "feature": "PDP",
+      "scenario": "Add to cart behavior on product detail page",
+      "status": "failed",
+      "errorReason": "locator.count: Target page, context or browser has been closed",
+      "consoleErrors": [
+        "Refused to execute script from 'https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+        "paypalCheckout error r"
+      ],
+      "networkErrors": [
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780250984312&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=843766498.1780250928&frm=0&pscdl=noapi&rcb=0&sr=820x1180&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938466~115938469~119034493~119064971&uid=20650&sid=1780250928&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fgloves.html%3Fp%3D2&dt=Dental%20disposable%20gloves%20%7C%20PureLife%20dental%20supplies&en=page_view&up.user_id_dimension=20650&tfd=6578 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com.pk/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-WK1Z55XV42&cid=843766498.1780250928&gtm=45je65r2v873808596za20gzb842537924zd842537924&rcb=0&aip=1&uid=20650&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=0~115938466~115938469~119034493~119064971&z=1223060124 :: csp",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780250984312&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=843766498.1780250928&frm=0&pscdl=noapi&rcb=0&sr=820x1180&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938466~115938469~119034493~119064971&uid=20650&sid=1780250928&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fgloves.html%3Fp%3D2&dt=Dental%20disposable%20gloves%20%7C%20PureLife%20dental%20supplies&en=user_engagement&_et=12150&tfd=13729 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780250996696&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAEAGQC&ae=a&are=1&cid=843766498.1780250928&frm=0&pscdl=noapi&rcb=4&sr=820x1180&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938465~115938468~119027223~119034493&uid=20650&sid=1780250928&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fgloves.html%3Fp%3D2&dt=Search%20results%20for%3A%20%27powder%27&en=view_search_results&ep.search_term=powder&up.user_id_dimension=20650&tfd=10026 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780250996696&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=843766498.1780250928&frm=0&pscdl=noapi&rcb=4&sr=820x1180&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938465~115938468~119027223~119034493&uid=20650&sid=1780250928&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fgloves.html%3Fp%3D2&dt=Search%20results%20for%3A%20%27powder%27&en=page_view&_et=1&tfd=15030 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780250996696&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=843766498.1780250928&frm=0&pscdl=noapi&rcb=4&sr=820x1180&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&gaf=2&_s=3&tag_exp=0~115938465~115938468~119027223~119034493&uid=20650&sid=1780250928&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fgloves.html%3Fp%3D2&dt=Search%20results%20for%3A%20%27powder%27&en=user_engagement&_et=5879&tfd=15908 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780251002784&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=843766498.1780250928&frm=0&pscdl=noapi&rcb=16&sr=820x1180&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115616985~115938465~115938469~119034491&uid=20650&sid=1780250928&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fprophyflex-cleaning-powder.html%3Fsku%3Dpowder&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dt=PROPHYflex%20Cleaning%20Powder&en=page_view&gap.plf=1&up.user_id_dimension=20650&tfd=6728 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780251002784&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAGQC&ae=a&are=1&cid=843766498.1780250928&frm=0&pscdl=noapi&rcb=16&sr=820x1180&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115616985~115938465~115938469~119034491&uid=20650&sid=1780250928&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fprophyflex-cleaning-powder.html%3Fsku%3Dpowder&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dt=PROPHYflex%20Cleaning%20Powder&en=scroll&gap.plf=1&epn.percent_scrolled=90&_et=2980&tfd=11730 :: net::ERR_ABORTED"
+      ],
+      "selfHealing": {
+        "attempted": true,
+        "recovered": false,
+        "attempts": 2,
+        "strategyLogs": [
+          "Attempt 1: Root error: locator.count: Target page, context or browser has been closed",
+          "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 1: Strategy 2: no blocking overlays detected.",
+          "Attempt 1: Strategy 3 failed: page reload did not stabilize.",
+          "Attempt 1: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+          "Attempt 1: retry failed (page.waitForSelector: Target page, context or browser has been closed)",
+          "Attempt 2: Root error: locator.count: Target page, context or browser has been closed",
+          "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 2: Strategy 2: no blocking overlays detected.",
+          "Attempt 2: Strategy 3 failed: page reload did not stabilize.",
+          "Attempt 2: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+          "Attempt 2: retry failed (page.waitForSelector: Target page, context or browser has been closed)"
+        ]
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Applied 5 memory-backed regression step(s) for \"Add to cart behavior on product detail page\".",
+          "Skipped redundant login — authenticated session reused.",
+          "Detected action: search",
+          "Search submitted with query \"powder\".",
+          "Resolved action using search-input: input[type='search']",
+          "Detected action: openProduct",
+          "Resolved action using product-listing-same-origin: .product-item-link",
+          "Detected action: buyOnce",
+          "Buy once option not available on this product; skipped.",
+          "Quantity set to 1 via input-fill."
+        ],
+        "retryResult": "failed",
+        "investigationFindings": [
+          "Iframe detected; target action may be inside nested browsing context.",
+          "Modal/dialog present; interactions may be blocked.",
+          "Overlay detected; click targets may be obscured.",
+          "Disabled controls present; prerequisite steps may be missing.",
+          "Validation/error messages detected on page."
+        ]
+      }
+    },
+    {
+      "scenarioId": "scenario-9",
+      "feature": "PDP",
+      "scenario": "Child SKU selection behavior on product detail page",
+      "status": "failed",
+      "errorReason": "page.waitForSelector: Target page, context or browser has been closed",
+      "consoleErrors": [],
+      "networkErrors": [],
+      "selfHealing": {
+        "attempted": true,
+        "recovered": false,
+        "attempts": 2,
+        "strategyLogs": [
+          "Attempt 1: Root error: page.waitForSelector: Target page, context or browser has been closed",
+          "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 1: Strategy 2: no blocking overlays detected.",
+          "Attempt 1: Strategy 3 failed: page reload did not stabilize.",
+          "Attempt 1: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+          "Attempt 1: retry failed (page.waitForSelector: Target page, context or browser has been closed)",
+          "Attempt 2: Root error: page.waitForSelector: Target page, context or browser has been closed",
+          "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 2: Strategy 2: no blocking overlays detected.",
+          "Attempt 2: Strategy 3 failed: page reload did not stabilize.",
+          "Attempt 2: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+          "Attempt 2: retry failed (page.waitForSelector: Target page, context or browser has been closed)"
+        ]
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-10",
+      "feature": "PDP",
+      "scenario": "Inventory behavior on product detail page",
+      "status": "failed",
+      "errorReason": "page.waitForSelector: Target page, context or browser has been closed",
+      "consoleErrors": [],
+      "networkErrors": [],
+      "selfHealing": {
+        "attempted": true,
+        "recovered": false,
+        "attempts": 2,
+        "strategyLogs": [
+          "Attempt 1: Root error: page.waitForSelector: Target page, context or browser has been closed",
+          "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 1: Strategy 2: no blocking overlays detected.",
+          "Attempt 1: Strategy 3 failed: page reload did not stabilize.",
+          "Attempt 1: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+          "Attempt 1: retry failed (page.waitForSelector: Target page, context or browser has been closed)",
+          "Attempt 2: Root error: page.waitForSelector: Target page, context or browser has been closed",
+          "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 2: Strategy 2: no blocking overlays detected.",
+          "Attempt 2: Strategy 3 failed: page reload did not stabilize.",
+          "Attempt 2: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+          "Attempt 2: retry failed (page.waitForSelector: Target page, context or browser has been closed)"
+        ]
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-11",
+      "feature": "PDP",
+      "scenario": "Product image behavior on product detail page",
+      "status": "failed",
+      "errorReason": "page.waitForSelector: Target page, context or browser has been closed",
+      "consoleErrors": [],
+      "networkErrors": [],
+      "selfHealing": {
+        "attempted": true,
+        "recovered": false,
+        "attempts": 2,
+        "strategyLogs": [
+          "Attempt 1: Root error: page.waitForSelector: Target page, context or browser has been closed",
+          "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 1: Strategy 2: no blocking overlays detected.",
+          "Attempt 1: Strategy 3 failed: page reload did not stabilize.",
+          "Attempt 1: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+          "Attempt 1: retry failed (page.waitForSelector: Target page, context or browser has been closed)",
+          "Attempt 2: Root error: page.waitForSelector: Target page, context or browser has been closed",
+          "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 2: Strategy 2: no blocking overlays detected.",
+          "Attempt 2: Strategy 3 failed: page reload did not stabilize.",
+          "Attempt 2: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+          "Attempt 2: retry failed (page.waitForSelector: Target page, context or browser has been closed)"
+        ]
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-12",
+      "feature": "PDP",
+      "scenario": "Quantity behavior on product detail page",
+      "status": "failed",
+      "errorReason": "page.waitForSelector: Target page, context or browser has been closed",
+      "consoleErrors": [],
+      "networkErrors": [],
+      "selfHealing": {
+        "attempted": true,
+        "recovered": false,
+        "attempts": 2,
+        "strategyLogs": [
+          "Attempt 1: Root error: page.waitForSelector: Target page, context or browser has been closed",
+          "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 1: Strategy 2: no blocking overlays detected.",
+          "Attempt 1: Strategy 3 failed: page reload did not stabilize.",
+          "Attempt 1: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+          "Attempt 1: retry failed (page.waitForSelector: Target page, context or browser has been closed)",
+          "Attempt 2: Root error: page.waitForSelector: Target page, context or browser has been closed",
+          "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 2: Strategy 2: no blocking overlays detected.",
+          "Attempt 2: Strategy 3 failed: page reload did not stabilize.",
+          "Attempt 2: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+          "Attempt 2: retry failed (page.waitForSelector: Target page, context or browser has been closed)"
+        ]
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-13",
+      "feature": "Cart",
+      "scenario": "Add item works from cart workflow",
+      "status": "failed",
+      "errorReason": "page.waitForSelector: Target page, context or browser has been closed",
+      "consoleErrors": [],
+      "networkErrors": [],
+      "selfHealing": {
+        "attempted": true,
+        "recovered": false,
+        "attempts": 2,
+        "strategyLogs": [
+          "Attempt 1: Root error: page.waitForSelector: Target page, context or browser has been closed",
+          "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 1: Strategy 2: no blocking overlays detected.",
+          "Attempt 1: Strategy 3 failed: page reload did not stabilize.",
+          "Attempt 1: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+          "Attempt 1: retry failed (page.waitForSelector: Target page, context or browser has been closed)",
+          "Attempt 2: Root error: page.waitForSelector: Target page, context or browser has been closed",
+          "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 2: Strategy 2: no blocking overlays detected.",
+          "Attempt 2: Strategy 3 failed: page reload did not stabilize.",
+          "Attempt 2: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+          "Attempt 2: retry failed (page.waitForSelector: Target page, context or browser has been closed)"
+        ]
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-14",
+      "feature": "Cart",
+      "scenario": "Coupon if available works from cart workflow",
+      "status": "failed",
+      "errorReason": "page.waitForSelector: Target page, context or browser has been closed",
+      "consoleErrors": [],
+      "networkErrors": [],
+      "selfHealing": {
+        "attempted": true,
+        "recovered": false,
+        "attempts": 2,
+        "strategyLogs": [
+          "Attempt 1: Root error: page.waitForSelector: Target page, context or browser has been closed",
+          "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 1: Strategy 2: no blocking overlays detected.",
+          "Attempt 1: Strategy 3 failed: page reload did not stabilize.",
+          "Attempt 1: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+          "Attempt 1: retry failed (page.waitForSelector: Target page, context or browser has been closed)",
+          "Attempt 2: Root error: page.waitForSelector: Target page, context or browser has been closed",
+          "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 2: Strategy 2: no blocking overlays detected.",
+          "Attempt 2: Strategy 3 failed: page reload did not stabilize.",
+          "Attempt 2: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+          "Attempt 2: retry failed (page.waitForSelector: Target page, context or browser has been closed)"
+        ]
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-15",
+      "feature": "Cart",
+      "scenario": "Remove item works from cart workflow",
+      "status": "failed",
+      "errorReason": "page.waitForSelector: Target page, context or browser has been closed",
+      "consoleErrors": [],
+      "networkErrors": [],
+      "selfHealing": {
+        "attempted": true,
+        "recovered": false,
+        "attempts": 2,
+        "strategyLogs": [
+          "Attempt 1: Root error: page.waitForSelector: Target page, context or browser has been closed",
+          "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 1: Strategy 2: no blocking overlays detected.",
+          "Attempt 1: Strategy 3 failed: page reload did not stabilize.",
+          "Attempt 1: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+          "Attempt 1: retry failed (page.waitForSelector: Target page, context or browser has been closed)",
+          "Attempt 2: Root error: page.waitForSelector: Target page, context or browser has been closed",
+          "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 2: Strategy 2: no blocking overlays detected.",
+          "Attempt 2: Strategy 3 failed: page reload did not stabilize.",
+          "Attempt 2: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+          "Attempt 2: retry failed (page.waitForSelector: Target page, context or browser has been closed)"
+        ]
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-16",
+      "feature": "Cart",
+      "scenario": "Update quantity works from cart workflow",
+      "status": "failed",
+      "errorReason": "page.waitForSelector: Target page, context or browser has been closed",
+      "consoleErrors": [],
+      "networkErrors": [],
+      "selfHealing": {
+        "attempted": true,
+        "recovered": false,
+        "attempts": 2,
+        "strategyLogs": [
+          "Attempt 1: Root error: page.waitForSelector: Target page, context or browser has been closed",
+          "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 1: Strategy 2: no blocking overlays detected.",
+          "Attempt 1: Strategy 3 failed: page reload did not stabilize.",
+          "Attempt 1: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+          "Attempt 1: retry failed (page.waitForSelector: Target page, context or browser has been closed)",
+          "Attempt 2: Root error: page.waitForSelector: Target page, context or browser has been closed",
+          "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 2: Strategy 2: no blocking overlays detected.",
+          "Attempt 2: Strategy 3 failed: page reload did not stabilize.",
+          "Attempt 2: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+          "Attempt 2: retry failed (page.waitForSelector: Target page, context or browser has been closed)"
+        ]
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-17",
+      "feature": "Checkout",
+      "scenario": "Address step validates correctly",
+      "status": "failed",
+      "errorReason": "page.waitForSelector: Target page, context or browser has been closed",
+      "consoleErrors": [],
+      "networkErrors": [],
+      "selfHealing": {
+        "attempted": true,
+        "recovered": false,
+        "attempts": 2,
+        "strategyLogs": [
+          "Attempt 1: Root error: page.waitForSelector: Target page, context or browser has been closed",
+          "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 1: Strategy 2: no blocking overlays detected.",
+          "Attempt 1: Strategy 3 failed: page reload did not stabilize.",
+          "Attempt 1: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+          "Attempt 1: retry failed (page.waitForSelector: Target page, context or browser has been closed)",
+          "Attempt 2: Root error: page.waitForSelector: Target page, context or browser has been closed",
+          "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 2: Strategy 2: no blocking overlays detected.",
+          "Attempt 2: Strategy 3 failed: page reload did not stabilize.",
+          "Attempt 2: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+          "Attempt 2: retry failed (page.waitForSelector: Target page, context or browser has been closed)"
+        ]
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-18",
+      "feature": "Checkout",
+      "scenario": "Shipping step validates correctly",
+      "status": "failed",
+      "errorReason": "page.waitForSelector: Target page, context or browser has been closed",
+      "consoleErrors": [],
+      "networkErrors": [],
+      "selfHealing": {
+        "attempted": true,
+        "recovered": false,
+        "attempts": 2,
+        "strategyLogs": [
+          "Attempt 1: Root error: page.waitForSelector: Target page, context or browser has been closed",
+          "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 1: Strategy 2: no blocking overlays detected.",
+          "Attempt 1: Strategy 3 failed: page reload did not stabilize.",
+          "Attempt 1: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+          "Attempt 1: retry failed (page.waitForSelector: Target page, context or browser has been closed)",
+          "Attempt 2: Root error: page.waitForSelector: Target page, context or browser has been closed",
+          "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 2: Strategy 2: no blocking overlays detected.",
+          "Attempt 2: Strategy 3 failed: page reload did not stabilize.",
+          "Attempt 2: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+          "Attempt 2: retry failed (page.waitForSelector: Target page, context or browser has been closed)"
+        ]
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-19",
+      "feature": "Checkout",
+      "scenario": "Billing step validates correctly",
+      "status": "failed",
+      "errorReason": "page.waitForSelector: Target page, context or browser has been closed",
+      "consoleErrors": [],
+      "networkErrors": [],
+      "selfHealing": {
+        "attempted": true,
+        "recovered": false,
+        "attempts": 2,
+        "strategyLogs": [
+          "Attempt 1: Root error: page.waitForSelector: Target page, context or browser has been closed",
+          "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 1: Strategy 2: no blocking overlays detected.",
+          "Attempt 1: Strategy 3 failed: page reload did not stabilize.",
+          "Attempt 1: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+          "Attempt 1: retry failed (page.waitForSelector: Target page, context or browser has been closed)",
+          "Attempt 2: Root error: page.waitForSelector: Target page, context or browser has been closed",
+          "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 2: Strategy 2: no blocking overlays detected.",
+          "Attempt 2: Strategy 3 failed: page reload did not stabilize.",
+          "Attempt 2: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+          "Attempt 2: retry failed (page.waitForSelector: Target page, context or browser has been closed)"
+        ]
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-20",
+      "feature": "Checkout",
+      "scenario": "Payment step validates correctly",
+      "status": "failed",
+      "errorReason": "page.waitForSelector: Target page, context or browser has been closed",
+      "consoleErrors": [],
+      "networkErrors": [],
+      "selfHealing": {
+        "attempted": true,
+        "recovered": false,
+        "attempts": 2,
+        "strategyLogs": [
+          "Attempt 1: Root error: page.waitForSelector: Target page, context or browser has been closed",
+          "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 1: Strategy 2: no blocking overlays detected.",
+          "Attempt 1: Strategy 3 failed: page reload did not stabilize.",
+          "Attempt 1: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+          "Attempt 1: retry failed (page.waitForSelector: Target page, context or browser has been closed)",
+          "Attempt 2: Root error: page.waitForSelector: Target page, context or browser has been closed",
+          "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 2: Strategy 2: no blocking overlays detected.",
+          "Attempt 2: Strategy 3 failed: page reload did not stabilize.",
+          "Attempt 2: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+          "Attempt 2: retry failed (page.waitForSelector: Target page, context or browser has been closed)"
+        ]
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-21",
+      "feature": "Checkout",
+      "scenario": "Review step validates correctly",
+      "status": "failed",
+      "errorReason": "page.waitForSelector: Target page, context or browser has been closed",
+      "consoleErrors": [],
+      "networkErrors": [],
+      "selfHealing": {
+        "attempted": true,
+        "recovered": false,
+        "attempts": 2,
+        "strategyLogs": [
+          "Attempt 1: Root error: page.waitForSelector: Target page, context or browser has been closed",
+          "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 1: Strategy 2: no blocking overlays detected.",
+          "Attempt 1: Strategy 3 failed: page reload did not stabilize.",
+          "Attempt 1: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+          "Attempt 1: retry failed (page.waitForSelector: Target page, context or browser has been closed)",
+          "Attempt 2: Root error: page.waitForSelector: Target page, context or browser has been closed",
+          "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 2: Strategy 2: no blocking overlays detected.",
+          "Attempt 2: Strategy 3 failed: page reload did not stabilize.",
+          "Attempt 2: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+          "Attempt 2: retry failed (page.waitForSelector: Target page, context or browser has been closed)"
+        ]
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-22",
+      "feature": "Account",
+      "scenario": "Orders section behaves as expected",
+      "status": "failed",
+      "errorReason": "page.waitForSelector: Target page, context or browser has been closed",
+      "consoleErrors": [],
+      "networkErrors": [],
+      "selfHealing": {
+        "attempted": true,
+        "recovered": false,
+        "attempts": 2,
+        "strategyLogs": [
+          "Attempt 1: Root error: page.waitForSelector: Target page, context or browser has been closed",
+          "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 1: Strategy 2: no blocking overlays detected.",
+          "Attempt 1: Strategy 3 failed: page reload did not stabilize.",
+          "Attempt 1: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+          "Attempt 1: retry failed (page.waitForSelector: Target page, context or browser has been closed)",
+          "Attempt 2: Root error: page.waitForSelector: Target page, context or browser has been closed",
+          "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 2: Strategy 2: no blocking overlays detected.",
+          "Attempt 2: Strategy 3 failed: page reload did not stabilize.",
+          "Attempt 2: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+          "Attempt 2: retry failed (page.waitForSelector: Target page, context or browser has been closed)"
+        ]
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-23",
+      "feature": "Account",
+      "scenario": "Profile section behaves as expected",
+      "status": "failed",
+      "errorReason": "page.waitForSelector: Target page, context or browser has been closed",
+      "consoleErrors": [],
+      "networkErrors": [],
+      "selfHealing": {
+        "attempted": true,
+        "recovered": false,
+        "attempts": 2,
+        "strategyLogs": [
+          "Attempt 1: Root error: page.waitForSelector: Target page, context or browser has been closed",
+          "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 1: Strategy 2: no blocking overlays detected.",
+          "Attempt 1: Strategy 3 failed: page reload did not stabilize.",
+          "Attempt 1: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+          "Attempt 1: retry failed (page.waitForSelector: Target page, context or browser has been closed)",
+          "Attempt 2: Root error: page.waitForSelector: Target page, context or browser has been closed",
+          "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 2: Strategy 2: no blocking overlays detected.",
+          "Attempt 2: Strategy 3 failed: page reload did not stabilize.",
+          "Attempt 2: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+          "Attempt 2: retry failed (page.waitForSelector: Target page, context or browser has been closed)"
+        ]
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    }
+  ],
+  "generatedAt": "2026-05-31T18:11:06.735Z"
+}

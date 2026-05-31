@@ -1,0 +1,175 @@
+{
+  "runId": "run-1780142912906",
+  "startedAt": "2026-05-30T12:08:33.756Z",
+  "completedAt": "2026-05-30T12:08:46.628Z",
+  "durationMs": 12872,
+  "passed": 1,
+  "failed": 1,
+  "skipped": 0,
+  "reportPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780142912906\\result.json",
+  "scenarios": [
+    {
+      "scenarioId": "scenario-1",
+      "feature": "Custom Command",
+      "scenario": "Execute command 1: login with qa.user@example.test and Password@123",
+      "status": "failed",
+      "errorReason": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://practicetestautomation.com/practice-test-login/\nCall log:\n  - navigating to \"https://practicetestautomation.com/practice-test-login/\", waiting until \"domcontentloaded\"\n",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780142912906\\screenshots\\scenario-1-Desktop-failure.png"
+      ],
+      "consoleErrors": [],
+      "networkErrors": [
+        "[FAILED] https://practicetestautomation.com/practice-test-login/ :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://practicetestautomation.com/practice-test-login/ :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://practicetestautomation.com/practice-test-login/ :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://practicetestautomation.com/practice-test-login/ :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://practicetestautomation.com/practice-test-login/ :: net::ERR_NAME_NOT_RESOLVED"
+      ],
+      "pageUrl": "https://practicetestautomation.com/practice-test-login/",
+      "timestamp": "2026-05-30T12:08:34.222Z",
+      "durationMs": 960,
+      "selfHealing": {
+        "attempted": true,
+        "recovered": false,
+        "attempts": 2,
+        "strategyLogs": [
+          "Attempt 1: Root error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://practicetestautomation.com/practice-test-login/\nCall log:\n  - navigating to \"https://practicetestautomation.com/practice-test-login/\", waiting until \"domcontentloaded\"\n",
+          "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 1: Strategy 2: no blocking overlays detected.",
+          "Attempt 1: Strategy 3 failed: page reload did not stabilize.",
+          "Attempt 1: Strategy 4 failed: base URL recovery navigation failed.",
+          "Attempt 2: Root error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://practicetestautomation.com/practice-test-login/\nCall log:\n  - navigating to \"https://practicetestautomation.com/practice-test-login/\", waiting until \"domcontentloaded\"\n",
+          "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 2: Strategy 2: no blocking overlays detected.",
+          "Attempt 2: Strategy 3 failed: page reload did not stabilize.",
+          "Attempt 2: Strategy 4 failed: base URL recovery navigation failed."
+        ]
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed"
+      }
+    },
+    {
+      "scenarioId": "scenario-2",
+      "feature": "Custom Command",
+      "scenario": "Execute command 2: login with qa.user@example.test and Password@123",
+      "status": "passed",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780142912906\\screenshots\\scenario-2-Desktop-recovered.png"
+      ],
+      "consoleErrors": [],
+      "networkErrors": [
+        "[FAILED] https://practicetestautomation.com/practice-test-login/ :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://practicetestautomation.com/practice-test-login/ :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://practicetestautomation.com/practice-test-login/ :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://practicetestautomation.com/cdn-cgi/rum? :: net::ERR_ABORTED",
+        "[FAILED] https://practicetestautomation.com/cdn-cgi/rum? :: net::ERR_ABORTED"
+      ],
+      "pageUrl": "https://practicetestautomation.com/practice-test-login/",
+      "timestamp": "2026-05-30T12:08:35.183Z",
+      "durationMs": 11274,
+      "selfHealing": {
+        "attempted": true,
+        "recovered": true,
+        "attempts": 2,
+        "strategyLogs": [
+          "Attempt 1: Root error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://practicetestautomation.com/practice-test-login/\nCall log:\n  - navigating to \"https://practicetestautomation.com/practice-test-login/\", waiting until \"domcontentloaded\"\n",
+          "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 1: Strategy 2: no blocking overlays detected.",
+          "Attempt 1: Strategy 3 failed: page reload did not stabilize.",
+          "Attempt 1: Strategy 4 failed: base URL recovery navigation failed.",
+          "Attempt 2: Root error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://practicetestautomation.com/practice-test-login/\nCall log:\n  - navigating to \"https://practicetestautomation.com/practice-test-login/\", waiting until \"domcontentloaded\"\n",
+          "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 2: Strategy 2: no blocking overlays detected.",
+          "Attempt 2: Strategy 3: reloaded page successfully.",
+          "Attempt 2: Strategy 4: navigated back to base URL and stabilized network."
+        ]
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Filled login password from parsed/fallback data.",
+          "Filled login password from parsed/fallback data.",
+          "Filled login password from parsed/fallback data."
+        ],
+        "retryResult": "not-needed"
+      }
+    }
+  ],
+  "bugReports": [
+    {
+      "summary": "Custom Command issue: Execute command 1: login with qa.user@example.test and Password@123",
+      "description": "During automated validation of \"Custom Command - Execute command 1: login with qa.user@example.test and Password@123\", the system encountered a blocker that prevented expected user behavior.",
+      "stepsToReproduce": [
+        "Open https://practicetestautomation.com/practice-test-login/",
+        "Execute scenario: Custom Command - Execute command 1: login with qa.user@example.test and Password@123",
+        "Observe behavior and compare with expected journey outcome."
+      ],
+      "expectedResult": "User should be able to complete the intended flow without blockers.",
+      "actualResult": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://practicetestautomation.com/practice-test-login/\nCall log:\n  - navigating to \"https://practicetestautomation.com/practice-test-login/\", waiting until \"domcontentloaded\"\n",
+      "screenshot": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780142912906\\screenshots\\scenario-1-Desktop-failure.png",
+      "suggestedFix": "Inspect failing module logic and stabilize related frontend/backend dependencies.",
+      "severity": "High",
+      "priority": "P1",
+      "confidenceScore": 94,
+      "businessImpact": "Major feature instability impacts trust and operational confidence.",
+      "userImpact": "A significant segment of users experiences functional blockers.",
+      "revenueImpact": "Revenue can be impacted through drop-off in high-value journeys.",
+      "recoveryAttempts": [
+        "Attempt 1: Root error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://practicetestautomation.com/practice-test-login/\nCall log:\n  - navigating to \"https://practicetestautomation.com/practice-test-login/\", waiting until \"domcontentloaded\"\n",
+        "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+        "Attempt 1: Strategy 2: no blocking overlays detected.",
+        "Attempt 1: Strategy 3 failed: page reload did not stabilize.",
+        "Attempt 1: Strategy 4 failed: base URL recovery navigation failed.",
+        "Attempt 2: Root error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://practicetestautomation.com/practice-test-login/\nCall log:\n  - navigating to \"https://practicetestautomation.com/practice-test-login/\", waiting until \"domcontentloaded\"\n",
+        "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+        "Attempt 2: Strategy 2: no blocking overlays detected.",
+        "Attempt 2: Strategy 3 failed: page reload did not stabilize.",
+        "Attempt 2: Strategy 4 failed: base URL recovery navigation failed."
+      ],
+      "rootCauseAnalysis": "Primary likely cause is backend/API instability reflected by network failures.",
+      "technicalDetails": {
+        "errorReason": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://practicetestautomation.com/practice-test-login/\nCall log:\n  - navigating to \"https://practicetestautomation.com/practice-test-login/\", waiting until \"domcontentloaded\"\n",
+        "consoleErrors": [],
+        "networkErrors": [
+          "[FAILED] https://practicetestautomation.com/practice-test-login/ :: net::ERR_NAME_NOT_RESOLVED",
+          "[FAILED] https://practicetestautomation.com/practice-test-login/ :: net::ERR_NAME_NOT_RESOLVED",
+          "[FAILED] https://practicetestautomation.com/practice-test-login/ :: net::ERR_NAME_NOT_RESOLVED",
+          "[FAILED] https://practicetestautomation.com/practice-test-login/ :: net::ERR_NAME_NOT_RESOLVED",
+          "[FAILED] https://practicetestautomation.com/practice-test-login/ :: net::ERR_NAME_NOT_RESOLVED"
+        ],
+        "pageUrl": "https://practicetestautomation.com/practice-test-login/",
+        "timestamp": "2026-05-30T12:08:34.222Z",
+        "selfHealing": {
+          "attempted": true,
+          "recovered": false,
+          "attempts": 2,
+          "strategyLogs": [
+            "Attempt 1: Root error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://practicetestautomation.com/practice-test-login/\nCall log:\n  - navigating to \"https://practicetestautomation.com/practice-test-login/\", waiting until \"domcontentloaded\"\n",
+            "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+            "Attempt 1: Strategy 2: no blocking overlays detected.",
+            "Attempt 1: Strategy 3 failed: page reload did not stabilize.",
+            "Attempt 1: Strategy 4 failed: base URL recovery navigation failed.",
+            "Attempt 2: Root error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://practicetestautomation.com/practice-test-login/\nCall log:\n  - navigating to \"https://practicetestautomation.com/practice-test-login/\", waiting until \"domcontentloaded\"\n",
+            "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+            "Attempt 2: Strategy 2: no blocking overlays detected.",
+            "Attempt 2: Strategy 3 failed: page reload did not stabilize.",
+            "Attempt 2: Strategy 4 failed: base URL recovery navigation failed."
+          ]
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [],
+          "retryResult": "not-needed"
+        }
+      }
+    }
+  ],
+  "productionReportPaths": {
+    "html": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780142912906\\client-report.html",
+    "json": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780142912906\\client-report.json",
+    "markdown": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780142912906\\summary.md"
+  }
+}

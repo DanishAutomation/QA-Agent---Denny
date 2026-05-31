@@ -1,0 +1,1314 @@
+{
+  "domain": "uat2.purelifedental.com",
+  "updatedAt": "2026-05-31T18:17:09.150Z",
+  "successfulSelectors": [
+    "role=link[name~=my account]",
+    "role=button[name~=login]",
+    "placeholder~=search",
+    "a[href*='/product/']",
+    "text~=buy once",
+    "role=button[name~=add to cart]",
+    "a[href*='/checkout/cart']",
+    "role=link[name~=checkout]",
+    "input[type='search']",
+    ".product-item-link",
+    "button.place-order",
+    "input[name='q']",
+    "pdp input[type='number']",
+    "#product-addtocart-button",
+    "button[data-role='proceed-to-checkout']",
+    "#shipping-method-buttons-container .action.continue",
+    "billing-same-as-shipping",
+    "role=button[name~=make payment]",
+    "https://uat2.purelifedental.com/product/encore-af-core-buildup-composite.html",
+    "coupon apply",
+    "cart qty input",
+    "https://uat2.purelifedental.com/gloves.html",
+    "pagination direct p=2",
+    "https://uat2.purelifedental.com/gloves.html?price=0-10",
+    "cart remove script",
+    "button[name='update_cart_action']"
+  ],
+  "failedSelectors": [
+    "role=link[name~=my account]",
+    "role=button[name~=login]",
+    "a[href*='/checkout/cart']",
+    "a[href*='checkout/cart']",
+    "input[type='search']",
+    "a[href*='/product/']",
+    "pdp input[type='number']",
+    "#product-addtocart-button",
+    ".product-item-link",
+    "button[data-role='proceed-to-checkout']",
+    "button[name='update_cart_action']",
+    "https://uat2.purelifedental.com/gloves.html",
+    "catalog filter link",
+    ".cart.item .action.action-delete"
+  ],
+  "successfulFlowPaths": [
+    "https://uat2.purelifedental.com/customer/account/login/referer/aHR0cHM6Ly91YXQyLnB1cmVsaWZlZGVudGFsLmNvbS9jdXN0b21lci9hY2NvdW50/",
+    "https://uat2.purelifedental.com/",
+    "https://uat2.purelifedental.com/customer/account/index/?is_logged_in=1",
+    "https://uat2.purelifedental.com/product/encore-af-core-buildup-composite.html",
+    "https://uat2.purelifedental.com/product/pureortho-nitrile-powder-free.html",
+    "https://uat2.purelifedental.com/customer/account/login",
+    "https://uat2.purelifedental.com/product/prophyflex-cleaning-powder.html?sku=powder",
+    "https://uat2.purelifedental.com/checkout/",
+    "https://uat2.purelifedental.com/catalogsearch/result/?q=powder",
+    "https://uat2.purelifedental.com/checkout/cart",
+    "https://uat2.purelifedental.com/checkout/#shipping",
+    "https://uat2.purelifedental.com/checkout/#payment",
+    "https://uat2.purelifedental.com/product/prophyflex-cleaning-powder.html",
+    "https://uat2.purelifedental.com/checkout/cart/#payment",
+    "https://uat2.purelifedental.com/customer/account/login/referer/aHR0cHM6Ly91YXQyLnB1cmVsaWZlZGVudGFsLmNvbS9jdXN0b21lci9hY2NvdW50L2luZGV4/",
+    "https://uat2.purelifedental.com/checkout/cart/",
+    "https://uat2.purelifedental.com/customer/account/",
+    "https://uat2.purelifedental.com/customer/account/order/history/",
+    "https://uat2.purelifedental.com/customer/account/customercheck/",
+    "https://uat2.purelifedental.com/customer/account/forgotpassword/",
+    "https://www.purelifedental.com/catalogsearch/result/?q=powder",
+    "https://uat2.purelifedental.com/gloves.html",
+    "https://uat2.purelifedental.com/product/ventyv-flamingo-nitrile-powder-free-gloves.html",
+    "https://uat2.purelifedental.com/customer/account/?is_logged_in=1",
+    "https://uat2.purelifedental.com/gloves.html?p=2",
+    "https://uat2.purelifedental.com/gloves.html?price=0-10"
+  ],
+  "failedFlowPaths": [
+    "https://uat2.purelifedental.com",
+    "https://uat2.purelifedental.com/",
+    "https://uat2.purelifedental.com/checkout/cart",
+    "https://www.purelifedental.com/product/microflex-ultraform-nitrile-powder-free.html?sku=ansell",
+    "https://uat2.purelifedental.com/gloves/gloves-chloroprene-powder-free.html",
+    "https://uat2.purelifedental.com/gloves.html",
+    "https://uat2.purelifedental.com/product/prophyflex-cleaning-powder.html?sku=powder"
+  ],
+  "provenJourneySteps": [
+    "Click Add to Cart",
+    "Move to cart and click \"proceed to checkout\" to reach shipping address screen",
+    "On shipping address screen click \"next button\"",
+    "On payment page choose customer's default address as billing address",
+    "Click \"MAKE PAYMENT\"",
+    "Go to Login page where you will find Email, Password fields and a login button",
+    "Enter  email: mdanish+1@folio3.com",
+    "Enter password: Click@1234",
+    "Hit Login button",
+    "Wait for Login and then click Search bar",
+    "Search for 'powder\"",
+    "Open first product from the results",
+    "Wait for all the items to be visible on the page",
+    "Click \"buy once\" checkbox for the first sku",
+    "Select Quantity from Qty dropdown",
+    "Login:",
+    "login:"
+  ],
+  "assumptions": [
+    "Iframe detected; target action may be inside nested browsing context.",
+    "Modal/dialog present; interactions may be blocked.",
+    "Overlay detected; click targets may be obscured.",
+    "Validation/error messages detected on page.",
+    "Disabled controls present; prerequisite steps may be missing.",
+    "Potential navigation/server failure markers detected in page content."
+  ],
+  "customCommandMappings": [
+    {
+      "command": "Enter password: Click@1234",
+      "mappedAction": "Execute command 9: Click \"buy once\" checkbox for the first sku",
+      "success": true,
+      "recordedAt": "2026-05-31T01:42:46.044Z"
+    },
+    {
+      "command": "Hit Login button",
+      "mappedAction": "Execute command 9: Click \"buy once\" checkbox for the first sku",
+      "success": true,
+      "recordedAt": "2026-05-31T01:42:46.044Z"
+    },
+    {
+      "command": "Wait for Login and then click Search bar",
+      "mappedAction": "Execute command 9: Click \"buy once\" checkbox for the first sku",
+      "success": true,
+      "recordedAt": "2026-05-31T01:42:46.044Z"
+    },
+    {
+      "command": "Search for 'powder\"",
+      "mappedAction": "Execute command 9: Click \"buy once\" checkbox for the first sku",
+      "success": true,
+      "recordedAt": "2026-05-31T01:42:46.044Z"
+    },
+    {
+      "command": "Open first product from the results",
+      "mappedAction": "Execute command 9: Click \"buy once\" checkbox for the first sku",
+      "success": true,
+      "recordedAt": "2026-05-31T01:42:46.044Z"
+    },
+    {
+      "command": "Wait for all the items to be visible on the page",
+      "mappedAction": "Execute command 9: Click \"buy once\" checkbox for the first sku",
+      "success": true,
+      "recordedAt": "2026-05-31T01:42:46.044Z"
+    },
+    {
+      "command": "Click \"buy once\" checkbox for the first sku",
+      "mappedAction": "Execute command 9: Click \"buy once\" checkbox for the first sku",
+      "success": true,
+      "recordedAt": "2026-05-31T01:42:46.044Z"
+    },
+    {
+      "command": "Select Quantity from Qty dropdown",
+      "mappedAction": "Execute command 9: Click \"buy once\" checkbox for the first sku",
+      "success": true,
+      "recordedAt": "2026-05-31T01:42:46.044Z"
+    },
+    {
+      "command": "Click Add to Cart",
+      "mappedAction": "Execute command 9: Click \"buy once\" checkbox for the first sku",
+      "success": true,
+      "recordedAt": "2026-05-31T01:42:46.044Z"
+    },
+    {
+      "command": "Move to cart and click \"proceed to checkout\" to reach shipping address screen",
+      "mappedAction": "Execute command 9: Click \"buy once\" checkbox for the first sku",
+      "success": true,
+      "recordedAt": "2026-05-31T01:42:46.044Z"
+    },
+    {
+      "command": "On shipping address screen click \"next button\"",
+      "mappedAction": "Execute command 9: Click \"buy once\" checkbox for the first sku",
+      "success": true,
+      "recordedAt": "2026-05-31T01:42:46.044Z"
+    },
+    {
+      "command": "On payment page choose customer's default address as billing address",
+      "mappedAction": "Execute command 9: Click \"buy once\" checkbox for the first sku",
+      "success": true,
+      "recordedAt": "2026-05-31T01:42:46.044Z"
+    },
+    {
+      "command": "Click \"MAKE PAYMENT\"",
+      "mappedAction": "Execute command 9: Click \"buy once\" checkbox for the first sku",
+      "success": true,
+      "recordedAt": "2026-05-31T01:42:46.044Z"
+    },
+    {
+      "command": "Go to Login page where you will find Email, Password fields and a login button",
+      "mappedAction": "Execute command 10: Select Quantity from Qty dropdown",
+      "success": true,
+      "recordedAt": "2026-05-31T01:42:46.689Z"
+    },
+    {
+      "command": "Enter  email: mdanish+1@folio3.com",
+      "mappedAction": "Execute command 10: Select Quantity from Qty dropdown",
+      "success": true,
+      "recordedAt": "2026-05-31T01:42:46.689Z"
+    },
+    {
+      "command": "Enter password: Click@1234",
+      "mappedAction": "Execute command 10: Select Quantity from Qty dropdown",
+      "success": true,
+      "recordedAt": "2026-05-31T01:42:46.689Z"
+    },
+    {
+      "command": "Hit Login button",
+      "mappedAction": "Execute command 10: Select Quantity from Qty dropdown",
+      "success": true,
+      "recordedAt": "2026-05-31T01:42:46.689Z"
+    },
+    {
+      "command": "Wait for Login and then click Search bar",
+      "mappedAction": "Execute command 10: Select Quantity from Qty dropdown",
+      "success": true,
+      "recordedAt": "2026-05-31T01:42:46.689Z"
+    },
+    {
+      "command": "Search for 'powder\"",
+      "mappedAction": "Execute command 10: Select Quantity from Qty dropdown",
+      "success": true,
+      "recordedAt": "2026-05-31T01:42:46.689Z"
+    },
+    {
+      "command": "Open first product from the results",
+      "mappedAction": "Execute command 10: Select Quantity from Qty dropdown",
+      "success": true,
+      "recordedAt": "2026-05-31T01:42:46.689Z"
+    },
+    {
+      "command": "Wait for all the items to be visible on the page",
+      "mappedAction": "Execute command 10: Select Quantity from Qty dropdown",
+      "success": true,
+      "recordedAt": "2026-05-31T01:42:46.689Z"
+    },
+    {
+      "command": "Click \"buy once\" checkbox for the first sku",
+      "mappedAction": "Execute command 10: Select Quantity from Qty dropdown",
+      "success": true,
+      "recordedAt": "2026-05-31T01:42:46.689Z"
+    },
+    {
+      "command": "Select Quantity from Qty dropdown",
+      "mappedAction": "Execute command 10: Select Quantity from Qty dropdown",
+      "success": true,
+      "recordedAt": "2026-05-31T01:42:46.689Z"
+    },
+    {
+      "command": "Click Add to Cart",
+      "mappedAction": "Execute command 10: Select Quantity from Qty dropdown",
+      "success": true,
+      "recordedAt": "2026-05-31T01:42:46.689Z"
+    },
+    {
+      "command": "Move to cart and click \"proceed to checkout\" to reach shipping address screen",
+      "mappedAction": "Execute command 10: Select Quantity from Qty dropdown",
+      "success": true,
+      "recordedAt": "2026-05-31T01:42:46.689Z"
+    },
+    {
+      "command": "On shipping address screen click \"next button\"",
+      "mappedAction": "Execute command 10: Select Quantity from Qty dropdown",
+      "success": true,
+      "recordedAt": "2026-05-31T01:42:46.689Z"
+    },
+    {
+      "command": "On payment page choose customer's default address as billing address",
+      "mappedAction": "Execute command 10: Select Quantity from Qty dropdown",
+      "success": true,
+      "recordedAt": "2026-05-31T01:42:46.689Z"
+    },
+    {
+      "command": "Click \"MAKE PAYMENT\"",
+      "mappedAction": "Execute command 10: Select Quantity from Qty dropdown",
+      "success": true,
+      "recordedAt": "2026-05-31T01:42:46.689Z"
+    },
+    {
+      "command": "Go to Login page where you will find Email, Password fields and a login button",
+      "mappedAction": "Execute command 11: Click Add to Cart",
+      "success": true,
+      "recordedAt": "2026-05-31T01:42:51.787Z"
+    },
+    {
+      "command": "Enter  email: mdanish+1@folio3.com",
+      "mappedAction": "Execute command 11: Click Add to Cart",
+      "success": true,
+      "recordedAt": "2026-05-31T01:42:51.787Z"
+    },
+    {
+      "command": "Enter password: Click@1234",
+      "mappedAction": "Execute command 11: Click Add to Cart",
+      "success": true,
+      "recordedAt": "2026-05-31T01:42:51.787Z"
+    },
+    {
+      "command": "Hit Login button",
+      "mappedAction": "Execute command 11: Click Add to Cart",
+      "success": true,
+      "recordedAt": "2026-05-31T01:42:51.787Z"
+    },
+    {
+      "command": "Wait for Login and then click Search bar",
+      "mappedAction": "Execute command 11: Click Add to Cart",
+      "success": true,
+      "recordedAt": "2026-05-31T01:42:51.787Z"
+    },
+    {
+      "command": "Search for 'powder\"",
+      "mappedAction": "Execute command 11: Click Add to Cart",
+      "success": true,
+      "recordedAt": "2026-05-31T01:42:51.787Z"
+    },
+    {
+      "command": "Open first product from the results",
+      "mappedAction": "Execute command 11: Click Add to Cart",
+      "success": true,
+      "recordedAt": "2026-05-31T01:42:51.787Z"
+    },
+    {
+      "command": "Wait for all the items to be visible on the page",
+      "mappedAction": "Execute command 11: Click Add to Cart",
+      "success": true,
+      "recordedAt": "2026-05-31T01:42:51.787Z"
+    },
+    {
+      "command": "Click \"buy once\" checkbox for the first sku",
+      "mappedAction": "Execute command 11: Click Add to Cart",
+      "success": true,
+      "recordedAt": "2026-05-31T01:42:51.787Z"
+    },
+    {
+      "command": "Select Quantity from Qty dropdown",
+      "mappedAction": "Execute command 11: Click Add to Cart",
+      "success": true,
+      "recordedAt": "2026-05-31T01:42:51.787Z"
+    },
+    {
+      "command": "Click Add to Cart",
+      "mappedAction": "Execute command 11: Click Add to Cart",
+      "success": true,
+      "recordedAt": "2026-05-31T01:42:51.787Z"
+    },
+    {
+      "command": "Move to cart and click \"proceed to checkout\" to reach shipping address screen",
+      "mappedAction": "Execute command 11: Click Add to Cart",
+      "success": true,
+      "recordedAt": "2026-05-31T01:42:51.787Z"
+    },
+    {
+      "command": "On shipping address screen click \"next button\"",
+      "mappedAction": "Execute command 11: Click Add to Cart",
+      "success": true,
+      "recordedAt": "2026-05-31T01:42:51.787Z"
+    },
+    {
+      "command": "On payment page choose customer's default address as billing address",
+      "mappedAction": "Execute command 11: Click Add to Cart",
+      "success": true,
+      "recordedAt": "2026-05-31T01:42:51.787Z"
+    },
+    {
+      "command": "Click \"MAKE PAYMENT\"",
+      "mappedAction": "Execute command 11: Click Add to Cart",
+      "success": true,
+      "recordedAt": "2026-05-31T01:42:51.787Z"
+    },
+    {
+      "command": "Go to Login page where you will find Email, Password fields and a login button",
+      "mappedAction": "Execute command 12: Move to cart and click \"proceed to checkout\" to reach shipping address screen",
+      "success": true,
+      "recordedAt": "2026-05-31T01:43:13.419Z"
+    },
+    {
+      "command": "Enter  email: mdanish+1@folio3.com",
+      "mappedAction": "Execute command 12: Move to cart and click \"proceed to checkout\" to reach shipping address screen",
+      "success": true,
+      "recordedAt": "2026-05-31T01:43:13.419Z"
+    },
+    {
+      "command": "Enter password: Click@1234",
+      "mappedAction": "Execute command 12: Move to cart and click \"proceed to checkout\" to reach shipping address screen",
+      "success": true,
+      "recordedAt": "2026-05-31T01:43:13.419Z"
+    },
+    {
+      "command": "Hit Login button",
+      "mappedAction": "Execute command 12: Move to cart and click \"proceed to checkout\" to reach shipping address screen",
+      "success": true,
+      "recordedAt": "2026-05-31T01:43:13.419Z"
+    },
+    {
+      "command": "Wait for Login and then click Search bar",
+      "mappedAction": "Execute command 12: Move to cart and click \"proceed to checkout\" to reach shipping address screen",
+      "success": true,
+      "recordedAt": "2026-05-31T01:43:13.419Z"
+    },
+    {
+      "command": "Search for 'powder\"",
+      "mappedAction": "Execute command 12: Move to cart and click \"proceed to checkout\" to reach shipping address screen",
+      "success": true,
+      "recordedAt": "2026-05-31T01:43:13.419Z"
+    },
+    {
+      "command": "Open first product from the results",
+      "mappedAction": "Execute command 12: Move to cart and click \"proceed to checkout\" to reach shipping address screen",
+      "success": true,
+      "recordedAt": "2026-05-31T01:43:13.419Z"
+    },
+    {
+      "command": "Wait for all the items to be visible on the page",
+      "mappedAction": "Execute command 12: Move to cart and click \"proceed to checkout\" to reach shipping address screen",
+      "success": true,
+      "recordedAt": "2026-05-31T01:43:13.419Z"
+    },
+    {
+      "command": "Click \"buy once\" checkbox for the first sku",
+      "mappedAction": "Execute command 12: Move to cart and click \"proceed to checkout\" to reach shipping address screen",
+      "success": true,
+      "recordedAt": "2026-05-31T01:43:13.419Z"
+    },
+    {
+      "command": "Select Quantity from Qty dropdown",
+      "mappedAction": "Execute command 12: Move to cart and click \"proceed to checkout\" to reach shipping address screen",
+      "success": true,
+      "recordedAt": "2026-05-31T01:43:13.419Z"
+    },
+    {
+      "command": "Click Add to Cart",
+      "mappedAction": "Execute command 12: Move to cart and click \"proceed to checkout\" to reach shipping address screen",
+      "success": true,
+      "recordedAt": "2026-05-31T01:43:13.419Z"
+    },
+    {
+      "command": "Move to cart and click \"proceed to checkout\" to reach shipping address screen",
+      "mappedAction": "Execute command 12: Move to cart and click \"proceed to checkout\" to reach shipping address screen",
+      "success": true,
+      "recordedAt": "2026-05-31T01:43:13.419Z"
+    },
+    {
+      "command": "On shipping address screen click \"next button\"",
+      "mappedAction": "Execute command 12: Move to cart and click \"proceed to checkout\" to reach shipping address screen",
+      "success": true,
+      "recordedAt": "2026-05-31T01:43:13.419Z"
+    },
+    {
+      "command": "On payment page choose customer's default address as billing address",
+      "mappedAction": "Execute command 12: Move to cart and click \"proceed to checkout\" to reach shipping address screen",
+      "success": true,
+      "recordedAt": "2026-05-31T01:43:13.419Z"
+    },
+    {
+      "command": "Click \"MAKE PAYMENT\"",
+      "mappedAction": "Execute command 12: Move to cart and click \"proceed to checkout\" to reach shipping address screen",
+      "success": true,
+      "recordedAt": "2026-05-31T01:43:13.419Z"
+    },
+    {
+      "command": "Go to Login page where you will find Email, Password fields and a login button",
+      "mappedAction": "Execute command 13: On shipping address screen click \"next button\"",
+      "success": true,
+      "recordedAt": "2026-05-31T01:44:55.270Z"
+    },
+    {
+      "command": "Enter  email: mdanish+1@folio3.com",
+      "mappedAction": "Execute command 13: On shipping address screen click \"next button\"",
+      "success": true,
+      "recordedAt": "2026-05-31T01:44:55.270Z"
+    },
+    {
+      "command": "Enter password: Click@1234",
+      "mappedAction": "Execute command 13: On shipping address screen click \"next button\"",
+      "success": true,
+      "recordedAt": "2026-05-31T01:44:55.270Z"
+    },
+    {
+      "command": "Hit Login button",
+      "mappedAction": "Execute command 13: On shipping address screen click \"next button\"",
+      "success": true,
+      "recordedAt": "2026-05-31T01:44:55.270Z"
+    },
+    {
+      "command": "Wait for Login and then click Search bar",
+      "mappedAction": "Execute command 13: On shipping address screen click \"next button\"",
+      "success": true,
+      "recordedAt": "2026-05-31T01:44:55.270Z"
+    },
+    {
+      "command": "Search for 'powder\"",
+      "mappedAction": "Execute command 13: On shipping address screen click \"next button\"",
+      "success": true,
+      "recordedAt": "2026-05-31T01:44:55.270Z"
+    },
+    {
+      "command": "Open first product from the results",
+      "mappedAction": "Execute command 13: On shipping address screen click \"next button\"",
+      "success": true,
+      "recordedAt": "2026-05-31T01:44:55.270Z"
+    },
+    {
+      "command": "Wait for all the items to be visible on the page",
+      "mappedAction": "Execute command 13: On shipping address screen click \"next button\"",
+      "success": true,
+      "recordedAt": "2026-05-31T01:44:55.270Z"
+    },
+    {
+      "command": "Click \"buy once\" checkbox for the first sku",
+      "mappedAction": "Execute command 13: On shipping address screen click \"next button\"",
+      "success": true,
+      "recordedAt": "2026-05-31T01:44:55.270Z"
+    },
+    {
+      "command": "Select Quantity from Qty dropdown",
+      "mappedAction": "Execute command 13: On shipping address screen click \"next button\"",
+      "success": true,
+      "recordedAt": "2026-05-31T01:44:55.270Z"
+    },
+    {
+      "command": "Click Add to Cart",
+      "mappedAction": "Execute command 13: On shipping address screen click \"next button\"",
+      "success": true,
+      "recordedAt": "2026-05-31T01:44:55.270Z"
+    },
+    {
+      "command": "Move to cart and click \"proceed to checkout\" to reach shipping address screen",
+      "mappedAction": "Execute command 13: On shipping address screen click \"next button\"",
+      "success": true,
+      "recordedAt": "2026-05-31T01:44:55.270Z"
+    },
+    {
+      "command": "On shipping address screen click \"next button\"",
+      "mappedAction": "Execute command 13: On shipping address screen click \"next button\"",
+      "success": true,
+      "recordedAt": "2026-05-31T01:44:55.270Z"
+    },
+    {
+      "command": "On payment page choose customer's default address as billing address",
+      "mappedAction": "Execute command 13: On shipping address screen click \"next button\"",
+      "success": true,
+      "recordedAt": "2026-05-31T01:44:55.270Z"
+    },
+    {
+      "command": "Click \"MAKE PAYMENT\"",
+      "mappedAction": "Execute command 13: On shipping address screen click \"next button\"",
+      "success": true,
+      "recordedAt": "2026-05-31T01:44:55.270Z"
+    },
+    {
+      "command": "Go to Login page where you will find Email, Password fields and a login button",
+      "mappedAction": "Execute command 14: Click \"KEEP AS SCHEDULED\" button (<button type=\"button\" id=\"btn-keep-autoship-as-schedule\" class=\"btn-keep-autoship-as-schedule\">Keep as scheduled</button>) inside the popup window which is opened after clicking \"Next\" button to reach payment and billing info page",
+      "success": true,
+      "recordedAt": "2026-05-31T01:45:00.580Z"
+    },
+    {
+      "command": "Enter  email: mdanish+1@folio3.com",
+      "mappedAction": "Execute command 14: Click \"KEEP AS SCHEDULED\" button (<button type=\"button\" id=\"btn-keep-autoship-as-schedule\" class=\"btn-keep-autoship-as-schedule\">Keep as scheduled</button>) inside the popup window which is opened after clicking \"Next\" button to reach payment and billing info page",
+      "success": true,
+      "recordedAt": "2026-05-31T01:45:00.580Z"
+    },
+    {
+      "command": "Enter password: Click@1234",
+      "mappedAction": "Execute command 14: Click \"KEEP AS SCHEDULED\" button (<button type=\"button\" id=\"btn-keep-autoship-as-schedule\" class=\"btn-keep-autoship-as-schedule\">Keep as scheduled</button>) inside the popup window which is opened after clicking \"Next\" button to reach payment and billing info page",
+      "success": true,
+      "recordedAt": "2026-05-31T01:45:00.580Z"
+    },
+    {
+      "command": "Hit Login button",
+      "mappedAction": "Execute command 14: Click \"KEEP AS SCHEDULED\" button (<button type=\"button\" id=\"btn-keep-autoship-as-schedule\" class=\"btn-keep-autoship-as-schedule\">Keep as scheduled</button>) inside the popup window which is opened after clicking \"Next\" button to reach payment and billing info page",
+      "success": true,
+      "recordedAt": "2026-05-31T01:45:00.580Z"
+    },
+    {
+      "command": "Wait for Login and then click Search bar",
+      "mappedAction": "Execute command 14: Click \"KEEP AS SCHEDULED\" button (<button type=\"button\" id=\"btn-keep-autoship-as-schedule\" class=\"btn-keep-autoship-as-schedule\">Keep as scheduled</button>) inside the popup window which is opened after clicking \"Next\" button to reach payment and billing info page",
+      "success": true,
+      "recordedAt": "2026-05-31T01:45:00.580Z"
+    },
+    {
+      "command": "Search for 'powder\"",
+      "mappedAction": "Execute command 14: Click \"KEEP AS SCHEDULED\" button (<button type=\"button\" id=\"btn-keep-autoship-as-schedule\" class=\"btn-keep-autoship-as-schedule\">Keep as scheduled</button>) inside the popup window which is opened after clicking \"Next\" button to reach payment and billing info page",
+      "success": true,
+      "recordedAt": "2026-05-31T01:45:00.580Z"
+    },
+    {
+      "command": "Open first product from the results",
+      "mappedAction": "Execute command 14: Click \"KEEP AS SCHEDULED\" button (<button type=\"button\" id=\"btn-keep-autoship-as-schedule\" class=\"btn-keep-autoship-as-schedule\">Keep as scheduled</button>) inside the popup window which is opened after clicking \"Next\" button to reach payment and billing info page",
+      "success": true,
+      "recordedAt": "2026-05-31T01:45:00.580Z"
+    },
+    {
+      "command": "Wait for all the items to be visible on the page",
+      "mappedAction": "Execute command 14: Click \"KEEP AS SCHEDULED\" button (<button type=\"button\" id=\"btn-keep-autoship-as-schedule\" class=\"btn-keep-autoship-as-schedule\">Keep as scheduled</button>) inside the popup window which is opened after clicking \"Next\" button to reach payment and billing info page",
+      "success": true,
+      "recordedAt": "2026-05-31T01:45:00.580Z"
+    },
+    {
+      "command": "Click \"buy once\" checkbox for the first sku",
+      "mappedAction": "Execute command 14: Click \"KEEP AS SCHEDULED\" button (<button type=\"button\" id=\"btn-keep-autoship-as-schedule\" class=\"btn-keep-autoship-as-schedule\">Keep as scheduled</button>) inside the popup window which is opened after clicking \"Next\" button to reach payment and billing info page",
+      "success": true,
+      "recordedAt": "2026-05-31T01:45:00.580Z"
+    },
+    {
+      "command": "Select Quantity from Qty dropdown",
+      "mappedAction": "Execute command 14: Click \"KEEP AS SCHEDULED\" button (<button type=\"button\" id=\"btn-keep-autoship-as-schedule\" class=\"btn-keep-autoship-as-schedule\">Keep as scheduled</button>) inside the popup window which is opened after clicking \"Next\" button to reach payment and billing info page",
+      "success": true,
+      "recordedAt": "2026-05-31T01:45:00.580Z"
+    },
+    {
+      "command": "Click Add to Cart",
+      "mappedAction": "Execute command 14: Click \"KEEP AS SCHEDULED\" button (<button type=\"button\" id=\"btn-keep-autoship-as-schedule\" class=\"btn-keep-autoship-as-schedule\">Keep as scheduled</button>) inside the popup window which is opened after clicking \"Next\" button to reach payment and billing info page",
+      "success": true,
+      "recordedAt": "2026-05-31T01:45:00.580Z"
+    },
+    {
+      "command": "Move to cart and click \"proceed to checkout\" to reach shipping address screen",
+      "mappedAction": "Execute command 14: Click \"KEEP AS SCHEDULED\" button (<button type=\"button\" id=\"btn-keep-autoship-as-schedule\" class=\"btn-keep-autoship-as-schedule\">Keep as scheduled</button>) inside the popup window which is opened after clicking \"Next\" button to reach payment and billing info page",
+      "success": true,
+      "recordedAt": "2026-05-31T01:45:00.580Z"
+    },
+    {
+      "command": "On shipping address screen click \"next button\"",
+      "mappedAction": "Execute command 14: Click \"KEEP AS SCHEDULED\" button (<button type=\"button\" id=\"btn-keep-autoship-as-schedule\" class=\"btn-keep-autoship-as-schedule\">Keep as scheduled</button>) inside the popup window which is opened after clicking \"Next\" button to reach payment and billing info page",
+      "success": true,
+      "recordedAt": "2026-05-31T01:45:00.580Z"
+    },
+    {
+      "command": "On payment page choose customer's default address as billing address",
+      "mappedAction": "Execute command 14: Click \"KEEP AS SCHEDULED\" button (<button type=\"button\" id=\"btn-keep-autoship-as-schedule\" class=\"btn-keep-autoship-as-schedule\">Keep as scheduled</button>) inside the popup window which is opened after clicking \"Next\" button to reach payment and billing info page",
+      "success": true,
+      "recordedAt": "2026-05-31T01:45:00.580Z"
+    },
+    {
+      "command": "Click \"MAKE PAYMENT\"",
+      "mappedAction": "Execute command 14: Click \"KEEP AS SCHEDULED\" button (<button type=\"button\" id=\"btn-keep-autoship-as-schedule\" class=\"btn-keep-autoship-as-schedule\">Keep as scheduled</button>) inside the popup window which is opened after clicking \"Next\" button to reach payment and billing info page",
+      "success": true,
+      "recordedAt": "2026-05-31T01:45:00.580Z"
+    },
+    {
+      "command": "Go to Login page where you will find Email, Password fields and a login button",
+      "mappedAction": "Execute command 15: On payment page choose customer's default address as billing address",
+      "success": true,
+      "recordedAt": "2026-05-31T01:45:05.847Z"
+    },
+    {
+      "command": "Enter  email: mdanish+1@folio3.com",
+      "mappedAction": "Execute command 15: On payment page choose customer's default address as billing address",
+      "success": true,
+      "recordedAt": "2026-05-31T01:45:05.847Z"
+    },
+    {
+      "command": "Enter password: Click@1234",
+      "mappedAction": "Execute command 15: On payment page choose customer's default address as billing address",
+      "success": true,
+      "recordedAt": "2026-05-31T01:45:05.847Z"
+    },
+    {
+      "command": "Hit Login button",
+      "mappedAction": "Execute command 15: On payment page choose customer's default address as billing address",
+      "success": true,
+      "recordedAt": "2026-05-31T01:45:05.847Z"
+    },
+    {
+      "command": "Wait for Login and then click Search bar",
+      "mappedAction": "Execute command 15: On payment page choose customer's default address as billing address",
+      "success": true,
+      "recordedAt": "2026-05-31T01:45:05.847Z"
+    },
+    {
+      "command": "Search for 'powder\"",
+      "mappedAction": "Execute command 15: On payment page choose customer's default address as billing address",
+      "success": true,
+      "recordedAt": "2026-05-31T01:45:05.847Z"
+    },
+    {
+      "command": "Open first product from the results",
+      "mappedAction": "Execute command 15: On payment page choose customer's default address as billing address",
+      "success": true,
+      "recordedAt": "2026-05-31T01:45:05.847Z"
+    },
+    {
+      "command": "Wait for all the items to be visible on the page",
+      "mappedAction": "Execute command 15: On payment page choose customer's default address as billing address",
+      "success": true,
+      "recordedAt": "2026-05-31T01:45:05.847Z"
+    },
+    {
+      "command": "Click \"buy once\" checkbox for the first sku",
+      "mappedAction": "Execute command 15: On payment page choose customer's default address as billing address",
+      "success": true,
+      "recordedAt": "2026-05-31T01:45:05.847Z"
+    },
+    {
+      "command": "Select Quantity from Qty dropdown",
+      "mappedAction": "Execute command 15: On payment page choose customer's default address as billing address",
+      "success": true,
+      "recordedAt": "2026-05-31T01:45:05.847Z"
+    },
+    {
+      "command": "Click Add to Cart",
+      "mappedAction": "Execute command 15: On payment page choose customer's default address as billing address",
+      "success": true,
+      "recordedAt": "2026-05-31T01:45:05.847Z"
+    },
+    {
+      "command": "Move to cart and click \"proceed to checkout\" to reach shipping address screen",
+      "mappedAction": "Execute command 15: On payment page choose customer's default address as billing address",
+      "success": true,
+      "recordedAt": "2026-05-31T01:45:05.847Z"
+    },
+    {
+      "command": "On shipping address screen click \"next button\"",
+      "mappedAction": "Execute command 15: On payment page choose customer's default address as billing address",
+      "success": true,
+      "recordedAt": "2026-05-31T01:45:05.847Z"
+    },
+    {
+      "command": "On payment page choose customer's default address as billing address",
+      "mappedAction": "Execute command 15: On payment page choose customer's default address as billing address",
+      "success": true,
+      "recordedAt": "2026-05-31T01:45:05.847Z"
+    },
+    {
+      "command": "Click \"MAKE PAYMENT\"",
+      "mappedAction": "Execute command 15: On payment page choose customer's default address as billing address",
+      "success": true,
+      "recordedAt": "2026-05-31T01:45:05.847Z"
+    },
+    {
+      "command": "Go to Login page where you will find Email, Password fields and a login button",
+      "mappedAction": "Execute command 16: Click \"MAKE PAYMENT\"",
+      "success": true,
+      "recordedAt": "2026-05-31T01:45:13.431Z"
+    },
+    {
+      "command": "Enter  email: mdanish+1@folio3.com",
+      "mappedAction": "Execute command 16: Click \"MAKE PAYMENT\"",
+      "success": true,
+      "recordedAt": "2026-05-31T01:45:13.431Z"
+    },
+    {
+      "command": "Enter password: Click@1234",
+      "mappedAction": "Execute command 16: Click \"MAKE PAYMENT\"",
+      "success": true,
+      "recordedAt": "2026-05-31T01:45:13.431Z"
+    },
+    {
+      "command": "Hit Login button",
+      "mappedAction": "Execute command 16: Click \"MAKE PAYMENT\"",
+      "success": true,
+      "recordedAt": "2026-05-31T01:45:13.431Z"
+    },
+    {
+      "command": "Wait for Login and then click Search bar",
+      "mappedAction": "Execute command 16: Click \"MAKE PAYMENT\"",
+      "success": true,
+      "recordedAt": "2026-05-31T01:45:13.431Z"
+    },
+    {
+      "command": "Search for 'powder\"",
+      "mappedAction": "Execute command 16: Click \"MAKE PAYMENT\"",
+      "success": true,
+      "recordedAt": "2026-05-31T01:45:13.431Z"
+    },
+    {
+      "command": "Open first product from the results",
+      "mappedAction": "Execute command 16: Click \"MAKE PAYMENT\"",
+      "success": true,
+      "recordedAt": "2026-05-31T01:45:13.431Z"
+    },
+    {
+      "command": "Wait for all the items to be visible on the page",
+      "mappedAction": "Execute command 16: Click \"MAKE PAYMENT\"",
+      "success": true,
+      "recordedAt": "2026-05-31T01:45:13.431Z"
+    },
+    {
+      "command": "Click \"buy once\" checkbox for the first sku",
+      "mappedAction": "Execute command 16: Click \"MAKE PAYMENT\"",
+      "success": true,
+      "recordedAt": "2026-05-31T01:45:13.431Z"
+    },
+    {
+      "command": "Select Quantity from Qty dropdown",
+      "mappedAction": "Execute command 16: Click \"MAKE PAYMENT\"",
+      "success": true,
+      "recordedAt": "2026-05-31T01:45:13.431Z"
+    },
+    {
+      "command": "Click Add to Cart",
+      "mappedAction": "Execute command 16: Click \"MAKE PAYMENT\"",
+      "success": true,
+      "recordedAt": "2026-05-31T01:45:13.431Z"
+    },
+    {
+      "command": "Move to cart and click \"proceed to checkout\" to reach shipping address screen",
+      "mappedAction": "Execute command 16: Click \"MAKE PAYMENT\"",
+      "success": true,
+      "recordedAt": "2026-05-31T01:45:13.431Z"
+    },
+    {
+      "command": "On shipping address screen click \"next button\"",
+      "mappedAction": "Execute command 16: Click \"MAKE PAYMENT\"",
+      "success": true,
+      "recordedAt": "2026-05-31T01:45:13.431Z"
+    },
+    {
+      "command": "On payment page choose customer's default address as billing address",
+      "mappedAction": "Execute command 16: Click \"MAKE PAYMENT\"",
+      "success": true,
+      "recordedAt": "2026-05-31T01:45:13.431Z"
+    },
+    {
+      "command": "Click \"MAKE PAYMENT\"",
+      "mappedAction": "Execute command 16: Click \"MAKE PAYMENT\"",
+      "success": true,
+      "recordedAt": "2026-05-31T01:45:13.431Z"
+    },
+    {
+      "command": "Login:",
+      "mappedAction": "Execute command 1: Login:",
+      "success": true,
+      "recordedAt": "2026-05-31T12:35:42.912Z"
+    },
+    {
+      "command": "mdanish+1@folio3.com",
+      "mappedAction": "Execute command 1: Login:",
+      "success": true,
+      "recordedAt": "2026-05-31T12:35:42.912Z"
+    },
+    {
+      "command": "Login:",
+      "mappedAction": "Execute command 2: mdanish+1@folio3.com",
+      "success": false,
+      "recordedAt": "2026-05-31T12:35:49.046Z"
+    },
+    {
+      "command": "mdanish+1@folio3.com",
+      "mappedAction": "Execute command 2: mdanish+1@folio3.com",
+      "success": false,
+      "recordedAt": "2026-05-31T12:35:49.046Z"
+    },
+    {
+      "command": "Login:",
+      "mappedAction": "Login flow works as expected",
+      "success": true,
+      "recordedAt": "2026-05-31T12:35:59.092Z"
+    },
+    {
+      "command": "mdanish+1@folio3.com",
+      "mappedAction": "Login flow works as expected",
+      "success": true,
+      "recordedAt": "2026-05-31T12:35:59.092Z"
+    },
+    {
+      "command": "Login:",
+      "mappedAction": "Signup flow works as expected",
+      "success": true,
+      "recordedAt": "2026-05-31T12:36:03.189Z"
+    },
+    {
+      "command": "mdanish+1@folio3.com",
+      "mappedAction": "Signup flow works as expected",
+      "success": true,
+      "recordedAt": "2026-05-31T12:36:03.189Z"
+    },
+    {
+      "command": "mdanish+1@folio3.com",
+      "mappedAction": "Execute command 1: mdanish+1@folio3.com",
+      "success": false,
+      "recordedAt": "2026-05-31T12:45:58.354Z"
+    },
+    {
+      "command": "mdanish+1@folio3.com",
+      "mappedAction": "Login flow works as expected",
+      "success": true,
+      "recordedAt": "2026-05-31T12:46:11.968Z"
+    },
+    {
+      "command": "mdanish+1@folio3.com",
+      "mappedAction": "Signup flow works as expected",
+      "success": true,
+      "recordedAt": "2026-05-31T12:46:20.664Z"
+    },
+    {
+      "command": "mdanish+1@folio3.com",
+      "mappedAction": "Forgot Password flow works as expected",
+      "success": true,
+      "recordedAt": "2026-05-31T12:46:24.685Z"
+    },
+    {
+      "command": "mdanish+1@folio3.com",
+      "mappedAction": "Product Listing behavior is correct",
+      "success": true,
+      "recordedAt": "2026-05-31T12:46:44.272Z"
+    },
+    {
+      "command": "mdanish+1@folio3.com",
+      "mappedAction": "Search behavior is correct",
+      "success": true,
+      "recordedAt": "2026-05-31T12:46:58.684Z"
+    },
+    {
+      "command": "mdanish+1@folio3.com",
+      "mappedAction": "Categories behavior is correct",
+      "success": true,
+      "recordedAt": "2026-05-31T12:47:12.798Z"
+    },
+    {
+      "command": "mdanish+1@folio3.com",
+      "mappedAction": "Add to cart behavior on product detail page",
+      "success": true,
+      "recordedAt": "2026-05-31T12:47:35.064Z"
+    },
+    {
+      "command": "mdanish+1@folio3.com",
+      "mappedAction": "Child SKU selection behavior on product detail page",
+      "success": true,
+      "recordedAt": "2026-05-31T12:47:52.215Z"
+    },
+    {
+      "command": "mdanish+1@folio3.com",
+      "mappedAction": "Inventory behavior on product detail page",
+      "success": true,
+      "recordedAt": "2026-05-31T12:47:58.682Z"
+    },
+    {
+      "command": "mdanish+1@folio3.com",
+      "mappedAction": "Product image behavior on product detail page",
+      "success": true,
+      "recordedAt": "2026-05-31T12:48:01.423Z"
+    },
+    {
+      "command": "mdanish+1@folio3.com",
+      "mappedAction": "Quantity behavior on product detail page",
+      "success": true,
+      "recordedAt": "2026-05-31T12:48:04.890Z"
+    },
+    {
+      "command": "mdanish+1@folio3.com",
+      "mappedAction": "Add item works from cart workflow",
+      "success": true,
+      "recordedAt": "2026-05-31T12:48:14.698Z"
+    },
+    {
+      "command": "mdanish+1@folio3.com",
+      "mappedAction": "Coupon if available works from cart workflow",
+      "success": true,
+      "recordedAt": "2026-05-31T12:48:15.421Z"
+    },
+    {
+      "command": "mdanish+1@folio3.com",
+      "mappedAction": "Remove item works from cart workflow",
+      "success": false,
+      "recordedAt": "2026-05-31T12:48:17.265Z"
+    },
+    {
+      "command": "mdanish+1@folio3.com",
+      "mappedAction": "Update quantity works from cart workflow",
+      "success": true,
+      "recordedAt": "2026-05-31T12:48:17.947Z"
+    },
+    {
+      "command": "mdanish+1@folio3.com",
+      "mappedAction": "Address step validates correctly",
+      "success": false,
+      "recordedAt": "2026-05-31T12:50:26.749Z"
+    },
+    {
+      "command": "Login:",
+      "mappedAction": "Execute command 1: Login:",
+      "success": true,
+      "recordedAt": "2026-05-31T14:24:09.453Z"
+    },
+    {
+      "command": "Login:",
+      "mappedAction": "Forgot Password flow works as expected",
+      "success": true,
+      "recordedAt": "2026-05-31T14:24:14.411Z"
+    },
+    {
+      "command": "Login:",
+      "mappedAction": "Product Listing behavior is correct",
+      "success": true,
+      "recordedAt": "2026-05-31T14:24:31.074Z"
+    },
+    {
+      "command": "Login:",
+      "mappedAction": "Search behavior is correct",
+      "success": true,
+      "recordedAt": "2026-05-31T14:24:45.088Z"
+    },
+    {
+      "command": "Login:",
+      "mappedAction": "Categories behavior is correct",
+      "success": true,
+      "recordedAt": "2026-05-31T14:24:49.007Z"
+    },
+    {
+      "command": "Login:",
+      "mappedAction": "Filters behavior is correct",
+      "success": false,
+      "recordedAt": "2026-05-31T14:25:25.159Z"
+    },
+    {
+      "command": "Login:",
+      "mappedAction": "Pagination behavior is correct",
+      "success": false,
+      "recordedAt": "2026-05-31T14:30:47.987Z"
+    },
+    {
+      "command": "Login:",
+      "mappedAction": "Add to cart behavior on product detail page",
+      "success": true,
+      "recordedAt": "2026-05-31T14:31:17.135Z"
+    },
+    {
+      "command": "Login:",
+      "mappedAction": "Child SKU selection behavior on product detail page",
+      "success": true,
+      "recordedAt": "2026-05-31T14:31:35.638Z"
+    },
+    {
+      "command": "Login:",
+      "mappedAction": "Inventory behavior on product detail page",
+      "success": true,
+      "recordedAt": "2026-05-31T14:31:42.818Z"
+    },
+    {
+      "command": "Login:",
+      "mappedAction": "Product image behavior on product detail page",
+      "success": true,
+      "recordedAt": "2026-05-31T14:31:46.444Z"
+    },
+    {
+      "command": "Login:",
+      "mappedAction": "Quantity behavior on product detail page",
+      "success": true,
+      "recordedAt": "2026-05-31T14:31:50.929Z"
+    },
+    {
+      "command": "Login:",
+      "mappedAction": "Add item works from cart workflow",
+      "success": true,
+      "recordedAt": "2026-05-31T14:32:02.070Z"
+    },
+    {
+      "command": "Login:",
+      "mappedAction": "Coupon if available works from cart workflow",
+      "success": true,
+      "recordedAt": "2026-05-31T14:32:09.166Z"
+    },
+    {
+      "command": "Login:",
+      "mappedAction": "Remove item works from cart workflow",
+      "success": false,
+      "recordedAt": "2026-05-31T14:36:57.273Z"
+    },
+    {
+      "command": "Login:",
+      "mappedAction": "Update quantity works from cart workflow",
+      "success": false,
+      "recordedAt": "2026-05-31T14:42:06.609Z"
+    },
+    {
+      "command": "Login:",
+      "mappedAction": "Execute command 1: Login:",
+      "success": true,
+      "recordedAt": "2026-05-31T14:52:48.624Z"
+    },
+    {
+      "command": "Login:",
+      "mappedAction": "Forgot Password flow works as expected",
+      "success": true,
+      "recordedAt": "2026-05-31T14:52:53.491Z"
+    },
+    {
+      "command": "Login:",
+      "mappedAction": "Product Listing behavior is correct",
+      "success": true,
+      "recordedAt": "2026-05-31T14:53:10.323Z"
+    },
+    {
+      "command": "Login:",
+      "mappedAction": "Search behavior is correct",
+      "success": true,
+      "recordedAt": "2026-05-31T14:53:24.163Z"
+    },
+    {
+      "command": "Login:",
+      "mappedAction": "Categories behavior is correct",
+      "success": true,
+      "recordedAt": "2026-05-31T14:53:28.015Z"
+    },
+    {
+      "command": "Login:",
+      "mappedAction": "Filters behavior is correct",
+      "success": false,
+      "recordedAt": "2026-05-31T14:54:07.225Z"
+    },
+    {
+      "command": "Login:",
+      "mappedAction": "Pagination behavior is correct",
+      "success": false,
+      "recordedAt": "2026-05-31T14:55:38.063Z"
+    },
+    {
+      "command": "Login:",
+      "mappedAction": "Add to cart behavior on product detail page",
+      "success": false,
+      "recordedAt": "2026-05-31T14:56:57.891Z"
+    },
+    {
+      "command": "Login:",
+      "mappedAction": "Child SKU selection behavior on product detail page",
+      "success": true,
+      "recordedAt": "2026-05-31T14:57:19.672Z"
+    },
+    {
+      "command": "Login:",
+      "mappedAction": "Inventory behavior on product detail page",
+      "success": true,
+      "recordedAt": "2026-05-31T14:57:23.380Z"
+    },
+    {
+      "command": "Login:",
+      "mappedAction": "Product image behavior on product detail page",
+      "success": true,
+      "recordedAt": "2026-05-31T14:57:26.902Z"
+    },
+    {
+      "command": "Login:",
+      "mappedAction": "Quantity behavior on product detail page",
+      "success": true,
+      "recordedAt": "2026-05-31T14:57:32.066Z"
+    },
+    {
+      "command": "Login:",
+      "mappedAction": "Add item works from cart workflow",
+      "success": true,
+      "recordedAt": "2026-05-31T14:58:05.680Z"
+    },
+    {
+      "command": "Login:",
+      "mappedAction": "Coupon if available works from cart workflow",
+      "success": true,
+      "recordedAt": "2026-05-31T14:58:06.514Z"
+    },
+    {
+      "command": "Login:",
+      "mappedAction": "Remove item works from cart workflow",
+      "success": false,
+      "recordedAt": "2026-05-31T14:58:22.916Z"
+    },
+    {
+      "command": "Login:",
+      "mappedAction": "Update quantity works from cart workflow",
+      "success": false,
+      "recordedAt": "2026-05-31T14:58:26.654Z"
+    },
+    {
+      "command": "Login:",
+      "mappedAction": "Address step validates correctly",
+      "success": false,
+      "recordedAt": "2026-05-31T15:00:58.352Z"
+    },
+    {
+      "command": "Login:",
+      "mappedAction": "Shipping step validates correctly",
+      "success": false,
+      "recordedAt": "2026-05-31T15:02:16.749Z"
+    },
+    {
+      "command": "Login:",
+      "mappedAction": "Billing step validates correctly",
+      "success": false,
+      "recordedAt": "2026-05-31T15:02:16.887Z"
+    },
+    {
+      "command": "Login:",
+      "mappedAction": "Payment step validates correctly",
+      "success": false,
+      "recordedAt": "2026-05-31T15:02:16.983Z"
+    },
+    {
+      "command": "Login:",
+      "mappedAction": "Review step validates correctly",
+      "success": false,
+      "recordedAt": "2026-05-31T15:02:17.049Z"
+    },
+    {
+      "command": "Login:",
+      "mappedAction": "Orders section behaves as expected",
+      "success": false,
+      "recordedAt": "2026-05-31T15:02:17.104Z"
+    },
+    {
+      "command": "Login:",
+      "mappedAction": "Profile section behaves as expected",
+      "success": false,
+      "recordedAt": "2026-05-31T15:02:17.150Z"
+    },
+    {
+      "command": "login:",
+      "mappedAction": "Execute command 1: login:",
+      "success": true,
+      "recordedAt": "2026-05-31T15:05:53.597Z"
+    },
+    {
+      "command": "login:",
+      "mappedAction": "Forgot Password flow works as expected",
+      "success": true,
+      "recordedAt": "2026-05-31T15:05:58.213Z"
+    },
+    {
+      "command": "login:",
+      "mappedAction": "Product Listing behavior is correct",
+      "success": true,
+      "recordedAt": "2026-05-31T15:06:16.011Z"
+    },
+    {
+      "command": "login:",
+      "mappedAction": "Search behavior is correct",
+      "success": true,
+      "recordedAt": "2026-05-31T15:06:29.644Z"
+    },
+    {
+      "command": "login:",
+      "mappedAction": "Categories behavior is correct",
+      "success": true,
+      "recordedAt": "2026-05-31T15:06:33.267Z"
+    },
+    {
+      "command": "login:",
+      "mappedAction": "Filters behavior is correct",
+      "success": false,
+      "recordedAt": "2026-05-31T15:07:11.035Z"
+    },
+    {
+      "command": "login:",
+      "mappedAction": "Pagination behavior is correct",
+      "success": false,
+      "recordedAt": "2026-05-31T15:07:34.985Z"
+    },
+    {
+      "command": "login:",
+      "mappedAction": "Add to cart behavior on product detail page",
+      "success": false,
+      "recordedAt": "2026-05-31T15:08:53.390Z"
+    },
+    {
+      "command": "login:",
+      "mappedAction": "Child SKU selection behavior on product detail page",
+      "success": true,
+      "recordedAt": "2026-05-31T15:09:22.518Z"
+    },
+    {
+      "command": "login:",
+      "mappedAction": "Inventory behavior on product detail page",
+      "success": true,
+      "recordedAt": "2026-05-31T15:09:26.272Z"
+    },
+    {
+      "command": "login:",
+      "mappedAction": "Product image behavior on product detail page",
+      "success": true,
+      "recordedAt": "2026-05-31T15:09:30.178Z"
+    },
+    {
+      "command": "login:",
+      "mappedAction": "Quantity behavior on product detail page",
+      "success": true,
+      "recordedAt": "2026-05-31T15:09:34.719Z"
+    },
+    {
+      "command": "login:",
+      "mappedAction": "Add item works from cart workflow",
+      "success": true,
+      "recordedAt": "2026-05-31T15:10:07.052Z"
+    },
+    {
+      "command": "login:",
+      "mappedAction": "Coupon if available works from cart workflow",
+      "success": true,
+      "recordedAt": "2026-05-31T15:10:07.976Z"
+    },
+    {
+      "command": "login:",
+      "mappedAction": "Remove item works from cart workflow",
+      "success": false,
+      "recordedAt": "2026-05-31T15:10:24.830Z"
+    },
+    {
+      "command": "login:",
+      "mappedAction": "Update quantity works from cart workflow",
+      "success": false,
+      "recordedAt": "2026-05-31T15:10:28.034Z"
+    },
+    {
+      "command": "login:",
+      "mappedAction": "Address step validates correctly",
+      "success": false,
+      "recordedAt": "2026-05-31T15:13:04.544Z"
+    },
+    {
+      "command": "login:",
+      "mappedAction": "Shipping step validates correctly",
+      "success": false,
+      "recordedAt": "2026-05-31T15:15:47.842Z"
+    }
+  ]
+}

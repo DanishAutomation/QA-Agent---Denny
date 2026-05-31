@@ -1,0 +1,355 @@
+{
+  "runId": "run-1780190250613",
+  "startedAt": "2026-05-31T01:17:31.857Z",
+  "completedAt": "2026-05-31T01:17:35.068Z",
+  "durationMs": 3211,
+  "passed": 0,
+  "failed": 3,
+  "skipped": 0,
+  "reportPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780190250613\\result.json",
+  "scenarios": [
+    {
+      "scenarioId": "scenario-1",
+      "feature": "Responsive",
+      "scenario": "Responsive layout remains stable across breakpoints",
+      "status": "failed",
+      "errorReason": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://uaat2.purelifedental.com/\nCall log:\n  - navigating to \"https://uaat2.purelifedental.com/\", waiting until \"domcontentloaded\"\n",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780190250613\\screenshots\\scenario-1-Desktop-failure.png"
+      ],
+      "consoleErrors": [],
+      "networkErrors": [
+        "[FAILED] https://uaat2.purelifedental.com/ :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://uaat2.purelifedental.com/ :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://uaat2.purelifedental.com/ :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://uaat2.purelifedental.com/ :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://uaat2.purelifedental.com/ :: net::ERR_NAME_NOT_RESOLVED"
+      ],
+      "pageUrl": "https://uaat2.purelifedental.com/",
+      "timestamp": "2026-05-31T01:17:32.635Z",
+      "durationMs": 717,
+      "selfHealing": {
+        "attempted": true,
+        "recovered": false,
+        "attempts": 2,
+        "strategyLogs": [
+          "Attempt 1: Root error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://uaat2.purelifedental.com/\nCall log:\n  - navigating to \"https://uaat2.purelifedental.com/\", waiting until \"domcontentloaded\"\n",
+          "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 1: Strategy 2: no blocking overlays detected.",
+          "Attempt 1: Strategy 3 failed: page reload did not stabilize.",
+          "Attempt 1: Strategy 4 failed: base URL recovery navigation failed.",
+          "Attempt 2: Root error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://uaat2.purelifedental.com/\nCall log:\n  - navigating to \"https://uaat2.purelifedental.com/\", waiting until \"domcontentloaded\"\n",
+          "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 2: Strategy 2: no blocking overlays detected.",
+          "Attempt 2: Strategy 3 failed: page reload did not stabilize.",
+          "Attempt 2: Strategy 4 failed: base URL recovery navigation failed."
+        ]
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-2",
+      "feature": "Accessibility",
+      "scenario": "Accessibility risk checks run on key templates",
+      "status": "failed",
+      "errorReason": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://uaat2.purelifedental.com/\nCall log:\n  - navigating to \"https://uaat2.purelifedental.com/\", waiting until \"domcontentloaded\"\n",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780190250613\\screenshots\\scenario-2-Desktop-failure.png"
+      ],
+      "consoleErrors": [],
+      "networkErrors": [
+        "[FAILED] https://uaat2.purelifedental.com/ :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://uaat2.purelifedental.com/ :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://uaat2.purelifedental.com/ :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://uaat2.purelifedental.com/ :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://uaat2.purelifedental.com/ :: net::ERR_NAME_NOT_RESOLVED"
+      ],
+      "pageUrl": "https://uaat2.purelifedental.com/",
+      "timestamp": "2026-05-31T01:17:33.358Z",
+      "durationMs": 349,
+      "selfHealing": {
+        "attempted": true,
+        "recovered": false,
+        "attempts": 2,
+        "strategyLogs": [
+          "Attempt 1: Root error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://uaat2.purelifedental.com/\nCall log:\n  - navigating to \"https://uaat2.purelifedental.com/\", waiting until \"domcontentloaded\"\n",
+          "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 1: Strategy 2: no blocking overlays detected.",
+          "Attempt 1: Strategy 3 failed: page reload did not stabilize.",
+          "Attempt 1: Strategy 4 failed: base URL recovery navigation failed.",
+          "Attempt 2: Root error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://uaat2.purelifedental.com/\nCall log:\n  - navigating to \"https://uaat2.purelifedental.com/\", waiting until \"domcontentloaded\"\n",
+          "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 2: Strategy 2: no blocking overlays detected.",
+          "Attempt 2: Strategy 3 failed: page reload did not stabilize.",
+          "Attempt 2: Strategy 4 failed: base URL recovery navigation failed."
+        ]
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-3",
+      "feature": "Navigation",
+      "scenario": "Primary navigation routes resolve correctly",
+      "status": "failed",
+      "errorReason": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://uaat2.purelifedental.com/\nCall log:\n  - navigating to \"https://uaat2.purelifedental.com/\", waiting until \"domcontentloaded\"\n",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780190250613\\screenshots\\scenario-3-Desktop-failure.png"
+      ],
+      "consoleErrors": [],
+      "networkErrors": [
+        "[FAILED] https://uaat2.purelifedental.com/ :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://uaat2.purelifedental.com/ :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://uaat2.purelifedental.com/ :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://uaat2.purelifedental.com/ :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://uaat2.purelifedental.com/ :: net::ERR_NAME_NOT_RESOLVED"
+      ],
+      "pageUrl": "https://uaat2.purelifedental.com/",
+      "timestamp": "2026-05-31T01:17:33.710Z",
+      "durationMs": 368,
+      "selfHealing": {
+        "attempted": true,
+        "recovered": false,
+        "attempts": 2,
+        "strategyLogs": [
+          "Attempt 1: Root error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://uaat2.purelifedental.com/\nCall log:\n  - navigating to \"https://uaat2.purelifedental.com/\", waiting until \"domcontentloaded\"\n",
+          "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 1: Strategy 2: no blocking overlays detected.",
+          "Attempt 1: Strategy 3 failed: page reload did not stabilize.",
+          "Attempt 1: Strategy 4 failed: base URL recovery navigation failed.",
+          "Attempt 2: Root error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://uaat2.purelifedental.com/\nCall log:\n  - navigating to \"https://uaat2.purelifedental.com/\", waiting until \"domcontentloaded\"\n",
+          "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 2: Strategy 2: no blocking overlays detected.",
+          "Attempt 2: Strategy 3 failed: page reload did not stabilize.",
+          "Attempt 2: Strategy 4 failed: base URL recovery navigation failed."
+        ]
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    }
+  ],
+  "bugReports": [
+    {
+      "summary": "Responsive: page.goto: net::ERR_NAME_NOT_RESOLVED at https://uaat2.purelifedental...",
+      "description": "While testing \"Responsive layout remains stable across breakpoints\" on https://uaat2.purelifedental.com/, the run failed because page.goto: net::ERR_NAME_NOT_RESOLVED at https://uaat2.purelifedental.com/\nCall log:\n  - navigating to \"https://uaat2.purelifedental.com/\", waiting until \"domcontentloaded\" Additional signals: Network: [FAILED] https://uaat2.purelifedental.com/ :: net::ERR_NAME_NOT_RESOLVED; Network: [FAILED] https://uaat2.purelifedental.com/ :: net::ERR_NAME_NOT_RESOLVED.",
+      "stepsToReproduce": [
+        "Open https://uaat2.purelifedental.com/",
+        "Run check: Responsive — Responsive layout remains stable across breakpoints",
+        "Observe failure signal in console, network, layout, or form behavior."
+      ],
+      "expectedResult": "Layout, CTAs, and navigation should remain usable across mobile, tablet, and desktop viewports.",
+      "actualResult": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://uaat2.purelifedental.com/\nCall log:\n  - navigating to \"https://uaat2.purelifedental.com/\", waiting until \"domcontentloaded\"",
+      "screenshot": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780190250613\\screenshots\\scenario-1-Desktop-failure.png",
+      "suggestedFix": "Adjust responsive CSS/breakpoints so CTAs stay visible and layouts do not break on affected viewports.",
+      "severity": "Medium",
+      "priority": "P2",
+      "confidenceScore": 94,
+      "businessImpact": "Quality issues on public pages can increase bounce rate and support load.",
+      "userImpact": "Mobile and tablet users may miss CTAs or see broken layouts on key pages.",
+      "revenueImpact": "Indirect impact possible depending on page traffic and funnel position.",
+      "recoveryAttempts": [
+        "Attempt 1: Root error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://uaat2.purelifedental.com/\nCall log:\n  - navigating to \"https://uaat2.purelifedental.com/\", waiting until \"domcontentloaded\"\n",
+        "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+        "Attempt 1: Strategy 2: no blocking overlays detected.",
+        "Attempt 1: Strategy 3 failed: page reload did not stabilize.",
+        "Attempt 1: Strategy 4 failed: base URL recovery navigation failed.",
+        "Attempt 2: Root error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://uaat2.purelifedental.com/\nCall log:\n  - navigating to \"https://uaat2.purelifedental.com/\", waiting until \"domcontentloaded\"\n",
+        "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+        "Attempt 2: Strategy 2: no blocking overlays detected.",
+        "Attempt 2: Strategy 3 failed: page reload did not stabilize.",
+        "Attempt 2: Strategy 4 failed: base URL recovery navigation failed."
+      ],
+      "rootCauseAnalysis": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://uaat2.purelifedental.com/\nCall log:\n  - navigating to \"https://uaat2.purelifedental.com/\", waiting until \"domcontentloaded\"\n Network: [FAILED] https://uaat2.purelifedental.com/ :: net::ERR_NAME_NOT_RESOLVED Network: [FAILED] https://uaat2.purelifedental.com/ :: net::ERR_NAME_NOT_RESOLVED",
+      "technicalDetails": {
+        "errorReason": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://uaat2.purelifedental.com/\nCall log:\n  - navigating to \"https://uaat2.purelifedental.com/\", waiting until \"domcontentloaded\"\n",
+        "consoleErrors": [],
+        "networkErrors": [
+          "[FAILED] https://uaat2.purelifedental.com/ :: net::ERR_NAME_NOT_RESOLVED",
+          "[FAILED] https://uaat2.purelifedental.com/ :: net::ERR_NAME_NOT_RESOLVED",
+          "[FAILED] https://uaat2.purelifedental.com/ :: net::ERR_NAME_NOT_RESOLVED",
+          "[FAILED] https://uaat2.purelifedental.com/ :: net::ERR_NAME_NOT_RESOLVED",
+          "[FAILED] https://uaat2.purelifedental.com/ :: net::ERR_NAME_NOT_RESOLVED"
+        ],
+        "pageUrl": "https://uaat2.purelifedental.com/",
+        "timestamp": "2026-05-31T01:17:32.635Z",
+        "selfHealing": {
+          "attempted": true,
+          "recovered": false,
+          "attempts": 2,
+          "strategyLogs": [
+            "Attempt 1: Root error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://uaat2.purelifedental.com/\nCall log:\n  - navigating to \"https://uaat2.purelifedental.com/\", waiting until \"domcontentloaded\"\n",
+            "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+            "Attempt 1: Strategy 2: no blocking overlays detected.",
+            "Attempt 1: Strategy 3 failed: page reload did not stabilize.",
+            "Attempt 1: Strategy 4 failed: base URL recovery navigation failed.",
+            "Attempt 2: Root error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://uaat2.purelifedental.com/\nCall log:\n  - navigating to \"https://uaat2.purelifedental.com/\", waiting until \"domcontentloaded\"\n",
+            "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+            "Attempt 2: Strategy 2: no blocking overlays detected.",
+            "Attempt 2: Strategy 3 failed: page reload did not stabilize.",
+            "Attempt 2: Strategy 4 failed: base URL recovery navigation failed."
+          ]
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [],
+          "retryResult": "not-needed",
+          "investigationFindings": []
+        }
+      }
+    },
+    {
+      "summary": "Accessibility: page.goto: net::ERR_NAME_NOT_RESOLVED at https://uaat2.purelifedental...",
+      "description": "While testing \"Accessibility risk checks run on key templates\" on https://uaat2.purelifedental.com/, the run failed because page.goto: net::ERR_NAME_NOT_RESOLVED at https://uaat2.purelifedental.com/\nCall log:\n  - navigating to \"https://uaat2.purelifedental.com/\", waiting until \"domcontentloaded\" Additional signals: Network: [FAILED] https://uaat2.purelifedental.com/ :: net::ERR_NAME_NOT_RESOLVED; Network: [FAILED] https://uaat2.purelifedental.com/ :: net::ERR_NAME_NOT_RESOLVED.",
+      "stepsToReproduce": [
+        "Open https://uaat2.purelifedental.com/",
+        "Run check: Accessibility — Accessibility risk checks run on key templates",
+        "Observe failure signal in console, network, layout, or form behavior."
+      ],
+      "expectedResult": "Key templates should not expose high-severity accessibility risks (labels, focus, contrast).",
+      "actualResult": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://uaat2.purelifedental.com/\nCall log:\n  - navigating to \"https://uaat2.purelifedental.com/\", waiting until \"domcontentloaded\"",
+      "screenshot": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780190250613\\screenshots\\scenario-2-Desktop-failure.png",
+      "suggestedFix": "Fix template markup: add labels/ARIA, restore visible focus outlines, and provide alt text where missing.",
+      "severity": "Medium",
+      "priority": "P2",
+      "confidenceScore": 94,
+      "businessImpact": "Quality issues on public pages can increase bounce rate and support load.",
+      "userImpact": "Keyboard and screen-reader users may be unable to complete tasks on affected templates.",
+      "revenueImpact": "Indirect impact possible depending on page traffic and funnel position.",
+      "recoveryAttempts": [
+        "Attempt 1: Root error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://uaat2.purelifedental.com/\nCall log:\n  - navigating to \"https://uaat2.purelifedental.com/\", waiting until \"domcontentloaded\"\n",
+        "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+        "Attempt 1: Strategy 2: no blocking overlays detected.",
+        "Attempt 1: Strategy 3 failed: page reload did not stabilize.",
+        "Attempt 1: Strategy 4 failed: base URL recovery navigation failed.",
+        "Attempt 2: Root error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://uaat2.purelifedental.com/\nCall log:\n  - navigating to \"https://uaat2.purelifedental.com/\", waiting until \"domcontentloaded\"\n",
+        "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+        "Attempt 2: Strategy 2: no blocking overlays detected.",
+        "Attempt 2: Strategy 3 failed: page reload did not stabilize.",
+        "Attempt 2: Strategy 4 failed: base URL recovery navigation failed."
+      ],
+      "rootCauseAnalysis": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://uaat2.purelifedental.com/\nCall log:\n  - navigating to \"https://uaat2.purelifedental.com/\", waiting until \"domcontentloaded\"\n Network: [FAILED] https://uaat2.purelifedental.com/ :: net::ERR_NAME_NOT_RESOLVED Network: [FAILED] https://uaat2.purelifedental.com/ :: net::ERR_NAME_NOT_RESOLVED",
+      "technicalDetails": {
+        "errorReason": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://uaat2.purelifedental.com/\nCall log:\n  - navigating to \"https://uaat2.purelifedental.com/\", waiting until \"domcontentloaded\"\n",
+        "consoleErrors": [],
+        "networkErrors": [
+          "[FAILED] https://uaat2.purelifedental.com/ :: net::ERR_NAME_NOT_RESOLVED",
+          "[FAILED] https://uaat2.purelifedental.com/ :: net::ERR_NAME_NOT_RESOLVED",
+          "[FAILED] https://uaat2.purelifedental.com/ :: net::ERR_NAME_NOT_RESOLVED",
+          "[FAILED] https://uaat2.purelifedental.com/ :: net::ERR_NAME_NOT_RESOLVED",
+          "[FAILED] https://uaat2.purelifedental.com/ :: net::ERR_NAME_NOT_RESOLVED"
+        ],
+        "pageUrl": "https://uaat2.purelifedental.com/",
+        "timestamp": "2026-05-31T01:17:33.358Z",
+        "selfHealing": {
+          "attempted": true,
+          "recovered": false,
+          "attempts": 2,
+          "strategyLogs": [
+            "Attempt 1: Root error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://uaat2.purelifedental.com/\nCall log:\n  - navigating to \"https://uaat2.purelifedental.com/\", waiting until \"domcontentloaded\"\n",
+            "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+            "Attempt 1: Strategy 2: no blocking overlays detected.",
+            "Attempt 1: Strategy 3 failed: page reload did not stabilize.",
+            "Attempt 1: Strategy 4 failed: base URL recovery navigation failed.",
+            "Attempt 2: Root error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://uaat2.purelifedental.com/\nCall log:\n  - navigating to \"https://uaat2.purelifedental.com/\", waiting until \"domcontentloaded\"\n",
+            "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+            "Attempt 2: Strategy 2: no blocking overlays detected.",
+            "Attempt 2: Strategy 3 failed: page reload did not stabilize.",
+            "Attempt 2: Strategy 4 failed: base URL recovery navigation failed."
+          ]
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [],
+          "retryResult": "not-needed",
+          "investigationFindings": []
+        }
+      }
+    },
+    {
+      "summary": "Navigation: page.goto: net::ERR_NAME_NOT_RESOLVED at https://uaat2.purelifedental...",
+      "description": "While testing \"Primary navigation routes resolve correctly\" on https://uaat2.purelifedental.com/, the run failed because page.goto: net::ERR_NAME_NOT_RESOLVED at https://uaat2.purelifedental.com/\nCall log:\n  - navigating to \"https://uaat2.purelifedental.com/\", waiting until \"domcontentloaded\" Additional signals: Network: [FAILED] https://uaat2.purelifedental.com/ :: net::ERR_NAME_NOT_RESOLVED; Network: [FAILED] https://uaat2.purelifedental.com/ :: net::ERR_NAME_NOT_RESOLVED.",
+      "stepsToReproduce": [
+        "Open https://uaat2.purelifedental.com/",
+        "Run check: Navigation — Primary navigation routes resolve correctly",
+        "Observe failure signal in console, network, layout, or form behavior."
+      ],
+      "expectedResult": "Primary navigation routes should load expected content without errors.",
+      "actualResult": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://uaat2.purelifedental.com/\nCall log:\n  - navigating to \"https://uaat2.purelifedental.com/\", waiting until \"domcontentloaded\"",
+      "screenshot": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780190250613\\screenshots\\scenario-3-Desktop-failure.png",
+      "suggestedFix": "Investigate failing same-origin network requests and stabilize the API or asset endpoints.",
+      "severity": "Medium",
+      "priority": "P2",
+      "confidenceScore": 94,
+      "businessImpact": "Quality issues on public pages can increase bounce rate and support load.",
+      "userImpact": "Users on https://uaat2.purelifedental.com/ may hit the defect while attempting: Primary navigation routes resolve correctly.",
+      "revenueImpact": "Indirect impact possible depending on page traffic and funnel position.",
+      "recoveryAttempts": [
+        "Attempt 1: Root error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://uaat2.purelifedental.com/\nCall log:\n  - navigating to \"https://uaat2.purelifedental.com/\", waiting until \"domcontentloaded\"\n",
+        "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+        "Attempt 1: Strategy 2: no blocking overlays detected.",
+        "Attempt 1: Strategy 3 failed: page reload did not stabilize.",
+        "Attempt 1: Strategy 4 failed: base URL recovery navigation failed.",
+        "Attempt 2: Root error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://uaat2.purelifedental.com/\nCall log:\n  - navigating to \"https://uaat2.purelifedental.com/\", waiting until \"domcontentloaded\"\n",
+        "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+        "Attempt 2: Strategy 2: no blocking overlays detected.",
+        "Attempt 2: Strategy 3 failed: page reload did not stabilize.",
+        "Attempt 2: Strategy 4 failed: base URL recovery navigation failed."
+      ],
+      "rootCauseAnalysis": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://uaat2.purelifedental.com/\nCall log:\n  - navigating to \"https://uaat2.purelifedental.com/\", waiting until \"domcontentloaded\"\n Network: [FAILED] https://uaat2.purelifedental.com/ :: net::ERR_NAME_NOT_RESOLVED Network: [FAILED] https://uaat2.purelifedental.com/ :: net::ERR_NAME_NOT_RESOLVED",
+      "technicalDetails": {
+        "errorReason": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://uaat2.purelifedental.com/\nCall log:\n  - navigating to \"https://uaat2.purelifedental.com/\", waiting until \"domcontentloaded\"\n",
+        "consoleErrors": [],
+        "networkErrors": [
+          "[FAILED] https://uaat2.purelifedental.com/ :: net::ERR_NAME_NOT_RESOLVED",
+          "[FAILED] https://uaat2.purelifedental.com/ :: net::ERR_NAME_NOT_RESOLVED",
+          "[FAILED] https://uaat2.purelifedental.com/ :: net::ERR_NAME_NOT_RESOLVED",
+          "[FAILED] https://uaat2.purelifedental.com/ :: net::ERR_NAME_NOT_RESOLVED",
+          "[FAILED] https://uaat2.purelifedental.com/ :: net::ERR_NAME_NOT_RESOLVED"
+        ],
+        "pageUrl": "https://uaat2.purelifedental.com/",
+        "timestamp": "2026-05-31T01:17:33.710Z",
+        "selfHealing": {
+          "attempted": true,
+          "recovered": false,
+          "attempts": 2,
+          "strategyLogs": [
+            "Attempt 1: Root error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://uaat2.purelifedental.com/\nCall log:\n  - navigating to \"https://uaat2.purelifedental.com/\", waiting until \"domcontentloaded\"\n",
+            "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+            "Attempt 1: Strategy 2: no blocking overlays detected.",
+            "Attempt 1: Strategy 3 failed: page reload did not stabilize.",
+            "Attempt 1: Strategy 4 failed: base URL recovery navigation failed.",
+            "Attempt 2: Root error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://uaat2.purelifedental.com/\nCall log:\n  - navigating to \"https://uaat2.purelifedental.com/\", waiting until \"domcontentloaded\"\n",
+            "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+            "Attempt 2: Strategy 2: no blocking overlays detected.",
+            "Attempt 2: Strategy 3 failed: page reload did not stabilize.",
+            "Attempt 2: Strategy 4 failed: base URL recovery navigation failed."
+          ]
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [],
+          "retryResult": "not-needed",
+          "investigationFindings": []
+        }
+      }
+    }
+  ],
+  "productionReportPaths": {
+    "html": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780190250613\\client-report.html",
+    "json": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780190250613\\client-report.json",
+    "markdown": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780190250613\\summary.md"
+  }
+}

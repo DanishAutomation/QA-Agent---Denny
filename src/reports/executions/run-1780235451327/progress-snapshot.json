@@ -1,0 +1,183 @@
+{
+  "runId": "run-1780235451327",
+  "status": "running",
+  "orchestrationState": "BUG_ANALYSIS",
+  "currentPhase": "Post-Run Analysis",
+  "totalGeneratedTestCases": 23,
+  "currentExecutingTestCaseNumber": 23,
+  "currentTestCaseTitle": "Post-run checks: responsive, links, forms, accessibility",
+  "currentUrl": "https://uat2.purelifedental.com/",
+  "browser": "Chrome",
+  "device": "Desktop",
+  "progressPercentage": 90,
+  "passCount": 4,
+  "failCount": 3,
+  "skippedCount": 0,
+  "liveLogs": [
+    "[6:50:51 pm] Run queued (run-1780235451327)",
+    "[6:50:51 pm] Discovery started for https://uat2.purelifedental.com/",
+    "[6:50:51 pm] Using cached discovery for https://uat2.purelifedental.com (20 pages, 800 links).",
+    "[6:50:51 pm] Discovery classified as Ecommerce (ecommerce suite). 20 pages, 101 forms.",
+    "[6:50:51 pm] Generated 30 scenarios (23 executable, 7 skipped).",
+    "[6:50:51 pm] Starting Playwright scenario execution.",
+    "[6:50:52 pm] Launching browser contexts.",
+    "[6:50:52 pm] Executing scenario 1/23: Login flow works as expected",
+    "[6:51:36 pm] Scenario completed: Login flow works as expected (failed)",
+    "[6:51:36 pm] Executing scenario 2/23: Forgot Password flow works as expected",
+    "[6:51:40 pm] Scenario completed: Forgot Password flow works as expected (passed)",
+    "[6:51:40 pm] Executing scenario 3/23: Product Listing behavior is correct",
+    "[6:51:52 pm] Scenario completed: Product Listing behavior is correct (passed)",
+    "[6:51:52 pm] Executing scenario 4/23: Search behavior is correct",
+    "[6:52:01 pm] Scenario completed: Search behavior is correct (passed)",
+    "[6:52:01 pm] Executing scenario 5/23: Categories behavior is correct",
+    "[6:52:04 pm] Scenario completed: Categories behavior is correct (passed)",
+    "[6:52:04 pm] Executing scenario 6/23: Filters behavior is correct",
+    "[6:52:32 pm] Scenario completed: Filters behavior is correct (failed)",
+    "[6:52:32 pm] Executing scenario 7/23: Pagination behavior is correct",
+    "[6:55:41 pm] Execution stopped by user.",
+    "[6:57:58 pm] Scenario completed: Pagination behavior is correct (failed)",
+    "[6:57:58 pm] Execution stopped by user.",
+    "[6:57:58 pm] Skipped after stop: Add to cart behavior on product detail page",
+    "[6:57:58 pm] Skipped after stop: Child SKU selection behavior on product detail page",
+    "[6:57:58 pm] Skipped after stop: Inventory behavior on product detail page",
+    "[6:57:58 pm] Skipped after stop: Product image behavior on product detail page",
+    "[6:57:58 pm] Skipped after stop: Quantity behavior on product detail page",
+    "[6:57:58 pm] Skipped after stop: Add item works from cart workflow",
+    "[6:57:58 pm] Skipped after stop: Coupon if available works from cart workflow",
+    "[6:57:58 pm] Skipped after stop: Remove item works from cart workflow",
+    "[6:57:58 pm] Skipped after stop: Update quantity works from cart workflow",
+    "[6:57:58 pm] Skipped after stop: Address step validates correctly",
+    "[6:57:58 pm] Skipped after stop: Shipping step validates correctly",
+    "[6:57:58 pm] Skipped after stop: Billing step validates correctly",
+    "[6:57:58 pm] Skipped after stop: Payment step validates correctly",
+    "[6:57:58 pm] Skipped after stop: Review step validates correctly",
+    "[6:57:58 pm] Skipped after stop: Orders section behaves as expected",
+    "[6:57:58 pm] Skipped after stop: Profile section behaves as expected",
+    "[6:57:58 pm] Running post-execution analysis checks (responsive/broken links/forms/accessibility)."
+  ],
+  "testCases": [
+    {
+      "id": "scenario-1",
+      "title": "Login flow works as expected",
+      "status": "failed"
+    },
+    {
+      "id": "scenario-2",
+      "title": "Forgot Password flow works as expected",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-3",
+      "title": "Product Listing behavior is correct",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-4",
+      "title": "Search behavior is correct",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-5",
+      "title": "Categories behavior is correct",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-6",
+      "title": "Filters behavior is correct",
+      "status": "failed"
+    },
+    {
+      "id": "scenario-7",
+      "title": "Pagination behavior is correct",
+      "status": "failed"
+    },
+    {
+      "id": "scenario-8",
+      "title": "Add to cart behavior on product detail page",
+      "status": "skipped"
+    },
+    {
+      "id": "scenario-9",
+      "title": "Child SKU selection behavior on product detail page",
+      "status": "skipped"
+    },
+    {
+      "id": "scenario-10",
+      "title": "Inventory behavior on product detail page",
+      "status": "skipped"
+    },
+    {
+      "id": "scenario-11",
+      "title": "Product image behavior on product detail page",
+      "status": "skipped"
+    },
+    {
+      "id": "scenario-12",
+      "title": "Quantity behavior on product detail page",
+      "status": "skipped"
+    },
+    {
+      "id": "scenario-13",
+      "title": "Add item works from cart workflow",
+      "status": "skipped"
+    },
+    {
+      "id": "scenario-14",
+      "title": "Coupon if available works from cart workflow",
+      "status": "skipped"
+    },
+    {
+      "id": "scenario-15",
+      "title": "Remove item works from cart workflow",
+      "status": "skipped"
+    },
+    {
+      "id": "scenario-16",
+      "title": "Update quantity works from cart workflow",
+      "status": "skipped"
+    },
+    {
+      "id": "scenario-17",
+      "title": "Address step validates correctly",
+      "status": "skipped"
+    },
+    {
+      "id": "scenario-18",
+      "title": "Shipping step validates correctly",
+      "status": "skipped"
+    },
+    {
+      "id": "scenario-19",
+      "title": "Billing step validates correctly",
+      "status": "skipped"
+    },
+    {
+      "id": "scenario-20",
+      "title": "Payment step validates correctly",
+      "status": "skipped"
+    },
+    {
+      "id": "scenario-21",
+      "title": "Review step validates correctly",
+      "status": "skipped"
+    },
+    {
+      "id": "scenario-22",
+      "title": "Orders section behaves as expected",
+      "status": "skipped"
+    },
+    {
+      "id": "scenario-23",
+      "title": "Profile section behaves as expected",
+      "status": "skipped"
+    }
+  ],
+  "updatedAt": "2026-05-31T13:57:58.272Z",
+  "log": "Running post-execution analysis checks (responsive/broken links/forms/accessibility).",
+  "testCaseUpdate": {
+    "id": "scenario-23",
+    "title": "Profile section behaves as expected",
+    "status": "skipped"
+  },
+  "error": "Execution stopped by user."
+}

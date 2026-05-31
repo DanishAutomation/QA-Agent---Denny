@@ -1,0 +1,101 @@
+{
+  "executiveSummary": {
+    "runId": "audit-full-regression-1780102554",
+    "environment": "development",
+    "url": "https://example.com",
+    "testType": "Full Regression",
+    "browser": "Chrome",
+    "devices": [
+      "Desktop"
+    ],
+    "totalCases": 3,
+    "passed": 1,
+    "failed": 0,
+    "skipped": 2,
+    "bugsFound": 0,
+    "confidenceScore": 96
+  },
+  "rootCauseAnalysis": [
+    "No major root-cause signals detected in this run."
+  ],
+  "recoveryAttempts": [
+    "No recovery attempts were required."
+  ],
+  "aiAssumptions": [
+    "Execution assertions rely on generated BDD scenario intent and detected capabilities.",
+    "Fallback test data may be used for missing non-sensitive fields where configured.",
+    "Sensitive/destructive operations are skipped unless safe test mode is explicitly enabled.",
+    "Browser/device matrix reflects configured run values: Chrome / Desktop."
+  ],
+  "screenshots": [
+    {
+      "scenarioId": "opt-1",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\audit-full-regression-1780102554\\screenshots\\opt-1-Desktop-landing.png"
+    }
+  ],
+  "bugs": [],
+  "technicalLogs": [
+    {
+      "scenarioId": "opt-1",
+      "feature": "Navigation",
+      "scenario": "Primary navigation routes resolve correctly",
+      "status": "passed",
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "networkErrors": [],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed"
+      }
+    },
+    {
+      "scenarioId": "opt-2",
+      "feature": "Static Pages",
+      "scenario": "Static informational pages load and render expected sections",
+      "status": "skipped",
+      "errorReason": "No static pages detected.",
+      "consoleErrors": [],
+      "networkErrors": [],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed"
+      }
+    },
+    {
+      "scenarioId": "opt-3",
+      "feature": "Contact Form",
+      "scenario": "Contact form can be submitted with valid data",
+      "status": "skipped",
+      "errorReason": "Contact form capability not detected.",
+      "consoleErrors": [],
+      "networkErrors": [],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed"
+      }
+    }
+  ],
+  "generatedAt": "2026-05-30T00:56:05.053Z"
+}

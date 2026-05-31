@@ -1,0 +1,84 @@
+{
+  "runId": "run-1780186545666",
+  "status": "running",
+  "orchestrationState": "BUG_ANALYSIS",
+  "currentPhase": "Post-Run Analysis",
+  "totalGeneratedTestCases": 7,
+  "currentExecutingTestCaseNumber": 7,
+  "currentTestCaseTitle": "Post-run checks: responsive, links, forms, accessibility",
+  "currentUrl": "https://ecommerce.folio3.com/industry/fashion-ecommerce/",
+  "browser": "Chrome",
+  "device": "Desktop",
+  "progressPercentage": 90,
+  "passCount": 7,
+  "failCount": 0,
+  "skippedCount": 0,
+  "liveLogs": [
+    "[5:15:45 am] Run queued (run-1780186545666)",
+    "[5:15:45 am] Discovery started for https://ecommerce.folio3.com/",
+    "[5:15:45 am] Using cached discovery for https://ecommerce.folio3.com (20 pages, 80 links).",
+    "[5:15:45 am] Discovery classified as Corporate (static suite). 20 pages, 2 forms.",
+    "[5:15:45 am] Generated 10 scenarios (7 executable, 3 skipped).",
+    "[5:15:45 am] Starting Playwright scenario execution.",
+    "[5:15:46 am] Launching browser contexts.",
+    "[5:15:46 am] Executing scenario 1/7: Contact form can be submitted with valid data",
+    "[5:15:52 am] Scenario completed: Contact form can be submitted with valid data (passed)",
+    "[5:15:52 am] Executing scenario 2/7: Discovered forms validate required fields safely",
+    "[5:15:55 am] Scenario completed: Discovered forms validate required fields safely (passed)",
+    "[5:15:55 am] Executing scenario 3/7: Site links return healthy HTTP responses",
+    "[5:16:01 am] Scenario completed: Site links return healthy HTTP responses (passed)",
+    "[5:16:01 am] Executing scenario 4/7: Responsive layout remains stable across breakpoints",
+    "[5:16:08 am] Scenario completed: Responsive layout remains stable across breakpoints (passed)",
+    "[5:16:08 am] Executing scenario 5/7: Accessibility risk checks run on key templates",
+    "[5:16:13 am] Scenario completed: Accessibility risk checks run on key templates (passed)",
+    "[5:16:13 am] Executing scenario 6/7: Primary navigation routes resolve correctly",
+    "[5:16:17 am] Scenario completed: Primary navigation routes resolve correctly (passed)",
+    "[5:16:17 am] Executing scenario 7/7: Static informational pages load and render expected sections",
+    "[5:16:19 am] Scenario completed: Static informational pages load and render expected sections (passed)",
+    "[5:16:19 am] Running post-execution analysis checks (responsive/broken links/forms/accessibility)."
+  ],
+  "testCases": [
+    {
+      "id": "scenario-1",
+      "title": "Contact form can be submitted with valid data",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-2",
+      "title": "Discovered forms validate required fields safely",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-3",
+      "title": "Site links return healthy HTTP responses",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-4",
+      "title": "Responsive layout remains stable across breakpoints",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-5",
+      "title": "Accessibility risk checks run on key templates",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-6",
+      "title": "Primary navigation routes resolve correctly",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-7",
+      "title": "Static informational pages load and render expected sections",
+      "status": "passed"
+    }
+  ],
+  "updatedAt": "2026-05-31T00:16:19.853Z",
+  "log": "Running post-execution analysis checks (responsive/broken links/forms/accessibility).",
+  "testCaseUpdate": {
+    "id": "scenario-7",
+    "title": "Static informational pages load and render expected sections",
+    "status": "passed"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "runId": "run-1780146538023",
+  "status": "completed",
+  "orchestrationState": "COMPLETE",
+  "currentPhase": "Reporting",
+  "totalGeneratedTestCases": 1,
+  "currentExecutingTestCaseNumber": 1,
+  "currentTestCaseTitle": "Execution completed",
+  "currentUrl": "https://example.com/",
+  "browser": "Chrome",
+  "device": "Desktop",
+  "progressPercentage": 100,
+  "passCount": 1,
+  "failCount": 0,
+  "skippedCount": 0,
+  "liveLogs": [
+    "[6:08:58 pm] Run queued (run-1780146538023)",
+    "[6:08:58 pm] Discovery started for https://example.com",
+    "[6:08:58 pm] Discovery completed: 1 pages, 0 forms.",
+    "[6:08:58 pm] Generated 3 scenarios (1 executable, 2 skipped).",
+    "[6:08:58 pm] Launching browser contexts.",
+    "[6:08:58 pm] Executing scenario 1/1: Primary navigation routes resolve correctly",
+    "[6:08:59 pm] Scenario completed: Primary navigation routes resolve correctly (passed)",
+    "[6:08:59 pm] Execution reports generated.",
+    "[6:08:59 pm] Run completed and reports generated."
+  ],
+  "testCases": [
+    {
+      "id": "scenario-1",
+      "title": "Primary navigation routes resolve correctly",
+      "status": "passed"
+    }
+  ],
+  "updatedAt": "2026-05-30T13:08:59.760Z",
+  "log": "Run completed and reports generated.",
+  "result": {
+    "runId": "run-1780146538023",
+    "startedAt": "2026-05-30T13:08:58.029Z",
+    "completedAt": "2026-05-30T13:08:59.751Z",
+    "durationMs": 1722,
+    "passed": 1,
+    "failed": 0,
+    "skipped": 0,
+    "reportPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780146538023\\result.json",
+    "scenarios": [
+      {
+        "scenarioId": "scenario-1",
+        "feature": "Navigation",
+        "scenario": "Primary navigation routes resolve correctly",
+        "status": "passed",
+        "screenshots": [],
+        "consoleErrors": [
+          "Failed to load resource: the server responded with a status of 404 ()"
+        ],
+        "networkErrors": [],
+        "pageUrl": "https://example.com/",
+        "timestamp": "2026-05-30T13:08:58.283Z",
+        "durationMs": 1338,
+        "selfHealing": {
+          "attempted": false,
+          "recovered": false,
+          "attempts": 0,
+          "strategyLogs": []
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [],
+          "retryResult": "not-needed",
+          "investigationFindings": []
+        }
+      }
+    ],
+    "bugReports": [],
+    "productionReportPaths": {
+      "html": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780146538023\\client-report.html",
+      "json": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780146538023\\client-report.json",
+      "markdown": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780146538023\\summary.md"
+    }
+  }
+}

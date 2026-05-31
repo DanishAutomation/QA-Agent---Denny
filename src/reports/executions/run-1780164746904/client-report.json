@@ -1,0 +1,302 @@
+{
+  "executiveSummary": {
+    "runId": "run-1780164746904",
+    "environment": "development",
+    "url": "https://ecommerce.folio3.com",
+    "testType": "Full Regression",
+    "browser": "Chrome",
+    "devices": [
+      "Desktop"
+    ],
+    "totalCases": 7,
+    "passed": 7,
+    "failed": 0,
+    "skipped": 0,
+    "bugsFound": 0,
+    "confidenceScore": 96
+  },
+  "rootCauseAnalysis": [
+    "No major root-cause signals detected in this run."
+  ],
+  "recoveryAttempts": [
+    "No recovery attempts were required."
+  ],
+  "aiAssumptions": [
+    "Execution assertions rely on generated BDD scenario intent and detected capabilities.",
+    "Fallback test data may be used for missing non-sensitive fields where configured.",
+    "Sensitive/destructive operations are skipped unless safe test mode is explicitly enabled.",
+    "Browser/device matrix reflects configured run values: Chrome / Desktop."
+  ],
+  "screenshots": [
+    {
+      "scenarioId": "scenario-1",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780164746904\\screenshots\\scenario-1-Desktop-landing.png"
+    },
+    {
+      "scenarioId": "scenario-2",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780164746904\\screenshots\\scenario-2-Desktop-landing.png"
+    },
+    {
+      "scenarioId": "scenario-3",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780164746904\\screenshots\\scenario-3-Desktop-landing.png"
+    },
+    {
+      "scenarioId": "scenario-4",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780164746904\\screenshots\\scenario-4-Desktop-landing.png"
+    },
+    {
+      "scenarioId": "scenario-5",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780164746904\\screenshots\\scenario-5-Desktop-landing.png"
+    },
+    {
+      "scenarioId": "scenario-6",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780164746904\\screenshots\\scenario-6-Desktop-landing.png"
+    },
+    {
+      "scenarioId": "scenario-7",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780164746904\\screenshots\\scenario-7-Desktop-landing.png"
+    }
+  ],
+  "bugs": [],
+  "technicalLogs": [
+    {
+      "scenarioId": "scenario-1",
+      "feature": "Contact Form",
+      "scenario": "Contact form can be submitted with valid data",
+      "status": "passed",
+      "consoleErrors": [
+        "intlTelInput is not loaded.",
+        "intlTelInput is not loaded.",
+        "intlTelInput is not loaded.",
+        "intlTelInput is not loaded.",
+        "intlTelInput is not loaded.",
+        "intlTelInput is not loaded.",
+        "intlTelInput is not loaded."
+      ],
+      "networkErrors": [
+        "[FAILED] https://www.google.com/ccm/collect?rcb=18&frm=0&ae=g&auid=1677502460.1780164935&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&en=page_view&dl=https%3A%2F%2Fecommerce.folio3.com%2F&scrsrc=www.googletagmanager.com&rnd=663979535.1780164935&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He65r2v892838296za200zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~118228215~119034493&apve=1&apvf=f&apvc=1&tft=1780164935177&tfd=41865 :: net::ERR_ABORTED",
+        "[FAILED] https://aplo-evnt.com/api/v1/intent_pixel/track_request?app_id=66332be360794d04382686aa :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/rmkt/collect/11470352680/?random=1780164935741&cv=11&fst=1780164935741&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&u_w=1440&u_h=900&url=https%3A%2F%2Fecommerce.folio3.com%2F&rcb=17&frm=0&tiba=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1677502460.1780164935&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&gcp=5 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/rmkt/collect/11470352680/?random=1780164935763&cv=11&fst=1780164935763&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&u_w=1440&u_h=900&url=https%3A%2F%2Fecommerce.folio3.com%2F&rcb=17&frm=0&tiba=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1677502460.1780164935&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&gcp=5 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/ccm/collect?rcb=17&frm=0&auid=1677502460.1780164935&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&en=page_view&dl=https%3A%2F%2Fecommerce.folio3.com%2F&scrsrc=www.googletagmanager.com&rnd=663979535.1780164935&navt=n&npa=0&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&apve=1&apvf=f&apvc=0&tids=AW-11470352680&tid=AW-11470352680&tft=1780164935769&tfd=42457 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/ccm/collect?rcb=17&frm=0&ae=g&auid=1677502460.1780164935&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&dl=https%3A%2F%2Fecommerce.folio3.com%2F&scrsrc=www.googletagmanager.com&rnd=663979535.1780164935&navt=n&npa=0&_tu=CA&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&apve=1&apvf=f&apvc=0&tids=AW-11470352680&tid=AW-11470352680&tft=1780164935770&tfd=42458 :: net::ERR_ABORTED",
+        "[FAILED] https://s3-us-west-2.amazonaws.com/b2bjsstore/b/Q6J2RHY8K96D/Q6J2RHY8K96D.js.gz :: net::ERR_BLOCKED_BY_ORB",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-DCLMD8MZ7Y&gtm=45je65r2v889965682z8892838296za20gzb892838296zd892838296&_p=1780164934376&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EAAAAGAC&are=1&cid=1000081320.1780164936&frm=0&ir=1&pscdl=noapi&rcb=15&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115616985~115938465~115938468~118128923~119027222~119034493&sid=1780164935&sct=1&seg=0&dl=https%3A%2F%2Fecommerce.folio3.com%2F&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&en=page_view&_fv=1&_nsi=1&_ss=1&gap.plf=5&tfd=42559 :: net::ERR_ABORTED"
+      ],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-2",
+      "feature": "Forms",
+      "scenario": "Discovered forms validate required fields safely",
+      "status": "passed",
+      "consoleErrors": [
+        "intlTelInput is not loaded.",
+        "intlTelInput is not loaded.",
+        "intlTelInput is not loaded.",
+        "intlTelInput is not loaded.",
+        "intlTelInput is not loaded.",
+        "intlTelInput is not loaded."
+      ],
+      "networkErrors": [
+        "[FAILED] https://www.google.com/ccm/collect?rcb=18&frm=0&ae=g&auid=1677502460.1780164935&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&en=page_view&dl=https%3A%2F%2Fecommerce.folio3.com%2F&scrsrc=www.googletagmanager.com&rnd=663979535.1780164935&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He65r2v892838296za200zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~118228215~119034493&apve=1&apvf=f&apvc=1&tft=1780164935177&tfd=41865 :: net::ERR_ABORTED",
+        "[FAILED] https://aplo-evnt.com/api/v1/intent_pixel/track_request?app_id=66332be360794d04382686aa :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/rmkt/collect/11470352680/?random=1780164935741&cv=11&fst=1780164935741&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&u_w=1440&u_h=900&url=https%3A%2F%2Fecommerce.folio3.com%2F&rcb=17&frm=0&tiba=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1677502460.1780164935&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&gcp=5 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/rmkt/collect/11470352680/?random=1780164935763&cv=11&fst=1780164935763&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&u_w=1440&u_h=900&url=https%3A%2F%2Fecommerce.folio3.com%2F&rcb=17&frm=0&tiba=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1677502460.1780164935&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&gcp=5 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/ccm/collect?rcb=17&frm=0&auid=1677502460.1780164935&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&en=page_view&dl=https%3A%2F%2Fecommerce.folio3.com%2F&scrsrc=www.googletagmanager.com&rnd=663979535.1780164935&navt=n&npa=0&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&apve=1&apvf=f&apvc=0&tids=AW-11470352680&tid=AW-11470352680&tft=1780164935769&tfd=42457 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/ccm/collect?rcb=17&frm=0&ae=g&auid=1677502460.1780164935&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&dl=https%3A%2F%2Fecommerce.folio3.com%2F&scrsrc=www.googletagmanager.com&rnd=663979535.1780164935&navt=n&npa=0&_tu=CA&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&apve=1&apvf=f&apvc=0&tids=AW-11470352680&tid=AW-11470352680&tft=1780164935770&tfd=42458 :: net::ERR_ABORTED",
+        "[FAILED] https://s3-us-west-2.amazonaws.com/b2bjsstore/b/Q6J2RHY8K96D/Q6J2RHY8K96D.js.gz :: net::ERR_BLOCKED_BY_ORB",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-DCLMD8MZ7Y&gtm=45je65r2v889965682z8892838296za20gzb892838296zd892838296&_p=1780164934376&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EAAAAGAC&are=1&cid=1000081320.1780164936&frm=0&ir=1&pscdl=noapi&rcb=15&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115616985~115938465~115938468~118128923~119027222~119034493&sid=1780164935&sct=1&seg=0&dl=https%3A%2F%2Fecommerce.folio3.com%2F&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&en=page_view&_fv=1&_nsi=1&_ss=1&gap.plf=5&tfd=42559 :: net::ERR_ABORTED"
+      ],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-3",
+      "feature": "Broken Link",
+      "scenario": "Site links return healthy HTTP responses",
+      "status": "passed",
+      "consoleErrors": [
+        "intlTelInput is not loaded.",
+        "intlTelInput is not loaded.",
+        "intlTelInput is not loaded.",
+        "intlTelInput is not loaded.",
+        "intlTelInput is not loaded."
+      ],
+      "networkErrors": [
+        "[FAILED] https://www.google.com/ccm/collect?rcb=18&frm=0&ae=g&auid=1677502460.1780164935&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&en=page_view&dl=https%3A%2F%2Fecommerce.folio3.com%2F&scrsrc=www.googletagmanager.com&rnd=663979535.1780164935&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He65r2v892838296za200zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~118228215~119034493&apve=1&apvf=f&apvc=1&tft=1780164935177&tfd=41865 :: net::ERR_ABORTED",
+        "[FAILED] https://aplo-evnt.com/api/v1/intent_pixel/track_request?app_id=66332be360794d04382686aa :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/rmkt/collect/11470352680/?random=1780164935741&cv=11&fst=1780164935741&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&u_w=1440&u_h=900&url=https%3A%2F%2Fecommerce.folio3.com%2F&rcb=17&frm=0&tiba=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1677502460.1780164935&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&gcp=5 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/rmkt/collect/11470352680/?random=1780164935763&cv=11&fst=1780164935763&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&u_w=1440&u_h=900&url=https%3A%2F%2Fecommerce.folio3.com%2F&rcb=17&frm=0&tiba=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1677502460.1780164935&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&gcp=5 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/ccm/collect?rcb=17&frm=0&auid=1677502460.1780164935&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&en=page_view&dl=https%3A%2F%2Fecommerce.folio3.com%2F&scrsrc=www.googletagmanager.com&rnd=663979535.1780164935&navt=n&npa=0&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&apve=1&apvf=f&apvc=0&tids=AW-11470352680&tid=AW-11470352680&tft=1780164935769&tfd=42457 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/ccm/collect?rcb=17&frm=0&ae=g&auid=1677502460.1780164935&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&dl=https%3A%2F%2Fecommerce.folio3.com%2F&scrsrc=www.googletagmanager.com&rnd=663979535.1780164935&navt=n&npa=0&_tu=CA&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&apve=1&apvf=f&apvc=0&tids=AW-11470352680&tid=AW-11470352680&tft=1780164935770&tfd=42458 :: net::ERR_ABORTED",
+        "[FAILED] https://s3-us-west-2.amazonaws.com/b2bjsstore/b/Q6J2RHY8K96D/Q6J2RHY8K96D.js.gz :: net::ERR_BLOCKED_BY_ORB",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-DCLMD8MZ7Y&gtm=45je65r2v889965682z8892838296za20gzb892838296zd892838296&_p=1780164934376&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EAAAAGAC&are=1&cid=1000081320.1780164936&frm=0&ir=1&pscdl=noapi&rcb=15&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115616985~115938465~115938468~118128923~119027222~119034493&sid=1780164935&sct=1&seg=0&dl=https%3A%2F%2Fecommerce.folio3.com%2F&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&en=page_view&_fv=1&_nsi=1&_ss=1&gap.plf=5&tfd=42559 :: net::ERR_ABORTED"
+      ],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-4",
+      "feature": "Responsive",
+      "scenario": "Responsive layout remains stable across breakpoints",
+      "status": "passed",
+      "consoleErrors": [
+        "intlTelInput is not loaded.",
+        "intlTelInput is not loaded.",
+        "intlTelInput is not loaded.",
+        "intlTelInput is not loaded."
+      ],
+      "networkErrors": [
+        "[FAILED] https://www.google.com/ccm/collect?rcb=18&frm=0&ae=g&auid=1677502460.1780164935&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&en=page_view&dl=https%3A%2F%2Fecommerce.folio3.com%2F&scrsrc=www.googletagmanager.com&rnd=663979535.1780164935&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He65r2v892838296za200zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~118228215~119034493&apve=1&apvf=f&apvc=1&tft=1780164935177&tfd=41865 :: net::ERR_ABORTED",
+        "[FAILED] https://aplo-evnt.com/api/v1/intent_pixel/track_request?app_id=66332be360794d04382686aa :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/rmkt/collect/11470352680/?random=1780164935741&cv=11&fst=1780164935741&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&u_w=1440&u_h=900&url=https%3A%2F%2Fecommerce.folio3.com%2F&rcb=17&frm=0&tiba=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1677502460.1780164935&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&gcp=5 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/rmkt/collect/11470352680/?random=1780164935763&cv=11&fst=1780164935763&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&u_w=1440&u_h=900&url=https%3A%2F%2Fecommerce.folio3.com%2F&rcb=17&frm=0&tiba=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1677502460.1780164935&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&gcp=5 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/ccm/collect?rcb=17&frm=0&auid=1677502460.1780164935&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&en=page_view&dl=https%3A%2F%2Fecommerce.folio3.com%2F&scrsrc=www.googletagmanager.com&rnd=663979535.1780164935&navt=n&npa=0&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&apve=1&apvf=f&apvc=0&tids=AW-11470352680&tid=AW-11470352680&tft=1780164935769&tfd=42457 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/ccm/collect?rcb=17&frm=0&ae=g&auid=1677502460.1780164935&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&dl=https%3A%2F%2Fecommerce.folio3.com%2F&scrsrc=www.googletagmanager.com&rnd=663979535.1780164935&navt=n&npa=0&_tu=CA&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&apve=1&apvf=f&apvc=0&tids=AW-11470352680&tid=AW-11470352680&tft=1780164935770&tfd=42458 :: net::ERR_ABORTED",
+        "[FAILED] https://s3-us-west-2.amazonaws.com/b2bjsstore/b/Q6J2RHY8K96D/Q6J2RHY8K96D.js.gz :: net::ERR_BLOCKED_BY_ORB",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-DCLMD8MZ7Y&gtm=45je65r2v889965682z8892838296za20gzb892838296zd892838296&_p=1780164934376&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EAAAAGAC&are=1&cid=1000081320.1780164936&frm=0&ir=1&pscdl=noapi&rcb=15&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115616985~115938465~115938468~118128923~119027222~119034493&sid=1780164935&sct=1&seg=0&dl=https%3A%2F%2Fecommerce.folio3.com%2F&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&en=page_view&_fv=1&_nsi=1&_ss=1&gap.plf=5&tfd=42559 :: net::ERR_ABORTED"
+      ],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-5",
+      "feature": "Accessibility",
+      "scenario": "Accessibility risk checks run on key templates",
+      "status": "passed",
+      "consoleErrors": [
+        "intlTelInput is not loaded.",
+        "intlTelInput is not loaded.",
+        "intlTelInput is not loaded."
+      ],
+      "networkErrors": [
+        "[FAILED] https://www.google.com/ccm/collect?rcb=18&frm=0&ae=g&auid=1677502460.1780164935&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&en=page_view&dl=https%3A%2F%2Fecommerce.folio3.com%2F&scrsrc=www.googletagmanager.com&rnd=663979535.1780164935&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He65r2v892838296za200zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~118228215~119034493&apve=1&apvf=f&apvc=1&tft=1780164935177&tfd=41865 :: net::ERR_ABORTED",
+        "[FAILED] https://aplo-evnt.com/api/v1/intent_pixel/track_request?app_id=66332be360794d04382686aa :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/rmkt/collect/11470352680/?random=1780164935741&cv=11&fst=1780164935741&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&u_w=1440&u_h=900&url=https%3A%2F%2Fecommerce.folio3.com%2F&rcb=17&frm=0&tiba=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1677502460.1780164935&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&gcp=5 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/rmkt/collect/11470352680/?random=1780164935763&cv=11&fst=1780164935763&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&u_w=1440&u_h=900&url=https%3A%2F%2Fecommerce.folio3.com%2F&rcb=17&frm=0&tiba=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1677502460.1780164935&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&gcp=5 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/ccm/collect?rcb=17&frm=0&auid=1677502460.1780164935&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&en=page_view&dl=https%3A%2F%2Fecommerce.folio3.com%2F&scrsrc=www.googletagmanager.com&rnd=663979535.1780164935&navt=n&npa=0&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&apve=1&apvf=f&apvc=0&tids=AW-11470352680&tid=AW-11470352680&tft=1780164935769&tfd=42457 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/ccm/collect?rcb=17&frm=0&ae=g&auid=1677502460.1780164935&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&dl=https%3A%2F%2Fecommerce.folio3.com%2F&scrsrc=www.googletagmanager.com&rnd=663979535.1780164935&navt=n&npa=0&_tu=CA&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&apve=1&apvf=f&apvc=0&tids=AW-11470352680&tid=AW-11470352680&tft=1780164935770&tfd=42458 :: net::ERR_ABORTED",
+        "[FAILED] https://s3-us-west-2.amazonaws.com/b2bjsstore/b/Q6J2RHY8K96D/Q6J2RHY8K96D.js.gz :: net::ERR_BLOCKED_BY_ORB",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-DCLMD8MZ7Y&gtm=45je65r2v889965682z8892838296za20gzb892838296zd892838296&_p=1780164934376&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EAAAAGAC&are=1&cid=1000081320.1780164936&frm=0&ir=1&pscdl=noapi&rcb=15&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115616985~115938465~115938468~118128923~119027222~119034493&sid=1780164935&sct=1&seg=0&dl=https%3A%2F%2Fecommerce.folio3.com%2F&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&en=page_view&_fv=1&_nsi=1&_ss=1&gap.plf=5&tfd=42559 :: net::ERR_ABORTED"
+      ],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-6",
+      "feature": "Navigation",
+      "scenario": "Primary navigation routes resolve correctly",
+      "status": "passed",
+      "consoleErrors": [
+        "intlTelInput is not loaded.",
+        "intlTelInput is not loaded."
+      ],
+      "networkErrors": [
+        "[FAILED] https://www.google.com/ccm/collect?rcb=18&frm=0&ae=g&auid=1677502460.1780164935&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&en=page_view&dl=https%3A%2F%2Fecommerce.folio3.com%2F&scrsrc=www.googletagmanager.com&rnd=663979535.1780164935&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He65r2v892838296za200zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~118228215~119034493&apve=1&apvf=f&apvc=1&tft=1780164935177&tfd=41865 :: net::ERR_ABORTED",
+        "[FAILED] https://aplo-evnt.com/api/v1/intent_pixel/track_request?app_id=66332be360794d04382686aa :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/rmkt/collect/11470352680/?random=1780164935741&cv=11&fst=1780164935741&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&u_w=1440&u_h=900&url=https%3A%2F%2Fecommerce.folio3.com%2F&rcb=17&frm=0&tiba=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1677502460.1780164935&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&gcp=5 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/rmkt/collect/11470352680/?random=1780164935763&cv=11&fst=1780164935763&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&u_w=1440&u_h=900&url=https%3A%2F%2Fecommerce.folio3.com%2F&rcb=17&frm=0&tiba=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1677502460.1780164935&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&gcp=5 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/ccm/collect?rcb=17&frm=0&auid=1677502460.1780164935&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&en=page_view&dl=https%3A%2F%2Fecommerce.folio3.com%2F&scrsrc=www.googletagmanager.com&rnd=663979535.1780164935&navt=n&npa=0&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&apve=1&apvf=f&apvc=0&tids=AW-11470352680&tid=AW-11470352680&tft=1780164935769&tfd=42457 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/ccm/collect?rcb=17&frm=0&ae=g&auid=1677502460.1780164935&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&dl=https%3A%2F%2Fecommerce.folio3.com%2F&scrsrc=www.googletagmanager.com&rnd=663979535.1780164935&navt=n&npa=0&_tu=CA&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&apve=1&apvf=f&apvc=0&tids=AW-11470352680&tid=AW-11470352680&tft=1780164935770&tfd=42458 :: net::ERR_ABORTED",
+        "[FAILED] https://s3-us-west-2.amazonaws.com/b2bjsstore/b/Q6J2RHY8K96D/Q6J2RHY8K96D.js.gz :: net::ERR_BLOCKED_BY_ORB",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-DCLMD8MZ7Y&gtm=45je65r2v889965682z8892838296za20gzb892838296zd892838296&_p=1780164934376&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EAAAAGAC&are=1&cid=1000081320.1780164936&frm=0&ir=1&pscdl=noapi&rcb=15&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115616985~115938465~115938468~118128923~119027222~119034493&sid=1780164935&sct=1&seg=0&dl=https%3A%2F%2Fecommerce.folio3.com%2F&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&en=page_view&_fv=1&_nsi=1&_ss=1&gap.plf=5&tfd=42559 :: net::ERR_ABORTED"
+      ],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-7",
+      "feature": "Static Pages",
+      "scenario": "Static informational pages load and render expected sections",
+      "status": "passed",
+      "consoleErrors": [
+        "intlTelInput is not loaded."
+      ],
+      "networkErrors": [
+        "[FAILED] https://www.google.com/ccm/collect?rcb=18&frm=0&ae=g&auid=1677502460.1780164935&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&en=page_view&dl=https%3A%2F%2Fecommerce.folio3.com%2F&scrsrc=www.googletagmanager.com&rnd=663979535.1780164935&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He65r2v892838296za200zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~118228215~119034493&apve=1&apvf=f&apvc=1&tft=1780164935177&tfd=41865 :: net::ERR_ABORTED",
+        "[FAILED] https://aplo-evnt.com/api/v1/intent_pixel/track_request?app_id=66332be360794d04382686aa :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/rmkt/collect/11470352680/?random=1780164935741&cv=11&fst=1780164935741&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&u_w=1440&u_h=900&url=https%3A%2F%2Fecommerce.folio3.com%2F&rcb=17&frm=0&tiba=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1677502460.1780164935&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&gcp=5 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/rmkt/collect/11470352680/?random=1780164935763&cv=11&fst=1780164935763&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&u_w=1440&u_h=900&url=https%3A%2F%2Fecommerce.folio3.com%2F&rcb=17&frm=0&tiba=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1677502460.1780164935&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&gcp=5 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/ccm/collect?rcb=17&frm=0&auid=1677502460.1780164935&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&en=page_view&dl=https%3A%2F%2Fecommerce.folio3.com%2F&scrsrc=www.googletagmanager.com&rnd=663979535.1780164935&navt=n&npa=0&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&apve=1&apvf=f&apvc=0&tids=AW-11470352680&tid=AW-11470352680&tft=1780164935769&tfd=42457 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/ccm/collect?rcb=17&frm=0&ae=g&auid=1677502460.1780164935&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&dl=https%3A%2F%2Fecommerce.folio3.com%2F&scrsrc=www.googletagmanager.com&rnd=663979535.1780164935&navt=n&npa=0&_tu=CA&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&apve=1&apvf=f&apvc=0&tids=AW-11470352680&tid=AW-11470352680&tft=1780164935770&tfd=42458 :: net::ERR_ABORTED",
+        "[FAILED] https://s3-us-west-2.amazonaws.com/b2bjsstore/b/Q6J2RHY8K96D/Q6J2RHY8K96D.js.gz :: net::ERR_BLOCKED_BY_ORB",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-DCLMD8MZ7Y&gtm=45je65r2v889965682z8892838296za20gzb892838296zd892838296&_p=1780164934376&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EAAAAGAC&are=1&cid=1000081320.1780164936&frm=0&ir=1&pscdl=noapi&rcb=15&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115616985~115938465~115938468~118128923~119027222~119034493&sid=1780164935&sct=1&seg=0&dl=https%3A%2F%2Fecommerce.folio3.com%2F&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&en=page_view&_fv=1&_nsi=1&_ss=1&gap.plf=5&tfd=42559 :: net::ERR_ABORTED"
+      ],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    }
+  ],
+  "generatedAt": "2026-05-30T18:15:45.822Z"
+}

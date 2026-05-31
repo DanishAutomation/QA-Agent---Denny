@@ -1,0 +1,157 @@
+{
+  "runId": "run-1780161886588",
+  "status": "cancelled",
+  "orchestrationState": "COMPLETE",
+  "currentPhase": "Reporting",
+  "currentTestCaseTitle": "Execute command 17: add any US test address in both Biling and Shipping address fields",
+  "currentUrl": "https://uat2.purelifedental.com",
+  "browser": "Chrome",
+  "device": "Desktop",
+  "progressPercentage": 100,
+  "liveLogs": [
+    "[10:24:46 pm] Run queued (run-1780161886588)",
+    "[10:24:46 pm] Using fast discovery for custom command automation.",
+    "[10:24:46 pm] Discovery completed: 1 pages, 0 forms.",
+    "[10:24:46 pm] Generated 19 scenarios (19 executable, 0 skipped).",
+    "[10:24:47 pm] Launching browser contexts.",
+    "[10:24:47 pm] Executing scenario 1/19: Execute command 1: Go to Login page where you will find Email, Password fields and a login button",
+    "[10:25:03 pm] Scenario completed: Execute command 1: Go to Login page where you will find Email, Password fields and a login button (passed)",
+    "[10:25:03 pm] Executing scenario 2/19: Execute command 2: Enter  email: mdanish+1@folio3.com",
+    "[10:25:08 pm] Scenario completed: Execute command 2: Enter  email: mdanish+1@folio3.com (passed)",
+    "[10:25:08 pm] Executing scenario 3/19: Execute command 3: Enter password: Click@1234",
+    "[10:25:13 pm] Scenario completed: Execute command 3: Enter password: Click@1234 (passed)",
+    "[10:25:13 pm] Executing scenario 4/19: Execute command 4: Hit Login button",
+    "[10:25:23 pm] Scenario completed: Execute command 4: Hit Login button (passed)",
+    "[10:25:23 pm] Executing scenario 5/19: Execute command 5: Wait for Login and then click Search bar",
+    "[10:25:25 pm] Scenario completed: Execute command 5: Wait for Login and then click Search bar (passed)",
+    "[10:25:25 pm] Executing scenario 6/19: Execute command 6: Search for 'powder\"",
+    "[10:25:38 pm] Scenario completed: Execute command 6: Search for 'powder\" (passed)",
+    "[10:25:38 pm] Executing scenario 7/19: Execute command 7: Open first product from the results",
+    "[10:25:48 pm] Scenario completed: Execute command 7: Open first product from the results (passed)",
+    "[10:25:48 pm] Executing scenario 8/19: Execute command 8: Wait for all the items to be visible on the page",
+    "[10:25:49 pm] Scenario completed: Execute command 8: Wait for all the items to be visible on the page (passed)",
+    "[10:25:49 pm] Executing scenario 9/19: Execute command 9: Click \"buy once\" checkbox for the first sku",
+    "[10:25:49 pm] Scenario completed: Execute command 9: Click \"buy once\" checkbox for the first sku (passed)",
+    "[10:25:49 pm] Executing scenario 10/19: Execute command 10: Select Quantity from Qty dropdown",
+    "[10:25:51 pm] Scenario completed: Execute command 10: Select Quantity from Qty dropdown (passed)",
+    "[10:25:51 pm] Executing scenario 11/19: Execute command 11: Click Add to Cart",
+    "[10:25:57 pm] Scenario completed: Execute command 11: Click Add to Cart (passed)",
+    "[10:25:57 pm] Executing scenario 12/19: Execute command 12: Move to cart and click \"proceed to checkout\" to reach shipping address screen",
+    "[10:26:26 pm] Scenario completed: Execute command 12: Move to cart and click \"proceed to checkout\" to reach shipping address screen (passed)",
+    "[10:26:26 pm] Executing scenario 13/19: Execute command 13: On shipping address screen click \"next button\"",
+    "[10:28:09 pm] Scenario completed: Execute command 13: On shipping address screen click \"next button\" (passed)",
+    "[10:28:09 pm] Executing scenario 14/19: Execute command 14: Click \"KEEP AS SCHEDULED\" button (<button type=\"button\" id=\"btn-keep-autoship-as-schedule\" class=\"btn-keep-autoship-as-schedule\">Keep as scheduled</button>) inside the popup window which is opened after clicking \"Next\" button to reach payment and billing info page",
+    "[10:28:14 pm] Scenario completed: Execute command 14: Click \"KEEP AS SCHEDULED\" button (<button type=\"button\" id=\"btn-keep-autoship-as-schedule\" class=\"btn-keep-autoship-as-schedule\">Keep as scheduled</button>) inside the popup window which is opened after clicking \"Next\" button to reach payment and billing info page (passed)",
+    "[10:28:14 pm] Executing scenario 15/19: Execute command 15: On payment page choose customer's default address as billing address",
+    "[10:28:20 pm] Scenario completed: Execute command 15: On payment page choose customer's default address as billing address (passed)",
+    "[10:28:20 pm] Executing scenario 16/19: Execute command 16: Click \"MAKE PAYMENT\"",
+    "[10:28:28 pm] Scenario completed: Execute command 16: Click \"MAKE PAYMENT\" (passed)",
+    "[10:28:28 pm] Executing scenario 17/19: Execute command 17: add any US test address in both Biling and Shipping address fields",
+    "[10:29:43 pm] Execution stopped by user."
+  ],
+  "testCases": [
+    {
+      "id": "scenario-1",
+      "title": "Execute command 1: Go to Login page where you will find Email, Password fields and a login button",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-2",
+      "title": "Execute command 2: Enter  email: mdanish+1@folio3.com",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-3",
+      "title": "Execute command 3: Enter password: Click@1234",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-4",
+      "title": "Execute command 4: Hit Login button",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-5",
+      "title": "Execute command 5: Wait for Login and then click Search bar",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-6",
+      "title": "Execute command 6: Search for 'powder\"",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-7",
+      "title": "Execute command 7: Open first product from the results",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-8",
+      "title": "Execute command 8: Wait for all the items to be visible on the page",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-9",
+      "title": "Execute command 9: Click \"buy once\" checkbox for the first sku",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-10",
+      "title": "Execute command 10: Select Quantity from Qty dropdown",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-11",
+      "title": "Execute command 11: Click Add to Cart",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-12",
+      "title": "Execute command 12: Move to cart and click \"proceed to checkout\" to reach shipping address screen",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-13",
+      "title": "Execute command 13: On shipping address screen click \"next button\"",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-14",
+      "title": "Execute command 14: Click \"KEEP AS SCHEDULED\" button (<button type=\"button\" id=\"btn-keep-autoship-as-schedule\" class=\"btn-keep-autoship-as-schedule\">Keep as scheduled</button>) inside the popup window which is opened after clicking \"Next\" button to reach payment and billing info page",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-15",
+      "title": "Execute command 15: On payment page choose customer's default address as billing address",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-16",
+      "title": "Execute command 16: Click \"MAKE PAYMENT\"",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-17",
+      "title": "Execute command 17: add any US test address in both Biling and Shipping address fields",
+      "status": "running"
+    },
+    {
+      "id": "scenario-18",
+      "title": "Execute command 18: Enter Card Details:",
+      "status": "pending"
+    },
+    {
+      "id": "scenario-19",
+      "title": "Execute command 19: Place Order",
+      "status": "pending"
+    }
+  ],
+  "updatedAt": "2026-05-30T17:29:43.157Z",
+  "log": "Execution stopped by user.",
+  "testCaseUpdate": {
+    "id": "scenario-17",
+    "title": "Execute command 17: add any US test address in both Biling and Shipping address fields",
+    "status": "running"
+  },
+  "error": "Execution stopped by user."
+}

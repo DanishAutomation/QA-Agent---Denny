@@ -1,0 +1,157 @@
+{
+  "domain": "uaat2.purelifedental.com",
+  "updatedAt": "2026-05-31T01:17:34.077Z",
+  "successfulSelectors": [],
+  "failedSelectors": [],
+  "successfulFlowPaths": [],
+  "failedFlowPaths": [
+    "https://uaat2.purelifedental.com/"
+  ],
+  "assumptions": [],
+  "customCommandMappings": [
+    {
+      "command": "For Login:",
+      "mappedAction": "Responsive layout remains stable across breakpoints",
+      "success": false,
+      "recordedAt": "2026-05-31T01:17:33.348Z"
+    },
+    {
+      "command": "For Search:",
+      "mappedAction": "Responsive layout remains stable across breakpoints",
+      "success": false,
+      "recordedAt": "2026-05-31T01:17:33.348Z"
+    },
+    {
+      "command": "\"powder\"",
+      "mappedAction": "Responsive layout remains stable across breakpoints",
+      "success": false,
+      "recordedAt": "2026-05-31T01:17:33.348Z"
+    },
+    {
+      "command": "For Add to cart:",
+      "mappedAction": "Responsive layout remains stable across breakpoints",
+      "success": false,
+      "recordedAt": "2026-05-31T01:17:33.348Z"
+    },
+    {
+      "command": "On PDP look for Buy once checkbox and select that.",
+      "mappedAction": "Responsive layout remains stable across breakpoints",
+      "success": false,
+      "recordedAt": "2026-05-31T01:17:33.348Z"
+    },
+    {
+      "command": "Select Qty from Qty dropdown",
+      "mappedAction": "Responsive layout remains stable across breakpoints",
+      "success": false,
+      "recordedAt": "2026-05-31T01:17:33.348Z"
+    },
+    {
+      "command": "If Qty dropdown and buyonce is not available then ook for Qty text field with +/-  and enter 1 in that",
+      "mappedAction": "Responsive layout remains stable across breakpoints",
+      "success": false,
+      "recordedAt": "2026-05-31T01:17:33.348Z"
+    },
+    {
+      "command": "Click add to cart",
+      "mappedAction": "Responsive layout remains stable across breakpoints",
+      "success": false,
+      "recordedAt": "2026-05-31T01:17:33.348Z"
+    },
+    {
+      "command": "For Login:",
+      "mappedAction": "Accessibility risk checks run on key templates",
+      "success": false,
+      "recordedAt": "2026-05-31T01:17:33.705Z"
+    },
+    {
+      "command": "For Search:",
+      "mappedAction": "Accessibility risk checks run on key templates",
+      "success": false,
+      "recordedAt": "2026-05-31T01:17:33.705Z"
+    },
+    {
+      "command": "\"powder\"",
+      "mappedAction": "Accessibility risk checks run on key templates",
+      "success": false,
+      "recordedAt": "2026-05-31T01:17:33.705Z"
+    },
+    {
+      "command": "For Add to cart:",
+      "mappedAction": "Accessibility risk checks run on key templates",
+      "success": false,
+      "recordedAt": "2026-05-31T01:17:33.705Z"
+    },
+    {
+      "command": "On PDP look for Buy once checkbox and select that.",
+      "mappedAction": "Accessibility risk checks run on key templates",
+      "success": false,
+      "recordedAt": "2026-05-31T01:17:33.705Z"
+    },
+    {
+      "command": "Select Qty from Qty dropdown",
+      "mappedAction": "Accessibility risk checks run on key templates",
+      "success": false,
+      "recordedAt": "2026-05-31T01:17:33.705Z"
+    },
+    {
+      "command": "If Qty dropdown and buyonce is not available then ook for Qty text field with +/-  and enter 1 in that",
+      "mappedAction": "Accessibility risk checks run on key templates",
+      "success": false,
+      "recordedAt": "2026-05-31T01:17:33.705Z"
+    },
+    {
+      "command": "Click add to cart",
+      "mappedAction": "Accessibility risk checks run on key templates",
+      "success": false,
+      "recordedAt": "2026-05-31T01:17:33.705Z"
+    },
+    {
+      "command": "For Login:",
+      "mappedAction": "Primary navigation routes resolve correctly",
+      "success": false,
+      "recordedAt": "2026-05-31T01:17:34.076Z"
+    },
+    {
+      "command": "For Search:",
+      "mappedAction": "Primary navigation routes resolve correctly",
+      "success": false,
+      "recordedAt": "2026-05-31T01:17:34.076Z"
+    },
+    {
+      "command": "\"powder\"",
+      "mappedAction": "Primary navigation routes resolve correctly",
+      "success": false,
+      "recordedAt": "2026-05-31T01:17:34.076Z"
+    },
+    {
+      "command": "For Add to cart:",
+      "mappedAction": "Primary navigation routes resolve correctly",
+      "success": false,
+      "recordedAt": "2026-05-31T01:17:34.076Z"
+    },
+    {
+      "command": "On PDP look for Buy once checkbox and select that.",
+      "mappedAction": "Primary navigation routes resolve correctly",
+      "success": false,
+      "recordedAt": "2026-05-31T01:17:34.076Z"
+    },
+    {
+      "command": "Select Qty from Qty dropdown",
+      "mappedAction": "Primary navigation routes resolve correctly",
+      "success": false,
+      "recordedAt": "2026-05-31T01:17:34.076Z"
+    },
+    {
+      "command": "If Qty dropdown and buyonce is not available then ook for Qty text field with +/-  and enter 1 in that",
+      "mappedAction": "Primary navigation routes resolve correctly",
+      "success": false,
+      "recordedAt": "2026-05-31T01:17:34.076Z"
+    },
+    {
+      "command": "Click add to cart",
+      "mappedAction": "Primary navigation routes resolve correctly",
+      "success": false,
+      "recordedAt": "2026-05-31T01:17:34.076Z"
+    }
+  ]
+}

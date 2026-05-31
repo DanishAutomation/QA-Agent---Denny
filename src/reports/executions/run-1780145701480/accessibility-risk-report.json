@@ -1,0 +1,34 @@
+{
+  "baseUrl": "https://example.com",
+  "checkedAt": "2026-05-30T12:55:06.356Z",
+  "findings": [
+    {
+      "id": "cookie-consent-1",
+      "category": "cookie-consent",
+      "severity": "low",
+      "message": "Cookie consent UI was not detected on inspected page.",
+      "pageUrl": "https://example.com/"
+    },
+    {
+      "id": "keyboard-navigation-2",
+      "category": "keyboard-navigation",
+      "severity": "medium",
+      "message": "Limited keyboard-focusable interactive controls detected.",
+      "pageUrl": "https://example.com/"
+    },
+    {
+      "id": "focus-visibility-3",
+      "category": "focus-visibility",
+      "severity": "high",
+      "message": "Focus outline visibility may be insufficient on interactive elements.",
+      "pageUrl": "https://example.com/"
+    }
+  ],
+  "summary": {
+    "totalFindings": 3,
+    "high": 1,
+    "medium": 1,
+    "low": 1
+  },
+  "disclaimer": "Accessibility Risk Findings are heuristic indicators only and are not a certification for ADA, HIPAA, or legal compliance."
+}

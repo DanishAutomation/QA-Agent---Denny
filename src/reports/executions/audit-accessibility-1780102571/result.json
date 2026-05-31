@@ -1,0 +1,128 @@
+{
+  "runId": "audit-accessibility-1780102571",
+  "startedAt": "2026-05-30T00:56:11.240Z",
+  "completedAt": "2026-05-30T00:56:14.877Z",
+  "durationMs": 3637,
+  "passed": 1,
+  "failed": 0,
+  "skipped": 2,
+  "reportPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\audit-accessibility-1780102571\\result.json",
+  "scenarios": [
+    {
+      "scenarioId": "opt-1",
+      "feature": "Navigation",
+      "scenario": "Primary navigation routes resolve correctly",
+      "status": "passed",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\audit-accessibility-1780102571\\screenshots\\opt-1-Desktop-landing.png"
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "networkErrors": [],
+      "pageUrl": "https://example.com/",
+      "timestamp": "2026-05-30T00:56:11.691Z",
+      "durationMs": 1341,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed"
+      }
+    },
+    {
+      "scenarioId": "opt-2",
+      "feature": "Contact Form",
+      "scenario": "Contact form can be submitted with valid data",
+      "status": "skipped",
+      "errorReason": "Contact form capability not detected.",
+      "screenshots": [],
+      "consoleErrors": [],
+      "networkErrors": [],
+      "pageUrl": "https://example.com",
+      "timestamp": "2026-05-30T00:56:13.032Z",
+      "durationMs": 0,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed"
+      }
+    },
+    {
+      "scenarioId": "opt-3",
+      "feature": "Newsletter Form",
+      "scenario": "Newsletter subscription accepts valid email",
+      "status": "skipped",
+      "errorReason": "Newsletter form not detected.",
+      "screenshots": [],
+      "consoleErrors": [],
+      "networkErrors": [],
+      "pageUrl": "https://example.com",
+      "timestamp": "2026-05-30T00:56:13.032Z",
+      "durationMs": 0,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed"
+      }
+    }
+  ],
+  "bugReports": [],
+  "accessibilityRiskReport": {
+    "baseUrl": "https://example.com",
+    "checkedAt": "2026-05-30T00:56:14.290Z",
+    "findings": [
+      {
+        "id": "cookie-consent-1",
+        "category": "cookie-consent",
+        "severity": "low",
+        "message": "Cookie consent UI was not detected on inspected page.",
+        "pageUrl": "https://example.com/"
+      },
+      {
+        "id": "keyboard-navigation-2",
+        "category": "keyboard-navigation",
+        "severity": "medium",
+        "message": "Limited keyboard-focusable interactive controls detected.",
+        "pageUrl": "https://example.com/"
+      },
+      {
+        "id": "focus-visibility-3",
+        "category": "focus-visibility",
+        "severity": "high",
+        "message": "Focus outline visibility may be insufficient on interactive elements.",
+        "pageUrl": "https://example.com/"
+      }
+    ],
+    "summary": {
+      "totalFindings": 3,
+      "high": 1,
+      "medium": 1,
+      "low": 1
+    },
+    "disclaimer": "Accessibility Risk Findings are heuristic indicators only and are not a certification for ADA, HIPAA, or legal compliance."
+  },
+  "accessibilityRiskReportPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\audit-accessibility-1780102571\\accessibility-risk-report.json",
+  "productionReportPaths": {
+    "html": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\audit-accessibility-1780102571\\client-report.html",
+    "json": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\audit-accessibility-1780102571\\client-report.json",
+    "markdown": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\audit-accessibility-1780102571\\summary.md"
+  }
+}

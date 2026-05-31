@@ -1,0 +1,25 @@
+{
+  "runId": "run-1780161363576",
+  "status": "running",
+  "orchestrationState": "DISCOVERY",
+  "currentPhase": "Discovery",
+  "totalGeneratedTestCases": 0,
+  "currentExecutingTestCaseNumber": 0,
+  "currentTestCaseTitle": "Running website discovery",
+  "currentUrl": "https://uat2.purelifedental.com",
+  "browser": "Chrome",
+  "device": "Desktop",
+  "progressPercentage": 8,
+  "passCount": 0,
+  "failCount": 0,
+  "skippedCount": 0,
+  "liveLogs": [
+    "[10:16:03 pm] Run queued (run-1780161363576)",
+    "[10:16:03 pm] Discovery started for https://uat2.purelifedental.com",
+    "[10:16:22 pm] Execution paused by user.",
+    "[10:16:31 pm] Execution resumed by user."
+  ],
+  "testCases": [],
+  "updatedAt": "2026-05-30T17:16:31.173Z",
+  "log": "Execution resumed by user."
+}

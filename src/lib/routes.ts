@@ -1,0 +1,15 @@
+export const appRoutes = {
+  home: "/",
+  dashboard: "/dashboard",
+  discoveryLab: "/discovery-lab",
+  responsiveGallery: "/responsive-gallery",
+  newExecution: "/new-execution",
+  executionProgress: "/execution-progress",
+  screenshotGallery: "/screenshot-gallery",
+  results: "/results",
+  executionHistory: "/execution-history",
+  settings: "/settings",
+  apiHealth: "/api/health",
+  apiAgents: "/api/agents",
+  apiRuns: "/api/runs",
+} as const;

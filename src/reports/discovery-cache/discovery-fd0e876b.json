@@ -1,0 +1,500 @@
+{
+  "cacheKey": "{\"cacheVersion\":4,\"baseUrl\":\"https://ecommerce.folio3.com/\",\"maxDepth\":1,\"maxPages\":10,\"maxLinksPerPage\":40}",
+  "baseUrl": "https://ecommerce.folio3.com/",
+  "storedAtMs": 1780245526818,
+  "result": {
+    "baseUrl": "https://ecommerce.folio3.com/",
+    "websiteType": "Corporate",
+    "capabilities": {
+      "login": false,
+      "signup": false,
+      "search": false,
+      "categories": false,
+      "productListing": false,
+      "productDetail": false,
+      "addToCart": false,
+      "cart": false,
+      "checkout": false,
+      "contactForm": true,
+      "newsletterForm": false,
+      "quoteForm": false,
+      "staticPages": true,
+      "blogPages": false,
+      "brokenLinks": true,
+      "responsiveRiskAreas": true
+    },
+    "pagesFound": [
+      {
+        "url": "https://ecommerce.folio3.com/",
+        "title": "#1 US-based Ecommerce Development Company - Folio3",
+        "depth": 0,
+        "status": 200
+      },
+      {
+        "url": "https://ecommerce.folio3.com/industry",
+        "title": "Just a moment...",
+        "depth": 1,
+        "status": 403
+      },
+      {
+        "url": "https://ecommerce.folio3.com/b2b-ecommerce-development-services",
+        "title": "Just a moment...",
+        "depth": 1,
+        "status": 403
+      },
+      {
+        "url": "https://ecommerce.folio3.com/magento-b2b-demo",
+        "title": "Just a moment...",
+        "depth": 1,
+        "status": 403
+      },
+      {
+        "url": "https://ecommerce.folio3.com/headless-ecommerce-solutions",
+        "title": "Just a moment...",
+        "depth": 1,
+        "status": 403
+      },
+      {
+        "url": "https://ecommerce.folio3.com/ecommerce-app-development-services",
+        "title": "Just a moment...",
+        "depth": 1,
+        "status": 403
+      },
+      {
+        "url": "https://ecommerce.folio3.com/hire-ecommerce-developers",
+        "title": "Just a moment...",
+        "depth": 1,
+        "status": 403
+      },
+      {
+        "url": "https://ecommerce.folio3.com/solutions/virtual-try-on",
+        "title": "Just a moment...",
+        "depth": 1,
+        "status": 403
+      },
+      {
+        "url": "https://ecommerce.folio3.com/solutions/b2b-ecommerce-catalog",
+        "title": "Just a moment...",
+        "depth": 1,
+        "status": 403
+      },
+      {
+        "url": "https://ecommerce.folio3.com/solutions/b2b-tax-compliance-with-avalara",
+        "title": "Just a moment...",
+        "depth": 1,
+        "status": 403
+      }
+    ],
+    "formsFound": [
+      {
+        "pageUrl": "https://ecommerce.folio3.com/",
+        "action": "https://ecommerce.folio3.com/",
+        "method": "post",
+        "inputNames": [
+          "contact_form_nonce_field",
+          "_wp_http_referer",
+          "full_name",
+          "company",
+          "email",
+          "phone",
+          "message",
+          "user_hp",
+          "form_loaded_at",
+          "country_code",
+          "national_number",
+          "platform",
+          "contact_medium",
+          "medium",
+          "page_url",
+          "user_agent",
+          "ip",
+          "geolocation",
+          "user_journey",
+          "submit_contact_form"
+        ],
+        "formType": "contact"
+      }
+    ],
+    "buttonsFound": [
+      {
+        "pageUrl": "https://ecommerce.folio3.com/",
+        "text": "",
+        "selectorHint": "#menu-toggle-828"
+      },
+      {
+        "pageUrl": "https://ecommerce.folio3.com/",
+        "text": "Close Services\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\tOpen Services",
+        "selectorHint": "#e-n-menu-dropdown-icon-8281"
+      },
+      {
+        "pageUrl": "https://ecommerce.folio3.com/",
+        "text": "Close Solutions\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\tOpen Solutions",
+        "selectorHint": "#e-n-menu-dropdown-icon-8282"
+      },
+      {
+        "pageUrl": "https://ecommerce.folio3.com/",
+        "text": "Close Industry\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\tOpen Industry",
+        "selectorHint": "#e-n-menu-dropdown-icon-8283"
+      },
+      {
+        "pageUrl": "https://ecommerce.folio3.com/",
+        "text": "Close Platforms\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\tOpen Platforms",
+        "selectorHint": "#e-n-menu-dropdown-icon-8284"
+      },
+      {
+        "pageUrl": "https://ecommerce.folio3.com/",
+        "text": "Close About\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\tOpen About",
+        "selectorHint": "#e-n-menu-dropdown-icon-8285"
+      },
+      {
+        "pageUrl": "https://ecommerce.folio3.com/",
+        "text": "Close Resources\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\tOpen Resources",
+        "selectorHint": "#e-n-menu-dropdown-icon-8286"
+      },
+      {
+        "pageUrl": "https://ecommerce.folio3.com/",
+        "text": "Shopify",
+        "selectorHint": "#e-n-tabs-title-2071"
+      },
+      {
+        "pageUrl": "https://ecommerce.folio3.com/",
+        "text": "Bigcommerce",
+        "selectorHint": "#e-n-tabs-title-2072"
+      },
+      {
+        "pageUrl": "https://ecommerce.folio3.com/",
+        "text": "WordPress",
+        "selectorHint": "#e-n-tabs-title-2073"
+      },
+      {
+        "pageUrl": "https://ecommerce.folio3.com/",
+        "text": "Magento",
+        "selectorHint": "#e-n-tabs-title-2074"
+      },
+      {
+        "pageUrl": "https://ecommerce.folio3.com/",
+        "text": "Salesforce Commerce Cloud",
+        "selectorHint": "#e-n-tabs-title-2075"
+      },
+      {
+        "pageUrl": "https://ecommerce.folio3.com/",
+        "text": "Wix",
+        "selectorHint": "#e-n-tabs-title-2076"
+      },
+      {
+        "pageUrl": "https://ecommerce.folio3.com/",
+        "text": "SAP Hybris",
+        "selectorHint": "#e-n-tabs-title-2077"
+      },
+      {
+        "pageUrl": "https://ecommerce.folio3.com/",
+        "text": "Shopware",
+        "selectorHint": "#e-n-tabs-title-2078"
+      },
+      {
+        "pageUrl": "https://ecommerce.folio3.com/",
+        "text": "Submit Now",
+        "selectorHint": ".submit_button_custom"
+      }
+    ],
+    "linksFound": [
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "toUrl": "https://ecommerce.folio3.com/",
+        "text": "(no text)",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "toUrl": "https://ecommerce.folio3.com/industry",
+        "text": "Industry",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "toUrl": "https://ecommerce.folio3.com/b2b-ecommerce-development-services",
+        "text": "B2B Web Development",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "toUrl": "https://ecommerce.folio3.com/magento-b2b-demo",
+        "text": "B2B Store Demo",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "toUrl": "https://ecommerce.folio3.com/headless-ecommerce-solutions",
+        "text": "Headless eCommerce",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "toUrl": "https://ecommerce.folio3.com/ecommerce-app-development-services",
+        "text": "App Development",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "toUrl": "https://ecommerce.folio3.com/hire-ecommerce-developers",
+        "text": "Hire Ecommerce Developers",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "toUrl": "https://ecommerce.folio3.com/solutions/virtual-try-on",
+        "text": "Virtual Try-On",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "toUrl": "https://ecommerce.folio3.com/solutions/b2b-ecommerce-catalog",
+        "text": "Digital Catalog",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "toUrl": "https://ecommerce.folio3.com/solutions/b2b-tax-compliance-with-avalara",
+        "text": "B2B Tax Compliance",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "toUrl": "https://ecommerce.folio3.com/solutions/b2b-quoting-negotiation-module",
+        "text": "B2B Quoting & Negotiation",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "toUrl": "https://ecommerce.folio3.com/solutions/b2b-credit-account-ledger-management",
+        "text": "B2B Credit Ledger Management",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "toUrl": "https://ecommerce.folio3.com/solutions/b2b-self-serve-account-management-portal",
+        "text": "B2B Self Serve Account Management",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "toUrl": "https://ecommerce.folio3.com/solutions/b2b-shipping-freight-optimization-and-smart-dispatch",
+        "text": "B2B Shipping Freight Optimization",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "toUrl": "https://ecommerce.folio3.com/solutions/b2b-sales-rep-mobile-ordering-solution",
+        "text": "B2B Sales Rep Mobile Ordering",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "toUrl": "https://ecommerce.folio3.com/industry/manufacturing-ecommerce-solutions",
+        "text": "Manufacturing",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "toUrl": "https://ecommerce.folio3.com/industry/healthcare-website-development",
+        "text": "Health",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "toUrl": "https://ecommerce.folio3.com/industry/automotive-ecommerce",
+        "text": "Automotive",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "toUrl": "https://ecommerce.folio3.com/industry/auto-parts-ecommerce",
+        "text": "Auto Parts",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "toUrl": "https://ecommerce.folio3.com/industry/fashion-ecommerce",
+        "text": "Fashion",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "toUrl": "https://ecommerce.folio3.com/industry/jewelry-website-development",
+        "text": "Jewelry",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "toUrl": "https://ecommerce.folio3.com/industry/cbd-ecommerce",
+        "text": "CBD",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "toUrl": "https://ecommerce.folio3.com/industry/firearms-ecommerce-website-design-development",
+        "text": "Fire Arms",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "toUrl": "https://ecommerce.folio3.com/industry/life-science-web-design-development",
+        "text": "Life Science",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "toUrl": "https://ecommerce.folio3.com/industry/furniture-ecommerce-agency",
+        "text": "Furniture",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "toUrl": "https://ecommerce.folio3.com/industry/pharmaceutical-website-design-development",
+        "text": "Pharmaceutical",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "toUrl": "https://ecommerce.folio3.com/shopify-development-services",
+        "text": "Shopify Development",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "toUrl": "https://ecommerce.folio3.com/shopify-development-services/shopify-plus-development-agency",
+        "text": "Shopify Plus Agency",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "toUrl": "https://ecommerce.folio3.com/shopify-development-services/shopify-consulting-services",
+        "text": "Shopify Consultant",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "toUrl": "https://ecommerce.folio3.com/shopify-development-services/shopify-support-and-maintenance-services",
+        "text": "Support Maintenance",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "toUrl": "https://ecommerce.folio3.com/shopify-development-services/shopify-speed-optimization-service",
+        "text": "Speed Optimization",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "toUrl": "https://ecommerce.folio3.com/shopify-development-services/shopify-headless-development-service",
+        "text": "Shopify Headless",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "toUrl": "https://ecommerce.folio3.com/shopify-development-services/shopify-theme-development-services",
+        "text": "Theme Development",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "toUrl": "https://ecommerce.folio3.com/shopify-development-services/shopify-theme-customization-services",
+        "text": "Theme Customization",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "toUrl": "https://ecommerce.folio3.com/shopify-development-services/shopify-app-development-service",
+        "text": "Custom App Development",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "toUrl": "https://ecommerce.folio3.com/shopify-development-services/shopify-b2b-ecommerce-development-agency",
+        "text": "Shopify B2B Development",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "toUrl": "https://ecommerce.folio3.com/shopify-website-design-services",
+        "text": "Shopify Design",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "toUrl": "https://ecommerce.folio3.com/shopify-migration-service",
+        "text": "Shopify Migration",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "toUrl": "https://ecommerce.folio3.com/shopify-migration-service/magento-to-shopify-migration-service",
+        "text": "Magento to Shopify",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "toUrl": "https://ecommerce.folio3.com/shopify-migration-service/woocommerce-to-shopify-migration-services",
+        "text": "WooCommerce to Shopify",
+        "isBroken": false
+      }
+    ],
+    "possibleJourneys": [
+      "Landing Page -> Contact/Quote Form Submission"
+    ],
+    "importantSelectors": [
+      "#wpr-usedcss",
+      "#wp-emoji-styles-inline-css",
+      "#rocket-lazyload-inline-css",
+      "#intl-tel-input-js",
+      "#wpr-lazyload-bg-container",
+      "#wpr-lazyload-bg-exclusion",
+      "#logo-pro",
+      "#menu-toggle-828",
+      "#menubar-828",
+      "#e-n-menu-title-8281",
+      "#e-n-menu-dropdown-icon-8281",
+      "#e-n-menu-title-8282",
+      "#e-n-menu-dropdown-icon-8282",
+      "#e-n-menu-title-8283",
+      "a",
+      "#e-n-menu-dropdown-icon-8283",
+      "#e-n-menu-title-8284",
+      "#e-n-menu-dropdown-icon-8284",
+      "#e-n-menu-title-8285",
+      "#e-n-menu-dropdown-icon-8285",
+      "#e-n-menu-title-8286",
+      "#e-n-menu-dropdown-icon-8286",
+      "#e-n-menu-content-8281",
+      "#e-n-menu-content-8282",
+      "#e-n-menu-content-8283",
+      "#e-n-menu-content-8284",
+      "#e-n-tabs-title-2071",
+      "#e-n-tabs-title-2072",
+      "#e-n-tabs-title-2073",
+      "#e-n-tabs-title-2074",
+      "#e-n-tabs-title-2075",
+      "#e-n-tabs-title-2076",
+      "#e-n-tabs-title-2077",
+      "#e-n-tabs-title-2078",
+      "#e-n-tab-content-2071",
+      "#e-n-tab-content-2072",
+      "#e-n-tab-content-2073",
+      "#e-n-tab-content-2074"
+    ],
+    "detectedEcommerceSignals": [],
+    "detectedFormSignals": [
+      "contact@https://ecommerce.folio3.com/"
+    ],
+    "detectedStaticPages": [],
+    "startedAt": "2026-05-31T16:38:35.975Z",
+    "completedAt": "2026-05-31T16:38:46.818Z",
+    "crawlDepthUsed": 1,
+    "siteSuite": "static",
+    "classificationNotes": [
+      "Found 5 marketing/service content URL(s).",
+      "Page titles indicate services/marketing website.",
+      "Classified as corporate/marketing website — static regression suite selected."
+    ]
+  }
+}

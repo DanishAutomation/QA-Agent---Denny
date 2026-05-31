@@ -1,0 +1,113 @@
+{
+  "runId": "run-1780144119118",
+  "status": "completed",
+  "orchestrationState": "COMPLETE",
+  "currentPhase": "Reporting",
+  "totalGeneratedTestCases": 2,
+  "currentExecutingTestCaseNumber": 2,
+  "currentTestCaseTitle": "Execution completed",
+  "currentUrl": "https://example.com/",
+  "browser": "Chrome",
+  "device": "Desktop",
+  "progressPercentage": 100,
+  "passCount": 2,
+  "failCount": 0,
+  "skippedCount": 0,
+  "liveLogs": [
+    "[5:28:39 pm] Run queued (run-1780144119118)",
+    "[5:28:39 pm] Discovery started for https://example.com",
+    "[5:28:40 pm] Discovery completed: 1 pages, 0 forms.",
+    "[5:28:40 pm] Generated 2 scenarios (2 executable, 0 skipped).",
+    "[5:28:40 pm] Launching browser contexts.",
+    "[5:28:40 pm] Executing scenario 1/2: Execute command 1: search for pricing",
+    "[5:28:42 pm] Scenario completed: Execute command 1: search for pricing (passed)",
+    "[5:28:42 pm] Executing scenario 2/2: Execute command 2: search for pricing",
+    "[5:28:42 pm] Scenario completed: Execute command 2: search for pricing (passed)",
+    "[5:28:42 pm] Execution reports generated.",
+    "[5:28:42 pm] Run completed and reports generated."
+  ],
+  "testCases": [
+    {
+      "id": "scenario-1",
+      "title": "Execute command 1: search for pricing",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-2",
+      "title": "Execute command 2: search for pricing",
+      "status": "passed"
+    }
+  ],
+  "updatedAt": "2026-05-30T12:28:42.958Z",
+  "log": "Run completed and reports generated.",
+  "result": {
+    "runId": "run-1780144119118",
+    "startedAt": "2026-05-30T12:28:40.307Z",
+    "completedAt": "2026-05-30T12:28:42.948Z",
+    "durationMs": 2641,
+    "passed": 2,
+    "failed": 0,
+    "skipped": 0,
+    "reportPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780144119118\\result.json",
+    "scenarios": [
+      {
+        "scenarioId": "scenario-1",
+        "feature": "Custom Command",
+        "scenario": "Execute command 1: search for pricing",
+        "status": "passed",
+        "screenshots": [
+          "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780144119118\\screenshots\\scenario-1-Desktop-landing.png"
+        ],
+        "consoleErrors": [
+          "Failed to load resource: the server responded with a status of 404 ()"
+        ],
+        "networkErrors": [],
+        "pageUrl": "https://example.com/",
+        "timestamp": "2026-05-30T12:28:40.800Z",
+        "durationMs": 1278,
+        "selfHealing": {
+          "attempted": false,
+          "recovered": false,
+          "attempts": 0,
+          "strategyLogs": []
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [],
+          "retryResult": "not-needed"
+        }
+      },
+      {
+        "scenarioId": "scenario-2",
+        "feature": "Custom Command",
+        "scenario": "Execute command 2: search for pricing",
+        "status": "passed",
+        "screenshots": [
+          "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780144119118\\screenshots\\scenario-2-Desktop-landing.png"
+        ],
+        "consoleErrors": [],
+        "networkErrors": [],
+        "pageUrl": "https://example.com/",
+        "timestamp": "2026-05-30T12:28:42.083Z",
+        "durationMs": 705,
+        "selfHealing": {
+          "attempted": false,
+          "recovered": false,
+          "attempts": 0,
+          "strategyLogs": []
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [],
+          "retryResult": "not-needed"
+        }
+      }
+    ],
+    "bugReports": [],
+    "productionReportPaths": {
+      "html": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780144119118\\client-report.html",
+      "json": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780144119118\\client-report.json",
+      "markdown": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780144119118\\summary.md"
+    }
+  }
+}

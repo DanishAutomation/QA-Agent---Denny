@@ -1,0 +1,31 @@
+{
+  "baseUrl": "https://ecommerce@folio3.com",
+  "checkedAt": "2026-05-30T18:41:16.773Z",
+  "formsDetected": 2,
+  "results": [
+    {
+      "pageUrl": "https://folio3.com/",
+      "formType": "other",
+      "requiredFieldsOk": true,
+      "invalidEmailValidationOk": true,
+      "validationMessageDetected": true,
+      "successfulSubmissionAttempted": true,
+      "successfulSubmissionPassed": true,
+      "notes": [
+        "Form screenshot: C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780166195816\\forms-screenshots\\form-0-other.png"
+      ]
+    },
+    {
+      "pageUrl": "https://folio3.com/app-development",
+      "formType": "other",
+      "requiredFieldsOk": true,
+      "invalidEmailValidationOk": true,
+      "validationMessageDetected": true,
+      "successfulSubmissionAttempted": true,
+      "successfulSubmissionPassed": true,
+      "notes": [
+        "Form screenshot: C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780166195816\\forms-screenshots\\form-1-other.png"
+      ]
+    }
+  ]
+}

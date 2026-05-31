@@ -1,0 +1,116 @@
+{
+  "baseUrl": "https://ecommerce.folio3.com/",
+  "generatedAt": "2026-05-31T00:33:36.456Z",
+  "findings": [
+    {
+      "viewport": "Android viewport",
+      "layoutBreakage": true,
+      "hiddenCtas": true,
+      "horizontalScroll": false,
+      "menuUsabilityIssue": false,
+      "formVisibilityIssue": false,
+      "overlappingElements": false,
+      "cartOrSearchVisibilityIssue": false,
+      "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780187409061\\responsive-screenshots\\android-viewport.png",
+      "notes": [
+        "Potential layout breakage detected.",
+        "One or more CTAs appear hidden."
+      ]
+    },
+    {
+      "viewport": "iPhone viewport",
+      "layoutBreakage": true,
+      "hiddenCtas": true,
+      "horizontalScroll": false,
+      "menuUsabilityIssue": false,
+      "formVisibilityIssue": false,
+      "overlappingElements": false,
+      "cartOrSearchVisibilityIssue": false,
+      "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780187409061\\responsive-screenshots\\iphone-viewport.png",
+      "notes": [
+        "Potential layout breakage detected.",
+        "One or more CTAs appear hidden."
+      ]
+    },
+    {
+      "viewport": "iPad viewport",
+      "layoutBreakage": true,
+      "hiddenCtas": true,
+      "horizontalScroll": false,
+      "menuUsabilityIssue": false,
+      "formVisibilityIssue": false,
+      "overlappingElements": false,
+      "cartOrSearchVisibilityIssue": false,
+      "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780187409061\\responsive-screenshots\\ipad-viewport.png",
+      "notes": [
+        "Potential layout breakage detected.",
+        "One or more CTAs appear hidden."
+      ]
+    },
+    {
+      "viewport": "Tablet viewport",
+      "layoutBreakage": true,
+      "hiddenCtas": true,
+      "horizontalScroll": false,
+      "menuUsabilityIssue": false,
+      "formVisibilityIssue": false,
+      "overlappingElements": false,
+      "cartOrSearchVisibilityIssue": false,
+      "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780187409061\\responsive-screenshots\\tablet-viewport.png",
+      "notes": [
+        "Potential layout breakage detected.",
+        "One or more CTAs appear hidden."
+      ]
+    },
+    {
+      "viewport": "Desktop viewport",
+      "layoutBreakage": true,
+      "hiddenCtas": true,
+      "horizontalScroll": false,
+      "menuUsabilityIssue": false,
+      "formVisibilityIssue": false,
+      "overlappingElements": false,
+      "cartOrSearchVisibilityIssue": false,
+      "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780187409061\\responsive-screenshots\\desktop-viewport.png",
+      "notes": [
+        "Potential layout breakage detected.",
+        "One or more CTAs appear hidden."
+      ]
+    },
+    {
+      "viewport": "Desktop viewport",
+      "layoutBreakage": true,
+      "hiddenCtas": true,
+      "horizontalScroll": false,
+      "menuUsabilityIssue": false,
+      "formVisibilityIssue": false,
+      "overlappingElements": false,
+      "cartOrSearchVisibilityIssue": false,
+      "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780187409061\\responsive-screenshots\\desktop-https-ecommerce-folio3-com-b2b-ecommerce.png",
+      "notes": [
+        "Potential layout breakage detected.",
+        "One or more CTAs appear hidden."
+      ]
+    },
+    {
+      "viewport": "Desktop viewport",
+      "layoutBreakage": true,
+      "hiddenCtas": true,
+      "horizontalScroll": false,
+      "menuUsabilityIssue": false,
+      "formVisibilityIssue": false,
+      "overlappingElements": false,
+      "cartOrSearchVisibilityIssue": false,
+      "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780187409061\\responsive-screenshots\\desktop-https-ecommerce-folio3-com-headless-ecom.png",
+      "notes": [
+        "Potential layout breakage detected.",
+        "One or more CTAs appear hidden."
+      ]
+    }
+  ],
+  "summary": {
+    "totalViewports": 7,
+    "issueCount": 14,
+    "issueViewports": 7
+  }
+}

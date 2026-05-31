@@ -1,0 +1,10 @@
+{
+  "baseUrl": "https://ecommerce@folio3.com",
+  "checkedAt": "2026-05-30T18:41:16.773Z",
+  "checkedCount": 2,
+  "failedCount": 0,
+  "confirmedFailedCount": 0,
+  "blockedCount": 0,
+  "pagesSampled": 2,
+  "findings": []
+}

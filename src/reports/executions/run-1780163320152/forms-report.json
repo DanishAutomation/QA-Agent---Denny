@@ -1,0 +1,19 @@
+{
+  "baseUrl": "https://ecommerce.folio3.com",
+  "checkedAt": "2026-05-30T17:54:16.693Z",
+  "formsDetected": 1,
+  "results": [
+    {
+      "pageUrl": "https://ecommerce.folio3.com/",
+      "formType": "other",
+      "requiredFieldsOk": true,
+      "invalidEmailValidationOk": true,
+      "validationMessageDetected": true,
+      "successfulSubmissionAttempted": true,
+      "successfulSubmissionPassed": false,
+      "notes": [
+        "Form screenshot: C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780163320152\\forms-screenshots\\form-0-other.png"
+      ]
+    }
+  ]
+}

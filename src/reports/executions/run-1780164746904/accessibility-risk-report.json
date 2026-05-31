@@ -1,0 +1,41 @@
+{
+  "baseUrl": "https://ecommerce.folio3.com",
+  "checkedAt": "2026-05-30T18:15:02.217Z",
+  "findings": [
+    {
+      "id": "cookie-consent-1",
+      "category": "cookie-consent",
+      "severity": "low",
+      "message": "Cookie consent UI was not detected on inspected page.",
+      "pageUrl": "https://ecommerce.folio3.com/"
+    },
+    {
+      "id": "missing-alt-text-2",
+      "category": "missing-alt-text",
+      "severity": "medium",
+      "message": "1 image(s) appear to be missing alt text.",
+      "pageUrl": "https://ecommerce.folio3.com/"
+    },
+    {
+      "id": "missing-form-labels-3",
+      "category": "missing-form-labels",
+      "severity": "high",
+      "message": "15 form control(s) appear unlabeled.",
+      "pageUrl": "https://ecommerce.folio3.com/"
+    },
+    {
+      "id": "focus-visibility-4",
+      "category": "focus-visibility",
+      "severity": "high",
+      "message": "Focus outline visibility may be insufficient on interactive elements.",
+      "pageUrl": "https://ecommerce.folio3.com/"
+    }
+  ],
+  "summary": {
+    "totalFindings": 4,
+    "high": 2,
+    "medium": 1,
+    "low": 1
+  },
+  "disclaimer": "Accessibility Risk Findings are heuristic indicators only and are not a certification for ADA, HIPAA, or legal compliance."
+}

@@ -1,0 +1,147 @@
+{
+  "baseUrl": "https://uat2.purelifedental.com/",
+  "checkedAt": "2026-05-31T13:42:31.947Z",
+  "findings": [
+    {
+      "id": "missing-alt-text-1",
+      "category": "missing-alt-text",
+      "severity": "high",
+      "message": "21 image(s) appear to be missing alt text.",
+      "pageUrl": "https://uat2.purelifedental.com/"
+    },
+    {
+      "id": "missing-form-labels-2",
+      "category": "missing-form-labels",
+      "severity": "high",
+      "message": "32 form control(s) appear unlabeled.",
+      "pageUrl": "https://uat2.purelifedental.com/"
+    },
+    {
+      "id": "focus-visibility-3",
+      "category": "focus-visibility",
+      "severity": "high",
+      "message": "Focus outline visibility may be insufficient on interactive elements.",
+      "pageUrl": "https://uat2.purelifedental.com/"
+    },
+    {
+      "id": "missing-alt-text-1",
+      "category": "missing-alt-text",
+      "severity": "medium",
+      "message": "1 image(s) appear to be missing alt text.",
+      "pageUrl": "https://uat2.purelifedental.com/customer/account/login/referer/aHR0cHM6Ly91YXQyLnB1cmVsaWZlZGVudGFsLmNvbS8~"
+    },
+    {
+      "id": "missing-form-labels-2",
+      "category": "missing-form-labels",
+      "severity": "high",
+      "message": "5 form control(s) appear unlabeled.",
+      "pageUrl": "https://uat2.purelifedental.com/customer/account/login/referer/aHR0cHM6Ly91YXQyLnB1cmVsaWZlZGVudGFsLmNvbS8~"
+    },
+    {
+      "id": "focus-visibility-3",
+      "category": "focus-visibility",
+      "severity": "high",
+      "message": "Focus outline visibility may be insufficient on interactive elements.",
+      "pageUrl": "https://uat2.purelifedental.com/customer/account/login/referer/aHR0cHM6Ly91YXQyLnB1cmVsaWZlZGVudGFsLmNvbS8~"
+    },
+    {
+      "id": "heading-structure-4",
+      "category": "heading-structure",
+      "severity": "low",
+      "message": "Heading hierarchy appears to skip levels in some sections.",
+      "pageUrl": "https://uat2.purelifedental.com/customer/account/login/referer/aHR0cHM6Ly91YXQyLnB1cmVsaWZlZGVudGFsLmNvbS8~"
+    },
+    {
+      "id": "missing-alt-text-1",
+      "category": "missing-alt-text",
+      "severity": "medium",
+      "message": "1 image(s) appear to be missing alt text.",
+      "pageUrl": "https://uat2.purelifedental.com/checkout/cart"
+    },
+    {
+      "id": "missing-form-labels-2",
+      "category": "missing-form-labels",
+      "severity": "medium",
+      "message": "3 form control(s) appear unlabeled.",
+      "pageUrl": "https://uat2.purelifedental.com/checkout/cart"
+    },
+    {
+      "id": "focus-visibility-3",
+      "category": "focus-visibility",
+      "severity": "high",
+      "message": "Focus outline visibility may be insufficient on interactive elements.",
+      "pageUrl": "https://uat2.purelifedental.com/checkout/cart"
+    },
+    {
+      "id": "heading-structure-4",
+      "category": "heading-structure",
+      "severity": "low",
+      "message": "Heading hierarchy appears to skip levels in some sections.",
+      "pageUrl": "https://uat2.purelifedental.com/checkout/cart"
+    },
+    {
+      "id": "missing-alt-text-1",
+      "category": "missing-alt-text",
+      "severity": "medium",
+      "message": "1 image(s) appear to be missing alt text.",
+      "pageUrl": "https://uat2.purelifedental.com/gloves.html"
+    },
+    {
+      "id": "missing-form-labels-2",
+      "category": "missing-form-labels",
+      "severity": "high",
+      "message": "52 form control(s) appear unlabeled.",
+      "pageUrl": "https://uat2.purelifedental.com/gloves.html"
+    },
+    {
+      "id": "focus-visibility-3",
+      "category": "focus-visibility",
+      "severity": "high",
+      "message": "Focus outline visibility may be insufficient on interactive elements.",
+      "pageUrl": "https://uat2.purelifedental.com/gloves.html"
+    },
+    {
+      "id": "heading-structure-4",
+      "category": "heading-structure",
+      "severity": "low",
+      "message": "Heading hierarchy appears to skip levels in some sections.",
+      "pageUrl": "https://uat2.purelifedental.com/gloves.html"
+    },
+    {
+      "id": "missing-alt-text-1",
+      "category": "missing-alt-text",
+      "severity": "medium",
+      "message": "1 image(s) appear to be missing alt text.",
+      "pageUrl": "https://uat2.purelifedental.com/gloves/gloves-chloroprene-powder-free.html"
+    },
+    {
+      "id": "missing-form-labels-2",
+      "category": "missing-form-labels",
+      "severity": "high",
+      "message": "7 form control(s) appear unlabeled.",
+      "pageUrl": "https://uat2.purelifedental.com/gloves/gloves-chloroprene-powder-free.html"
+    },
+    {
+      "id": "focus-visibility-3",
+      "category": "focus-visibility",
+      "severity": "high",
+      "message": "Focus outline visibility may be insufficient on interactive elements.",
+      "pageUrl": "https://uat2.purelifedental.com/gloves/gloves-chloroprene-powder-free.html"
+    },
+    {
+      "id": "heading-structure-4",
+      "category": "heading-structure",
+      "severity": "low",
+      "message": "Heading hierarchy appears to skip levels in some sections.",
+      "pageUrl": "https://uat2.purelifedental.com/gloves/gloves-chloroprene-powder-free.html"
+    }
+  ],
+  "summary": {
+    "totalFindings": 19,
+    "high": 10,
+    "medium": 5,
+    "low": 4
+  },
+  "disclaimer": "Accessibility Risk Findings are heuristic indicators only and are not a certification for ADA, HIPAA, or legal compliance.",
+  "pagesSampled": 5
+}

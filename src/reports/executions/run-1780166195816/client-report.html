@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>DennyQA vNext Report - run-1780166195816</title>
+    <style>
+      body { font-family: Arial, sans-serif; margin: 24px; color: #1f2937; }
+      h1, h2, h3 { margin-bottom: 8px; }
+      .grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap: 10px; }
+      .card { border: 1px solid #e5e7eb; border-radius: 8px; padding: 10px; background: #fff; }
+      .muted { color: #6b7280; font-size: 13px; }
+      details { border: 1px solid #e5e7eb; border-radius: 8px; padding: 8px; margin-bottom: 8px; }
+      summary { cursor: pointer; font-weight: 600; }
+      ul { margin-top: 4px; }
+    </style>
+  </head>
+  <body>
+    <h1>DennyQA vNext Production Report</h1>
+    <p class="muted">Client-shareable test outcome report.</p>
+
+    <h2>Executive Summary</h2>
+    <div class="grid">
+      <div class="card"><strong>Run ID</strong><br/>run-1780166195816</div>
+      <div class="card"><strong>URL</strong><br/>https://ecommerce@folio3.com</div>
+      <div class="card"><strong>Test Type</strong><br/>Full Regression</div>
+      <div class="card"><strong>Browser</strong><br/>Chrome</div>
+      <div class="card"><strong>Device(s)</strong><br/>Desktop</div>
+      <div class="card"><strong>Environment</strong><br/>development</div>
+      <div class="card"><strong>Total Cases</strong><br/>7</div>
+      <div class="card"><strong>Passed / Failed / Skipped</strong><br/>5 / 2 / 0</div>
+      <div class="card"><strong>Bugs Found</strong><br/>6</div>
+      <div class="card"><strong>Confidence Score</strong><br/>91%</div>
+    </div>
+
+    <h2>Root Cause Analysis</h2>
+    <ul><li>Responsive issue: Responsive layout remains stable across breakpoints: Primary likely cause is backend/API instability reflected by network failures.</li><li>Accessibility issue: Accessibility risk checks run on key templates: Primary likely cause is backend/API instability reflected by network failures.</li><li>Accessibility risk: missing-alt-text: 173 image(s) appear to be missing alt text.</li><li>Accessibility risk: missing-form-labels: 9 form control(s) appear unlabeled.</li><li>Accessibility risk: focus-visibility: Focus outline visibility may be insufficient on interactive elements.</li><li>Responsive layout issues across multiple viewports: Potential layout breakage detected. Potential layout breakage detected. Potential layout breakage detected.</li></ul>
+
+    <h2>Recovery Attempts</h2>
+    <ul><li>Static suite validation for &quot;Responsive&quot; using discovered pages.</li><li>Static suite validation for &quot;Accessibility&quot; using discovered pages.</li><li>Post-run analysis completed after scenario execution.</li></ul>
+
+    <h2>AI Assumptions</h2>
+    <ul><li>Execution assertions rely on generated BDD scenario intent and detected capabilities.</li><li>Fallback test data may be used for missing non-sensitive fields where configured.</li><li>Sensitive/destructive operations are skipped unless safe test mode is explicitly enabled.</li><li>Browser/device matrix reflects configured run values: Chrome / Desktop.</li></ul>
+
+    <h2>Screenshots</h2>
+    <ul><li><strong>scenario-1</strong>: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780166195816\screenshots\scenario-1-Desktop-landing.png</li><li><strong>scenario-2</strong>: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780166195816\screenshots\scenario-2-Desktop-landing.png</li><li><strong>scenario-3</strong>: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780166195816\screenshots\scenario-3-Desktop-landing.png</li><li><strong>scenario-4</strong>: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780166195816\screenshots\scenario-4-Desktop-landing.png</li><li><strong>scenario-5</strong>: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780166195816\screenshots\scenario-5-Desktop-landing.png</li><li><strong>scenario-6</strong>: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780166195816\screenshots\scenario-6-Desktop-landing.png</li><li><strong>scenario-7</strong>: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780166195816\screenshots\scenario-7-Desktop-landing.png</li></ul>
+
+    <h2>Bug Details</h2>
+    
+      <article>
+        <h4>Responsive issue: Responsive layout remains stable across breakpoints (Medium / P2)</h4>
+        <p>During automated validation of &quot;Responsive - Responsive layout remains stable across breakpoints&quot;, the system encountered a blocker that prevented expected user behavior.</p>
+        <p><strong>Expected:</strong> User should be able to complete the intended flow without blockers.</p>
+        <p><strong>Actual:</strong> Responsive issues detected on 3/6 viewports.</p>
+        <p><strong>Suggested fix:</strong> Inspect failing module logic and stabilize related frontend/backend dependencies.</p>
+      </article>
+    
+      <article>
+        <h4>Accessibility issue: Accessibility risk checks run on key templates (Medium / P2)</h4>
+        <p>During automated validation of &quot;Accessibility - Accessibility risk checks run on key templates&quot;, the system encountered a blocker that prevented expected user behavior.</p>
+        <p><strong>Expected:</strong> User should be able to complete the intended flow without blockers.</p>
+        <p><strong>Actual:</strong> 6 high-severity accessibility risk finding(s) detected across sampled templates.</p>
+        <p><strong>Suggested fix:</strong> Inspect failing module logic and stabilize related frontend/backend dependencies.</p>
+      </article>
+    
+      <article>
+        <h4>Accessibility risk: missing-alt-text (High / P1)</h4>
+        <p>173 image(s) appear to be missing alt text.</p>
+        <p><strong>Expected:</strong> Page should meet quality expectations without user-impacting defects.</p>
+        <p><strong>Actual:</strong> 173 image(s) appear to be missing alt text.</p>
+        <p><strong>Suggested fix:</strong> Review template markup, labels, focus states, and media alternatives.</p>
+      </article>
+    
+      <article>
+        <h4>Accessibility risk: missing-form-labels (High / P1)</h4>
+        <p>9 form control(s) appear unlabeled.</p>
+        <p><strong>Expected:</strong> Page should meet quality expectations without user-impacting defects.</p>
+        <p><strong>Actual:</strong> 9 form control(s) appear unlabeled.</p>
+        <p><strong>Suggested fix:</strong> Review template markup, labels, focus states, and media alternatives.</p>
+      </article>
+    
+      <article>
+        <h4>Accessibility risk: focus-visibility (High / P1)</h4>
+        <p>Focus outline visibility may be insufficient on interactive elements.</p>
+        <p><strong>Expected:</strong> Page should meet quality expectations without user-impacting defects.</p>
+        <p><strong>Actual:</strong> Focus outline visibility may be insufficient on interactive elements.</p>
+        <p><strong>Suggested fix:</strong> Review template markup, labels, focus states, and media alternatives.</p>
+      </article>
+    
+      <article>
+        <h4>Responsive layout issues across multiple viewports (Medium / P2)</h4>
+        <p>Responsive audit flagged issues on 3 of 6 viewports.</p>
+        <p><strong>Expected:</strong> Page should meet quality expectations without user-impacting defects.</p>
+        <p><strong>Actual:</strong> Potential layout breakage detected. Potential layout breakage detected. Potential layout breakage detected.</p>
+        <p><strong>Suggested fix:</strong> Review mobile/tablet breakpoints, hidden CTAs, and layout overflow rules.</p>
+      </article>
+    
+
+    <h2>Technical Logs (Collapsible)</h2>
+    
+        <details>
+          <summary>scenario-1 - Contact Form (passed)</summary>
+          <p><strong>Scenario:</strong> Contact form can be submitted with valid data</p>
+          <p><strong>Error reason:</strong> none</p>
+          <p><strong>Page URL:</strong> https://folio3.com/app-development</p>
+          <p><strong>Recovery attempts:</strong> Static suite validation for &quot;Contact Form&quot; using discovered pages.</p>
+          <p><strong>Self-healing logs:</strong> none</p>
+          <p><strong>Console errors:</strong></p><ul><li>Position field not found!</li></ul>
+          <p><strong>Network errors:</strong></p><ul><li>[404] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff</li><li>[FAILED] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff :: net::ERR_ABORTED</li><li>[FAILED] https://www.google.com/recaptcha/api2/clr?k=6LeWqRshAAAAAEnXyC7pwypil_fgdEv6noLL2Sl0 :: net::ERR_ABORTED</li><li>[FAILED] https://ecommerce@folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED</li><li>[FAILED] https://www.google.com/recaptcha/api2/clr?k=6LeWqRshAAAAAEnXyC7pwypil_fgdEv6noLL2Sl0 :: net::ERR_ABORTED</li></ul>
+        </details>
+      
+        <details>
+          <summary>scenario-2 - Forms (passed)</summary>
+          <p><strong>Scenario:</strong> Discovered forms validate required fields safely</p>
+          <p><strong>Error reason:</strong> none</p>
+          <p><strong>Page URL:</strong> https://folio3.com/app-development</p>
+          <p><strong>Recovery attempts:</strong> Static suite validation for &quot;Forms&quot; using discovered pages.</p>
+          <p><strong>Self-healing logs:</strong> none</p>
+          <p><strong>Console errors:</strong></p><ul><li>Position field not found!</li></ul>
+          <p><strong>Network errors:</strong></p><ul><li>[FAILED] https://folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED</li><li>[404] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff</li><li>[FAILED] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff :: net::ERR_ABORTED</li><li>[FAILED] https://ecommerce@folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED</li><li>[FAILED] https://www.google.com/recaptcha/api2/clr?k=6LeWqRshAAAAAEnXyC7pwypil_fgdEv6noLL2Sl0 :: net::ERR_ABORTED</li></ul>
+        </details>
+      
+        <details>
+          <summary>scenario-3 - Broken Link (passed)</summary>
+          <p><strong>Scenario:</strong> Site links return healthy HTTP responses</p>
+          <p><strong>Error reason:</strong> none</p>
+          <p><strong>Page URL:</strong> https://folio3.com/app-development</p>
+          <p><strong>Recovery attempts:</strong> Static suite validation for &quot;Broken Link&quot; using discovered pages.</p>
+          <p><strong>Self-healing logs:</strong> none</p>
+          <p><strong>Console errors:</strong></p><ul><li>Position field not found!</li></ul>
+          <p><strong>Network errors:</strong></p><ul><li>[FAILED] https://folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED</li><li>[404] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff</li><li>[FAILED] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff :: net::ERR_ABORTED</li><li>[FAILED] https://ecommerce@folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED</li><li>[404] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff</li><li>[FAILED] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff :: net::ERR_ABORTED</li><li>[FAILED] https://folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED</li><li>[FAILED] https://forms.hsforms.com/embed/v3/counters.gif?key=collected-forms-embed-js-form-bind&amp;count=1 :: net::ERR_ABORTED</li><li>[FAILED] https://www.google.com/recaptcha/api2/clr?k=6LeWqRshAAAAAEnXyC7pwypil_fgdEv6noLL2Sl0 :: net::ERR_ABORTED</li></ul>
+        </details>
+      
+        <details>
+          <summary>scenario-4 - Responsive (failed)</summary>
+          <p><strong>Scenario:</strong> Responsive layout remains stable across breakpoints</p>
+          <p><strong>Error reason:</strong> Responsive issues detected on 3/6 viewports.</p>
+          <p><strong>Page URL:</strong> https://folio3.com/app-development</p>
+          <p><strong>Recovery attempts:</strong> Static suite validation for &quot;Responsive&quot; using discovered pages.</p>
+          <p><strong>Self-healing logs:</strong> none</p>
+          <p><strong>Console errors:</strong></p><ul><li>Position field not found!</li></ul>
+          <p><strong>Network errors:</strong></p><ul><li>[FAILED] https://folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED</li><li>[404] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff</li><li>[FAILED] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff :: net::ERR_ABORTED</li><li>[FAILED] https://www.google.com/recaptcha/api2/clr?k=6LeWqRshAAAAAEnXyC7pwypil_fgdEv6noLL2Sl0 :: net::ERR_ABORTED</li><li>[FAILED] https://ecommerce@folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED</li><li>[404] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff</li><li>[FAILED] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff :: net::ERR_ABORTED</li><li>[FAILED] https://folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED</li><li>[FAILED] https://forms.hsforms.com/embed/v3/counters.gif?key=collected-forms-embed-js-form-bind&amp;count=1 :: net::ERR_ABORTED</li><li>[FAILED] https://csp.withgoogle.com/csp/frame-ancestors/38fac9d5b82543fc4729580d18ff2d3d :: net::ERR_BLOCKED_BY_ORB</li></ul>
+        </details>
+      
+        <details>
+          <summary>scenario-5 - Accessibility (failed)</summary>
+          <p><strong>Scenario:</strong> Accessibility risk checks run on key templates</p>
+          <p><strong>Error reason:</strong> 6 high-severity accessibility risk finding(s) detected across sampled templates.</p>
+          <p><strong>Page URL:</strong> https://folio3.com/app-development</p>
+          <p><strong>Recovery attempts:</strong> Static suite validation for &quot;Accessibility&quot; using discovered pages.</p>
+          <p><strong>Self-healing logs:</strong> none</p>
+          <p><strong>Console errors:</strong></p><ul><li>Position field not found!</li></ul>
+          <p><strong>Network errors:</strong></p><ul><li>[FAILED] https://www.google.com/recaptcha/api2/clr?k=6LeWqRshAAAAAEnXyC7pwypil_fgdEv6noLL2Sl0 :: net::ERR_ABORTED</li><li>[FAILED] https://folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED</li><li>[404] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff</li><li>[FAILED] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff :: net::ERR_ABORTED</li><li>[FAILED] https://ecommerce@folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED</li><li>[404] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff</li><li>[FAILED] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff :: net::ERR_ABORTED</li><li>[FAILED] https://folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED</li></ul>
+        </details>
+      
+        <details>
+          <summary>scenario-6 - Navigation (passed)</summary>
+          <p><strong>Scenario:</strong> Primary navigation routes resolve correctly</p>
+          <p><strong>Error reason:</strong> none</p>
+          <p><strong>Page URL:</strong> https://folio3.com/app-development</p>
+          <p><strong>Recovery attempts:</strong> Static suite validation for &quot;Navigation&quot; using discovered pages.</p>
+          <p><strong>Self-healing logs:</strong> none</p>
+          <p><strong>Console errors:</strong></p><ul><li>Position field not found!</li></ul>
+          <p><strong>Network errors:</strong></p><ul><li>[FAILED] https://folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED</li><li>[FAILED] https://www.google.com/recaptcha/api2/clr?k=6LeWqRshAAAAAEnXyC7pwypil_fgdEv6noLL2Sl0 :: net::ERR_ABORTED</li><li>[404] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff</li><li>[FAILED] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff :: net::ERR_ABORTED</li><li>[FAILED] https://www.google.com/recaptcha/api2/clr?k=6LeWqRshAAAAAEnXyC7pwypil_fgdEv6noLL2Sl0 :: net::ERR_ABORTED</li><li>[FAILED] https://ecommerce@folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED</li><li>[404] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff</li><li>[FAILED] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff :: net::ERR_ABORTED</li><li>[FAILED] https://www.google.com/recaptcha/api2/clr?k=6LeWqRshAAAAAEnXyC7pwypil_fgdEv6noLL2Sl0 :: net::ERR_ABORTED</li><li>[FAILED] https://folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED</li><li>[FAILED] https://www.google.com/recaptcha/api2/clr?k=6LeWqRshAAAAAEnXyC7pwypil_fgdEv6noLL2Sl0 :: net::ERR_ABORTED</li></ul>
+        </details>
+      
+        <details>
+          <summary>scenario-7 - Static Pages (passed)</summary>
+          <p><strong>Scenario:</strong> Static informational pages load and render expected sections</p>
+          <p><strong>Error reason:</strong> none</p>
+          <p><strong>Page URL:</strong> https://folio3.com/app-development</p>
+          <p><strong>Recovery attempts:</strong> Static suite validation for &quot;Static Pages&quot; using discovered pages.</p>
+          <p><strong>Self-healing logs:</strong> none</p>
+          <p><strong>Console errors:</strong></p><ul><li>Position field not found!</li></ul>
+          <p><strong>Network errors:</strong></p><ul><li>[FAILED] https://folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED</li><li>[404] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff</li><li>[FAILED] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff :: net::ERR_ABORTED</li><li>[FAILED] https://ecommerce@folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED</li><li>[FAILED] https://www.google.com/recaptcha/api2/clr?k=6LeWqRshAAAAAEnXyC7pwypil_fgdEv6noLL2Sl0 :: net::ERR_ABORTED</li></ul>
+        </details>
+      
+  </body>
+</html>

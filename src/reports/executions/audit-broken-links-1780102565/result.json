@@ -1,0 +1,84 @@
+{
+  "runId": "audit-broken-links-1780102565",
+  "startedAt": "2026-05-30T00:56:05.206Z",
+  "completedAt": "2026-05-30T00:56:08.646Z",
+  "durationMs": 3440,
+  "passed": 1,
+  "failed": 0,
+  "skipped": 1,
+  "reportPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\audit-broken-links-1780102565\\result.json",
+  "scenarios": [
+    {
+      "scenarioId": "opt-1",
+      "feature": "Navigation",
+      "scenario": "Primary navigation routes resolve correctly",
+      "status": "passed",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\audit-broken-links-1780102565\\screenshots\\opt-1-Desktop-landing.png"
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "networkErrors": [],
+      "pageUrl": "https://example.com/",
+      "timestamp": "2026-05-30T00:56:05.739Z",
+      "durationMs": 1299,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed"
+      }
+    },
+    {
+      "scenarioId": "opt-2",
+      "feature": "Broken Link",
+      "scenario": "Site links return healthy HTTP responses",
+      "status": "skipped",
+      "errorReason": "No broken link signals discovered.",
+      "screenshots": [],
+      "consoleErrors": [],
+      "networkErrors": [],
+      "pageUrl": "https://example.com",
+      "timestamp": "2026-05-30T00:56:07.038Z",
+      "durationMs": 0,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed"
+      }
+    }
+  ],
+  "bugReports": [],
+  "brokenLinksReport": {
+    "baseUrl": "https://example.com",
+    "checkedAt": "2026-05-30T00:56:08.336Z",
+    "checkedCount": 0,
+    "failedCount": 0,
+    "findings": []
+  },
+  "formsReport": {
+    "baseUrl": "https://example.com",
+    "checkedAt": "2026-05-30T00:56:08.336Z",
+    "formsDetected": 0,
+    "results": []
+  },
+  "brokenLinksReportPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\audit-broken-links-1780102565\\broken-links-report.json",
+  "formsReportPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\audit-broken-links-1780102565\\forms-report.json",
+  "productionReportPaths": {
+    "html": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\audit-broken-links-1780102565\\client-report.html",
+    "json": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\audit-broken-links-1780102565\\client-report.json",
+    "markdown": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\audit-broken-links-1780102565\\summary.md"
+  }
+}

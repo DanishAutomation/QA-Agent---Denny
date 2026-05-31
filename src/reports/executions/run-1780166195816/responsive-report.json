@@ -1,0 +1,96 @@
+{
+  "baseUrl": "https://ecommerce@folio3.com",
+  "generatedAt": "2026-05-30T18:42:44.276Z",
+  "findings": [
+    {
+      "viewport": "Android viewport",
+      "layoutBreakage": true,
+      "hiddenCtas": false,
+      "horizontalScroll": false,
+      "menuUsabilityIssue": false,
+      "formVisibilityIssue": false,
+      "overlappingElements": false,
+      "cartOrSearchVisibilityIssue": false,
+      "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780166195816\\responsive-screenshots\\android-viewport.png",
+      "notes": [
+        "Potential layout breakage detected."
+      ]
+    },
+    {
+      "viewport": "iPhone viewport",
+      "layoutBreakage": true,
+      "hiddenCtas": false,
+      "horizontalScroll": false,
+      "menuUsabilityIssue": false,
+      "formVisibilityIssue": false,
+      "overlappingElements": false,
+      "cartOrSearchVisibilityIssue": false,
+      "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780166195816\\responsive-screenshots\\iphone-viewport.png",
+      "notes": [
+        "Potential layout breakage detected."
+      ]
+    },
+    {
+      "viewport": "iPad viewport",
+      "layoutBreakage": true,
+      "hiddenCtas": true,
+      "horizontalScroll": false,
+      "menuUsabilityIssue": false,
+      "formVisibilityIssue": false,
+      "overlappingElements": false,
+      "cartOrSearchVisibilityIssue": false,
+      "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780166195816\\responsive-screenshots\\ipad-viewport.png",
+      "notes": [
+        "Potential layout breakage detected.",
+        "One or more CTAs appear hidden."
+      ]
+    },
+    {
+      "viewport": "Tablet viewport",
+      "layoutBreakage": false,
+      "hiddenCtas": false,
+      "horizontalScroll": false,
+      "menuUsabilityIssue": false,
+      "formVisibilityIssue": false,
+      "overlappingElements": false,
+      "cartOrSearchVisibilityIssue": false,
+      "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780166195816\\responsive-screenshots\\tablet-viewport.png",
+      "notes": [
+        "Responsive audit failed for Tablet viewport: page.waitForLoadState: Timeout 30000ms exceeded."
+      ]
+    },
+    {
+      "viewport": "Desktop viewport",
+      "layoutBreakage": false,
+      "hiddenCtas": false,
+      "horizontalScroll": false,
+      "menuUsabilityIssue": false,
+      "formVisibilityIssue": false,
+      "overlappingElements": false,
+      "cartOrSearchVisibilityIssue": false,
+      "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780166195816\\responsive-screenshots\\desktop-viewport.png",
+      "notes": [
+        "Responsive audit failed for Desktop viewport: page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://ecommerce@folio3.com/\", waiting until \"domcontentloaded\"\n"
+      ]
+    },
+    {
+      "viewport": "Desktop viewport",
+      "layoutBreakage": false,
+      "hiddenCtas": false,
+      "horizontalScroll": false,
+      "menuUsabilityIssue": false,
+      "formVisibilityIssue": false,
+      "overlappingElements": false,
+      "cartOrSearchVisibilityIssue": false,
+      "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780166195816\\responsive-screenshots\\desktop-https-folio3-com-app-development.png",
+      "notes": [
+        "Responsive audit failed for Desktop viewport: page.waitForLoadState: Timeout 30000ms exceeded."
+      ]
+    }
+  ],
+  "summary": {
+    "totalViewports": 6,
+    "issueCount": 4,
+    "issueViewports": 3
+  }
+}

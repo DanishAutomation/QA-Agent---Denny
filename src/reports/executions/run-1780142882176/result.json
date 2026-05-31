@@ -1,0 +1,95 @@
+{
+  "runId": "run-1780142882176",
+  "startedAt": "2026-05-30T12:08:02.180Z",
+  "completedAt": "2026-05-30T12:08:05.357Z",
+  "durationMs": 3177,
+  "passed": 3,
+  "failed": 0,
+  "skipped": 0,
+  "reportPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780142882176\\result.json",
+  "scenarios": [
+    {
+      "scenarioId": "scenario-1",
+      "feature": "Navigation",
+      "scenario": "Primary navigation routes resolve correctly",
+      "status": "passed",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780142882176\\screenshots\\scenario-1-Desktop-landing.png"
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "networkErrors": [],
+      "pageUrl": "https://example.com/",
+      "timestamp": "2026-05-30T12:08:02.445Z",
+      "durationMs": 1349,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed"
+      }
+    },
+    {
+      "scenarioId": "scenario-2",
+      "feature": "Custom Command",
+      "scenario": "Execute command 1: login with qa.user@example.test and Password@123",
+      "status": "passed",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780142882176\\screenshots\\scenario-2-Desktop-landing.png"
+      ],
+      "consoleErrors": [],
+      "networkErrors": [],
+      "pageUrl": "https://example.com/",
+      "timestamp": "2026-05-30T12:08:03.796Z",
+      "durationMs": 709,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed"
+      }
+    },
+    {
+      "scenarioId": "scenario-3",
+      "feature": "Custom Command",
+      "scenario": "Execute command 2: search for pricing",
+      "status": "passed",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780142882176\\screenshots\\scenario-3-Desktop-landing.png"
+      ],
+      "consoleErrors": [],
+      "networkErrors": [],
+      "pageUrl": "https://example.com/",
+      "timestamp": "2026-05-30T12:08:04.506Z",
+      "durationMs": 689,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed"
+      }
+    }
+  ],
+  "bugReports": [],
+  "productionReportPaths": {
+    "html": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780142882176\\client-report.html",
+    "json": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780142882176\\client-report.json",
+    "markdown": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780142882176\\summary.md"
+  }
+}

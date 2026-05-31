@@ -1,0 +1,70 @@
+{
+  "runId": "run-1780144065450",
+  "startedAt": "2026-05-30T12:27:45.452Z",
+  "completedAt": "2026-05-30T12:27:47.840Z",
+  "durationMs": 2388,
+  "passed": 2,
+  "failed": 0,
+  "skipped": 0,
+  "reportPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780144065450\\result.json",
+  "scenarios": [
+    {
+      "scenarioId": "scenario-1",
+      "feature": "Custom Command",
+      "scenario": "Execute command 1: search for pricing",
+      "status": "passed",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780144065450\\screenshots\\scenario-1-Desktop-landing.png"
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "networkErrors": [],
+      "pageUrl": "https://example.com/",
+      "timestamp": "2026-05-30T12:27:45.726Z",
+      "durationMs": 1262,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed"
+      }
+    },
+    {
+      "scenarioId": "scenario-2",
+      "feature": "Custom Command",
+      "scenario": "Execute command 2: search for pricing",
+      "status": "passed",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780144065450\\screenshots\\scenario-2-Desktop-landing.png"
+      ],
+      "consoleErrors": [],
+      "networkErrors": [],
+      "pageUrl": "https://example.com/",
+      "timestamp": "2026-05-30T12:27:46.989Z",
+      "durationMs": 712,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed"
+      }
+    }
+  ],
+  "bugReports": [],
+  "productionReportPaths": {
+    "html": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780144065450\\client-report.html",
+    "json": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780144065450\\client-report.json",
+    "markdown": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780144065450\\summary.md"
+  }
+}

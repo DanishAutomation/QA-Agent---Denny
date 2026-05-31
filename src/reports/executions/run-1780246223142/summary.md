@@ -1,0 +1,103 @@
+# DennyQA vNext Test Report
+
+## Executive Summary
+- Run ID: run-1780246223142
+- URL: https://uat2.purelifedental.com/
+- Test type: Full Regression
+- Browser: Chrome
+- Device(s): Desktop
+- Environment: development
+- Total cases: 23
+- Passed: 20
+- Failed: 3
+- Skipped: 0
+- Bugs found: 6
+- Confidence score: 90%
+
+## Root Cause Analysis
+- Checkout: Scenario timed out after 120 seconds: Address step validates correctly: Scenario timed out after 120 seconds: Address step validates correctly Network: [404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js Network: [FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED Iframe detected; target action may be inside nested browsing context. Modal/dialog present; interactions may be blocked.
+- Checkout: Scenario timed out after 120 seconds: Shipping step validates correctly: Scenario timed out after 120 seconds: Shipping step validates correctly Iframe detected; target action may be inside nested browsing context. Modal/dialog present; interactions may be blocked.
+- Checkout: No executable regression plan for "Review step validates correctly" —...: No executable regression plan for "Review step validates correctly" — store a successful custom command journey first.
+- Accessibility risk: missing-alt-text: 22 image(s) appear to be missing alt text.
+- Accessibility risk: missing-form-labels: 34 form control(s) appear unlabeled.
+- Accessibility risk: focus-visibility: Focus outline visibility may be insufficient on interactive elements.
+
+## Recovery Attempts
+- Applied 4 memory-backed regression step(s) for "Address step validates correctly".
+- Detected action: moveToCart
+- Detected action: restoreCart
+- Cart restored with at least one line item for downstream checkout.
+- Detected action: proceedToCheckout
+- Reached checkout shipping step after Proceed to Checkout.
+- Detected action: clickCheckoutNext
+- Shipping address already selected; attempting Next click only.
+- Scenario timed out: Scenario timed out after 120 seconds: Address step validates correctly
+- Applied 1 memory-backed regression step(s) for "Shipping step validates correctly".
+- Scenario timed out: Scenario timed out after 120 seconds: Shipping step validates correctly
+- Attempt 1: Root error: No executable regression plan for "Review step validates correctly" — store a successful custom command journey first.
+- Attempt 1: Strategy 1: synchronized to domcontentloaded state.
+- Attempt 1: Strategy 2: no blocking overlays detected.
+- Attempt 1: Strategy 3 skipped: reload avoided on checkout flow to preserve session.
+- Attempt 1: Strategy 4 skipped: base URL recovery disabled for session continuity.
+- Attempt 1: retry failed (No executable regression plan for "Review step validates correctly" — store a successful custom command journey first.)
+- Attempt 2: Root error: No executable regression plan for "Review step validates correctly" — store a successful custom command journey first.
+- Attempt 2: Strategy 1: synchronized to domcontentloaded state.
+- Attempt 2: Strategy 2: no blocking overlays detected.
+- Attempt 2: Strategy 3 skipped: reload avoided on checkout flow to preserve session.
+- Attempt 2: Strategy 4 skipped: base URL recovery disabled for session continuity.
+- Attempt 2: retry failed (No executable regression plan for "Review step validates correctly" — store a successful custom command journey first.)
+- Post-run analysis completed after scenario execution.
+
+## AI Assumptions
+- Execution assertions rely on generated BDD scenario intent and detected capabilities.
+- Fallback test data may be used for missing non-sensitive fields where configured.
+- Sensitive/destructive operations are skipped unless safe test mode is explicitly enabled.
+- Browser/device matrix reflects configured run values: Chrome / Desktop.
+
+## Screenshots
+- scenario-3: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780246223142\screenshots\scenario-3-step-1-product-listing-behavior-is-corr-product-ventyv-flamingo-nitrile-powder-f-Desktop-landing.png
+- scenario-4: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780246223142\screenshots\scenario-4-step-1-search-behavior-is-correct-catalogsearch-result-Desktop-landing.png
+- scenario-5: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780246223142\screenshots\scenario-5-step-1-categories-behavior-is-correct-gloves-html-Desktop-landing.png
+- scenario-6: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780246223142\screenshots\scenario-6-step-1-filters-behavior-is-correct-gloves-html-Desktop-landing.png
+- scenario-7: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780246223142\screenshots\scenario-7-step-1-pagination-behavior-is-correct-gloves-html-Desktop-landing.png
+- scenario-8: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780246223142\screenshots\scenario-8-step-1-add-to-cart-behavior-on-product--product-prophyflex-cleaning-powder-html-Desktop-landing.png
+- scenario-9: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780246223142\screenshots\scenario-9-step-1-child-sku-selection-behavior-on--product-prophyflex-cleaning-powder-html-Desktop-landing.png
+- scenario-10: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780246223142\screenshots\scenario-10-step-1-inventory-behavior-on-product-de-product-encore-af-core-buildup-composite-Desktop-landing.png
+- scenario-11: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780246223142\screenshots\scenario-11-step-1-product-image-behavior-on-produc-product-encore-af-core-buildup-composite-Desktop-landing.png
+- scenario-12: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780246223142\screenshots\scenario-12-step-1-quantity-behavior-on-product-det-product-encore-af-core-buildup-composite-Desktop-landing.png
+- scenario-13: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780246223142\screenshots\scenario-13-step-1-add-item-works-from-cart-workflo-checkout-cart-Desktop-landing.png
+- scenario-14: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780246223142\screenshots\scenario-14-step-1-coupon-if-available-works-from-c-checkout-cart-Desktop-landing.png
+- scenario-15: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780246223142\screenshots\scenario-15-step-1-remove-item-works-from-cart-work-checkout-cart-Desktop-landing.png
+- scenario-16: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780246223142\screenshots\scenario-16-step-1-update-quantity-works-from-cart--checkout-cart-Desktop-landing.png
+- scenario-17: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780246223142\screenshots\scenario-17-step-1-address-step-validates-correctly-checkout-Desktop-failure.png
+- scenario-18: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780246223142\screenshots\scenario-18-step-1-shipping-step-validates-correctl-checkout-Desktop-failure.png
+- scenario-19: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780246223142\screenshots\scenario-19-step-1-billing-step-validates-correctly-checkout-Desktop-landing.png
+- scenario-20: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780246223142\screenshots\scenario-20-step-1-payment-step-validates-correctly-checkout-Desktop-landing.png
+- scenario-21: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780246223142\screenshots\scenario-21-step-1-review-step-validates-correctly-checkout-onepage-success-Desktop-failure.png
+- scenario-22: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780246223142\screenshots\scenario-22-step-1-orders-section-behaves-as-expect-customer-account-order-history-Desktop-landing.png
+- scenario-23: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780246223142\screenshots\scenario-23-step-1-profile-section-behaves-as-expec-customer-account-Desktop-landing.png
+
+## Technical Logs
+- scenario-1 (passed) :: error=none, console=1, network=23
+- scenario-2 (passed) :: error=none, console=1, network=4
+- scenario-3 (passed) :: error=none, console=2, network=10
+- scenario-4 (passed) :: error=none, console=1, network=7
+- scenario-5 (passed) :: error=none, console=1, network=5
+- scenario-6 (passed) :: error=none, console=1, network=10
+- scenario-7 (passed) :: error=none, console=1, network=10
+- scenario-8 (passed) :: error=none, console=2, network=12
+- scenario-9 (passed) :: error=none, console=2, network=10
+- scenario-10 (passed) :: error=none, console=2, network=6
+- scenario-11 (passed) :: error=none, console=2, network=5
+- scenario-12 (passed) :: error=none, console=2, network=5
+- scenario-13 (passed) :: error=none, console=1, network=5
+- scenario-14 (passed) :: error=none, console=0, network=0
+- scenario-15 (passed) :: error=none, console=2, network=41
+- scenario-16 (passed) :: error=none, console=0, network=1
+- scenario-17 (failed) :: error=Scenario timed out after 120 seconds: Address step validates correctly, console=1, network=9
+- scenario-18 (failed) :: error=Scenario timed out after 120 seconds: Shipping step validates correctly, console=0, network=0
+- scenario-19 (passed) :: error=none, console=0, network=0
+- scenario-20 (passed) :: error=none, console=1, network=4
+- scenario-21 (failed) :: error=No executable regression plan for "Review step validates correctly" — store a successful custom command journey first., console=0, network=1
+- scenario-22 (passed) :: error=none, console=1, network=7
+- scenario-23 (passed) :: error=none, console=1, network=5

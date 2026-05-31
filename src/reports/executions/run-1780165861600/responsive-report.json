@@ -1,0 +1,81 @@
+{
+  "baseUrl": "https://uat2.purelifedental.com",
+  "generatedAt": "2026-05-30T18:35:36.018Z",
+  "findings": [
+    {
+      "viewport": "Android viewport",
+      "layoutBreakage": false,
+      "hiddenCtas": true,
+      "horizontalScroll": false,
+      "menuUsabilityIssue": false,
+      "formVisibilityIssue": false,
+      "overlappingElements": false,
+      "cartOrSearchVisibilityIssue": false,
+      "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780165861600\\responsive-screenshots\\android-viewport.png",
+      "notes": [
+        "One or more CTAs appear hidden."
+      ]
+    },
+    {
+      "viewport": "iPhone viewport",
+      "layoutBreakage": false,
+      "hiddenCtas": false,
+      "horizontalScroll": false,
+      "menuUsabilityIssue": false,
+      "formVisibilityIssue": false,
+      "overlappingElements": false,
+      "cartOrSearchVisibilityIssue": false,
+      "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780165861600\\responsive-screenshots\\iphone-viewport.png",
+      "notes": [
+        "Responsive audit failed for iPhone viewport: page.goto: Target page, context or browser has been closed\nCall log:\n  - navigating to \"https://uat2.purelifedental.com/\", waiting until \"domcontentloaded\"\n"
+      ]
+    },
+    {
+      "viewport": "iPad viewport",
+      "layoutBreakage": false,
+      "hiddenCtas": false,
+      "horizontalScroll": false,
+      "menuUsabilityIssue": false,
+      "formVisibilityIssue": false,
+      "overlappingElements": false,
+      "cartOrSearchVisibilityIssue": false,
+      "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780165861600\\responsive-screenshots\\ipad-viewport.png",
+      "notes": [
+        "Responsive audit failed for iPad viewport: page.goto: net::ERR_ABORTED; maybe frame was detached?\nCall log:\n  - navigating to \"https://uat2.purelifedental.com/\", waiting until \"domcontentloaded\"\n"
+      ]
+    },
+    {
+      "viewport": "Tablet viewport",
+      "layoutBreakage": false,
+      "hiddenCtas": false,
+      "horizontalScroll": false,
+      "menuUsabilityIssue": false,
+      "formVisibilityIssue": false,
+      "overlappingElements": false,
+      "cartOrSearchVisibilityIssue": false,
+      "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780165861600\\responsive-screenshots\\tablet-viewport.png",
+      "notes": [
+        "Responsive audit failed for Tablet viewport: page.goto: net::ERR_ABORTED; maybe frame was detached?\nCall log:\n  - navigating to \"https://uat2.purelifedental.com/\", waiting until \"domcontentloaded\"\n"
+      ]
+    },
+    {
+      "viewport": "Desktop viewport",
+      "layoutBreakage": false,
+      "hiddenCtas": false,
+      "horizontalScroll": false,
+      "menuUsabilityIssue": false,
+      "formVisibilityIssue": false,
+      "overlappingElements": false,
+      "cartOrSearchVisibilityIssue": false,
+      "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780165861600\\responsive-screenshots\\desktop-viewport.png",
+      "notes": [
+        "Responsive audit failed for Desktop viewport: page.goto: net::ERR_ABORTED; maybe frame was detached?\nCall log:\n  - navigating to \"https://uat2.purelifedental.com/\", waiting until \"domcontentloaded\"\n"
+      ]
+    }
+  ],
+  "summary": {
+    "totalViewports": 5,
+    "issueCount": 1,
+    "issueViewports": 1
+  }
+}

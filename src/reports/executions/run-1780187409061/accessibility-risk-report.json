@@ -1,0 +1,154 @@
+{
+  "baseUrl": "https://ecommerce.folio3.com/",
+  "checkedAt": "2026-05-31T00:32:35.206Z",
+  "findings": [
+    {
+      "id": "cookie-consent-1",
+      "category": "cookie-consent",
+      "severity": "low",
+      "message": "Cookie consent UI was not detected on inspected page.",
+      "pageUrl": "https://ecommerce.folio3.com/"
+    },
+    {
+      "id": "missing-alt-text-2",
+      "category": "missing-alt-text",
+      "severity": "medium",
+      "message": "1 image(s) appear to be missing alt text.",
+      "pageUrl": "https://ecommerce.folio3.com/"
+    },
+    {
+      "id": "missing-form-labels-3",
+      "category": "missing-form-labels",
+      "severity": "high",
+      "message": "15 form control(s) appear unlabeled.",
+      "pageUrl": "https://ecommerce.folio3.com/"
+    },
+    {
+      "id": "focus-visibility-4",
+      "category": "focus-visibility",
+      "severity": "high",
+      "message": "Focus outline visibility may be insufficient on interactive elements.",
+      "pageUrl": "https://ecommerce.folio3.com/"
+    },
+    {
+      "id": "cookie-consent-1",
+      "category": "cookie-consent",
+      "severity": "low",
+      "message": "Cookie consent UI was not detected on inspected page.",
+      "pageUrl": "https://ecommerce.folio3.com/b2b-ecommerce-development-services/"
+    },
+    {
+      "id": "missing-alt-text-2",
+      "category": "missing-alt-text",
+      "severity": "high",
+      "message": "10 image(s) appear to be missing alt text.",
+      "pageUrl": "https://ecommerce.folio3.com/b2b-ecommerce-development-services/"
+    },
+    {
+      "id": "missing-form-labels-3",
+      "category": "missing-form-labels",
+      "severity": "high",
+      "message": "15 form control(s) appear unlabeled.",
+      "pageUrl": "https://ecommerce.folio3.com/b2b-ecommerce-development-services/"
+    },
+    {
+      "id": "focus-visibility-4",
+      "category": "focus-visibility",
+      "severity": "high",
+      "message": "Focus outline visibility may be insufficient on interactive elements.",
+      "pageUrl": "https://ecommerce.folio3.com/b2b-ecommerce-development-services/"
+    },
+    {
+      "id": "cookie-consent-1",
+      "category": "cookie-consent",
+      "severity": "low",
+      "message": "Cookie consent UI was not detected on inspected page.",
+      "pageUrl": "https://ecommerce.folio3.com/headless-ecommerce-solutions/"
+    },
+    {
+      "id": "missing-alt-text-2",
+      "category": "missing-alt-text",
+      "severity": "high",
+      "message": "32 image(s) appear to be missing alt text.",
+      "pageUrl": "https://ecommerce.folio3.com/headless-ecommerce-solutions/"
+    },
+    {
+      "id": "missing-form-labels-3",
+      "category": "missing-form-labels",
+      "severity": "high",
+      "message": "15 form control(s) appear unlabeled.",
+      "pageUrl": "https://ecommerce.folio3.com/headless-ecommerce-solutions/"
+    },
+    {
+      "id": "focus-visibility-4",
+      "category": "focus-visibility",
+      "severity": "high",
+      "message": "Focus outline visibility may be insufficient on interactive elements.",
+      "pageUrl": "https://ecommerce.folio3.com/headless-ecommerce-solutions/"
+    },
+    {
+      "id": "cookie-consent-1",
+      "category": "cookie-consent",
+      "severity": "low",
+      "message": "Cookie consent UI was not detected on inspected page.",
+      "pageUrl": "https://ecommerce.folio3.com/ecommerce-app-development-services/"
+    },
+    {
+      "id": "missing-alt-text-2",
+      "category": "missing-alt-text",
+      "severity": "high",
+      "message": "6 image(s) appear to be missing alt text.",
+      "pageUrl": "https://ecommerce.folio3.com/ecommerce-app-development-services/"
+    },
+    {
+      "id": "missing-form-labels-3",
+      "category": "missing-form-labels",
+      "severity": "high",
+      "message": "15 form control(s) appear unlabeled.",
+      "pageUrl": "https://ecommerce.folio3.com/ecommerce-app-development-services/"
+    },
+    {
+      "id": "focus-visibility-4",
+      "category": "focus-visibility",
+      "severity": "high",
+      "message": "Focus outline visibility may be insufficient on interactive elements.",
+      "pageUrl": "https://ecommerce.folio3.com/ecommerce-app-development-services/"
+    },
+    {
+      "id": "cookie-consent-1",
+      "category": "cookie-consent",
+      "severity": "low",
+      "message": "Cookie consent UI was not detected on inspected page.",
+      "pageUrl": "https://ecommerce.folio3.com/solutions/virtual-try-on/"
+    },
+    {
+      "id": "missing-alt-text-2",
+      "category": "missing-alt-text",
+      "severity": "high",
+      "message": "19 image(s) appear to be missing alt text.",
+      "pageUrl": "https://ecommerce.folio3.com/solutions/virtual-try-on/"
+    },
+    {
+      "id": "missing-form-labels-3",
+      "category": "missing-form-labels",
+      "severity": "high",
+      "message": "15 form control(s) appear unlabeled.",
+      "pageUrl": "https://ecommerce.folio3.com/solutions/virtual-try-on/"
+    },
+    {
+      "id": "focus-visibility-4",
+      "category": "focus-visibility",
+      "severity": "high",
+      "message": "Focus outline visibility may be insufficient on interactive elements.",
+      "pageUrl": "https://ecommerce.folio3.com/solutions/virtual-try-on/"
+    }
+  ],
+  "summary": {
+    "totalFindings": 20,
+    "high": 14,
+    "medium": 1,
+    "low": 5
+  },
+  "disclaimer": "Accessibility Risk Findings are heuristic indicators only and are not a certification for ADA, HIPAA, or legal compliance.",
+  "pagesSampled": 5
+}

@@ -1,0 +1,200 @@
+{
+  "executiveSummary": {
+    "runId": "run-1780252761592",
+    "environment": "development",
+    "url": "https://uat.tjm.com.au/",
+    "testType": "Smoke",
+    "browser": "Chrome",
+    "devices": [
+      "Desktop"
+    ],
+    "totalCases": 6,
+    "passed": 6,
+    "failed": 0,
+    "skipped": 0,
+    "bugsFound": 0,
+    "confidenceScore": 96
+  },
+  "rootCauseAnalysis": [
+    "No major root-cause signals detected in this run."
+  ],
+  "recoveryAttempts": [
+    "No recovery attempts were required."
+  ],
+  "aiAssumptions": [
+    "Execution assertions rely on generated BDD scenario intent and detected capabilities.",
+    "Fallback test data may be used for missing non-sensitive fields where configured.",
+    "Sensitive/destructive operations are skipped unless safe test mode is explicitly enabled.",
+    "Browser/device matrix reflects configured run values: Chrome / Desktop."
+  ],
+  "screenshots": [
+    {
+      "scenarioId": "scenario-1",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780252761592\\screenshots\\scenario-1-step-1-discovered-forms-validate-requir--Desktop-landing.png"
+    },
+    {
+      "scenarioId": "scenario-2",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780252761592\\screenshots\\scenario-2-step-1-site-links-return-healthy-http-r--Desktop-landing.png"
+    },
+    {
+      "scenarioId": "scenario-3",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780252761592\\screenshots\\scenario-3-step-1-responsive-layout-remains-stable--Desktop-landing.png"
+    },
+    {
+      "scenarioId": "scenario-4",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780252761592\\screenshots\\scenario-4-step-1-accessibility-risk-checks-run-on--Desktop-landing.png"
+    },
+    {
+      "scenarioId": "scenario-5",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780252761592\\screenshots\\scenario-5-step-1-primary-navigation-routes-resolv--Desktop-landing.png"
+    },
+    {
+      "scenarioId": "scenario-6",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780252761592\\screenshots\\scenario-6-step-1-static-informational-pages-load---Desktop-landing.png"
+    }
+  ],
+  "bugs": [],
+  "technicalLogs": [
+    {
+      "scenarioId": "scenario-1",
+      "feature": "Forms",
+      "scenario": "Discovered forms validate required fields safely",
+      "status": "passed",
+      "consoleErrors": [],
+      "networkErrors": [
+        "[FAILED] https://uat.tjm.com.au/static/version1779355168/frontend/Folio3/retailer/en_US/Magezon_Builder/js/magezon-builder.js :: net::ERR_ABORTED",
+        "[FAILED] https://uat.tjm.com.au/static/version1779355168/frontend/Folio3/retailer/en_US/js-cookie/js.cookie.js :: net::ERR_ABORTED",
+        "[FAILED] https://uat.tjm.com.au/static/version1779355168/frontend/Folio3/retailer/en_US/jquery/ui-modules/form-reset-mixin.js :: net::ERR_ABORTED",
+        "[FAILED] https://uat.tjm.com.au/static/version1779355168/frontend/Folio3/retailer/en_US/css/print.css :: net::ERR_ABORTED",
+        "[FAILED] https://uat.tjm.com.au/media/wysiwyg/aus-b2c/Web_Assets_2_1_-mob.jpg :: net::ERR_ABORTED"
+      ],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Static suite validation for \"Forms\" using discovered pages."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-2",
+      "feature": "Broken Link",
+      "scenario": "Site links return healthy HTTP responses",
+      "status": "passed",
+      "consoleErrors": [],
+      "networkErrors": [],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Static suite validation for \"Broken Link\" using discovered pages."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-3",
+      "feature": "Responsive",
+      "scenario": "Responsive layout remains stable across breakpoints",
+      "status": "passed",
+      "consoleErrors": [],
+      "networkErrors": [],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Static suite validation for \"Responsive\" using discovered pages."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-4",
+      "feature": "Accessibility",
+      "scenario": "Accessibility risk checks run on key templates",
+      "status": "passed",
+      "consoleErrors": [],
+      "networkErrors": [],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Static suite validation for \"Accessibility\" using discovered pages."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-5",
+      "feature": "Navigation",
+      "scenario": "Primary navigation routes resolve correctly",
+      "status": "passed",
+      "consoleErrors": [],
+      "networkErrors": [],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Static suite validation for \"Navigation\" using discovered pages."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-6",
+      "feature": "Static Pages",
+      "scenario": "Static informational pages load and render expected sections",
+      "status": "passed",
+      "consoleErrors": [],
+      "networkErrors": [
+        "[FAILED] https://uat.tjm.com.au/media/wysiwyg/aus-b2c/Web_Assets_2_1_-mob.jpg :: net::ERR_ABORTED"
+      ],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Static suite validation for \"Static Pages\" using discovered pages."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    }
+  ],
+  "generatedAt": "2026-05-31T18:42:50.700Z"
+}

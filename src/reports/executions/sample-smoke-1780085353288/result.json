@@ -1,0 +1,63 @@
+{
+  "runId": "sample-smoke-1780085353288",
+  "startedAt": "2026-05-29T20:09:13.289Z",
+  "completedAt": "2026-05-29T20:09:15.467Z",
+  "durationMs": 2178,
+  "passed": 1,
+  "failed": 0,
+  "skipped": 1,
+  "reportPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\sample-smoke-1780085353288\\result.json",
+  "scenarios": [
+    {
+      "scenarioId": "smoke-1",
+      "feature": "Navigation",
+      "scenario": "Homepage renders expected static content",
+      "status": "passed",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\sample-smoke-1780085353288\\screenshots\\smoke-1-Desktop-landing.png"
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "networkErrors": [],
+      "pageUrl": "https://example.com/",
+      "timestamp": "2026-05-29T20:09:13.732Z",
+      "durationMs": 1462,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed"
+      }
+    },
+    {
+      "scenarioId": "smoke-2",
+      "feature": "Checkout",
+      "scenario": "Checkout path should be skipped if unavailable",
+      "status": "skipped",
+      "errorReason": "Checkout not available in smoke sample.",
+      "screenshots": [],
+      "consoleErrors": [],
+      "networkErrors": [],
+      "pageUrl": "https://example.com",
+      "timestamp": "2026-05-29T20:09:15.194Z",
+      "durationMs": 0,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed"
+      }
+    }
+  ]
+}

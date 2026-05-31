@@ -1,0 +1,344 @@
+{
+  "executiveSummary": {
+    "runId": "run-1780143025159",
+    "environment": "development",
+    "url": "https://practicetestautomation.com/practice-test-login/",
+    "testType": "Custom Command Automation",
+    "browser": "Chrome",
+    "devices": [
+      "Desktop"
+    ],
+    "totalCases": 2,
+    "passed": 0,
+    "failed": 2,
+    "skipped": 0,
+    "bugsFound": 2,
+    "confidenceScore": 99
+  },
+  "rootCauseAnalysis": [
+    "Custom Command issue: Execute command 1: login with qa.user@example.test and Password@123: Primary likely cause is backend/API instability reflected by network failures.",
+    "Custom Command issue: Execute command 2: login with qa.user@example.test and Password@123: Primary likely cause is backend/API instability reflected by network failures."
+  ],
+  "recoveryAttempts": [
+    "Filled login email from parsed/fallback data.",
+    "Filled login password from parsed/fallback data.",
+    "Clicked action target: \"submit\".",
+    "Attempt 1: Root error: Loop protection triggered: repeated navigation pattern on https://practicetestautomation.com/practice-test-login/.",
+    "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+    "Attempt 1: Strategy 2: no blocking overlays detected.",
+    "Attempt 1: Strategy 3: reloaded page successfully.",
+    "Attempt 1: Strategy 4: navigated back to base URL and stabilized network.",
+    "Attempt 1: retry failed (Loop protection triggered: repeated navigation pattern on https://practicetestautomation.com/practice-test-login/.)",
+    "Attempt 2: Root error: Loop protection triggered: repeated navigation pattern on https://practicetestautomation.com/practice-test-login/.",
+    "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+    "Attempt 2: Strategy 2: no blocking overlays detected.",
+    "Attempt 2: Strategy 3: reloaded page successfully.",
+    "Attempt 2: Strategy 4: navigated back to base URL and stabilized network.",
+    "Attempt 2: retry failed (Loop protection triggered: repeated navigation pattern on https://practicetestautomation.com/practice-test-login/.)"
+  ],
+  "aiAssumptions": [
+    "Execution assertions rely on generated BDD scenario intent and detected capabilities.",
+    "Fallback test data may be used for missing non-sensitive fields where configured.",
+    "Sensitive/destructive operations are skipped unless safe test mode is explicitly enabled.",
+    "Browser/device matrix reflects configured run values: Chrome / Desktop."
+  ],
+  "screenshots": [
+    {
+      "scenarioId": "scenario-1",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780143025159\\screenshots\\scenario-1-Desktop-failure.png"
+    },
+    {
+      "scenarioId": "scenario-2",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780143025159\\screenshots\\scenario-2-Desktop-failure.png"
+    }
+  ],
+  "bugs": [
+    {
+      "summary": "Custom Command issue: Execute command 1: login with qa.user@example.test and Password@123",
+      "description": "During automated validation of \"Custom Command - Execute command 1: login with qa.user@example.test and Password@123\", the system encountered a blocker that prevented expected user behavior.",
+      "stepsToReproduce": [
+        "Open https://practicetestautomation.com/practice-test-login/",
+        "Execute scenario: Custom Command - Execute command 1: login with qa.user@example.test and Password@123",
+        "Observe behavior and compare with expected journey outcome."
+      ],
+      "expectedResult": "User should be able to complete the intended flow without blockers.",
+      "actualResult": "Loop protection triggered: repeated navigation pattern on https://practicetestautomation.com/practice-test-login/.",
+      "screenshot": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780143025159\\screenshots\\scenario-1-Desktop-failure.png",
+      "suggestedFix": "Inspect failing module logic and stabilize related frontend/backend dependencies.",
+      "severity": "High",
+      "priority": "P1",
+      "confidenceScore": 99,
+      "businessImpact": "Major feature instability impacts trust and operational confidence.",
+      "userImpact": "A significant segment of users experiences functional blockers.",
+      "revenueImpact": "Revenue can be impacted through drop-off in high-value journeys.",
+      "recoveryAttempts": [
+        "Filled login email from parsed/fallback data.",
+        "Filled login password from parsed/fallback data.",
+        "Clicked action target: \"submit\".",
+        "Filled login email from parsed/fallback data.",
+        "Filled login password from parsed/fallback data.",
+        "Clicked action target: \"submit\".",
+        "Filled login email from parsed/fallback data.",
+        "Filled login password from parsed/fallback data.",
+        "Attempt 1: Root error: Loop protection triggered: repeated navigation pattern on https://practicetestautomation.com/practice-test-login/.",
+        "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+        "Attempt 1: Strategy 2: no blocking overlays detected.",
+        "Attempt 1: Strategy 3: reloaded page successfully.",
+        "Attempt 1: Strategy 4: navigated back to base URL and stabilized network.",
+        "Attempt 1: retry failed (Loop protection triggered: repeated navigation pattern on https://practicetestautomation.com/practice-test-login/.)",
+        "Attempt 2: Root error: Loop protection triggered: repeated navigation pattern on https://practicetestautomation.com/practice-test-login/.",
+        "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+        "Attempt 2: Strategy 2: no blocking overlays detected.",
+        "Attempt 2: Strategy 3: reloaded page successfully.",
+        "Attempt 2: Strategy 4: navigated back to base URL and stabilized network.",
+        "Attempt 2: retry failed (Loop protection triggered: repeated navigation pattern on https://practicetestautomation.com/practice-test-login/.)"
+      ],
+      "rootCauseAnalysis": "Primary likely cause is backend/API instability reflected by network failures.",
+      "technicalDetails": {
+        "errorReason": "Loop protection triggered: repeated navigation pattern on https://practicetestautomation.com/practice-test-login/.",
+        "consoleErrors": [],
+        "networkErrors": [
+          "[FAILED] https://practicetestautomation.com/cdn-cgi/rum? :: net::ERR_ABORTED",
+          "[FAILED] https://practicetestautomation.com/cdn-cgi/rum? :: net::ERR_ABORTED",
+          "[FAILED] https://pixel.wp.com/g.gif?v=ext&blog=167878209&post=251&tz=-4&srv=practicetestautomation.com&j=1%3A15.8&host=practicetestautomation.com&ref=&fcp=0&rand=0.1462708799167739 :: net::ERR_ABORTED",
+          "[FAILED] https://practicetestautomation.com/cdn-cgi/rum? :: net::ERR_ABORTED",
+          "[FAILED] https://practicetestautomation.com/cdn-cgi/rum? :: net::ERR_ABORTED",
+          "[FAILED] https://practicetestautomation.com/cdn-cgi/rum? :: net::ERR_ABORTED",
+          "[FAILED] https://pixel.wp.com/g.gif?v=ext&blog=167878209&post=251&tz=-4&srv=practicetestautomation.com&j=1%3A15.8&host=practicetestautomation.com&ref=&fcp=0&rand=0.8863627115288714 :: net::ERR_ABORTED",
+          "[FAILED] https://practicetestautomation.com/cdn-cgi/rum? :: net::ERR_ABORTED"
+        ],
+        "pageUrl": "https://practicetestautomation.com/practice-test-login/",
+        "timestamp": "2026-05-30T12:10:43.854Z",
+        "selfHealing": {
+          "attempted": true,
+          "recovered": false,
+          "attempts": 2,
+          "strategyLogs": [
+            "Attempt 1: Root error: Loop protection triggered: repeated navigation pattern on https://practicetestautomation.com/practice-test-login/.",
+            "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+            "Attempt 1: Strategy 2: no blocking overlays detected.",
+            "Attempt 1: Strategy 3: reloaded page successfully.",
+            "Attempt 1: Strategy 4: navigated back to base URL and stabilized network.",
+            "Attempt 1: retry failed (Loop protection triggered: repeated navigation pattern on https://practicetestautomation.com/practice-test-login/.)",
+            "Attempt 2: Root error: Loop protection triggered: repeated navigation pattern on https://practicetestautomation.com/practice-test-login/.",
+            "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+            "Attempt 2: Strategy 2: no blocking overlays detected.",
+            "Attempt 2: Strategy 3: reloaded page successfully.",
+            "Attempt 2: Strategy 4: navigated back to base URL and stabilized network.",
+            "Attempt 2: retry failed (Loop protection triggered: repeated navigation pattern on https://practicetestautomation.com/practice-test-login/.)"
+          ]
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [
+            "Filled login email from parsed/fallback data.",
+            "Filled login password from parsed/fallback data.",
+            "Clicked action target: \"submit\".",
+            "Filled login email from parsed/fallback data.",
+            "Filled login password from parsed/fallback data.",
+            "Clicked action target: \"submit\".",
+            "Filled login email from parsed/fallback data.",
+            "Filled login password from parsed/fallback data."
+          ],
+          "retryResult": "failed"
+        }
+      }
+    },
+    {
+      "summary": "Custom Command issue: Execute command 2: login with qa.user@example.test and Password@123",
+      "description": "During automated validation of \"Custom Command - Execute command 2: login with qa.user@example.test and Password@123\", the system encountered a blocker that prevented expected user behavior.",
+      "stepsToReproduce": [
+        "Open https://practicetestautomation.com/practice-test-login/",
+        "Execute scenario: Custom Command - Execute command 2: login with qa.user@example.test and Password@123",
+        "Observe behavior and compare with expected journey outcome."
+      ],
+      "expectedResult": "User should be able to complete the intended flow without blockers.",
+      "actualResult": "Loop protection triggered: repeated navigation pattern on https://practicetestautomation.com/practice-test-login/.",
+      "screenshot": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780143025159\\screenshots\\scenario-2-Desktop-failure.png",
+      "suggestedFix": "Inspect failing module logic and stabilize related frontend/backend dependencies.",
+      "severity": "High",
+      "priority": "P1",
+      "confidenceScore": 99,
+      "businessImpact": "Major feature instability impacts trust and operational confidence.",
+      "userImpact": "A significant segment of users experiences functional blockers.",
+      "revenueImpact": "Revenue can be impacted through drop-off in high-value journeys.",
+      "recoveryAttempts": [
+        "Filled login email from parsed/fallback data.",
+        "Filled login password from parsed/fallback data.",
+        "Clicked action target: \"submit\".",
+        "Filled login email from parsed/fallback data.",
+        "Filled login password from parsed/fallback data.",
+        "Clicked action target: \"submit\".",
+        "Filled login email from parsed/fallback data.",
+        "Filled login password from parsed/fallback data.",
+        "Attempt 1: Root error: Loop protection triggered: repeated navigation pattern on https://practicetestautomation.com/practice-test-login/.",
+        "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+        "Attempt 1: Strategy 2: no blocking overlays detected.",
+        "Attempt 1: Strategy 3: reloaded page successfully.",
+        "Attempt 1: Strategy 4: navigated back to base URL and stabilized network.",
+        "Attempt 1: retry failed (Loop protection triggered: repeated navigation pattern on https://practicetestautomation.com/practice-test-login/.)",
+        "Attempt 2: Root error: Loop protection triggered: repeated navigation pattern on https://practicetestautomation.com/practice-test-login/.",
+        "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+        "Attempt 2: Strategy 2: no blocking overlays detected.",
+        "Attempt 2: Strategy 3: reloaded page successfully.",
+        "Attempt 2: Strategy 4: navigated back to base URL and stabilized network.",
+        "Attempt 2: retry failed (Loop protection triggered: repeated navigation pattern on https://practicetestautomation.com/practice-test-login/.)"
+      ],
+      "rootCauseAnalysis": "Primary likely cause is backend/API instability reflected by network failures.",
+      "technicalDetails": {
+        "errorReason": "Loop protection triggered: repeated navigation pattern on https://practicetestautomation.com/practice-test-login/.",
+        "consoleErrors": [],
+        "networkErrors": [
+          "[FAILED] https://practicetestautomation.com/cdn-cgi/rum? :: net::ERR_ABORTED",
+          "[FAILED] https://practicetestautomation.com/cdn-cgi/rum? :: net::ERR_ABORTED",
+          "[FAILED] https://pixel.wp.com/g.gif?v=ext&blog=167878209&post=251&tz=-4&srv=practicetestautomation.com&j=1%3A15.8&host=practicetestautomation.com&ref=&fcp=0&rand=0.13551160367923143 :: net::ERR_ABORTED",
+          "[FAILED] https://practicetestautomation.com/cdn-cgi/rum? :: net::ERR_ABORTED",
+          "[FAILED] https://practicetestautomation.com/cdn-cgi/rum? :: net::ERR_ABORTED",
+          "[FAILED] https://practicetestautomation.com/cdn-cgi/rum? :: net::ERR_ABORTED",
+          "[FAILED] https://pixel.wp.com/g.gif?v=ext&blog=167878209&post=251&tz=-4&srv=practicetestautomation.com&j=1%3A15.8&host=practicetestautomation.com&ref=&fcp=0&rand=0.2916502564342921 :: net::ERR_ABORTED",
+          "[FAILED] https://practicetestautomation.com/cdn-cgi/rum? :: net::ERR_ABORTED"
+        ],
+        "pageUrl": "https://practicetestautomation.com/practice-test-login/",
+        "timestamp": "2026-05-30T12:10:53.085Z",
+        "selfHealing": {
+          "attempted": true,
+          "recovered": false,
+          "attempts": 2,
+          "strategyLogs": [
+            "Attempt 1: Root error: Loop protection triggered: repeated navigation pattern on https://practicetestautomation.com/practice-test-login/.",
+            "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+            "Attempt 1: Strategy 2: no blocking overlays detected.",
+            "Attempt 1: Strategy 3: reloaded page successfully.",
+            "Attempt 1: Strategy 4: navigated back to base URL and stabilized network.",
+            "Attempt 1: retry failed (Loop protection triggered: repeated navigation pattern on https://practicetestautomation.com/practice-test-login/.)",
+            "Attempt 2: Root error: Loop protection triggered: repeated navigation pattern on https://practicetestautomation.com/practice-test-login/.",
+            "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+            "Attempt 2: Strategy 2: no blocking overlays detected.",
+            "Attempt 2: Strategy 3: reloaded page successfully.",
+            "Attempt 2: Strategy 4: navigated back to base URL and stabilized network.",
+            "Attempt 2: retry failed (Loop protection triggered: repeated navigation pattern on https://practicetestautomation.com/practice-test-login/.)"
+          ]
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [
+            "Filled login email from parsed/fallback data.",
+            "Filled login password from parsed/fallback data.",
+            "Clicked action target: \"submit\".",
+            "Filled login email from parsed/fallback data.",
+            "Filled login password from parsed/fallback data.",
+            "Clicked action target: \"submit\".",
+            "Filled login email from parsed/fallback data.",
+            "Filled login password from parsed/fallback data."
+          ],
+          "retryResult": "failed"
+        }
+      }
+    }
+  ],
+  "technicalLogs": [
+    {
+      "scenarioId": "scenario-1",
+      "feature": "Custom Command",
+      "scenario": "Execute command 1: login with qa.user@example.test and Password@123",
+      "status": "failed",
+      "errorReason": "Loop protection triggered: repeated navigation pattern on https://practicetestautomation.com/practice-test-login/.",
+      "consoleErrors": [],
+      "networkErrors": [
+        "[FAILED] https://practicetestautomation.com/cdn-cgi/rum? :: net::ERR_ABORTED",
+        "[FAILED] https://practicetestautomation.com/cdn-cgi/rum? :: net::ERR_ABORTED",
+        "[FAILED] https://pixel.wp.com/g.gif?v=ext&blog=167878209&post=251&tz=-4&srv=practicetestautomation.com&j=1%3A15.8&host=practicetestautomation.com&ref=&fcp=0&rand=0.1462708799167739 :: net::ERR_ABORTED",
+        "[FAILED] https://practicetestautomation.com/cdn-cgi/rum? :: net::ERR_ABORTED",
+        "[FAILED] https://practicetestautomation.com/cdn-cgi/rum? :: net::ERR_ABORTED",
+        "[FAILED] https://practicetestautomation.com/cdn-cgi/rum? :: net::ERR_ABORTED",
+        "[FAILED] https://pixel.wp.com/g.gif?v=ext&blog=167878209&post=251&tz=-4&srv=practicetestautomation.com&j=1%3A15.8&host=practicetestautomation.com&ref=&fcp=0&rand=0.8863627115288714 :: net::ERR_ABORTED",
+        "[FAILED] https://practicetestautomation.com/cdn-cgi/rum? :: net::ERR_ABORTED"
+      ],
+      "selfHealing": {
+        "attempted": true,
+        "recovered": false,
+        "attempts": 2,
+        "strategyLogs": [
+          "Attempt 1: Root error: Loop protection triggered: repeated navigation pattern on https://practicetestautomation.com/practice-test-login/.",
+          "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 1: Strategy 2: no blocking overlays detected.",
+          "Attempt 1: Strategy 3: reloaded page successfully.",
+          "Attempt 1: Strategy 4: navigated back to base URL and stabilized network.",
+          "Attempt 1: retry failed (Loop protection triggered: repeated navigation pattern on https://practicetestautomation.com/practice-test-login/.)",
+          "Attempt 2: Root error: Loop protection triggered: repeated navigation pattern on https://practicetestautomation.com/practice-test-login/.",
+          "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 2: Strategy 2: no blocking overlays detected.",
+          "Attempt 2: Strategy 3: reloaded page successfully.",
+          "Attempt 2: Strategy 4: navigated back to base URL and stabilized network.",
+          "Attempt 2: retry failed (Loop protection triggered: repeated navigation pattern on https://practicetestautomation.com/practice-test-login/.)"
+        ]
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Filled login email from parsed/fallback data.",
+          "Filled login password from parsed/fallback data.",
+          "Clicked action target: \"submit\".",
+          "Filled login email from parsed/fallback data.",
+          "Filled login password from parsed/fallback data.",
+          "Clicked action target: \"submit\".",
+          "Filled login email from parsed/fallback data.",
+          "Filled login password from parsed/fallback data."
+        ],
+        "retryResult": "failed"
+      }
+    },
+    {
+      "scenarioId": "scenario-2",
+      "feature": "Custom Command",
+      "scenario": "Execute command 2: login with qa.user@example.test and Password@123",
+      "status": "failed",
+      "errorReason": "Loop protection triggered: repeated navigation pattern on https://practicetestautomation.com/practice-test-login/.",
+      "consoleErrors": [],
+      "networkErrors": [
+        "[FAILED] https://practicetestautomation.com/cdn-cgi/rum? :: net::ERR_ABORTED",
+        "[FAILED] https://practicetestautomation.com/cdn-cgi/rum? :: net::ERR_ABORTED",
+        "[FAILED] https://pixel.wp.com/g.gif?v=ext&blog=167878209&post=251&tz=-4&srv=practicetestautomation.com&j=1%3A15.8&host=practicetestautomation.com&ref=&fcp=0&rand=0.13551160367923143 :: net::ERR_ABORTED",
+        "[FAILED] https://practicetestautomation.com/cdn-cgi/rum? :: net::ERR_ABORTED",
+        "[FAILED] https://practicetestautomation.com/cdn-cgi/rum? :: net::ERR_ABORTED",
+        "[FAILED] https://practicetestautomation.com/cdn-cgi/rum? :: net::ERR_ABORTED",
+        "[FAILED] https://pixel.wp.com/g.gif?v=ext&blog=167878209&post=251&tz=-4&srv=practicetestautomation.com&j=1%3A15.8&host=practicetestautomation.com&ref=&fcp=0&rand=0.2916502564342921 :: net::ERR_ABORTED",
+        "[FAILED] https://practicetestautomation.com/cdn-cgi/rum? :: net::ERR_ABORTED"
+      ],
+      "selfHealing": {
+        "attempted": true,
+        "recovered": false,
+        "attempts": 2,
+        "strategyLogs": [
+          "Attempt 1: Root error: Loop protection triggered: repeated navigation pattern on https://practicetestautomation.com/practice-test-login/.",
+          "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 1: Strategy 2: no blocking overlays detected.",
+          "Attempt 1: Strategy 3: reloaded page successfully.",
+          "Attempt 1: Strategy 4: navigated back to base URL and stabilized network.",
+          "Attempt 1: retry failed (Loop protection triggered: repeated navigation pattern on https://practicetestautomation.com/practice-test-login/.)",
+          "Attempt 2: Root error: Loop protection triggered: repeated navigation pattern on https://practicetestautomation.com/practice-test-login/.",
+          "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 2: Strategy 2: no blocking overlays detected.",
+          "Attempt 2: Strategy 3: reloaded page successfully.",
+          "Attempt 2: Strategy 4: navigated back to base URL and stabilized network.",
+          "Attempt 2: retry failed (Loop protection triggered: repeated navigation pattern on https://practicetestautomation.com/practice-test-login/.)"
+        ]
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Filled login email from parsed/fallback data.",
+          "Filled login password from parsed/fallback data.",
+          "Clicked action target: \"submit\".",
+          "Filled login email from parsed/fallback data.",
+          "Filled login password from parsed/fallback data.",
+          "Clicked action target: \"submit\".",
+          "Filled login email from parsed/fallback data.",
+          "Filled login password from parsed/fallback data."
+        ],
+        "retryResult": "failed"
+      }
+    }
+  ],
+  "generatedAt": "2026-05-30T12:10:59.098Z"
+}

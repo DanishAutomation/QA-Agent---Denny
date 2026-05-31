@@ -1,0 +1,151 @@
+{
+  "runId": "audit-responsive-1780102574",
+  "startedAt": "2026-05-30T00:56:14.948Z",
+  "completedAt": "2026-05-30T00:56:24.675Z",
+  "durationMs": 9726,
+  "passed": 1,
+  "failed": 0,
+  "skipped": 1,
+  "reportPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\audit-responsive-1780102574\\result.json",
+  "scenarios": [
+    {
+      "scenarioId": "opt-1",
+      "feature": "Navigation",
+      "scenario": "Primary navigation routes resolve correctly",
+      "status": "passed",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\audit-responsive-1780102574\\screenshots\\opt-1-Desktop-landing.png"
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "networkErrors": [],
+      "pageUrl": "https://example.com/",
+      "timestamp": "2026-05-30T00:56:15.548Z",
+      "durationMs": 1395,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed"
+      }
+    },
+    {
+      "scenarioId": "opt-2",
+      "feature": "Responsive",
+      "scenario": "Responsive risk areas remain stable across breakpoints",
+      "status": "skipped",
+      "errorReason": "Responsive risk areas not detected.",
+      "screenshots": [],
+      "consoleErrors": [],
+      "networkErrors": [],
+      "pageUrl": "https://example.com",
+      "timestamp": "2026-05-30T00:56:16.943Z",
+      "durationMs": 0,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed"
+      }
+    }
+  ],
+  "bugReports": [],
+  "responsiveReport": {
+    "baseUrl": "https://example.com",
+    "generatedAt": "2026-05-30T00:56:24.286Z",
+    "findings": [
+      {
+        "viewport": "Android viewport",
+        "layoutBreakage": false,
+        "hiddenCtas": false,
+        "horizontalScroll": false,
+        "menuUsabilityIssue": true,
+        "formVisibilityIssue": false,
+        "overlappingElements": false,
+        "cartOrSearchVisibilityIssue": false,
+        "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\audit-responsive-1780102574\\responsive-screenshots\\android-viewport.png",
+        "notes": [
+          "Menu/navigation usability risk detected."
+        ]
+      },
+      {
+        "viewport": "iPhone viewport",
+        "layoutBreakage": false,
+        "hiddenCtas": false,
+        "horizontalScroll": false,
+        "menuUsabilityIssue": true,
+        "formVisibilityIssue": false,
+        "overlappingElements": false,
+        "cartOrSearchVisibilityIssue": false,
+        "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\audit-responsive-1780102574\\responsive-screenshots\\iphone-viewport.png",
+        "notes": [
+          "Menu/navigation usability risk detected."
+        ]
+      },
+      {
+        "viewport": "iPad viewport",
+        "layoutBreakage": false,
+        "hiddenCtas": false,
+        "horizontalScroll": false,
+        "menuUsabilityIssue": true,
+        "formVisibilityIssue": false,
+        "overlappingElements": false,
+        "cartOrSearchVisibilityIssue": false,
+        "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\audit-responsive-1780102574\\responsive-screenshots\\ipad-viewport.png",
+        "notes": [
+          "Menu/navigation usability risk detected."
+        ]
+      },
+      {
+        "viewport": "Tablet viewport",
+        "layoutBreakage": false,
+        "hiddenCtas": false,
+        "horizontalScroll": false,
+        "menuUsabilityIssue": true,
+        "formVisibilityIssue": false,
+        "overlappingElements": false,
+        "cartOrSearchVisibilityIssue": false,
+        "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\audit-responsive-1780102574\\responsive-screenshots\\tablet-viewport.png",
+        "notes": [
+          "Menu/navigation usability risk detected."
+        ]
+      },
+      {
+        "viewport": "Desktop viewport",
+        "layoutBreakage": false,
+        "hiddenCtas": false,
+        "horizontalScroll": false,
+        "menuUsabilityIssue": true,
+        "formVisibilityIssue": false,
+        "overlappingElements": false,
+        "cartOrSearchVisibilityIssue": false,
+        "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\audit-responsive-1780102574\\responsive-screenshots\\desktop-viewport.png",
+        "notes": [
+          "Menu/navigation usability risk detected."
+        ]
+      }
+    ],
+    "summary": {
+      "totalViewports": 5,
+      "issueCount": 5,
+      "issueViewports": 5
+    }
+  },
+  "responsiveReportPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\audit-responsive-1780102574\\responsive-report.json",
+  "productionReportPaths": {
+    "html": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\audit-responsive-1780102574\\client-report.html",
+    "json": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\audit-responsive-1780102574\\client-report.json",
+    "markdown": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\audit-responsive-1780102574\\summary.md"
+  }
+}

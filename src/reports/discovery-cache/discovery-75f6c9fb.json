@@ -1,0 +1,1488 @@
+{
+  "cacheKey": "{\"cacheVersion\":3,\"baseUrl\":\"https://ecommerce@folio3.com/\",\"maxDepth\":2,\"maxPages\":30,\"maxLinksPerPage\":60}",
+  "baseUrl": "https://ecommerce@folio3.com/",
+  "storedAtMs": 1780166214127,
+  "result": {
+    "baseUrl": "https://ecommerce@folio3.com/",
+    "websiteType": "Static",
+    "capabilities": {
+      "login": false,
+      "signup": false,
+      "search": false,
+      "categories": false,
+      "productListing": false,
+      "productDetail": false,
+      "addToCart": false,
+      "cart": false,
+      "checkout": false,
+      "contactForm": true,
+      "newsletterForm": false,
+      "quoteForm": false,
+      "staticPages": true,
+      "blogPages": false,
+      "brokenLinks": true,
+      "responsiveRiskAreas": true
+    },
+    "pagesFound": [
+      {
+        "url": "https://ecommerce@folio3.com/",
+        "title": "Digital Transformation Consultants & Service Provider",
+        "depth": 0,
+        "status": 200
+      },
+      {
+        "url": "https://folio3.com/",
+        "title": "Digital Transformation Consultants & Service Provider",
+        "depth": 1,
+        "status": 200
+      },
+      {
+        "url": "https://folio3.com/app-development",
+        "title": "App Development - folio3",
+        "depth": 1,
+        "status": 200
+      }
+    ],
+    "formsFound": [
+      {
+        "pageUrl": "https://ecommerce@folio3.com/",
+        "action": "https://ecommerce@folio3.com/#wpcf7-f17855-o1",
+        "method": "post",
+        "inputNames": [
+          "_wpcf7",
+          "_wpcf7_version",
+          "_wpcf7_locale",
+          "_wpcf7_unit_tag",
+          "_wpcf7_container_post",
+          "_wpcf7_posted_data_hash",
+          "_wpcf7_recaptcha_response",
+          "full_name",
+          "email",
+          "phone",
+          "company",
+          "message",
+          "submit"
+        ],
+        "formType": "contact"
+      },
+      {
+        "pageUrl": "https://folio3.com/",
+        "action": "https://folio3.com/#wpcf7-f17855-o1",
+        "method": "post",
+        "inputNames": [
+          "_wpcf7",
+          "_wpcf7_version",
+          "_wpcf7_locale",
+          "_wpcf7_unit_tag",
+          "_wpcf7_container_post",
+          "_wpcf7_posted_data_hash",
+          "_wpcf7_recaptcha_response",
+          "full_name",
+          "email",
+          "phone",
+          "company",
+          "message",
+          "submit"
+        ],
+        "formType": "contact"
+      },
+      {
+        "pageUrl": "https://folio3.com/app-development",
+        "action": "https://folio3.com/app-development#wpcf7-f17855-o1",
+        "method": "post",
+        "inputNames": [
+          "_wpcf7",
+          "_wpcf7_version",
+          "_wpcf7_locale",
+          "_wpcf7_unit_tag",
+          "_wpcf7_container_post",
+          "_wpcf7_posted_data_hash",
+          "_wpcf7_recaptcha_response",
+          "full_name",
+          "email",
+          "phone",
+          "company",
+          "message",
+          "submit"
+        ],
+        "formType": "contact"
+      }
+    ],
+    "buttonsFound": [
+      {
+        "pageUrl": "https://ecommerce@folio3.com/",
+        "text": "",
+        "selectorHint": "#menu-toggle-372"
+      },
+      {
+        "pageUrl": "https://ecommerce@folio3.com/",
+        "text": "",
+        "selectorHint": "#e-n-menu-dropdown-icon-3721"
+      },
+      {
+        "pageUrl": "https://ecommerce@folio3.com/",
+        "text": "",
+        "selectorHint": "#e-n-menu-dropdown-icon-3722"
+      },
+      {
+        "pageUrl": "https://ecommerce@folio3.com/",
+        "text": "",
+        "selectorHint": "#e-n-menu-dropdown-icon-3723"
+      },
+      {
+        "pageUrl": "https://ecommerce@folio3.com/",
+        "text": "",
+        "selectorHint": "#e-n-menu-dropdown-icon-3724"
+      },
+      {
+        "pageUrl": "https://ecommerce@folio3.com/",
+        "text": "",
+        "selectorHint": "#e-n-menu-dropdown-icon-3725"
+      },
+      {
+        "pageUrl": "https://ecommerce@folio3.com/",
+        "text": "",
+        "selectorHint": "#e-n-menu-dropdown-icon-3726"
+      },
+      {
+        "pageUrl": "https://ecommerce@folio3.com/",
+        "text": "",
+        "selectorHint": "#e-n-menu-dropdown-icon-3727"
+      },
+      {
+        "pageUrl": "https://ecommerce@folio3.com/",
+        "text": "",
+        "selectorHint": "#e-n-menu-dropdown-icon-3728"
+      },
+      {
+        "pageUrl": "https://ecommerce@folio3.com/",
+        "text": "",
+        "selectorHint": "#e-n-menu-dropdown-icon-3729"
+      },
+      {
+        "pageUrl": "https://ecommerce@folio3.com/",
+        "text": "",
+        "selectorHint": "#e-n-menu-dropdown-icon-37210"
+      },
+      {
+        "pageUrl": "https://ecommerce@folio3.com/",
+        "text": "AgTech",
+        "selectorHint": "#e-n-tabs-title-2011"
+      },
+      {
+        "pageUrl": "https://ecommerce@folio3.com/",
+        "text": "FoodTech",
+        "selectorHint": "#e-n-tabs-title-2012"
+      },
+      {
+        "pageUrl": "https://ecommerce@folio3.com/",
+        "text": "Send Message",
+        "selectorHint": ".wpcf7-form-control"
+      },
+      {
+        "pageUrl": "https://folio3.com/",
+        "text": "",
+        "selectorHint": "#menu-toggle-372"
+      },
+      {
+        "pageUrl": "https://folio3.com/",
+        "text": "",
+        "selectorHint": "#e-n-menu-dropdown-icon-3721"
+      },
+      {
+        "pageUrl": "https://folio3.com/",
+        "text": "",
+        "selectorHint": "#e-n-menu-dropdown-icon-3722"
+      },
+      {
+        "pageUrl": "https://folio3.com/",
+        "text": "",
+        "selectorHint": "#e-n-menu-dropdown-icon-3723"
+      },
+      {
+        "pageUrl": "https://folio3.com/",
+        "text": "",
+        "selectorHint": "#e-n-menu-dropdown-icon-3724"
+      },
+      {
+        "pageUrl": "https://folio3.com/",
+        "text": "",
+        "selectorHint": "#e-n-menu-dropdown-icon-3725"
+      },
+      {
+        "pageUrl": "https://folio3.com/",
+        "text": "",
+        "selectorHint": "#e-n-menu-dropdown-icon-3726"
+      },
+      {
+        "pageUrl": "https://folio3.com/",
+        "text": "",
+        "selectorHint": "#e-n-menu-dropdown-icon-3727"
+      },
+      {
+        "pageUrl": "https://folio3.com/",
+        "text": "",
+        "selectorHint": "#e-n-menu-dropdown-icon-3728"
+      },
+      {
+        "pageUrl": "https://folio3.com/",
+        "text": "",
+        "selectorHint": "#e-n-menu-dropdown-icon-3729"
+      },
+      {
+        "pageUrl": "https://folio3.com/",
+        "text": "",
+        "selectorHint": "#e-n-menu-dropdown-icon-37210"
+      },
+      {
+        "pageUrl": "https://folio3.com/",
+        "text": "AgTech",
+        "selectorHint": "#e-n-tabs-title-2011"
+      },
+      {
+        "pageUrl": "https://folio3.com/",
+        "text": "FoodTech",
+        "selectorHint": "#e-n-tabs-title-2012"
+      },
+      {
+        "pageUrl": "https://folio3.com/",
+        "text": "Send Message",
+        "selectorHint": ".wpcf7-form-control"
+      },
+      {
+        "pageUrl": "https://folio3.com/app-development",
+        "text": "",
+        "selectorHint": "#menu-toggle-372"
+      },
+      {
+        "pageUrl": "https://folio3.com/app-development",
+        "text": "",
+        "selectorHint": "#e-n-menu-dropdown-icon-3721"
+      },
+      {
+        "pageUrl": "https://folio3.com/app-development",
+        "text": "",
+        "selectorHint": "#e-n-menu-dropdown-icon-3722"
+      },
+      {
+        "pageUrl": "https://folio3.com/app-development",
+        "text": "",
+        "selectorHint": "#e-n-menu-dropdown-icon-3723"
+      },
+      {
+        "pageUrl": "https://folio3.com/app-development",
+        "text": "",
+        "selectorHint": "#e-n-menu-dropdown-icon-3724"
+      },
+      {
+        "pageUrl": "https://folio3.com/app-development",
+        "text": "",
+        "selectorHint": "#e-n-menu-dropdown-icon-3725"
+      },
+      {
+        "pageUrl": "https://folio3.com/app-development",
+        "text": "",
+        "selectorHint": "#e-n-menu-dropdown-icon-3726"
+      },
+      {
+        "pageUrl": "https://folio3.com/app-development",
+        "text": "",
+        "selectorHint": "#e-n-menu-dropdown-icon-3727"
+      },
+      {
+        "pageUrl": "https://folio3.com/app-development",
+        "text": "",
+        "selectorHint": "#e-n-menu-dropdown-icon-3728"
+      },
+      {
+        "pageUrl": "https://folio3.com/app-development",
+        "text": "",
+        "selectorHint": "#e-n-menu-dropdown-icon-3729"
+      },
+      {
+        "pageUrl": "https://folio3.com/app-development",
+        "text": "",
+        "selectorHint": "#e-n-menu-dropdown-icon-37210"
+      },
+      {
+        "pageUrl": "https://folio3.com/app-development",
+        "text": "AgTech",
+        "selectorHint": "#e-n-tabs-title-2011"
+      },
+      {
+        "pageUrl": "https://folio3.com/app-development",
+        "text": "FoodTech",
+        "selectorHint": "#e-n-tabs-title-2012"
+      },
+      {
+        "pageUrl": "https://folio3.com/app-development",
+        "text": "Send Message",
+        "selectorHint": ".wpcf7-form-control"
+      }
+    ],
+    "linksFound": [
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://folio3.com/",
+        "text": "(no text)",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://www.folio3.ai/",
+        "text": "AI",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://data.folio3.com/",
+        "text": "Data / Cloud",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://netsuite.folio3.com/",
+        "text": "Netsuite",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://dynamics.folio3.com/",
+        "text": "Microsoft Dynamics",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://ecommerce.folio3.com/",
+        "text": "Ecommerce",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://crm.folio3.com/",
+        "text": "Salesforce",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://agtech.folio3.com/",
+        "text": "Agriculture & Food",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://digitalhealth.folio3.com/",
+        "text": "Digital Health",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://folio3.com/app-development",
+        "text": "App Dev",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://www.folio3.ai/computer-vision-development",
+        "text": "Computer Vision",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://www.folio3.ai/ai-drone-inspection-software",
+        "text": "AI Drones",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://www.folio3.ai/predictive-analytics",
+        "text": "Predictive Analytics",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://www.folio3.ai/machine-learning-development-services",
+        "text": "Machine Learning",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://www.folio3.ai/natural-language-processing",
+        "text": "Natural Language Processing",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://www.folio3.ai/ai-healthcare-solutions",
+        "text": "Healthcare",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://www.folio3.ai/ai-automotive-solutions",
+        "text": "Automotive",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://www.folio3.ai/industries/ml-security-solutions",
+        "text": "Security",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://www.folio3.ai/ai-in-transportation",
+        "text": "Transportation",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://www.folio3.ai/ai-fitness-app-development-services",
+        "text": "Fitness",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://www.folio3.ai/ai-for-the-travel-industry",
+        "text": "Travel",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://www.folio3.ai/education-ai-chatbot",
+        "text": "Education",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://www.folio3.ai/industries/ai-powered-fashion-tagging",
+        "text": "AI Fashion Tagging",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://www.folio3.ai/ai-object-detection-solutions",
+        "text": "AI Object Detection",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://www.folio3.ai/ai-powered-visual-search-solution",
+        "text": "Visual Search",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://www.folio3.ai/computer-vision/image-similarity-solution",
+        "text": "Image Similarity",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://www.folio3.ai/computer-vision/ai-image-processing",
+        "text": "AI Image Processing",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://www.folio3.ai/image-segmentation",
+        "text": "Image Segmentation",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://www.folio3.ai/image-analytics-services",
+        "text": "Image Analytics",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://www.folio3.ai/video-analytics",
+        "text": "Video Analytics",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://www.folio3.ai/building-access-control",
+        "text": "Building Access Control",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://www.folio3.ai/",
+        "text": "Pre-built Models",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://www.folio3.ai/models/vehicle-detection",
+        "text": "Vehicle Detection",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://www.folio3.ai/face-recognition",
+        "text": "Face Recognition",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://www.folio3.ai/models/person-detection",
+        "text": "Person Detection",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://www.folio3.ai/models/food-detection",
+        "text": "Food Detection",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://www.folio3.ai/models/apparel-detection",
+        "text": "Apparel Detection",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://www.folio3.ai/models/animal-detection",
+        "text": "Animal Detection",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://www.folio3.ai/predictive-analytics",
+        "text": "Predictive Analytics",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://www.folio3.ai/atm-cash-forecasting",
+        "text": "ATM Cash Forecasting",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://www.folio3.ai/fraud-detection-solutions",
+        "text": "Fraud Detection Solutions",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://www.folio3.ai/ai-drone-inspection-software",
+        "text": "AI Drones",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://www.folio3.ai/ai-drone-solar-panel-inspection",
+        "text": "Solar Panel Inspection",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://www.folio3.ai/search-rescue-drone",
+        "text": "Search & Rescue",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://www.folio3.ai/ai-wind-turbine-inspection",
+        "text": "Wind Turbine Inspection",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://www.folio3.ai/terrain-mapping",
+        "text": "Terrain Mapping",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://www.folio3.ai/livestock-management",
+        "text": "Livestock Management",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://cloud.folio3.com/services/cloud-migration-services",
+        "text": "Cloud Migration",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://cloud.folio3.com/services/managed-cloud-services",
+        "text": "Managed Cloud",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://data.folio3.com/services/data-engineering",
+        "text": "Data Engineering Services",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://cloud.folio3.com/services/devops-consulting-services",
+        "text": "DevOps Consulting",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://cloud.folio3.com/services/kubernetes-consulting",
+        "text": "Kubernetes Consulting",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://data.folio3.com/services/data-strategy-consulting",
+        "text": "Data Strategy Services",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://data.folio3.com/services/data-analytics",
+        "text": "Data Analytics Consulting Services",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://data.folio3.com/services/snowflake-consulting",
+        "text": "Snowflake Consulting",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://data.folio3.com/services/databricks-consulting",
+        "text": "Databricks Consulting",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://data.folio3.com/services/bigquery-consulting",
+        "text": "BigQuery Consulting",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://netsuite.folio3.com/services/netsuite-implementation-services",
+        "text": "NetSuite Implementation",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://netsuite.folio3.com/services/netsuite-customization-services",
+        "text": "NetSuite Customization",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://ecommerce@folio3.com/",
+        "toUrl": "https://netsuite.folio3.com/services/netsuite-support-services",
+        "text": "NetSuite Support (SmartCare)",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://folio3.com/",
+        "text": "(no text)",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://www.folio3.ai/",
+        "text": "AI",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://data.folio3.com/",
+        "text": "Data / Cloud",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://netsuite.folio3.com/",
+        "text": "Netsuite",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://dynamics.folio3.com/",
+        "text": "Microsoft Dynamics",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://ecommerce.folio3.com/",
+        "text": "Ecommerce",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://crm.folio3.com/",
+        "text": "Salesforce",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://agtech.folio3.com/",
+        "text": "Agriculture & Food",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://digitalhealth.folio3.com/",
+        "text": "Digital Health",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://folio3.com/app-development",
+        "text": "App Dev",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://www.folio3.ai/computer-vision-development",
+        "text": "Computer Vision",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://www.folio3.ai/ai-drone-inspection-software",
+        "text": "AI Drones",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://www.folio3.ai/predictive-analytics",
+        "text": "Predictive Analytics",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://www.folio3.ai/machine-learning-development-services",
+        "text": "Machine Learning",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://www.folio3.ai/natural-language-processing",
+        "text": "Natural Language Processing",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://www.folio3.ai/ai-healthcare-solutions",
+        "text": "Healthcare",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://www.folio3.ai/ai-automotive-solutions",
+        "text": "Automotive",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://www.folio3.ai/industries/ml-security-solutions",
+        "text": "Security",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://www.folio3.ai/ai-in-transportation",
+        "text": "Transportation",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://www.folio3.ai/ai-fitness-app-development-services",
+        "text": "Fitness",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://www.folio3.ai/ai-for-the-travel-industry",
+        "text": "Travel",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://www.folio3.ai/education-ai-chatbot",
+        "text": "Education",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://www.folio3.ai/industries/ai-powered-fashion-tagging",
+        "text": "AI Fashion Tagging",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://www.folio3.ai/ai-object-detection-solutions",
+        "text": "AI Object Detection",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://www.folio3.ai/ai-powered-visual-search-solution",
+        "text": "Visual Search",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://www.folio3.ai/computer-vision/image-similarity-solution",
+        "text": "Image Similarity",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://www.folio3.ai/computer-vision/ai-image-processing",
+        "text": "AI Image Processing",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://www.folio3.ai/image-segmentation",
+        "text": "Image Segmentation",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://www.folio3.ai/image-analytics-services",
+        "text": "Image Analytics",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://www.folio3.ai/video-analytics",
+        "text": "Video Analytics",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://www.folio3.ai/building-access-control",
+        "text": "Building Access Control",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://www.folio3.ai/",
+        "text": "Pre-built Models",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://www.folio3.ai/models/vehicle-detection",
+        "text": "Vehicle Detection",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://www.folio3.ai/face-recognition",
+        "text": "Face Recognition",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://www.folio3.ai/models/person-detection",
+        "text": "Person Detection",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://www.folio3.ai/models/food-detection",
+        "text": "Food Detection",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://www.folio3.ai/models/apparel-detection",
+        "text": "Apparel Detection",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://www.folio3.ai/models/animal-detection",
+        "text": "Animal Detection",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://www.folio3.ai/predictive-analytics",
+        "text": "Predictive Analytics",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://www.folio3.ai/atm-cash-forecasting",
+        "text": "ATM Cash Forecasting",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://www.folio3.ai/fraud-detection-solutions",
+        "text": "Fraud Detection Solutions",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://www.folio3.ai/ai-drone-inspection-software",
+        "text": "AI Drones",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://www.folio3.ai/ai-drone-solar-panel-inspection",
+        "text": "Solar Panel Inspection",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://www.folio3.ai/search-rescue-drone",
+        "text": "Search & Rescue",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://www.folio3.ai/ai-wind-turbine-inspection",
+        "text": "Wind Turbine Inspection",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://www.folio3.ai/terrain-mapping",
+        "text": "Terrain Mapping",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://www.folio3.ai/livestock-management",
+        "text": "Livestock Management",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://cloud.folio3.com/services/cloud-migration-services",
+        "text": "Cloud Migration",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://cloud.folio3.com/services/managed-cloud-services",
+        "text": "Managed Cloud",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://data.folio3.com/services/data-engineering",
+        "text": "Data Engineering Services",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://cloud.folio3.com/services/devops-consulting-services",
+        "text": "DevOps Consulting",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://cloud.folio3.com/services/kubernetes-consulting",
+        "text": "Kubernetes Consulting",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://data.folio3.com/services/data-strategy-consulting",
+        "text": "Data Strategy Services",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://data.folio3.com/services/data-analytics",
+        "text": "Data Analytics Consulting Services",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://data.folio3.com/services/snowflake-consulting",
+        "text": "Snowflake Consulting",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://data.folio3.com/services/databricks-consulting",
+        "text": "Databricks Consulting",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://data.folio3.com/services/bigquery-consulting",
+        "text": "BigQuery Consulting",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://netsuite.folio3.com/services/netsuite-implementation-services",
+        "text": "NetSuite Implementation",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://netsuite.folio3.com/services/netsuite-customization-services",
+        "text": "NetSuite Customization",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/",
+        "toUrl": "https://netsuite.folio3.com/services/netsuite-support-services",
+        "text": "NetSuite Support (SmartCare)",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://folio3.com/",
+        "text": "(no text)",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://www.folio3.ai/",
+        "text": "AI",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://data.folio3.com/",
+        "text": "Data / Cloud",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://netsuite.folio3.com/",
+        "text": "Netsuite",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://dynamics.folio3.com/",
+        "text": "Microsoft Dynamics",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://ecommerce.folio3.com/",
+        "text": "Ecommerce",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://crm.folio3.com/",
+        "text": "Salesforce",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://agtech.folio3.com/",
+        "text": "Agriculture & Food",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://digitalhealth.folio3.com/",
+        "text": "Digital Health",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://folio3.com/app-development",
+        "text": "App Dev",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://www.folio3.ai/computer-vision-development",
+        "text": "Computer Vision",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://www.folio3.ai/ai-drone-inspection-software",
+        "text": "AI Drones",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://www.folio3.ai/predictive-analytics",
+        "text": "Predictive Analytics",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://www.folio3.ai/machine-learning-development-services",
+        "text": "Machine Learning",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://www.folio3.ai/natural-language-processing",
+        "text": "Natural Language Processing",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://www.folio3.ai/ai-healthcare-solutions",
+        "text": "Healthcare",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://www.folio3.ai/ai-automotive-solutions",
+        "text": "Automotive",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://www.folio3.ai/industries/ml-security-solutions",
+        "text": "Security",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://www.folio3.ai/ai-in-transportation",
+        "text": "Transportation",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://www.folio3.ai/ai-fitness-app-development-services",
+        "text": "Fitness",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://www.folio3.ai/ai-for-the-travel-industry",
+        "text": "Travel",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://www.folio3.ai/education-ai-chatbot",
+        "text": "Education",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://www.folio3.ai/industries/ai-powered-fashion-tagging",
+        "text": "AI Fashion Tagging",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://www.folio3.ai/ai-object-detection-solutions",
+        "text": "AI Object Detection",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://www.folio3.ai/ai-powered-visual-search-solution",
+        "text": "Visual Search",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://www.folio3.ai/computer-vision/image-similarity-solution",
+        "text": "Image Similarity",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://www.folio3.ai/computer-vision/ai-image-processing",
+        "text": "AI Image Processing",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://www.folio3.ai/image-segmentation",
+        "text": "Image Segmentation",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://www.folio3.ai/image-analytics-services",
+        "text": "Image Analytics",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://www.folio3.ai/video-analytics",
+        "text": "Video Analytics",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://www.folio3.ai/building-access-control",
+        "text": "Building Access Control",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://www.folio3.ai/",
+        "text": "Pre-built Models",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://www.folio3.ai/models/vehicle-detection",
+        "text": "Vehicle Detection",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://www.folio3.ai/face-recognition",
+        "text": "Face Recognition",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://www.folio3.ai/models/person-detection",
+        "text": "Person Detection",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://www.folio3.ai/models/food-detection",
+        "text": "Food Detection",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://www.folio3.ai/models/apparel-detection",
+        "text": "Apparel Detection",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://www.folio3.ai/models/animal-detection",
+        "text": "Animal Detection",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://www.folio3.ai/predictive-analytics",
+        "text": "Predictive Analytics",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://www.folio3.ai/atm-cash-forecasting",
+        "text": "ATM Cash Forecasting",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://www.folio3.ai/fraud-detection-solutions",
+        "text": "Fraud Detection Solutions",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://www.folio3.ai/ai-drone-inspection-software",
+        "text": "AI Drones",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://www.folio3.ai/ai-drone-solar-panel-inspection",
+        "text": "Solar Panel Inspection",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://www.folio3.ai/search-rescue-drone",
+        "text": "Search & Rescue",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://www.folio3.ai/ai-wind-turbine-inspection",
+        "text": "Wind Turbine Inspection",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://www.folio3.ai/terrain-mapping",
+        "text": "Terrain Mapping",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://www.folio3.ai/livestock-management",
+        "text": "Livestock Management",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://cloud.folio3.com/services/cloud-migration-services",
+        "text": "Cloud Migration",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://cloud.folio3.com/services/managed-cloud-services",
+        "text": "Managed Cloud",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://data.folio3.com/services/data-engineering",
+        "text": "Data Engineering Services",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://cloud.folio3.com/services/devops-consulting-services",
+        "text": "DevOps Consulting",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://cloud.folio3.com/services/kubernetes-consulting",
+        "text": "Kubernetes Consulting",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://data.folio3.com/services/data-strategy-consulting",
+        "text": "Data Strategy Services",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://data.folio3.com/services/data-analytics",
+        "text": "Data Analytics Consulting Services",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://data.folio3.com/services/snowflake-consulting",
+        "text": "Snowflake Consulting",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://data.folio3.com/services/databricks-consulting",
+        "text": "Databricks Consulting",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://data.folio3.com/services/bigquery-consulting",
+        "text": "BigQuery Consulting",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://netsuite.folio3.com/services/netsuite-implementation-services",
+        "text": "NetSuite Implementation",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://netsuite.folio3.com/services/netsuite-customization-services",
+        "text": "NetSuite Customization",
+        "isBroken": false
+      },
+      {
+        "fromUrl": "https://folio3.com/app-development",
+        "toUrl": "https://netsuite.folio3.com/services/netsuite-support-services",
+        "text": "NetSuite Support (SmartCare)",
+        "isBroken": false
+      }
+    ],
+    "possibleJourneys": [
+      "Landing Page -> Contact/Quote Form Submission"
+    ],
+    "importantSelectors": [
+      "style",
+      "#owl-carousel-css",
+      "#owl-default-css",
+      "#layerslider-css",
+      "#ls-user-css",
+      "#wp-emoji-styles-inline-css",
+      "#wp-block-library-css",
+      "#classic-theme-styles-inline-css",
+      "#global-styles-inline-css",
+      "#megamenu-css",
+      "#dashicons-css",
+      "#elementor-frontend-css",
+      "#swiper-css",
+      "#elementor-post-18675-css",
+      "#elementor-pro-css",
+      "#elementor-global-css",
+      "#elementor-post-18681-css",
+      "#rtbs-css",
+      "#rocket-lazyload-inline-css",
+      "#jquery-core-js",
+      "#jquery-migrate-js",
+      "#layerslider-utils-js-extra",
+      "#layerslider-utils-js",
+      "#layerslider-js",
+      "#layerslider-transitions-js",
+      "#intl-tel-input-js",
+      "#rtbs-js",
+      "#hs-script-loader",
+      "#wp-custom-css",
+      "#rocket-lazyrender-inline-css",
+      "#wpr-lazyload-bg-container",
+      "#wpr-lazyload-bg-exclusion",
+      "#menu-toggle-372",
+      "#menubar-372",
+      "#e-n-menu-title-3721",
+      "a",
+      "#e-n-menu-dropdown-icon-3721",
+      "#e-n-menu-title-3722",
+      "#e-n-menu-dropdown-icon-3722",
+      "#e-n-menu-title-3723",
+      "#e-n-menu-dropdown-icon-3723",
+      "#e-n-menu-title-3724",
+      "#e-n-menu-dropdown-icon-3724",
+      "#e-n-menu-title-3725",
+      "#e-n-menu-dropdown-icon-3725",
+      "#e-n-menu-title-3726",
+      "#e-n-menu-dropdown-icon-3726",
+      "#e-n-menu-title-3727",
+      "#e-n-menu-dropdown-icon-3727",
+      "#e-n-menu-title-3728",
+      "#e-n-menu-dropdown-icon-3728",
+      "#e-n-menu-title-3729",
+      "#e-n-menu-dropdown-icon-3729",
+      "#e-n-menu-title-37210",
+      "#e-n-menu-dropdown-icon-37210",
+      "#e-n-menu-content-3721",
+      "#e-n-menu-content-3722",
+      "#e-n-menu-content-3723",
+      "#hs-analytics",
+      "#cookieBanner-45888346",
+      "#CollectedForms-45888346",
+      "#elementor-post-22667-css"
+    ],
+    "detectedEcommerceSignals": [],
+    "detectedFormSignals": [
+      "contact@https://ecommerce@folio3.com/",
+      "contact@https://folio3.com/",
+      "contact@https://folio3.com/app-development"
+    ],
+    "detectedStaticPages": [],
+    "startedAt": "2026-05-30T18:36:35.835Z",
+    "completedAt": "2026-05-30T18:36:54.127Z",
+    "crawlDepthUsed": 2,
+    "siteSuite": "static",
+    "classificationNotes": [
+      "Page copy indicates agency/marketing site rather than storefront.",
+      "Small surface area — static regression suite selected."
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "baseUrl": "https://uat2.purelifedental.com/",
+  "generatedAt": "2026-05-31T18:18:07.255Z",
+  "findings": [
+    {
+      "viewport": "Android viewport",
+      "layoutBreakage": true,
+      "hiddenCtas": true,
+      "horizontalScroll": false,
+      "menuUsabilityIssue": false,
+      "formVisibilityIssue": false,
+      "overlappingElements": false,
+      "cartOrSearchVisibilityIssue": false,
+      "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780251108844\\responsive-screenshots\\android-viewport.png",
+      "notes": [
+        "Potential layout breakage detected.",
+        "One or more CTAs appear hidden."
+      ]
+    },
+    {
+      "viewport": "iPhone viewport",
+      "layoutBreakage": true,
+      "hiddenCtas": true,
+      "horizontalScroll": false,
+      "menuUsabilityIssue": false,
+      "formVisibilityIssue": false,
+      "overlappingElements": false,
+      "cartOrSearchVisibilityIssue": false,
+      "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780251108844\\responsive-screenshots\\iphone-viewport.png",
+      "notes": [
+        "Potential layout breakage detected.",
+        "One or more CTAs appear hidden."
+      ]
+    },
+    {
+      "viewport": "iPad viewport",
+      "layoutBreakage": false,
+      "hiddenCtas": true,
+      "horizontalScroll": false,
+      "menuUsabilityIssue": false,
+      "formVisibilityIssue": false,
+      "overlappingElements": true,
+      "cartOrSearchVisibilityIssue": false,
+      "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780251108844\\responsive-screenshots\\ipad-viewport.png",
+      "notes": [
+        "One or more CTAs appear hidden.",
+        "Potential overlapping clickable elements detected."
+      ]
+    },
+    {
+      "viewport": "Tablet viewport",
+      "layoutBreakage": false,
+      "hiddenCtas": true,
+      "horizontalScroll": false,
+      "menuUsabilityIssue": false,
+      "formVisibilityIssue": false,
+      "overlappingElements": true,
+      "cartOrSearchVisibilityIssue": false,
+      "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780251108844\\responsive-screenshots\\tablet-viewport.png",
+      "notes": [
+        "One or more CTAs appear hidden.",
+        "Potential overlapping clickable elements detected."
+      ]
+    },
+    {
+      "viewport": "Desktop viewport",
+      "layoutBreakage": false,
+      "hiddenCtas": true,
+      "horizontalScroll": false,
+      "menuUsabilityIssue": false,
+      "formVisibilityIssue": false,
+      "overlappingElements": true,
+      "cartOrSearchVisibilityIssue": false,
+      "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780251108844\\responsive-screenshots\\desktop-viewport.png",
+      "notes": [
+        "One or more CTAs appear hidden.",
+        "Potential overlapping clickable elements detected."
+      ]
+    },
+    {
+      "viewport": "Desktop viewport",
+      "layoutBreakage": false,
+      "hiddenCtas": true,
+      "horizontalScroll": false,
+      "menuUsabilityIssue": false,
+      "formVisibilityIssue": true,
+      "overlappingElements": true,
+      "cartOrSearchVisibilityIssue": false,
+      "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780251108844\\responsive-screenshots\\desktop-https-uat2-purelifedental-com-customer-a.png",
+      "notes": [
+        "One or more CTAs appear hidden.",
+        "Form visibility issue detected.",
+        "Potential overlapping clickable elements detected."
+      ]
+    },
+    {
+      "viewport": "Desktop viewport",
+      "layoutBreakage": false,
+      "hiddenCtas": false,
+      "horizontalScroll": false,
+      "menuUsabilityIssue": false,
+      "formVisibilityIssue": false,
+      "overlappingElements": false,
+      "cartOrSearchVisibilityIssue": false,
+      "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780251108844\\responsive-screenshots\\desktop-https-uat2-purelifedental-com-checkout-c.png",
+      "notes": [
+        "Responsive audit failed for Desktop viewport: page.goto: Target page, context or browser has been closed\nCall log:\n  - navigating to \"https://uat2.purelifedental.com/checkout/cart\", waiting until \"domcontentloaded\"\n"
+      ]
+    }
+  ],
+  "summary": {
+    "totalViewports": 7,
+    "issueCount": 13,
+    "issueViewports": 6
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "runId": "run-1780162285920",
+  "status": "failed",
+  "orchestrationState": "FAILED",
+  "currentPhase": "Reporting",
+  "totalGeneratedTestCases": 0,
+  "currentExecutingTestCaseNumber": 0,
+  "currentTestCaseTitle": "Running website discovery",
+  "currentUrl": "https://ecommerce.folio3.com",
+  "browser": "Chrome",
+  "device": "Desktop",
+  "progressPercentage": 100,
+  "passCount": 0,
+  "failCount": 0,
+  "skippedCount": 0,
+  "liveLogs": [
+    "[10:31:25 pm] Run queued (run-1780162285920)",
+    "[10:31:25 pm] Discovery started for https://ecommerce.folio3.com",
+    "[10:32:55 pm] Run failed: Discovery timed out after 90s."
+  ],
+  "testCases": [],
+  "updatedAt": "2026-05-30T17:32:55.956Z",
+  "log": "Run failed: Discovery timed out after 90s.",
+  "error": "Discovery timed out after 90s."
+}

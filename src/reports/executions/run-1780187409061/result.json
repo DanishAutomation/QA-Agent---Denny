@@ -1,0 +1,930 @@
+{
+  "runId": "run-1780187409061",
+  "startedAt": "2026-05-31T00:31:23.168Z",
+  "completedAt": "2026-05-31T00:33:42.122Z",
+  "durationMs": 138954,
+  "passed": 3,
+  "failed": 4,
+  "skipped": 0,
+  "reportPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780187409061\\result.json",
+  "scenarios": [
+    {
+      "scenarioId": "scenario-1",
+      "feature": "Contact Form",
+      "scenario": "Contact form can be submitted with valid data",
+      "status": "failed",
+      "errorReason": "Site console error detected: intlTelInput is not loaded.",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780187409061\\screenshots\\scenario-1-Desktop-landing.png"
+      ],
+      "consoleErrors": [
+        "intlTelInput is not loaded."
+      ],
+      "networkErrors": [],
+      "pageUrl": "https://ecommerce.folio3.com/",
+      "timestamp": "2026-05-31T00:31:23.952Z",
+      "durationMs": 6443,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Static suite validation for \"Contact Form\" using discovered pages."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-2",
+      "feature": "Forms",
+      "scenario": "Discovered forms validate required fields safely",
+      "status": "failed",
+      "errorReason": "Site console error detected: intlTelInput is not loaded.",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780187409061\\screenshots\\scenario-2-Desktop-landing.png"
+      ],
+      "consoleErrors": [
+        "intlTelInput is not loaded."
+      ],
+      "networkErrors": [],
+      "pageUrl": "https://ecommerce.folio3.com/",
+      "timestamp": "2026-05-31T00:31:30.405Z",
+      "durationMs": 2160,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Static suite validation for \"Forms\" using discovered pages."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-3",
+      "feature": "Broken Link",
+      "scenario": "Site links return healthy HTTP responses",
+      "status": "passed",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780187409061\\screenshots\\scenario-3-Desktop-landing.png"
+      ],
+      "consoleErrors": [
+        "intlTelInput is not loaded."
+      ],
+      "networkErrors": [],
+      "pageUrl": "https://ecommerce.folio3.com/headless-ecommerce-solutions/",
+      "timestamp": "2026-05-31T00:31:32.573Z",
+      "durationMs": 8871,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Static suite validation for \"Broken Link\" using discovered pages."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-4",
+      "feature": "Responsive",
+      "scenario": "Responsive layout remains stable across breakpoints",
+      "status": "failed",
+      "errorReason": "Responsive issues detected on 7/7 viewports.",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780187409061\\screenshots\\scenario-4-Desktop-landing.png"
+      ],
+      "consoleErrors": [
+        "intlTelInput is not loaded."
+      ],
+      "networkErrors": [
+        "[FAILED] https://ecommerce.folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED"
+      ],
+      "pageUrl": "https://ecommerce.folio3.com/headless-ecommerce-solutions/",
+      "timestamp": "2026-05-31T00:31:41.449Z",
+      "durationMs": 2303,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Static suite validation for \"Responsive\" using discovered pages."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-5",
+      "feature": "Accessibility",
+      "scenario": "Accessibility risk checks run on key templates",
+      "status": "failed",
+      "errorReason": "14 high-severity accessibility risk finding(s) detected across sampled templates.",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780187409061\\screenshots\\scenario-5-Desktop-landing.png"
+      ],
+      "consoleErrors": [
+        "intlTelInput is not loaded.",
+        "true"
+      ],
+      "networkErrors": [
+        "[FAILED] https://www.google.com/ccm/collect?rcb=15&frm=0&ae=g&auid=2028859993.1780187505&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&en=page_view&dl=https%3A%2F%2Fecommerce.folio3.com%2F&scrsrc=www.googletagmanager.com&rnd=665711841.1780187505&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He65r2v892838296za200zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616985~115938465~115938469~116701381~119034493&apve=1&apvf=f&gap.plf=5&apvc=1&tft=1780187505484&tfd=1713 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/rmkt/collect/11470352680/?random=1780187506171&cv=11&fst=1780187506171&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701381~119034491&u_w=1440&u_h=900&url=https%3A%2F%2Fecommerce.folio3.com%2F&rcb=8&frm=0&tiba=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2028859993.1780187505&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&gcp=5 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/ccm/collect?rcb=8&frm=0&auid=2028859993.1780187505&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&en=page_view&dl=https%3A%2F%2Fecommerce.folio3.com%2F&scrsrc=www.googletagmanager.com&rnd=665711841.1780187505&navt=n&npa=0&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701381~119034491&apve=1&apvf=f&apvc=0&tids=AW-11470352680&tid=AW-11470352680&tft=1780187506178&tfd=2408 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/ccm/collect?rcb=8&frm=0&ae=g&auid=2028859993.1780187505&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&dl=https%3A%2F%2Fecommerce.folio3.com%2F&scrsrc=www.googletagmanager.com&rnd=665711841.1780187505&navt=n&npa=0&_tu=CA&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701381~119034491&apve=1&apvf=f&apvc=0&tids=AW-11470352680&tid=AW-11470352680&tft=1780187506179&tfd=2409 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-DCLMD8MZ7Y&gtm=45je65r2v889965682z8892838296za20gzb892838296zd892838296&_p=1780187504586&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EAAAAGAC&are=1&cid=1784182751.1780187506&frm=0&ir=1&pscdl=noapi&rcb=5&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938465~115938469~119034491&sid=1780187506&sct=1&seg=0&dl=https%3A%2F%2Fecommerce.folio3.com%2F&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=2480 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/rmkt/collect/11470352680/?random=1780187506139&cv=11&fst=1780187506139&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701381~119034491&u_w=1440&u_h=900&url=https%3A%2F%2Fecommerce.folio3.com%2F&rcb=8&frm=0&tiba=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2028859993.1780187505&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&gcp=5 :: net::ERR_ABORTED",
+        "[FAILED] https://va.tawk.to/log-performance/v3 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-DCLMD8MZ7Y&gtm=45je65r2v889965682za20gzb892838296zd892838296&_p=1780187504586&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EAAAAGQC&are=1&cid=1784182751.1780187506&frm=0&ir=1&pscdl=noapi&rcb=5&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938465~115938469~119034491&sid=1780187506&sct=1&seg=0&dl=https%3A%2F%2Fecommerce.folio3.com%2F&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&_tu=CA&en=user_engagement&_et=2861&tfd=5345 :: net::ERR_ABORTED",
+        "[FAILED] https://ecommerce.folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED",
+        "[FAILED] https://hn.inspectlet.com/pdata?d=mr,633,undefined,undefined,undefined,undefined)s,634,0,0)cinmi,2336,6188,MDg1ZjA4YzM0OQ==,hidden)cinmi,2336,6189,Lw==,hidden)cinmi,2336,6193,,text)cinmi,2336,6197,,text)cinmi,2336,6201,,email)cinmi,2336,6206,,tel)cinmi,2336,6214,,hidden)cinmi,2336,6216,MTc4MDA3NTExNg==,hidden)cinmi,2336,6220,,hidden)cinmi,2336,6222,,hidden)cinmi,2337,6224,T3RoZXI=,hidden)cinmi,2337,6226,V2ViIC0gT3RoZXIgUGFnZXM=,hidden)cinmi,2337,6228,T3JnYW5pYw==,hidden)cinmi,2337,6230,aHR0cHM6Ly9lY29tbWVyY2UuZm9saW8zLmNvbS8=,hidden)cinmi,2337,6232,R29vZ2xlU3RhY2tkcml2ZXJNb25pdG9yaW5nLVVwdGltZUNoZWNrcyhodHRwczovL2Nsb3VkLmdvb2dsZS5jb20vbW9uaXRvcmluZyk=,hidden)cinmi,2337,6234,MzUuMjM2LjIwNy42OA==,hidden)cinmi,2337,6236,,hidden)cinmi,2337,6238,,hidden)cinmi,2337,6247,U3VibWl0IE5vdw==,submit)&w=1502151182&r=3664342043&sid=3356140399&pad=1&dn=dn&fadd=true&oid=72584619&lpt=0&rrtn=1780187509098 :: net::ERR_ABORTED",
+        "[FAILED] https://hn.inspectlet.com/mlsi?jv=7&r=3664342043&w=1502151182&k=8c103887&oid=72584619&sid=3356140399&pad=1&mlrc=3&isfpayload=W3sidCI6MjYwNywiayI6InhociIsImQiOnsiZCI6W251bGwseyIwIjoiUE9TVCIsIjEiOiJodHRwczovL3EuY2xhcml0eS5tcy9jb2xsZWN0IiwiMiI6dHJ1ZX0sbnVsbCwyMDQsMjcwXSwicG4iOjF9fSx7InQiOjI2MTMsImsiOiJkIiwiZCI6W1tdLFtdLFt7Im5vZGVUeXBlIjoxLCJpZCI6MjgyNSwidGFnTmFtZSI6IkRJViIsImF0dHJpYnV0ZXMiOnsic3R5bGUiOiJ0cmFuc2Zvcm06IHRyYW5zbGF0ZTNkKC0xNzA5LjMzcHgsIDBweCwgMHB4KTsgdHJhbnNpdGlvbi1kdXJhdGlvbjogNTAwbXM7In19LHsibm9kZVR5cGUiOjEsImlkIjoyODI2LCJ0YWdOYW1lIjoiRElWIiwiYXR0cmlidXRlcyI6eyJjbGFzcyI6InN3aXBlci1zbGlkZSBzd2lwZXItc2xpZGUtZHVwbGljYXRlIHN3aXBlci1zbGlkZS1kdXBsaWNhdGUtYWN0aXZlIn19LHsibm9kZVR5cGUiOjEsImlkIjoyOTQxLCJ0YWdOYW1lIjoiRElWIiwiYXR0cmlidXRlcyI6eyJjbGFzcyI6InN3aXBlci1zbGlkZSBzd2lwZXItc2xpZGUtZHVwbGljYXRlIHN3aXBlci1zbGlkZS1kdXBsaWNhdGUtbmV4dCJ9fSx7Im5vZGVUeXBlIjoxLCJpZCI6MzA1OCwidGFnTmFtZSI6IkRJViIsImF0dHJpYnV0ZXMiOnsiY2xhc3MiOiJzd2lwZXItc2xpZGUgc3dpcGVyLXNsaWRlLWR1cGxpY2F0ZSJ9fSx7Im5vZGVUeXBlIjoxLCJpZCI6MzE3NCwidGFnTmFtZSI6IkRJViIsImF0dHJpYnV0ZXMiOnsiY2xhc3MiOiJzd2lwZXItc2xpZGUgc3dpcGVyLXNsaWRlLXByZXYifX0seyJub2RlVHlwZSI6MSwiaWQiOjMyOTAsInRhZ05hbWUiOiJESVYiLCJhdHRyaWJ1dGVzIjp7ImNsYXNzIjoic3dpcGVyLXNsaWRlIHN3aXBlci1zbGlkZS1hY3RpdmUifX0seyJub2RlVHlwZSI6MSwiaWQiOjM0MDYsInRhZ05hbWUiOiJESVYiLCJhdHRyaWJ1dGVzIjp7ImNsYXNzIjoic3dpcGVyLXNsaWRlIHN3aXBlci1zbGlkZS1uZXh0In19LHsibm9kZVR5cGUiOjEsImlkIjozNTI0LCJ0YWdOYW1lIjoiRElWIiwiYXR0cmlidXRlcyI6eyJjbGFzcyI6InN3aXBlci1zbGlkZSJ9fSx7Im5vZGVUeXBlIjoxLCJpZCI6MzY0MCwidGFnTmFtZSI6IkRJViIsImF0dHJpYnV0ZXMiOnsiY2xhc3MiOiJzd2lwZXItc2xpZGUgc3dpcGVyLXNsaWRlLWR1cGxpY2F0ZSBzd2lwZXItc2xpZGUtZHVwbGljYXRlLXByZXYifX0seyJub2RlVHlwZSI6MSwiaWQiOjM3NTUsInRhZ05hbWUiOiJESVYiLCJhdHRyaWJ1dGVzIjp7ImNsYXNzIjoic3dpcGVyLXNsaWRlIHN3aXBlci1zbGlkZS1kdXBsaWNhdGUgc3dpcGVyLXNsaWRlLWR1cGxpY2F0ZS1hY3RpdmUifX0seyJub2RlVHlwZSI6MSwiaWQiOjM4NzAsInRhZ05hbWUiOiJESVYiLCJhdHRyaWJ1dGVzIjp7ImNsYXNzIjoic3dpcGVyLXNsaWRlIHN3aXBlci1zbGlkZS1kdXBsaWNhdGUgc3dpcGVyLXNsaWRlLWR1cGxpY2F0ZS1uZXh0In19LHsibm9kZVR5cGUiOjEsImlkIjo1MTk2LCJ0YWdOYW1lIjoiRElWIiwiYXR0cmlidXRlcyI6eyJjbGFzcyI6InN3aXBlci1zbGlkZSBzd2lwZXItc2xpZGUtYWN0aXZlIn19LHsibm9kZVR5cGUiOjEsImlkIjo1MjM4LCJ0YWdOYW1lIjoiRElWIiwiYXR0cmlidXRlcyI6eyJjbGFzcyI6InN3aXBlci1zbGlkZSBzd2lwZXItc2xpZGUtbmV4dCJ9fSx7Im5vZGVUeXBlIjoxLCJpZCI6NTI4NiwidGFnTmFtZSI6IkRJViIsImF0dHJpYnV0ZXMiOnsiY2xhc3MiOiJzd2lwZXItc2xpZGUifX0seyJub2RlVHlwZSI6MSwiaWQiOjU0OTYsInRhZ05hbWUiOiJESVYiLCJhdHRyaWJ1dGVzIjp7InN0eWxlIjoidHJhbnNmb3JtOiB0cmFuc2xhdGUzZCgtMTY0MHB4LCAwcHgsIDBweCk7IHRyYW5zaXRpb24tZHVyYXRpb246IDUwMG1zOyJ9fSx7Im5vZGVUeXBlIjoxLCJpZCI6NTQ5NywidGFnTmFtZSI6IkRJViIsImF0dHJpYnV0ZXMiOnsiY2xhc3MiOiJzd2lwZXItc2xpZGUgc3dpcGVyLXNsaWRlLWR1cGxpY2F0ZSBzd2lwZXItc2xpZGUtZHVwbGljYXRlLXByZXYifX0seyJub2RlVHlwZSI6MSwiaWQiOjU1MjMsInRhZ05hbWUiOiJESVYiLCJhdHRyaWJ1dGVzIjp7ImNsYXNzIjoic3dpcGVyLXNsaWRlIHN3aXBlci1zbGlkZS1kdXBsaWNhdGUgc3dpcGVyLXNsaWRlLWR1cGxpY2F0ZS1hY3RpdmUifX0seyJub2RlVHlwZSI6MSwiaWQiOjU1NDksInRhZ05hbWUiOiJESVYiLCJhdHRyaWJ1dGVzIjp7ImNsYXNzIjoic3dpcGVyLXNsaWRlIHN3aXBlci1zbGlkZS1kdXBsaWNhdGUgc3dpcGVyLXNsaWRlLWR1cGxpY2F0ZS1uZXh0In19LHsibm9kZVR5cGUiOjEsImlkIjo1NTc2LCJ0YWdOYW1lIjoiRElWIiwiYXR0cmlidXRlcyI6eyJjbGFzcyI6InN3aXBlci1zbGlkZSBzd2lwZXItc2xpZGUtcHJldiJ9fSx7Im5vZGVUeXBlIjoxLCJpZCI6NTYwMywidGFnTmFtZSI6IkRJViIsImF0dHJpYnV0ZXMiOnsiY2xhc3MiOiJzd2lwZXItc2xpZGUgc3dpcGVyLXNsaWRlLWFjdGl2ZSJ9fSx7Im5vZGVUeXBlIjoxLCJpZCI6NTYzMCwidGFnTmFtZSI6IkRJViIsImF0dHJpYnV0ZXMiOnsiY2xhc3MiOiJzd2lwZXItc2xpZGUgc3dpcGVyLXNsaWRlLW5leHQifX0seyJub2RlVHlwZSI6MSwiaWQiOjU2NTcsInRhZ05hbWUiOiJESVYiLCJhdHRyaWJ1dGVzIjp7ImNsYXNzIjoic3dpcGVyLXNsaWRlIHN3aXBlci1zbGlkZS1kdXBsaWNhdGUgc3dpcGVyLXNsaWRlLWR1cGxpY2F0ZS1wcmV2In19LHsibm9kZVR5cGUiOjEsImlkIjo1NjgzLCJ0YWdOYW1lIjoiRElWIiwiYXR0cmlidXRlcyI6eyJjbGFzcyI6InN3aXBlci1zbGlkZSBzd2lwZXItc2xpZGUtZHVwbGljYXRlIHN3aXBlci1zbGlkZS1kdXBsaWNhdGUtYWN0aXZlIn19LHsibm9kZVR5cGUiOjEsImlkIjo1NzA5LCJ0YWdOYW1lIjoiRElWIiwiYXR0cmlidXRlcyI6eyJjbGFzcyI6InN3aXBlci1zbGlkZSBzd2lwZXItc2xpZGUtZHVwbGljYXRlIHN3aXBlci1zbGlkZS1kdXBsaWNhdGUtbmV4dCJ9fV0sW11dfV0=&isfnum=1&isftotal=1&rrtn=1780187509099 :: net::ERR_ABORTED",
+        "[FAILED] https://ecommerce.folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED"
+      ],
+      "pageUrl": "https://ecommerce.folio3.com/headless-ecommerce-solutions/",
+      "timestamp": "2026-05-31T00:31:43.764Z",
+      "durationMs": 7315,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Static suite validation for \"Accessibility\" using discovered pages."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-6",
+      "feature": "Navigation",
+      "scenario": "Primary navigation routes resolve correctly",
+      "status": "passed",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780187409061\\screenshots\\scenario-6-Desktop-landing.png"
+      ],
+      "consoleErrors": [
+        "intlTelInput is not loaded."
+      ],
+      "networkErrors": [
+        "[FAILED] https://ecommerce.folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED"
+      ],
+      "pageUrl": "https://ecommerce.folio3.com/solutions/virtual-try-on/",
+      "timestamp": "2026-05-31T00:31:51.083Z",
+      "durationMs": 11228,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Static suite validation for \"Navigation\" using discovered pages."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-7",
+      "feature": "Static Pages",
+      "scenario": "Static informational pages load and render expected sections",
+      "status": "passed",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780187409061\\screenshots\\scenario-7-Desktop-landing.png"
+      ],
+      "consoleErrors": [
+        "intlTelInput is not loaded."
+      ],
+      "networkErrors": [
+        "[FAILED] https://ecommerce.folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED",
+        "[FAILED] https://ecommerce.folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/ccm/collect?rcb=0&frm=0&ae=g&auid=2028859993.1780187505&dt=B2B%20Ecommerce%20Catalog%20Solutions%3A%20Build%20%26%20Scale%20Your%20Business&en=page_view&dl=https%3A%2F%2Fecommerce.folio3.com%2Fsolutions%2Fb2b-ecommerce-catalog%2F&scrsrc=www.googletagmanager.com&rnd=414587526.1780187530&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He65r2v892838296za200zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938469~116701381~119027223~119034493~119168154&apve=1&apvf=f&apvc=1&tft=1780187530424&tfd=4749 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/rmkt/collect/11470352680/?random=1780187530464&cv=11&fst=1780187530464&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616985~115938466~115938469~116701381~119034491&u_w=1440&u_h=900&url=https%3A%2F%2Fecommerce.folio3.com%2Fsolutions%2Fb2b-ecommerce-catalog%2F&rcb=18&frm=0&tiba=B2B%20Ecommerce%20Catalog%20Solutions%3A%20Build%20%26%20Scale%20Your%20Business&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2028859993.1780187505&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&gap.plf=5&gcp=5 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/ccm/collect?rcb=18&frm=0&auid=2028859993.1780187505&dt=B2B%20Ecommerce%20Catalog%20Solutions%3A%20Build%20%26%20Scale%20Your%20Business&en=page_view&dl=https%3A%2F%2Fecommerce.folio3.com%2Fsolutions%2Fb2b-ecommerce-catalog%2F&scrsrc=www.googletagmanager.com&rnd=414587526.1780187530&navt=n&npa=0&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616985~115938466~115938469~116701381~119034491&apve=1&apvf=f&gap.plf=5&apvc=0&tids=AW-11470352680&tid=AW-11470352680&tft=1780187530504&tfd=4829 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/ccm/collect?rcb=18&frm=0&ae=g&auid=2028859993.1780187505&dt=B2B%20Ecommerce%20Catalog%20Solutions%3A%20Build%20%26%20Scale%20Your%20Business&dl=https%3A%2F%2Fecommerce.folio3.com%2Fsolutions%2Fb2b-ecommerce-catalog%2F&scrsrc=www.googletagmanager.com&rnd=414587526.1780187530&navt=n&npa=0&_tu=CA&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616985~115938466~115938469~116701381~119034491&apve=1&apvf=f&gap.plf=5&apvc=0&tids=AW-11470352680&tid=AW-11470352680&tft=1780187530505&tfd=4829 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/rmkt/collect/11470352680/?random=1780187530495&cv=11&fst=1780187530495&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616985~115938466~115938469~116701381~119034491&u_w=1440&u_h=900&url=https%3A%2F%2Fecommerce.folio3.com%2Fsolutions%2Fb2b-ecommerce-catalog%2F&rcb=18&frm=0&tiba=B2B%20Ecommerce%20Catalog%20Solutions%3A%20Build%20%26%20Scale%20Your%20Business&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2028859993.1780187505&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&gap.plf=5&gcp=5 :: net::ERR_ABORTED"
+      ],
+      "pageUrl": "https://ecommerce.folio3.com/solutions/b2b-ecommerce-catalog/",
+      "timestamp": "2026-05-31T00:32:02.316Z",
+      "durationMs": 9288,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Static suite validation for \"Static Pages\" using discovered pages."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    }
+  ],
+  "bugReports": [
+    {
+      "summary": "Contact Form: Site console error detected: intlTelInput is not loaded.",
+      "description": "While testing \"Contact form can be submitted with valid data\" on https://ecommerce.folio3.com/, the run failed because Site console error detected: intlTelInput is not loaded. Additional signals: Console: intlTelInput is not loaded..",
+      "stepsToReproduce": [
+        "Open https://ecommerce.folio3.com/",
+        "Static suite validation for \"Contact Form\" using discovered pages.",
+        "Observe failure signal in console, network, layout, or form behavior."
+      ],
+      "expectedResult": "Form should render without JavaScript errors and allow valid submission with clear success feedback.",
+      "actualResult": "Site console error detected: intlTelInput is not loaded.",
+      "screenshot": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780187409061\\screenshots\\scenario-1-Desktop-landing.png",
+      "suggestedFix": "Fix the JavaScript error on the page and retest the affected user flow.",
+      "severity": "Medium",
+      "priority": "P2",
+      "confidenceScore": 88,
+      "businessImpact": "Broken lead/contact flows can reduce inbound inquiries and support ticket quality.",
+      "userImpact": "Phone/country fields on contact forms may not initialize, blocking or confusing users who try to submit.",
+      "revenueImpact": "Indirect impact possible depending on page traffic and funnel position.",
+      "recoveryAttempts": [
+        "Static suite validation for \"Contact Form\" using discovered pages."
+      ],
+      "rootCauseAnalysis": "Site console error detected: intlTelInput is not loaded. Console: intlTelInput is not loaded.",
+      "technicalDetails": {
+        "errorReason": "Site console error detected: intlTelInput is not loaded.",
+        "consoleErrors": [
+          "intlTelInput is not loaded."
+        ],
+        "networkErrors": [],
+        "pageUrl": "https://ecommerce.folio3.com/",
+        "timestamp": "2026-05-31T00:31:23.952Z",
+        "selfHealing": {
+          "attempted": false,
+          "recovered": false,
+          "attempts": 0,
+          "strategyLogs": []
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [
+            "Static suite validation for \"Contact Form\" using discovered pages."
+          ],
+          "retryResult": "not-needed",
+          "investigationFindings": []
+        }
+      }
+    },
+    {
+      "summary": "Forms: Site console error detected: intlTelInput is not loaded.",
+      "description": "While testing \"Discovered forms validate required fields safely\" on https://ecommerce.folio3.com/, the run failed because Site console error detected: intlTelInput is not loaded. Additional signals: Console: intlTelInput is not loaded..",
+      "stepsToReproduce": [
+        "Open https://ecommerce.folio3.com/",
+        "Static suite validation for \"Forms\" using discovered pages.",
+        "Observe failure signal in console, network, layout, or form behavior."
+      ],
+      "expectedResult": "Form should render without JavaScript errors and allow valid submission with clear success feedback.",
+      "actualResult": "Site console error detected: intlTelInput is not loaded.",
+      "screenshot": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780187409061\\screenshots\\scenario-2-Desktop-landing.png",
+      "suggestedFix": "Fix the JavaScript error on the page and retest the affected user flow.",
+      "severity": "Medium",
+      "priority": "P2",
+      "confidenceScore": 88,
+      "businessImpact": "Broken lead/contact flows can reduce inbound inquiries and support ticket quality.",
+      "userImpact": "Phone/country fields on contact forms may not initialize, blocking or confusing users who try to submit.",
+      "revenueImpact": "Indirect impact possible depending on page traffic and funnel position.",
+      "recoveryAttempts": [
+        "Static suite validation for \"Forms\" using discovered pages."
+      ],
+      "rootCauseAnalysis": "Site console error detected: intlTelInput is not loaded. Console: intlTelInput is not loaded.",
+      "technicalDetails": {
+        "errorReason": "Site console error detected: intlTelInput is not loaded.",
+        "consoleErrors": [
+          "intlTelInput is not loaded."
+        ],
+        "networkErrors": [],
+        "pageUrl": "https://ecommerce.folio3.com/",
+        "timestamp": "2026-05-31T00:31:30.405Z",
+        "selfHealing": {
+          "attempted": false,
+          "recovered": false,
+          "attempts": 0,
+          "strategyLogs": []
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [
+            "Static suite validation for \"Forms\" using discovered pages."
+          ],
+          "retryResult": "not-needed",
+          "investigationFindings": []
+        }
+      }
+    },
+    {
+      "summary": "Responsive: Responsive issues detected on 7/7 viewports.",
+      "description": "While testing \"Responsive layout remains stable across breakpoints\" on https://ecommerce.folio3.com/headless-ecommerce-solutions/, the run failed because Responsive issues detected on 7/7 viewports. Additional signals: Console: intlTelInput is not loaded.; Network: [FAILED] https://ecommerce.folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED.",
+      "stepsToReproduce": [
+        "Open https://ecommerce.folio3.com/headless-ecommerce-solutions/",
+        "Static suite validation for \"Responsive\" using discovered pages.",
+        "Observe failure signal in console, network, layout, or form behavior."
+      ],
+      "expectedResult": "Layout, CTAs, and navigation should remain usable across mobile, tablet, and desktop viewports.",
+      "actualResult": "Responsive issues detected on 7/7 viewports.",
+      "screenshot": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780187409061\\screenshots\\scenario-4-Desktop-landing.png",
+      "suggestedFix": "Adjust responsive CSS/breakpoints so CTAs stay visible and layouts do not break on affected viewports.",
+      "severity": "Medium",
+      "priority": "P2",
+      "confidenceScore": 96,
+      "businessImpact": "Quality issues on public pages can increase bounce rate and support load.",
+      "userImpact": "Mobile and tablet users may miss CTAs or see broken layouts on key pages.",
+      "revenueImpact": "Indirect impact possible depending on page traffic and funnel position.",
+      "recoveryAttempts": [
+        "Static suite validation for \"Responsive\" using discovered pages."
+      ],
+      "rootCauseAnalysis": "Responsive issues detected on 7/7 viewports. Console: intlTelInput is not loaded. Network: [FAILED] https://ecommerce.folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED",
+      "technicalDetails": {
+        "errorReason": "Responsive issues detected on 7/7 viewports.",
+        "consoleErrors": [
+          "intlTelInput is not loaded."
+        ],
+        "networkErrors": [
+          "[FAILED] https://ecommerce.folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED"
+        ],
+        "pageUrl": "https://ecommerce.folio3.com/headless-ecommerce-solutions/",
+        "timestamp": "2026-05-31T00:31:41.449Z",
+        "selfHealing": {
+          "attempted": false,
+          "recovered": false,
+          "attempts": 0,
+          "strategyLogs": []
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [
+            "Static suite validation for \"Responsive\" using discovered pages."
+          ],
+          "retryResult": "not-needed",
+          "investigationFindings": []
+        }
+      }
+    },
+    {
+      "summary": "Accessibility: 14 high-severity accessibility risk finding(s) detected across sample...",
+      "description": "While testing \"Accessibility risk checks run on key templates\" on https://ecommerce.folio3.com/headless-ecommerce-solutions/, the run failed because 14 high-severity accessibility risk finding(s) detected across sampled templates. Additional signals: Console: intlTelInput is not loaded.; Network: [FAILED] https://ecommerce.folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED; Network: [FAILED] https://ecommerce.folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED.",
+      "stepsToReproduce": [
+        "Open https://ecommerce.folio3.com/headless-ecommerce-solutions/",
+        "Static suite validation for \"Accessibility\" using discovered pages.",
+        "Observe failure signal in console, network, layout, or form behavior."
+      ],
+      "expectedResult": "Key templates should not expose high-severity accessibility risks (labels, focus, contrast).",
+      "actualResult": "14 high-severity accessibility risk finding(s) detected across sampled templates.",
+      "screenshot": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780187409061\\screenshots\\scenario-5-Desktop-landing.png",
+      "suggestedFix": "Fix template markup: add labels/ARIA, restore visible focus outlines, and provide alt text where missing.",
+      "severity": "High",
+      "priority": "P1",
+      "confidenceScore": 96,
+      "businessImpact": "A core user journey is impaired, which can reduce trust and completion rates.",
+      "userImpact": "Keyboard and screen-reader users may be unable to complete tasks on affected templates.",
+      "revenueImpact": "Conversion or lead-generation paths may lose measurable traffic.",
+      "recoveryAttempts": [
+        "Static suite validation for \"Accessibility\" using discovered pages."
+      ],
+      "rootCauseAnalysis": "14 high-severity accessibility risk finding(s) detected across sampled templates. Console: intlTelInput is not loaded. Network: [FAILED] https://ecommerce.folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED Network: [FAILED] https://ecommerce.folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED",
+      "technicalDetails": {
+        "errorReason": "14 high-severity accessibility risk finding(s) detected across sampled templates.",
+        "consoleErrors": [
+          "intlTelInput is not loaded.",
+          "true"
+        ],
+        "networkErrors": [
+          "[FAILED] https://www.google.com/ccm/collect?rcb=15&frm=0&ae=g&auid=2028859993.1780187505&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&en=page_view&dl=https%3A%2F%2Fecommerce.folio3.com%2F&scrsrc=www.googletagmanager.com&rnd=665711841.1780187505&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He65r2v892838296za200zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616985~115938465~115938469~116701381~119034493&apve=1&apvf=f&gap.plf=5&apvc=1&tft=1780187505484&tfd=1713 :: net::ERR_ABORTED",
+          "[FAILED] https://www.google.com/rmkt/collect/11470352680/?random=1780187506171&cv=11&fst=1780187506171&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701381~119034491&u_w=1440&u_h=900&url=https%3A%2F%2Fecommerce.folio3.com%2F&rcb=8&frm=0&tiba=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2028859993.1780187505&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&gcp=5 :: net::ERR_ABORTED",
+          "[FAILED] https://www.google.com/ccm/collect?rcb=8&frm=0&auid=2028859993.1780187505&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&en=page_view&dl=https%3A%2F%2Fecommerce.folio3.com%2F&scrsrc=www.googletagmanager.com&rnd=665711841.1780187505&navt=n&npa=0&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701381~119034491&apve=1&apvf=f&apvc=0&tids=AW-11470352680&tid=AW-11470352680&tft=1780187506178&tfd=2408 :: net::ERR_ABORTED",
+          "[FAILED] https://www.google.com/ccm/collect?rcb=8&frm=0&ae=g&auid=2028859993.1780187505&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&dl=https%3A%2F%2Fecommerce.folio3.com%2F&scrsrc=www.googletagmanager.com&rnd=665711841.1780187505&navt=n&npa=0&_tu=CA&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701381~119034491&apve=1&apvf=f&apvc=0&tids=AW-11470352680&tid=AW-11470352680&tft=1780187506179&tfd=2409 :: net::ERR_ABORTED",
+          "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-DCLMD8MZ7Y&gtm=45je65r2v889965682z8892838296za20gzb892838296zd892838296&_p=1780187504586&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EAAAAGAC&are=1&cid=1784182751.1780187506&frm=0&ir=1&pscdl=noapi&rcb=5&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938465~115938469~119034491&sid=1780187506&sct=1&seg=0&dl=https%3A%2F%2Fecommerce.folio3.com%2F&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=2480 :: net::ERR_ABORTED",
+          "[FAILED] https://www.google.com/rmkt/collect/11470352680/?random=1780187506139&cv=11&fst=1780187506139&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701381~119034491&u_w=1440&u_h=900&url=https%3A%2F%2Fecommerce.folio3.com%2F&rcb=8&frm=0&tiba=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2028859993.1780187505&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&gcp=5 :: net::ERR_ABORTED",
+          "[FAILED] https://va.tawk.to/log-performance/v3 :: net::ERR_ABORTED",
+          "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-DCLMD8MZ7Y&gtm=45je65r2v889965682za20gzb892838296zd892838296&_p=1780187504586&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EAAAAGQC&are=1&cid=1784182751.1780187506&frm=0&ir=1&pscdl=noapi&rcb=5&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938465~115938469~119034491&sid=1780187506&sct=1&seg=0&dl=https%3A%2F%2Fecommerce.folio3.com%2F&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&_tu=CA&en=user_engagement&_et=2861&tfd=5345 :: net::ERR_ABORTED",
+          "[FAILED] https://ecommerce.folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED",
+          "[FAILED] https://hn.inspectlet.com/pdata?d=mr,633,undefined,undefined,undefined,undefined)s,634,0,0)cinmi,2336,6188,MDg1ZjA4YzM0OQ==,hidden)cinmi,2336,6189,Lw==,hidden)cinmi,2336,6193,,text)cinmi,2336,6197,,text)cinmi,2336,6201,,email)cinmi,2336,6206,,tel)cinmi,2336,6214,,hidden)cinmi,2336,6216,MTc4MDA3NTExNg==,hidden)cinmi,2336,6220,,hidden)cinmi,2336,6222,,hidden)cinmi,2337,6224,T3RoZXI=,hidden)cinmi,2337,6226,V2ViIC0gT3RoZXIgUGFnZXM=,hidden)cinmi,2337,6228,T3JnYW5pYw==,hidden)cinmi,2337,6230,aHR0cHM6Ly9lY29tbWVyY2UuZm9saW8zLmNvbS8=,hidden)cinmi,2337,6232,R29vZ2xlU3RhY2tkcml2ZXJNb25pdG9yaW5nLVVwdGltZUNoZWNrcyhodHRwczovL2Nsb3VkLmdvb2dsZS5jb20vbW9uaXRvcmluZyk=,hidden)cinmi,2337,6234,MzUuMjM2LjIwNy42OA==,hidden)cinmi,2337,6236,,hidden)cinmi,2337,6238,,hidden)cinmi,2337,6247,U3VibWl0IE5vdw==,submit)&w=1502151182&r=3664342043&sid=3356140399&pad=1&dn=dn&fadd=true&oid=72584619&lpt=0&rrtn=1780187509098 :: net::ERR_ABORTED",
+          "[FAILED] https://hn.inspectlet.com/mlsi?jv=7&r=3664342043&w=1502151182&k=8c103887&oid=72584619&sid=3356140399&pad=1&mlrc=3&isfpayload=W3sidCI6MjYwNywiayI6InhociIsImQiOnsiZCI6W251bGwseyIwIjoiUE9TVCIsIjEiOiJodHRwczovL3EuY2xhcml0eS5tcy9jb2xsZWN0IiwiMiI6dHJ1ZX0sbnVsbCwyMDQsMjcwXSwicG4iOjF9fSx7InQiOjI2MTMsImsiOiJkIiwiZCI6W1tdLFtdLFt7Im5vZGVUeXBlIjoxLCJpZCI6MjgyNSwidGFnTmFtZSI6IkRJViIsImF0dHJpYnV0ZXMiOnsic3R5bGUiOiJ0cmFuc2Zvcm06IHRyYW5zbGF0ZTNkKC0xNzA5LjMzcHgsIDBweCwgMHB4KTsgdHJhbnNpdGlvbi1kdXJhdGlvbjogNTAwbXM7In19LHsibm9kZVR5cGUiOjEsImlkIjoyODI2LCJ0YWdOYW1lIjoiRElWIiwiYXR0cmlidXRlcyI6eyJjbGFzcyI6InN3aXBlci1zbGlkZSBzd2lwZXItc2xpZGUtZHVwbGljYXRlIHN3aXBlci1zbGlkZS1kdXBsaWNhdGUtYWN0aXZlIn19LHsibm9kZVR5cGUiOjEsImlkIjoyOTQxLCJ0YWdOYW1lIjoiRElWIiwiYXR0cmlidXRlcyI6eyJjbGFzcyI6InN3aXBlci1zbGlkZSBzd2lwZXItc2xpZGUtZHVwbGljYXRlIHN3aXBlci1zbGlkZS1kdXBsaWNhdGUtbmV4dCJ9fSx7Im5vZGVUeXBlIjoxLCJpZCI6MzA1OCwidGFnTmFtZSI6IkRJViIsImF0dHJpYnV0ZXMiOnsiY2xhc3MiOiJzd2lwZXItc2xpZGUgc3dpcGVyLXNsaWRlLWR1cGxpY2F0ZSJ9fSx7Im5vZGVUeXBlIjoxLCJpZCI6MzE3NCwidGFnTmFtZSI6IkRJViIsImF0dHJpYnV0ZXMiOnsiY2xhc3MiOiJzd2lwZXItc2xpZGUgc3dpcGVyLXNsaWRlLXByZXYifX0seyJub2RlVHlwZSI6MSwiaWQiOjMyOTAsInRhZ05hbWUiOiJESVYiLCJhdHRyaWJ1dGVzIjp7ImNsYXNzIjoic3dpcGVyLXNsaWRlIHN3aXBlci1zbGlkZS1hY3RpdmUifX0seyJub2RlVHlwZSI6MSwiaWQiOjM0MDYsInRhZ05hbWUiOiJESVYiLCJhdHRyaWJ1dGVzIjp7ImNsYXNzIjoic3dpcGVyLXNsaWRlIHN3aXBlci1zbGlkZS1uZXh0In19LHsibm9kZVR5cGUiOjEsImlkIjozNTI0LCJ0YWdOYW1lIjoiRElWIiwiYXR0cmlidXRlcyI6eyJjbGFzcyI6InN3aXBlci1zbGlkZSJ9fSx7Im5vZGVUeXBlIjoxLCJpZCI6MzY0MCwidGFnTmFtZSI6IkRJViIsImF0dHJpYnV0ZXMiOnsiY2xhc3MiOiJzd2lwZXItc2xpZGUgc3dpcGVyLXNsaWRlLWR1cGxpY2F0ZSBzd2lwZXItc2xpZGUtZHVwbGljYXRlLXByZXYifX0seyJub2RlVHlwZSI6MSwiaWQiOjM3NTUsInRhZ05hbWUiOiJESVYiLCJhdHRyaWJ1dGVzIjp7ImNsYXNzIjoic3dpcGVyLXNsaWRlIHN3aXBlci1zbGlkZS1kdXBsaWNhdGUgc3dpcGVyLXNsaWRlLWR1cGxpY2F0ZS1hY3RpdmUifX0seyJub2RlVHlwZSI6MSwiaWQiOjM4NzAsInRhZ05hbWUiOiJESVYiLCJhdHRyaWJ1dGVzIjp7ImNsYXNzIjoic3dpcGVyLXNsaWRlIHN3aXBlci1zbGlkZS1kdXBsaWNhdGUgc3dpcGVyLXNsaWRlLWR1cGxpY2F0ZS1uZXh0In19LHsibm9kZVR5cGUiOjEsImlkIjo1MTk2LCJ0YWdOYW1lIjoiRElWIiwiYXR0cmlidXRlcyI6eyJjbGFzcyI6InN3aXBlci1zbGlkZSBzd2lwZXItc2xpZGUtYWN0aXZlIn19LHsibm9kZVR5cGUiOjEsImlkIjo1MjM4LCJ0YWdOYW1lIjoiRElWIiwiYXR0cmlidXRlcyI6eyJjbGFzcyI6InN3aXBlci1zbGlkZSBzd2lwZXItc2xpZGUtbmV4dCJ9fSx7Im5vZGVUeXBlIjoxLCJpZCI6NTI4NiwidGFnTmFtZSI6IkRJViIsImF0dHJpYnV0ZXMiOnsiY2xhc3MiOiJzd2lwZXItc2xpZGUifX0seyJub2RlVHlwZSI6MSwiaWQiOjU0OTYsInRhZ05hbWUiOiJESVYiLCJhdHRyaWJ1dGVzIjp7InN0eWxlIjoidHJhbnNmb3JtOiB0cmFuc2xhdGUzZCgtMTY0MHB4LCAwcHgsIDBweCk7IHRyYW5zaXRpb24tZHVyYXRpb246IDUwMG1zOyJ9fSx7Im5vZGVUeXBlIjoxLCJpZCI6NTQ5NywidGFnTmFtZSI6IkRJViIsImF0dHJpYnV0ZXMiOnsiY2xhc3MiOiJzd2lwZXItc2xpZGUgc3dpcGVyLXNsaWRlLWR1cGxpY2F0ZSBzd2lwZXItc2xpZGUtZHVwbGljYXRlLXByZXYifX0seyJub2RlVHlwZSI6MSwiaWQiOjU1MjMsInRhZ05hbWUiOiJESVYiLCJhdHRyaWJ1dGVzIjp7ImNsYXNzIjoic3dpcGVyLXNsaWRlIHN3aXBlci1zbGlkZS1kdXBsaWNhdGUgc3dpcGVyLXNsaWRlLWR1cGxpY2F0ZS1hY3RpdmUifX0seyJub2RlVHlwZSI6MSwiaWQiOjU1NDksInRhZ05hbWUiOiJESVYiLCJhdHRyaWJ1dGVzIjp7ImNsYXNzIjoic3dpcGVyLXNsaWRlIHN3aXBlci1zbGlkZS1kdXBsaWNhdGUgc3dpcGVyLXNsaWRlLWR1cGxpY2F0ZS1uZXh0In19LHsibm9kZVR5cGUiOjEsImlkIjo1NTc2LCJ0YWdOYW1lIjoiRElWIiwiYXR0cmlidXRlcyI6eyJjbGFzcyI6InN3aXBlci1zbGlkZSBzd2lwZXItc2xpZGUtcHJldiJ9fSx7Im5vZGVUeXBlIjoxLCJpZCI6NTYwMywidGFnTmFtZSI6IkRJViIsImF0dHJpYnV0ZXMiOnsiY2xhc3MiOiJzd2lwZXItc2xpZGUgc3dpcGVyLXNsaWRlLWFjdGl2ZSJ9fSx7Im5vZGVUeXBlIjoxLCJpZCI6NTYzMCwidGFnTmFtZSI6IkRJViIsImF0dHJpYnV0ZXMiOnsiY2xhc3MiOiJzd2lwZXItc2xpZGUgc3dpcGVyLXNsaWRlLW5leHQifX0seyJub2RlVHlwZSI6MSwiaWQiOjU2NTcsInRhZ05hbWUiOiJESVYiLCJhdHRyaWJ1dGVzIjp7ImNsYXNzIjoic3dpcGVyLXNsaWRlIHN3aXBlci1zbGlkZS1kdXBsaWNhdGUgc3dpcGVyLXNsaWRlLWR1cGxpY2F0ZS1wcmV2In19LHsibm9kZVR5cGUiOjEsImlkIjo1NjgzLCJ0YWdOYW1lIjoiRElWIiwiYXR0cmlidXRlcyI6eyJjbGFzcyI6InN3aXBlci1zbGlkZSBzd2lwZXItc2xpZGUtZHVwbGljYXRlIHN3aXBlci1zbGlkZS1kdXBsaWNhdGUtYWN0aXZlIn19LHsibm9kZVR5cGUiOjEsImlkIjo1NzA5LCJ0YWdOYW1lIjoiRElWIiwiYXR0cmlidXRlcyI6eyJjbGFzcyI6InN3aXBlci1zbGlkZSBzd2lwZXItc2xpZGUtZHVwbGljYXRlIHN3aXBlci1zbGlkZS1kdXBsaWNhdGUtbmV4dCJ9fV0sW11dfV0=&isfnum=1&isftotal=1&rrtn=1780187509099 :: net::ERR_ABORTED",
+          "[FAILED] https://ecommerce.folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED"
+        ],
+        "pageUrl": "https://ecommerce.folio3.com/headless-ecommerce-solutions/",
+        "timestamp": "2026-05-31T00:31:43.764Z",
+        "selfHealing": {
+          "attempted": false,
+          "recovered": false,
+          "attempts": 0,
+          "strategyLogs": []
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [
+            "Static suite validation for \"Accessibility\" using discovered pages."
+          ],
+          "retryResult": "not-needed",
+          "investigationFindings": []
+        }
+      }
+    },
+    {
+      "summary": "Accessibility risk: missing-alt-text",
+      "description": "1 image(s) appear to be missing alt text.",
+      "stepsToReproduce": [
+        "Open https://ecommerce.folio3.com/",
+        "Review automated post-run analysis findings."
+      ],
+      "expectedResult": "Page should meet quality expectations without user-impacting defects.",
+      "actualResult": "1 image(s) appear to be missing alt text.",
+      "screenshot": null,
+      "suggestedFix": "Review template markup, labels, focus states, and media alternatives.",
+      "severity": "Medium",
+      "priority": "P2",
+      "confidenceScore": 88,
+      "businessImpact": "Quality issues on public pages can increase bounce rate and support load.",
+      "userImpact": "Keyboard and screen-reader users may be unable to complete tasks on affected templates.",
+      "revenueImpact": "Indirect revenue impact possible depending on affected journeys.",
+      "recoveryAttempts": [
+        "Post-run analysis completed after scenario execution."
+      ],
+      "rootCauseAnalysis": "1 image(s) appear to be missing alt text.",
+      "technicalDetails": {
+        "errorReason": "1 image(s) appear to be missing alt text.",
+        "consoleErrors": [],
+        "networkErrors": [],
+        "pageUrl": "https://ecommerce.folio3.com/",
+        "timestamp": "2026-05-31T00:33:42.124Z",
+        "selfHealing": {
+          "attempted": false,
+          "recovered": false,
+          "attempts": 0,
+          "strategyLogs": []
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [],
+          "retryResult": "not-needed"
+        }
+      }
+    },
+    {
+      "summary": "Accessibility risk: missing-form-labels",
+      "description": "15 form control(s) appear unlabeled.",
+      "stepsToReproduce": [
+        "Open https://ecommerce.folio3.com/",
+        "Review automated post-run analysis findings."
+      ],
+      "expectedResult": "Page should meet quality expectations without user-impacting defects.",
+      "actualResult": "15 form control(s) appear unlabeled.",
+      "screenshot": null,
+      "suggestedFix": "Review template markup, labels, focus states, and media alternatives.",
+      "severity": "High",
+      "priority": "P1",
+      "confidenceScore": 88,
+      "businessImpact": "Broken lead or conversion flows can reduce inbound inquiries and revenue.",
+      "userImpact": "Keyboard and screen-reader users may be unable to complete tasks on affected templates.",
+      "revenueImpact": "Indirect revenue impact possible depending on affected journeys.",
+      "recoveryAttempts": [
+        "Post-run analysis completed after scenario execution."
+      ],
+      "rootCauseAnalysis": "15 form control(s) appear unlabeled.",
+      "technicalDetails": {
+        "errorReason": "15 form control(s) appear unlabeled.",
+        "consoleErrors": [],
+        "networkErrors": [],
+        "pageUrl": "https://ecommerce.folio3.com/",
+        "timestamp": "2026-05-31T00:33:42.124Z",
+        "selfHealing": {
+          "attempted": false,
+          "recovered": false,
+          "attempts": 0,
+          "strategyLogs": []
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [],
+          "retryResult": "not-needed"
+        }
+      }
+    },
+    {
+      "summary": "Accessibility risk: focus-visibility",
+      "description": "Focus outline visibility may be insufficient on interactive elements.",
+      "stepsToReproduce": [
+        "Open https://ecommerce.folio3.com/",
+        "Review automated post-run analysis findings."
+      ],
+      "expectedResult": "Page should meet quality expectations without user-impacting defects.",
+      "actualResult": "Focus outline visibility may be insufficient on interactive elements.",
+      "screenshot": null,
+      "suggestedFix": "Review template markup, labels, focus states, and media alternatives.",
+      "severity": "High",
+      "priority": "P1",
+      "confidenceScore": 88,
+      "businessImpact": "Quality issues on public pages can increase bounce rate and support load.",
+      "userImpact": "Keyboard and screen-reader users may be unable to complete tasks on affected templates.",
+      "revenueImpact": "Indirect revenue impact possible depending on affected journeys.",
+      "recoveryAttempts": [
+        "Post-run analysis completed after scenario execution."
+      ],
+      "rootCauseAnalysis": "Focus outline visibility may be insufficient on interactive elements.",
+      "technicalDetails": {
+        "errorReason": "Focus outline visibility may be insufficient on interactive elements.",
+        "consoleErrors": [],
+        "networkErrors": [],
+        "pageUrl": "https://ecommerce.folio3.com/",
+        "timestamp": "2026-05-31T00:33:42.124Z",
+        "selfHealing": {
+          "attempted": false,
+          "recovered": false,
+          "attempts": 0,
+          "strategyLogs": []
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [],
+          "retryResult": "not-needed"
+        }
+      }
+    },
+    {
+      "summary": "Responsive layout issues across multiple viewports",
+      "description": "Responsive audit flagged issues on 7 of 7 viewports.",
+      "stepsToReproduce": [
+        "Open https://ecommerce.folio3.com/",
+        "Review automated post-run analysis findings."
+      ],
+      "expectedResult": "Page should meet quality expectations without user-impacting defects.",
+      "actualResult": "Potential layout breakage detected. One or more CTAs appear hidden. Potential layout breakage detected.",
+      "screenshot": null,
+      "suggestedFix": "Review mobile/tablet breakpoints, hidden CTAs, and layout overflow rules.",
+      "severity": "Medium",
+      "priority": "P2",
+      "confidenceScore": 88,
+      "businessImpact": "Quality issues on public pages can increase bounce rate and support load.",
+      "userImpact": "Mobile and tablet users may miss CTAs or see broken layouts on key pages.",
+      "revenueImpact": "Indirect revenue impact possible depending on affected journeys.",
+      "recoveryAttempts": [
+        "Post-run analysis completed after scenario execution."
+      ],
+      "rootCauseAnalysis": "Potential layout breakage detected. One or more CTAs appear hidden. Potential layout breakage detected.",
+      "technicalDetails": {
+        "errorReason": "Potential layout breakage detected. One or more CTAs appear hidden. Potential layout breakage detected.",
+        "consoleErrors": [],
+        "networkErrors": [],
+        "pageUrl": "https://ecommerce.folio3.com/",
+        "timestamp": "2026-05-31T00:33:42.124Z",
+        "selfHealing": {
+          "attempted": false,
+          "recovered": false,
+          "attempts": 0,
+          "strategyLogs": []
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [],
+          "retryResult": "not-needed"
+        }
+      }
+    },
+    {
+      "summary": "Console defect: intlTelInput is not loaded.",
+      "description": "Runtime console error observed during Contact Form - Contact form can be submitted with valid data.",
+      "stepsToReproduce": [
+        "Open https://ecommerce.folio3.com/",
+        "Review automated post-run analysis findings."
+      ],
+      "expectedResult": "Page should meet quality expectations without user-impacting defects.",
+      "actualResult": "intlTelInput is not loaded.",
+      "screenshot": null,
+      "suggestedFix": "Fix missing script dependencies or initialization order for affected widgets.",
+      "severity": "Medium",
+      "priority": "P2",
+      "confidenceScore": 88,
+      "businessImpact": "Quality issues on public pages can increase bounce rate and support load.",
+      "userImpact": "JavaScript errors on the page can break widgets and form behavior for real users.",
+      "revenueImpact": "Indirect revenue impact possible depending on affected journeys.",
+      "recoveryAttempts": [
+        "Post-run analysis completed after scenario execution."
+      ],
+      "rootCauseAnalysis": "intlTelInput is not loaded.",
+      "technicalDetails": {
+        "errorReason": "intlTelInput is not loaded.",
+        "consoleErrors": [],
+        "networkErrors": [],
+        "pageUrl": "https://ecommerce.folio3.com/",
+        "timestamp": "2026-05-31T00:33:42.124Z",
+        "selfHealing": {
+          "attempted": false,
+          "recovered": false,
+          "attempts": 0,
+          "strategyLogs": []
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [],
+          "retryResult": "not-needed"
+        }
+      }
+    }
+  ],
+  "accessibilityRiskReport": {
+    "baseUrl": "https://ecommerce.folio3.com/",
+    "checkedAt": "2026-05-31T00:32:35.206Z",
+    "findings": [
+      {
+        "id": "cookie-consent-1",
+        "category": "cookie-consent",
+        "severity": "low",
+        "message": "Cookie consent UI was not detected on inspected page.",
+        "pageUrl": "https://ecommerce.folio3.com/"
+      },
+      {
+        "id": "missing-alt-text-2",
+        "category": "missing-alt-text",
+        "severity": "medium",
+        "message": "1 image(s) appear to be missing alt text.",
+        "pageUrl": "https://ecommerce.folio3.com/"
+      },
+      {
+        "id": "missing-form-labels-3",
+        "category": "missing-form-labels",
+        "severity": "high",
+        "message": "15 form control(s) appear unlabeled.",
+        "pageUrl": "https://ecommerce.folio3.com/"
+      },
+      {
+        "id": "focus-visibility-4",
+        "category": "focus-visibility",
+        "severity": "high",
+        "message": "Focus outline visibility may be insufficient on interactive elements.",
+        "pageUrl": "https://ecommerce.folio3.com/"
+      },
+      {
+        "id": "cookie-consent-1",
+        "category": "cookie-consent",
+        "severity": "low",
+        "message": "Cookie consent UI was not detected on inspected page.",
+        "pageUrl": "https://ecommerce.folio3.com/b2b-ecommerce-development-services/"
+      },
+      {
+        "id": "missing-alt-text-2",
+        "category": "missing-alt-text",
+        "severity": "high",
+        "message": "10 image(s) appear to be missing alt text.",
+        "pageUrl": "https://ecommerce.folio3.com/b2b-ecommerce-development-services/"
+      },
+      {
+        "id": "missing-form-labels-3",
+        "category": "missing-form-labels",
+        "severity": "high",
+        "message": "15 form control(s) appear unlabeled.",
+        "pageUrl": "https://ecommerce.folio3.com/b2b-ecommerce-development-services/"
+      },
+      {
+        "id": "focus-visibility-4",
+        "category": "focus-visibility",
+        "severity": "high",
+        "message": "Focus outline visibility may be insufficient on interactive elements.",
+        "pageUrl": "https://ecommerce.folio3.com/b2b-ecommerce-development-services/"
+      },
+      {
+        "id": "cookie-consent-1",
+        "category": "cookie-consent",
+        "severity": "low",
+        "message": "Cookie consent UI was not detected on inspected page.",
+        "pageUrl": "https://ecommerce.folio3.com/headless-ecommerce-solutions/"
+      },
+      {
+        "id": "missing-alt-text-2",
+        "category": "missing-alt-text",
+        "severity": "high",
+        "message": "32 image(s) appear to be missing alt text.",
+        "pageUrl": "https://ecommerce.folio3.com/headless-ecommerce-solutions/"
+      },
+      {
+        "id": "missing-form-labels-3",
+        "category": "missing-form-labels",
+        "severity": "high",
+        "message": "15 form control(s) appear unlabeled.",
+        "pageUrl": "https://ecommerce.folio3.com/headless-ecommerce-solutions/"
+      },
+      {
+        "id": "focus-visibility-4",
+        "category": "focus-visibility",
+        "severity": "high",
+        "message": "Focus outline visibility may be insufficient on interactive elements.",
+        "pageUrl": "https://ecommerce.folio3.com/headless-ecommerce-solutions/"
+      },
+      {
+        "id": "cookie-consent-1",
+        "category": "cookie-consent",
+        "severity": "low",
+        "message": "Cookie consent UI was not detected on inspected page.",
+        "pageUrl": "https://ecommerce.folio3.com/ecommerce-app-development-services/"
+      },
+      {
+        "id": "missing-alt-text-2",
+        "category": "missing-alt-text",
+        "severity": "high",
+        "message": "6 image(s) appear to be missing alt text.",
+        "pageUrl": "https://ecommerce.folio3.com/ecommerce-app-development-services/"
+      },
+      {
+        "id": "missing-form-labels-3",
+        "category": "missing-form-labels",
+        "severity": "high",
+        "message": "15 form control(s) appear unlabeled.",
+        "pageUrl": "https://ecommerce.folio3.com/ecommerce-app-development-services/"
+      },
+      {
+        "id": "focus-visibility-4",
+        "category": "focus-visibility",
+        "severity": "high",
+        "message": "Focus outline visibility may be insufficient on interactive elements.",
+        "pageUrl": "https://ecommerce.folio3.com/ecommerce-app-development-services/"
+      },
+      {
+        "id": "cookie-consent-1",
+        "category": "cookie-consent",
+        "severity": "low",
+        "message": "Cookie consent UI was not detected on inspected page.",
+        "pageUrl": "https://ecommerce.folio3.com/solutions/virtual-try-on/"
+      },
+      {
+        "id": "missing-alt-text-2",
+        "category": "missing-alt-text",
+        "severity": "high",
+        "message": "19 image(s) appear to be missing alt text.",
+        "pageUrl": "https://ecommerce.folio3.com/solutions/virtual-try-on/"
+      },
+      {
+        "id": "missing-form-labels-3",
+        "category": "missing-form-labels",
+        "severity": "high",
+        "message": "15 form control(s) appear unlabeled.",
+        "pageUrl": "https://ecommerce.folio3.com/solutions/virtual-try-on/"
+      },
+      {
+        "id": "focus-visibility-4",
+        "category": "focus-visibility",
+        "severity": "high",
+        "message": "Focus outline visibility may be insufficient on interactive elements.",
+        "pageUrl": "https://ecommerce.folio3.com/solutions/virtual-try-on/"
+      }
+    ],
+    "summary": {
+      "totalFindings": 20,
+      "high": 14,
+      "medium": 1,
+      "low": 5
+    },
+    "disclaimer": "Accessibility Risk Findings are heuristic indicators only and are not a certification for ADA, HIPAA, or legal compliance."
+  },
+  "responsiveReport": {
+    "baseUrl": "https://ecommerce.folio3.com/",
+    "generatedAt": "2026-05-31T00:33:36.456Z",
+    "findings": [
+      {
+        "viewport": "Android viewport",
+        "layoutBreakage": true,
+        "hiddenCtas": true,
+        "horizontalScroll": false,
+        "menuUsabilityIssue": false,
+        "formVisibilityIssue": false,
+        "overlappingElements": false,
+        "cartOrSearchVisibilityIssue": false,
+        "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780187409061\\responsive-screenshots\\android-viewport.png",
+        "notes": [
+          "Potential layout breakage detected.",
+          "One or more CTAs appear hidden."
+        ]
+      },
+      {
+        "viewport": "iPhone viewport",
+        "layoutBreakage": true,
+        "hiddenCtas": true,
+        "horizontalScroll": false,
+        "menuUsabilityIssue": false,
+        "formVisibilityIssue": false,
+        "overlappingElements": false,
+        "cartOrSearchVisibilityIssue": false,
+        "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780187409061\\responsive-screenshots\\iphone-viewport.png",
+        "notes": [
+          "Potential layout breakage detected.",
+          "One or more CTAs appear hidden."
+        ]
+      },
+      {
+        "viewport": "iPad viewport",
+        "layoutBreakage": true,
+        "hiddenCtas": true,
+        "horizontalScroll": false,
+        "menuUsabilityIssue": false,
+        "formVisibilityIssue": false,
+        "overlappingElements": false,
+        "cartOrSearchVisibilityIssue": false,
+        "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780187409061\\responsive-screenshots\\ipad-viewport.png",
+        "notes": [
+          "Potential layout breakage detected.",
+          "One or more CTAs appear hidden."
+        ]
+      },
+      {
+        "viewport": "Tablet viewport",
+        "layoutBreakage": true,
+        "hiddenCtas": true,
+        "horizontalScroll": false,
+        "menuUsabilityIssue": false,
+        "formVisibilityIssue": false,
+        "overlappingElements": false,
+        "cartOrSearchVisibilityIssue": false,
+        "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780187409061\\responsive-screenshots\\tablet-viewport.png",
+        "notes": [
+          "Potential layout breakage detected.",
+          "One or more CTAs appear hidden."
+        ]
+      },
+      {
+        "viewport": "Desktop viewport",
+        "layoutBreakage": true,
+        "hiddenCtas": true,
+        "horizontalScroll": false,
+        "menuUsabilityIssue": false,
+        "formVisibilityIssue": false,
+        "overlappingElements": false,
+        "cartOrSearchVisibilityIssue": false,
+        "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780187409061\\responsive-screenshots\\desktop-viewport.png",
+        "notes": [
+          "Potential layout breakage detected.",
+          "One or more CTAs appear hidden."
+        ]
+      },
+      {
+        "viewport": "Desktop viewport",
+        "layoutBreakage": true,
+        "hiddenCtas": true,
+        "horizontalScroll": false,
+        "menuUsabilityIssue": false,
+        "formVisibilityIssue": false,
+        "overlappingElements": false,
+        "cartOrSearchVisibilityIssue": false,
+        "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780187409061\\responsive-screenshots\\desktop-https-ecommerce-folio3-com-b2b-ecommerce.png",
+        "notes": [
+          "Potential layout breakage detected.",
+          "One or more CTAs appear hidden."
+        ]
+      },
+      {
+        "viewport": "Desktop viewport",
+        "layoutBreakage": true,
+        "hiddenCtas": true,
+        "horizontalScroll": false,
+        "menuUsabilityIssue": false,
+        "formVisibilityIssue": false,
+        "overlappingElements": false,
+        "cartOrSearchVisibilityIssue": false,
+        "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780187409061\\responsive-screenshots\\desktop-https-ecommerce-folio3-com-headless-ecom.png",
+        "notes": [
+          "Potential layout breakage detected.",
+          "One or more CTAs appear hidden."
+        ]
+      }
+    ],
+    "summary": {
+      "totalViewports": 7,
+      "issueCount": 14,
+      "issueViewports": 7
+    }
+  },
+  "responsiveReportPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780187409061\\responsive-report.json",
+  "accessibilityRiskReportPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780187409061\\accessibility-risk-report.json",
+  "productionReportPaths": {
+    "html": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780187409061\\client-report.html",
+    "json": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780187409061\\client-report.json",
+    "markdown": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780187409061\\summary.md"
+  }
+}

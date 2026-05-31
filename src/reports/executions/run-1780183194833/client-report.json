@@ -1,0 +1,649 @@
+{
+  "executiveSummary": {
+    "runId": "run-1780183194833",
+    "environment": "development",
+    "url": "https://ecommerce.folio3.com/",
+    "testType": "Full Regression",
+    "browser": "Chrome",
+    "devices": [
+      "Desktop"
+    ],
+    "totalCases": 7,
+    "passed": 3,
+    "failed": 4,
+    "skipped": 0,
+    "bugsFound": 9,
+    "confidenceScore": 90
+  },
+  "rootCauseAnalysis": [
+    "Contact Form issue: Contact form can be submitted with valid data: Frontend runtime errors were detected and likely caused interaction instability.",
+    "Forms issue: Discovered forms validate required fields safely: Primary likely cause is backend/API instability reflected by network failures.",
+    "Responsive issue: Responsive layout remains stable across breakpoints: Frontend runtime errors were detected and likely caused interaction instability.",
+    "Accessibility issue: Accessibility risk checks run on key templates: Primary likely cause is backend/API instability reflected by network failures.",
+    "Accessibility risk: missing-alt-text: 1 image(s) appear to be missing alt text.",
+    "Accessibility risk: missing-form-labels: 15 form control(s) appear unlabeled.",
+    "Accessibility risk: focus-visibility: Focus outline visibility may be insufficient on interactive elements.",
+    "Responsive layout issues across multiple viewports: Potential layout breakage detected. One or more CTAs appear hidden. Potential layout breakage detected.",
+    "Console defect: intlTelInput is not loaded.: intlTelInput is not loaded."
+  ],
+  "recoveryAttempts": [
+    "Static suite validation for \"Contact Form\" using discovered pages.",
+    "Static suite validation for \"Forms\" using discovered pages.",
+    "Static suite validation for \"Responsive\" using discovered pages.",
+    "Static suite validation for \"Accessibility\" using discovered pages.",
+    "Post-run analysis completed after scenario execution."
+  ],
+  "aiAssumptions": [
+    "Execution assertions rely on generated BDD scenario intent and detected capabilities.",
+    "Fallback test data may be used for missing non-sensitive fields where configured.",
+    "Sensitive/destructive operations are skipped unless safe test mode is explicitly enabled.",
+    "Browser/device matrix reflects configured run values: Chrome / Desktop."
+  ],
+  "screenshots": [
+    {
+      "scenarioId": "scenario-1",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780183194833\\screenshots\\scenario-1-Desktop-landing.png"
+    },
+    {
+      "scenarioId": "scenario-2",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780183194833\\screenshots\\scenario-2-Desktop-landing.png"
+    },
+    {
+      "scenarioId": "scenario-3",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780183194833\\screenshots\\scenario-3-Desktop-landing.png"
+    },
+    {
+      "scenarioId": "scenario-4",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780183194833\\screenshots\\scenario-4-Desktop-landing.png"
+    },
+    {
+      "scenarioId": "scenario-5",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780183194833\\screenshots\\scenario-5-Desktop-landing.png"
+    },
+    {
+      "scenarioId": "scenario-6",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780183194833\\screenshots\\scenario-6-Desktop-landing.png"
+    },
+    {
+      "scenarioId": "scenario-7",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780183194833\\screenshots\\scenario-7-Desktop-landing.png"
+    }
+  ],
+  "bugs": [
+    {
+      "summary": "Contact Form issue: Contact form can be submitted with valid data",
+      "description": "During automated validation of \"Contact Form - Contact form can be submitted with valid data\", the system encountered a blocker that prevented expected user behavior.",
+      "stepsToReproduce": [
+        "Open https://ecommerce.folio3.com/",
+        "Execute scenario: Contact Form - Contact form can be submitted with valid data",
+        "Observe behavior and compare with expected journey outcome."
+      ],
+      "expectedResult": "User should be able to complete the intended flow without blockers.",
+      "actualResult": "Site console error detected: intlTelInput is not loaded.",
+      "screenshot": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780183194833\\screenshots\\scenario-1-Desktop-landing.png",
+      "suggestedFix": "Inspect failing module logic and stabilize related frontend/backend dependencies.",
+      "severity": "Medium",
+      "priority": "P2",
+      "confidenceScore": 88,
+      "businessImpact": "Feature quality degradation may increase support overhead.",
+      "userImpact": "Some users face interruptions or degraded usability.",
+      "revenueImpact": "Indirect or partial revenue impact is possible depending on traffic mix.",
+      "recoveryAttempts": [
+        "Static suite validation for \"Contact Form\" using discovered pages."
+      ],
+      "rootCauseAnalysis": "Frontend runtime errors were detected and likely caused interaction instability.",
+      "technicalDetails": {
+        "errorReason": "Site console error detected: intlTelInput is not loaded.",
+        "consoleErrors": [
+          "intlTelInput is not loaded."
+        ],
+        "networkErrors": [],
+        "pageUrl": "https://ecommerce.folio3.com/",
+        "timestamp": "2026-05-30T23:20:12.861Z",
+        "selfHealing": {
+          "attempted": false,
+          "recovered": false,
+          "attempts": 0,
+          "strategyLogs": []
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [
+            "Static suite validation for \"Contact Form\" using discovered pages."
+          ],
+          "retryResult": "not-needed",
+          "investigationFindings": []
+        }
+      }
+    },
+    {
+      "summary": "Forms issue: Discovered forms validate required fields safely",
+      "description": "During automated validation of \"Forms - Discovered forms validate required fields safely\", the system encountered a blocker that prevented expected user behavior.",
+      "stepsToReproduce": [
+        "Open https://ecommerce.folio3.com/",
+        "Execute scenario: Forms - Discovered forms validate required fields safely",
+        "Observe behavior and compare with expected journey outcome."
+      ],
+      "expectedResult": "User should be able to complete the intended flow without blockers.",
+      "actualResult": "Site console error detected: intlTelInput is not loaded.",
+      "screenshot": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780183194833\\screenshots\\scenario-2-Desktop-landing.png",
+      "suggestedFix": "Inspect failing module logic and stabilize related frontend/backend dependencies.",
+      "severity": "Medium",
+      "priority": "P2",
+      "confidenceScore": 96,
+      "businessImpact": "Feature quality degradation may increase support overhead.",
+      "userImpact": "Some users face interruptions or degraded usability.",
+      "revenueImpact": "Indirect or partial revenue impact is possible depending on traffic mix.",
+      "recoveryAttempts": [
+        "Static suite validation for \"Forms\" using discovered pages."
+      ],
+      "rootCauseAnalysis": "Primary likely cause is backend/API instability reflected by network failures.",
+      "technicalDetails": {
+        "errorReason": "Site console error detected: intlTelInput is not loaded.",
+        "consoleErrors": [
+          "intlTelInput is not loaded."
+        ],
+        "networkErrors": [
+          "[FAILED] https://js.hscollectedforms.net/collectedforms.js :: net::ERR_ABORTED",
+          "[FAILED] https://js.hs-analytics.net/analytics/1779200400000/45888346.js :: net::ERR_ABORTED",
+          "[FAILED] https://assets.apollo.io/micro/website-tracker/tracker.iife.js?nocache=ktv5c :: net::ERR_ABORTED",
+          "[FAILED] https://embed.tawk.to/61139f02649e0a0a5cd09a12/1fcqaa99r :: net::ERR_ABORTED",
+          "[FAILED] https://js.hs-banner.com/v2/45888346/banner.js :: net::ERR_ABORTED"
+        ],
+        "pageUrl": "https://ecommerce.folio3.com/",
+        "timestamp": "2026-05-30T23:20:18.837Z",
+        "selfHealing": {
+          "attempted": false,
+          "recovered": false,
+          "attempts": 0,
+          "strategyLogs": []
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [
+            "Static suite validation for \"Forms\" using discovered pages."
+          ],
+          "retryResult": "not-needed",
+          "investigationFindings": []
+        }
+      }
+    },
+    {
+      "summary": "Responsive issue: Responsive layout remains stable across breakpoints",
+      "description": "During automated validation of \"Responsive - Responsive layout remains stable across breakpoints\", the system encountered a blocker that prevented expected user behavior.",
+      "stepsToReproduce": [
+        "Open https://ecommerce.folio3.com/industry/fashion-ecommerce/",
+        "Execute scenario: Responsive - Responsive layout remains stable across breakpoints",
+        "Observe behavior and compare with expected journey outcome."
+      ],
+      "expectedResult": "User should be able to complete the intended flow without blockers.",
+      "actualResult": "Responsive issues detected on 6/6 viewports.",
+      "screenshot": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780183194833\\screenshots\\scenario-4-Desktop-landing.png",
+      "suggestedFix": "Inspect failing module logic and stabilize related frontend/backend dependencies.",
+      "severity": "Medium",
+      "priority": "P2",
+      "confidenceScore": 88,
+      "businessImpact": "Feature quality degradation may increase support overhead.",
+      "userImpact": "Some users face interruptions or degraded usability.",
+      "revenueImpact": "Indirect or partial revenue impact is possible depending on traffic mix.",
+      "recoveryAttempts": [
+        "Static suite validation for \"Responsive\" using discovered pages."
+      ],
+      "rootCauseAnalysis": "Frontend runtime errors were detected and likely caused interaction instability.",
+      "technicalDetails": {
+        "errorReason": "Responsive issues detected on 6/6 viewports.",
+        "consoleErrors": [
+          "intlTelInput is not loaded."
+        ],
+        "networkErrors": [],
+        "pageUrl": "https://ecommerce.folio3.com/industry/fashion-ecommerce/",
+        "timestamp": "2026-05-30T23:20:25.801Z",
+        "selfHealing": {
+          "attempted": false,
+          "recovered": false,
+          "attempts": 0,
+          "strategyLogs": []
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [
+            "Static suite validation for \"Responsive\" using discovered pages."
+          ],
+          "retryResult": "not-needed",
+          "investigationFindings": []
+        }
+      }
+    },
+    {
+      "summary": "Accessibility issue: Accessibility risk checks run on key templates",
+      "description": "During automated validation of \"Accessibility - Accessibility risk checks run on key templates\", the system encountered a blocker that prevented expected user behavior.",
+      "stepsToReproduce": [
+        "Open https://ecommerce.folio3.com/industry/fashion-ecommerce/",
+        "Execute scenario: Accessibility - Accessibility risk checks run on key templates",
+        "Observe behavior and compare with expected journey outcome."
+      ],
+      "expectedResult": "User should be able to complete the intended flow without blockers.",
+      "actualResult": "5 high-severity accessibility risk finding(s) detected across sampled templates.",
+      "screenshot": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780183194833\\screenshots\\scenario-5-Desktop-landing.png",
+      "suggestedFix": "Inspect failing module logic and stabilize related frontend/backend dependencies.",
+      "severity": "Medium",
+      "priority": "P2",
+      "confidenceScore": 96,
+      "businessImpact": "Feature quality degradation may increase support overhead.",
+      "userImpact": "Some users face interruptions or degraded usability.",
+      "revenueImpact": "Indirect or partial revenue impact is possible depending on traffic mix.",
+      "recoveryAttempts": [
+        "Static suite validation for \"Accessibility\" using discovered pages."
+      ],
+      "rootCauseAnalysis": "Primary likely cause is backend/API instability reflected by network failures.",
+      "technicalDetails": {
+        "errorReason": "5 high-severity accessibility risk finding(s) detected across sampled templates.",
+        "consoleErrors": [
+          "intlTelInput is not loaded."
+        ],
+        "networkErrors": [
+          "[FAILED] https://ecommerce.folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED"
+        ],
+        "pageUrl": "https://ecommerce.folio3.com/industry/fashion-ecommerce/",
+        "timestamp": "2026-05-30T23:20:28.177Z",
+        "selfHealing": {
+          "attempted": false,
+          "recovered": false,
+          "attempts": 0,
+          "strategyLogs": []
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [
+            "Static suite validation for \"Accessibility\" using discovered pages."
+          ],
+          "retryResult": "not-needed",
+          "investigationFindings": []
+        }
+      }
+    },
+    {
+      "summary": "Accessibility risk: missing-alt-text",
+      "description": "1 image(s) appear to be missing alt text.",
+      "stepsToReproduce": [
+        "Open https://ecommerce.folio3.com/",
+        "Review automated post-run analysis findings."
+      ],
+      "expectedResult": "Page should meet quality expectations without user-impacting defects.",
+      "actualResult": "1 image(s) appear to be missing alt text.",
+      "screenshot": null,
+      "suggestedFix": "Review template markup, labels, focus states, and media alternatives.",
+      "severity": "Medium",
+      "priority": "P2",
+      "confidenceScore": 88,
+      "businessImpact": "Quality degradation may reduce trust and increase support load.",
+      "userImpact": "Users may encounter broken journeys or inaccessible UI elements.",
+      "revenueImpact": "Indirect revenue impact possible depending on affected journeys.",
+      "recoveryAttempts": [
+        "Post-run analysis completed after scenario execution."
+      ],
+      "rootCauseAnalysis": "1 image(s) appear to be missing alt text.",
+      "technicalDetails": {
+        "errorReason": "1 image(s) appear to be missing alt text.",
+        "consoleErrors": [],
+        "networkErrors": [],
+        "pageUrl": "https://ecommerce.folio3.com/",
+        "timestamp": "2026-05-30T23:22:06.367Z",
+        "selfHealing": {
+          "attempted": false,
+          "recovered": false,
+          "attempts": 0,
+          "strategyLogs": []
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [],
+          "retryResult": "not-needed"
+        }
+      }
+    },
+    {
+      "summary": "Accessibility risk: missing-form-labels",
+      "description": "15 form control(s) appear unlabeled.",
+      "stepsToReproduce": [
+        "Open https://ecommerce.folio3.com/",
+        "Review automated post-run analysis findings."
+      ],
+      "expectedResult": "Page should meet quality expectations without user-impacting defects.",
+      "actualResult": "15 form control(s) appear unlabeled.",
+      "screenshot": null,
+      "suggestedFix": "Review template markup, labels, focus states, and media alternatives.",
+      "severity": "High",
+      "priority": "P1",
+      "confidenceScore": 88,
+      "businessImpact": "Quality degradation may reduce trust and increase support load.",
+      "userImpact": "Users may encounter broken journeys or inaccessible UI elements.",
+      "revenueImpact": "Indirect revenue impact possible depending on affected journeys.",
+      "recoveryAttempts": [
+        "Post-run analysis completed after scenario execution."
+      ],
+      "rootCauseAnalysis": "15 form control(s) appear unlabeled.",
+      "technicalDetails": {
+        "errorReason": "15 form control(s) appear unlabeled.",
+        "consoleErrors": [],
+        "networkErrors": [],
+        "pageUrl": "https://ecommerce.folio3.com/",
+        "timestamp": "2026-05-30T23:22:06.367Z",
+        "selfHealing": {
+          "attempted": false,
+          "recovered": false,
+          "attempts": 0,
+          "strategyLogs": []
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [],
+          "retryResult": "not-needed"
+        }
+      }
+    },
+    {
+      "summary": "Accessibility risk: focus-visibility",
+      "description": "Focus outline visibility may be insufficient on interactive elements.",
+      "stepsToReproduce": [
+        "Open https://ecommerce.folio3.com/",
+        "Review automated post-run analysis findings."
+      ],
+      "expectedResult": "Page should meet quality expectations without user-impacting defects.",
+      "actualResult": "Focus outline visibility may be insufficient on interactive elements.",
+      "screenshot": null,
+      "suggestedFix": "Review template markup, labels, focus states, and media alternatives.",
+      "severity": "High",
+      "priority": "P1",
+      "confidenceScore": 88,
+      "businessImpact": "Quality degradation may reduce trust and increase support load.",
+      "userImpact": "Users may encounter broken journeys or inaccessible UI elements.",
+      "revenueImpact": "Indirect revenue impact possible depending on affected journeys.",
+      "recoveryAttempts": [
+        "Post-run analysis completed after scenario execution."
+      ],
+      "rootCauseAnalysis": "Focus outline visibility may be insufficient on interactive elements.",
+      "technicalDetails": {
+        "errorReason": "Focus outline visibility may be insufficient on interactive elements.",
+        "consoleErrors": [],
+        "networkErrors": [],
+        "pageUrl": "https://ecommerce.folio3.com/",
+        "timestamp": "2026-05-30T23:22:06.367Z",
+        "selfHealing": {
+          "attempted": false,
+          "recovered": false,
+          "attempts": 0,
+          "strategyLogs": []
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [],
+          "retryResult": "not-needed"
+        }
+      }
+    },
+    {
+      "summary": "Responsive layout issues across multiple viewports",
+      "description": "Responsive audit flagged issues on 6 of 6 viewports.",
+      "stepsToReproduce": [
+        "Open https://ecommerce.folio3.com/",
+        "Review automated post-run analysis findings."
+      ],
+      "expectedResult": "Page should meet quality expectations without user-impacting defects.",
+      "actualResult": "Potential layout breakage detected. One or more CTAs appear hidden. Potential layout breakage detected.",
+      "screenshot": null,
+      "suggestedFix": "Review mobile/tablet breakpoints, hidden CTAs, and layout overflow rules.",
+      "severity": "Medium",
+      "priority": "P2",
+      "confidenceScore": 88,
+      "businessImpact": "Quality degradation may reduce trust and increase support load.",
+      "userImpact": "Users may encounter broken journeys or inaccessible UI elements.",
+      "revenueImpact": "Indirect revenue impact possible depending on affected journeys.",
+      "recoveryAttempts": [
+        "Post-run analysis completed after scenario execution."
+      ],
+      "rootCauseAnalysis": "Potential layout breakage detected. One or more CTAs appear hidden. Potential layout breakage detected.",
+      "technicalDetails": {
+        "errorReason": "Potential layout breakage detected. One or more CTAs appear hidden. Potential layout breakage detected.",
+        "consoleErrors": [],
+        "networkErrors": [],
+        "pageUrl": "https://ecommerce.folio3.com/",
+        "timestamp": "2026-05-30T23:22:06.367Z",
+        "selfHealing": {
+          "attempted": false,
+          "recovered": false,
+          "attempts": 0,
+          "strategyLogs": []
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [],
+          "retryResult": "not-needed"
+        }
+      }
+    },
+    {
+      "summary": "Console defect: intlTelInput is not loaded.",
+      "description": "Runtime console error observed during Contact Form - Contact form can be submitted with valid data.",
+      "stepsToReproduce": [
+        "Open https://ecommerce.folio3.com/",
+        "Review automated post-run analysis findings."
+      ],
+      "expectedResult": "Page should meet quality expectations without user-impacting defects.",
+      "actualResult": "intlTelInput is not loaded.",
+      "screenshot": null,
+      "suggestedFix": "Fix missing script dependencies or initialization order for affected widgets.",
+      "severity": "Medium",
+      "priority": "P2",
+      "confidenceScore": 88,
+      "businessImpact": "Quality degradation may reduce trust and increase support load.",
+      "userImpact": "Users may encounter broken journeys or inaccessible UI elements.",
+      "revenueImpact": "Indirect revenue impact possible depending on affected journeys.",
+      "recoveryAttempts": [
+        "Post-run analysis completed after scenario execution."
+      ],
+      "rootCauseAnalysis": "intlTelInput is not loaded.",
+      "technicalDetails": {
+        "errorReason": "intlTelInput is not loaded.",
+        "consoleErrors": [],
+        "networkErrors": [],
+        "pageUrl": "https://ecommerce.folio3.com/",
+        "timestamp": "2026-05-30T23:22:06.367Z",
+        "selfHealing": {
+          "attempted": false,
+          "recovered": false,
+          "attempts": 0,
+          "strategyLogs": []
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [],
+          "retryResult": "not-needed"
+        }
+      }
+    }
+  ],
+  "technicalLogs": [
+    {
+      "scenarioId": "scenario-1",
+      "feature": "Contact Form",
+      "scenario": "Contact form can be submitted with valid data",
+      "status": "failed",
+      "errorReason": "Site console error detected: intlTelInput is not loaded.",
+      "consoleErrors": [
+        "intlTelInput is not loaded."
+      ],
+      "networkErrors": [],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Static suite validation for \"Contact Form\" using discovered pages."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-2",
+      "feature": "Forms",
+      "scenario": "Discovered forms validate required fields safely",
+      "status": "failed",
+      "errorReason": "Site console error detected: intlTelInput is not loaded.",
+      "consoleErrors": [
+        "intlTelInput is not loaded."
+      ],
+      "networkErrors": [
+        "[FAILED] https://js.hscollectedforms.net/collectedforms.js :: net::ERR_ABORTED",
+        "[FAILED] https://js.hs-analytics.net/analytics/1779200400000/45888346.js :: net::ERR_ABORTED",
+        "[FAILED] https://assets.apollo.io/micro/website-tracker/tracker.iife.js?nocache=ktv5c :: net::ERR_ABORTED",
+        "[FAILED] https://embed.tawk.to/61139f02649e0a0a5cd09a12/1fcqaa99r :: net::ERR_ABORTED",
+        "[FAILED] https://js.hs-banner.com/v2/45888346/banner.js :: net::ERR_ABORTED"
+      ],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Static suite validation for \"Forms\" using discovered pages."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-3",
+      "feature": "Broken Link",
+      "scenario": "Site links return healthy HTTP responses",
+      "status": "passed",
+      "consoleErrors": [
+        "intlTelInput is not loaded."
+      ],
+      "networkErrors": [],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Static suite validation for \"Broken Link\" using discovered pages."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-4",
+      "feature": "Responsive",
+      "scenario": "Responsive layout remains stable across breakpoints",
+      "status": "failed",
+      "errorReason": "Responsive issues detected on 6/6 viewports.",
+      "consoleErrors": [
+        "intlTelInput is not loaded."
+      ],
+      "networkErrors": [],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Static suite validation for \"Responsive\" using discovered pages."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-5",
+      "feature": "Accessibility",
+      "scenario": "Accessibility risk checks run on key templates",
+      "status": "failed",
+      "errorReason": "5 high-severity accessibility risk finding(s) detected across sampled templates.",
+      "consoleErrors": [
+        "intlTelInput is not loaded."
+      ],
+      "networkErrors": [
+        "[FAILED] https://ecommerce.folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED"
+      ],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Static suite validation for \"Accessibility\" using discovered pages."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-6",
+      "feature": "Navigation",
+      "scenario": "Primary navigation routes resolve correctly",
+      "status": "passed",
+      "consoleErrors": [
+        "intlTelInput is not loaded."
+      ],
+      "networkErrors": [],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Static suite validation for \"Navigation\" using discovered pages."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-7",
+      "feature": "Static Pages",
+      "scenario": "Static informational pages load and render expected sections",
+      "status": "passed",
+      "consoleErrors": [
+        "intlTelInput is not loaded."
+      ],
+      "networkErrors": [],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Static suite validation for \"Static Pages\" using discovered pages."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    }
+  ],
+  "generatedAt": "2026-05-30T23:22:06.368Z"
+}

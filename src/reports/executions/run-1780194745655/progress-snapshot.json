@@ -1,0 +1,190 @@
+{
+  "runId": "run-1780194745655",
+  "status": "cancelled",
+  "orchestrationState": "COMPLETE",
+  "currentPhase": "Reporting",
+  "totalGeneratedTestCases": 25,
+  "currentExecutingTestCaseNumber": 14,
+  "currentTestCaseTitle": "Add item works from cart workflow",
+  "currentUrl": "https://uat2.purelifedental.com/",
+  "browser": "Chrome",
+  "device": "Desktop",
+  "progressPercentage": 100,
+  "passCount": 12,
+  "failCount": 2,
+  "skippedCount": 0,
+  "liveLogs": [
+    "[7:32:25 am] Run queued (run-1780194745655)",
+    "[7:32:25 am] Discovery started for https://uat2.purelifedental.com/",
+    "[7:32:25 am] Using cached discovery for https://uat2.purelifedental.com (20 pages, 800 links).",
+    "[7:32:25 am] Discovery classified as Ecommerce (ecommerce suite). 20 pages, 101 forms.",
+    "[7:32:26 am] Generated 29 scenarios (25 executable, 4 skipped).",
+    "[7:32:26 am] Starting Playwright scenario execution.",
+    "[7:32:26 am] Launching browser contexts.",
+    "[7:32:27 am] Executing scenario 1/25: Login flow works as expected",
+    "[7:32:48 am] Scenario completed: Login flow works as expected (passed)",
+    "[7:32:48 am] Executing scenario 2/25: Signup flow works as expected",
+    "[7:32:53 am] Scenario completed: Signup flow works as expected (passed)",
+    "[7:32:53 am] Executing scenario 3/25: Forgot Password flow works as expected",
+    "[7:32:57 am] Scenario completed: Forgot Password flow works as expected (passed)",
+    "[7:32:57 am] Executing scenario 4/25: Guest Checkout flow works as expected",
+    "[7:35:22 am] Scenario completed: Guest Checkout flow works as expected (failed)",
+    "[7:35:22 am] Executing scenario 5/25: Product Listing behavior is correct",
+    "[7:35:29 am] Scenario completed: Product Listing behavior is correct (failed)",
+    "[7:35:29 am] Executing scenario 6/25: Search behavior is correct",
+    "[7:35:43 am] Scenario completed: Search behavior is correct (passed)",
+    "[7:35:43 am] Executing scenario 7/25: Categories behavior is correct",
+    "[7:35:57 am] Scenario completed: Categories behavior is correct (passed)",
+    "[7:35:57 am] Executing scenario 8/25: Add to cart behavior on product detail page",
+    "[7:36:23 am] Scenario completed: Add to cart behavior on product detail page (passed)",
+    "[7:36:23 am] Executing scenario 9/25: Color behavior on product detail page",
+    "[7:36:26 am] Scenario completed: Color behavior on product detail page (passed)",
+    "[7:36:26 am] Executing scenario 10/25: Inventory behavior on product detail page",
+    "[7:36:29 am] Scenario completed: Inventory behavior on product detail page (passed)",
+    "[7:36:29 am] Executing scenario 11/25: Product image behavior on product detail page",
+    "[7:36:31 am] Scenario completed: Product image behavior on product detail page (passed)",
+    "[7:36:31 am] Executing scenario 12/25: Quantity behavior on product detail page",
+    "[7:36:34 am] Scenario completed: Quantity behavior on product detail page (passed)",
+    "[7:36:34 am] Executing scenario 13/25: Size behavior on product detail page",
+    "[7:36:37 am] Scenario completed: Size behavior on product detail page (passed)",
+    "[7:36:37 am] Executing scenario 14/25: Variants behavior on product detail page",
+    "[7:36:54 am] Scenario completed: Variants behavior on product detail page (passed)",
+    "[7:36:54 am] Executing scenario 15/25: Add item works from cart workflow",
+    "[7:37:49 am] Execution stopped by user."
+  ],
+  "testCases": [
+    {
+      "id": "scenario-1",
+      "title": "Login flow works as expected",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-2",
+      "title": "Signup flow works as expected",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-3",
+      "title": "Forgot Password flow works as expected",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-4",
+      "title": "Guest Checkout flow works as expected",
+      "status": "failed"
+    },
+    {
+      "id": "scenario-5",
+      "title": "Product Listing behavior is correct",
+      "status": "failed"
+    },
+    {
+      "id": "scenario-6",
+      "title": "Search behavior is correct",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-7",
+      "title": "Categories behavior is correct",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-8",
+      "title": "Add to cart behavior on product detail page",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-9",
+      "title": "Color behavior on product detail page",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-10",
+      "title": "Inventory behavior on product detail page",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-11",
+      "title": "Product image behavior on product detail page",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-12",
+      "title": "Quantity behavior on product detail page",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-13",
+      "title": "Size behavior on product detail page",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-14",
+      "title": "Variants behavior on product detail page",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-15",
+      "title": "Add item works from cart workflow",
+      "status": "running"
+    },
+    {
+      "id": "scenario-16",
+      "title": "Coupon if available works from cart workflow",
+      "status": "pending"
+    },
+    {
+      "id": "scenario-17",
+      "title": "Remove item works from cart workflow",
+      "status": "pending"
+    },
+    {
+      "id": "scenario-18",
+      "title": "Update quantity works from cart workflow",
+      "status": "pending"
+    },
+    {
+      "id": "scenario-19",
+      "title": "Address step validates correctly",
+      "status": "pending"
+    },
+    {
+      "id": "scenario-20",
+      "title": "Shipping step validates correctly",
+      "status": "pending"
+    },
+    {
+      "id": "scenario-21",
+      "title": "Billing step validates correctly",
+      "status": "pending"
+    },
+    {
+      "id": "scenario-22",
+      "title": "Payment step validates correctly",
+      "status": "pending"
+    },
+    {
+      "id": "scenario-23",
+      "title": "Review step validates correctly",
+      "status": "pending"
+    },
+    {
+      "id": "scenario-24",
+      "title": "Orders section behaves as expected",
+      "status": "pending"
+    },
+    {
+      "id": "scenario-25",
+      "title": "Profile section behaves as expected",
+      "status": "pending"
+    }
+  ],
+  "updatedAt": "2026-05-31T02:37:49.533Z",
+  "log": "Execution stopped by user.",
+  "testCaseUpdate": {
+    "id": "scenario-15",
+    "title": "Add item works from cart workflow",
+    "status": "running"
+  },
+  "error": "Execution stopped by user."
+}

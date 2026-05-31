@@ -1,0 +1,574 @@
+{
+  "executiveSummary": {
+    "runId": "run-1780166195816",
+    "environment": "development",
+    "url": "https://ecommerce@folio3.com",
+    "testType": "Full Regression",
+    "browser": "Chrome",
+    "devices": [
+      "Desktop"
+    ],
+    "totalCases": 7,
+    "passed": 5,
+    "failed": 2,
+    "skipped": 0,
+    "bugsFound": 6,
+    "confidenceScore": 91
+  },
+  "rootCauseAnalysis": [
+    "Responsive issue: Responsive layout remains stable across breakpoints: Primary likely cause is backend/API instability reflected by network failures.",
+    "Accessibility issue: Accessibility risk checks run on key templates: Primary likely cause is backend/API instability reflected by network failures.",
+    "Accessibility risk: missing-alt-text: 173 image(s) appear to be missing alt text.",
+    "Accessibility risk: missing-form-labels: 9 form control(s) appear unlabeled.",
+    "Accessibility risk: focus-visibility: Focus outline visibility may be insufficient on interactive elements.",
+    "Responsive layout issues across multiple viewports: Potential layout breakage detected. Potential layout breakage detected. Potential layout breakage detected."
+  ],
+  "recoveryAttempts": [
+    "Static suite validation for \"Responsive\" using discovered pages.",
+    "Static suite validation for \"Accessibility\" using discovered pages.",
+    "Post-run analysis completed after scenario execution."
+  ],
+  "aiAssumptions": [
+    "Execution assertions rely on generated BDD scenario intent and detected capabilities.",
+    "Fallback test data may be used for missing non-sensitive fields where configured.",
+    "Sensitive/destructive operations are skipped unless safe test mode is explicitly enabled.",
+    "Browser/device matrix reflects configured run values: Chrome / Desktop."
+  ],
+  "screenshots": [
+    {
+      "scenarioId": "scenario-1",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780166195816\\screenshots\\scenario-1-Desktop-landing.png"
+    },
+    {
+      "scenarioId": "scenario-2",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780166195816\\screenshots\\scenario-2-Desktop-landing.png"
+    },
+    {
+      "scenarioId": "scenario-3",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780166195816\\screenshots\\scenario-3-Desktop-landing.png"
+    },
+    {
+      "scenarioId": "scenario-4",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780166195816\\screenshots\\scenario-4-Desktop-landing.png"
+    },
+    {
+      "scenarioId": "scenario-5",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780166195816\\screenshots\\scenario-5-Desktop-landing.png"
+    },
+    {
+      "scenarioId": "scenario-6",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780166195816\\screenshots\\scenario-6-Desktop-landing.png"
+    },
+    {
+      "scenarioId": "scenario-7",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780166195816\\screenshots\\scenario-7-Desktop-landing.png"
+    }
+  ],
+  "bugs": [
+    {
+      "summary": "Responsive issue: Responsive layout remains stable across breakpoints",
+      "description": "During automated validation of \"Responsive - Responsive layout remains stable across breakpoints\", the system encountered a blocker that prevented expected user behavior.",
+      "stepsToReproduce": [
+        "Open https://folio3.com/app-development",
+        "Execute scenario: Responsive - Responsive layout remains stable across breakpoints",
+        "Observe behavior and compare with expected journey outcome."
+      ],
+      "expectedResult": "User should be able to complete the intended flow without blockers.",
+      "actualResult": "Responsive issues detected on 3/6 viewports.",
+      "screenshot": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780166195816\\screenshots\\scenario-4-Desktop-landing.png",
+      "suggestedFix": "Inspect failing module logic and stabilize related frontend/backend dependencies.",
+      "severity": "Medium",
+      "priority": "P2",
+      "confidenceScore": 96,
+      "businessImpact": "Feature quality degradation may increase support overhead.",
+      "userImpact": "Some users face interruptions or degraded usability.",
+      "revenueImpact": "Indirect or partial revenue impact is possible depending on traffic mix.",
+      "recoveryAttempts": [
+        "Static suite validation for \"Responsive\" using discovered pages."
+      ],
+      "rootCauseAnalysis": "Primary likely cause is backend/API instability reflected by network failures.",
+      "technicalDetails": {
+        "errorReason": "Responsive issues detected on 3/6 viewports.",
+        "consoleErrors": [
+          "Position field not found!"
+        ],
+        "networkErrors": [
+          "[FAILED] https://folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED",
+          "[404] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff",
+          "[FAILED] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff :: net::ERR_ABORTED",
+          "[FAILED] https://www.google.com/recaptcha/api2/clr?k=6LeWqRshAAAAAEnXyC7pwypil_fgdEv6noLL2Sl0 :: net::ERR_ABORTED",
+          "[FAILED] https://ecommerce@folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED",
+          "[404] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff",
+          "[FAILED] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff :: net::ERR_ABORTED",
+          "[FAILED] https://folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED",
+          "[FAILED] https://forms.hsforms.com/embed/v3/counters.gif?key=collected-forms-embed-js-form-bind&count=1 :: net::ERR_ABORTED",
+          "[FAILED] https://csp.withgoogle.com/csp/frame-ancestors/38fac9d5b82543fc4729580d18ff2d3d :: net::ERR_BLOCKED_BY_ORB"
+        ],
+        "pageUrl": "https://folio3.com/app-development",
+        "timestamp": "2026-05-30T18:37:37.873Z",
+        "selfHealing": {
+          "attempted": false,
+          "recovered": false,
+          "attempts": 0,
+          "strategyLogs": []
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [
+            "Static suite validation for \"Responsive\" using discovered pages."
+          ],
+          "retryResult": "not-needed",
+          "investigationFindings": []
+        }
+      }
+    },
+    {
+      "summary": "Accessibility issue: Accessibility risk checks run on key templates",
+      "description": "During automated validation of \"Accessibility - Accessibility risk checks run on key templates\", the system encountered a blocker that prevented expected user behavior.",
+      "stepsToReproduce": [
+        "Open https://folio3.com/app-development",
+        "Execute scenario: Accessibility - Accessibility risk checks run on key templates",
+        "Observe behavior and compare with expected journey outcome."
+      ],
+      "expectedResult": "User should be able to complete the intended flow without blockers.",
+      "actualResult": "6 high-severity accessibility risk finding(s) detected across sampled templates.",
+      "screenshot": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780166195816\\screenshots\\scenario-5-Desktop-landing.png",
+      "suggestedFix": "Inspect failing module logic and stabilize related frontend/backend dependencies.",
+      "severity": "Medium",
+      "priority": "P2",
+      "confidenceScore": 96,
+      "businessImpact": "Feature quality degradation may increase support overhead.",
+      "userImpact": "Some users face interruptions or degraded usability.",
+      "revenueImpact": "Indirect or partial revenue impact is possible depending on traffic mix.",
+      "recoveryAttempts": [
+        "Static suite validation for \"Accessibility\" using discovered pages."
+      ],
+      "rootCauseAnalysis": "Primary likely cause is backend/API instability reflected by network failures.",
+      "technicalDetails": {
+        "errorReason": "6 high-severity accessibility risk finding(s) detected across sampled templates.",
+        "consoleErrors": [
+          "Position field not found!"
+        ],
+        "networkErrors": [
+          "[FAILED] https://www.google.com/recaptcha/api2/clr?k=6LeWqRshAAAAAEnXyC7pwypil_fgdEv6noLL2Sl0 :: net::ERR_ABORTED",
+          "[FAILED] https://folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED",
+          "[404] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff",
+          "[FAILED] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff :: net::ERR_ABORTED",
+          "[FAILED] https://ecommerce@folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED",
+          "[404] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff",
+          "[FAILED] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff :: net::ERR_ABORTED",
+          "[FAILED] https://folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED"
+        ],
+        "pageUrl": "https://folio3.com/app-development",
+        "timestamp": "2026-05-30T18:37:51.974Z",
+        "selfHealing": {
+          "attempted": false,
+          "recovered": false,
+          "attempts": 0,
+          "strategyLogs": []
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [
+            "Static suite validation for \"Accessibility\" using discovered pages."
+          ],
+          "retryResult": "not-needed",
+          "investigationFindings": []
+        }
+      }
+    },
+    {
+      "summary": "Accessibility risk: missing-alt-text",
+      "description": "173 image(s) appear to be missing alt text.",
+      "stepsToReproduce": [
+        "Open https://folio3.com/",
+        "Review automated post-run analysis findings."
+      ],
+      "expectedResult": "Page should meet quality expectations without user-impacting defects.",
+      "actualResult": "173 image(s) appear to be missing alt text.",
+      "screenshot": null,
+      "suggestedFix": "Review template markup, labels, focus states, and media alternatives.",
+      "severity": "High",
+      "priority": "P1",
+      "confidenceScore": 88,
+      "businessImpact": "Quality degradation may reduce trust and increase support load.",
+      "userImpact": "Users may encounter broken journeys or inaccessible UI elements.",
+      "revenueImpact": "Indirect revenue impact possible depending on affected journeys.",
+      "recoveryAttempts": [
+        "Post-run analysis completed after scenario execution."
+      ],
+      "rootCauseAnalysis": "173 image(s) appear to be missing alt text.",
+      "technicalDetails": {
+        "errorReason": "173 image(s) appear to be missing alt text.",
+        "consoleErrors": [],
+        "networkErrors": [],
+        "pageUrl": "https://folio3.com/",
+        "timestamp": "2026-05-30T18:42:44.796Z",
+        "selfHealing": {
+          "attempted": false,
+          "recovered": false,
+          "attempts": 0,
+          "strategyLogs": []
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [],
+          "retryResult": "not-needed"
+        }
+      }
+    },
+    {
+      "summary": "Accessibility risk: missing-form-labels",
+      "description": "9 form control(s) appear unlabeled.",
+      "stepsToReproduce": [
+        "Open https://folio3.com/",
+        "Review automated post-run analysis findings."
+      ],
+      "expectedResult": "Page should meet quality expectations without user-impacting defects.",
+      "actualResult": "9 form control(s) appear unlabeled.",
+      "screenshot": null,
+      "suggestedFix": "Review template markup, labels, focus states, and media alternatives.",
+      "severity": "High",
+      "priority": "P1",
+      "confidenceScore": 88,
+      "businessImpact": "Quality degradation may reduce trust and increase support load.",
+      "userImpact": "Users may encounter broken journeys or inaccessible UI elements.",
+      "revenueImpact": "Indirect revenue impact possible depending on affected journeys.",
+      "recoveryAttempts": [
+        "Post-run analysis completed after scenario execution."
+      ],
+      "rootCauseAnalysis": "9 form control(s) appear unlabeled.",
+      "technicalDetails": {
+        "errorReason": "9 form control(s) appear unlabeled.",
+        "consoleErrors": [],
+        "networkErrors": [],
+        "pageUrl": "https://folio3.com/",
+        "timestamp": "2026-05-30T18:42:44.796Z",
+        "selfHealing": {
+          "attempted": false,
+          "recovered": false,
+          "attempts": 0,
+          "strategyLogs": []
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [],
+          "retryResult": "not-needed"
+        }
+      }
+    },
+    {
+      "summary": "Accessibility risk: focus-visibility",
+      "description": "Focus outline visibility may be insufficient on interactive elements.",
+      "stepsToReproduce": [
+        "Open https://folio3.com/",
+        "Review automated post-run analysis findings."
+      ],
+      "expectedResult": "Page should meet quality expectations without user-impacting defects.",
+      "actualResult": "Focus outline visibility may be insufficient on interactive elements.",
+      "screenshot": null,
+      "suggestedFix": "Review template markup, labels, focus states, and media alternatives.",
+      "severity": "High",
+      "priority": "P1",
+      "confidenceScore": 88,
+      "businessImpact": "Quality degradation may reduce trust and increase support load.",
+      "userImpact": "Users may encounter broken journeys or inaccessible UI elements.",
+      "revenueImpact": "Indirect revenue impact possible depending on affected journeys.",
+      "recoveryAttempts": [
+        "Post-run analysis completed after scenario execution."
+      ],
+      "rootCauseAnalysis": "Focus outline visibility may be insufficient on interactive elements.",
+      "technicalDetails": {
+        "errorReason": "Focus outline visibility may be insufficient on interactive elements.",
+        "consoleErrors": [],
+        "networkErrors": [],
+        "pageUrl": "https://folio3.com/",
+        "timestamp": "2026-05-30T18:42:44.796Z",
+        "selfHealing": {
+          "attempted": false,
+          "recovered": false,
+          "attempts": 0,
+          "strategyLogs": []
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [],
+          "retryResult": "not-needed"
+        }
+      }
+    },
+    {
+      "summary": "Responsive layout issues across multiple viewports",
+      "description": "Responsive audit flagged issues on 3 of 6 viewports.",
+      "stepsToReproduce": [
+        "Open https://ecommerce@folio3.com",
+        "Review automated post-run analysis findings."
+      ],
+      "expectedResult": "Page should meet quality expectations without user-impacting defects.",
+      "actualResult": "Potential layout breakage detected. Potential layout breakage detected. Potential layout breakage detected.",
+      "screenshot": null,
+      "suggestedFix": "Review mobile/tablet breakpoints, hidden CTAs, and layout overflow rules.",
+      "severity": "Medium",
+      "priority": "P2",
+      "confidenceScore": 88,
+      "businessImpact": "Quality degradation may reduce trust and increase support load.",
+      "userImpact": "Users may encounter broken journeys or inaccessible UI elements.",
+      "revenueImpact": "Indirect revenue impact possible depending on affected journeys.",
+      "recoveryAttempts": [
+        "Post-run analysis completed after scenario execution."
+      ],
+      "rootCauseAnalysis": "Potential layout breakage detected. Potential layout breakage detected. Potential layout breakage detected.",
+      "technicalDetails": {
+        "errorReason": "Potential layout breakage detected. Potential layout breakage detected. Potential layout breakage detected.",
+        "consoleErrors": [],
+        "networkErrors": [],
+        "pageUrl": "https://ecommerce@folio3.com",
+        "timestamp": "2026-05-30T18:42:44.796Z",
+        "selfHealing": {
+          "attempted": false,
+          "recovered": false,
+          "attempts": 0,
+          "strategyLogs": []
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [],
+          "retryResult": "not-needed"
+        }
+      }
+    }
+  ],
+  "technicalLogs": [
+    {
+      "scenarioId": "scenario-1",
+      "feature": "Contact Form",
+      "scenario": "Contact form can be submitted with valid data",
+      "status": "passed",
+      "consoleErrors": [
+        "Position field not found!"
+      ],
+      "networkErrors": [
+        "[404] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff",
+        "[FAILED] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/recaptcha/api2/clr?k=6LeWqRshAAAAAEnXyC7pwypil_fgdEv6noLL2Sl0 :: net::ERR_ABORTED",
+        "[FAILED] https://ecommerce@folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/recaptcha/api2/clr?k=6LeWqRshAAAAAEnXyC7pwypil_fgdEv6noLL2Sl0 :: net::ERR_ABORTED"
+      ],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Static suite validation for \"Contact Form\" using discovered pages."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-2",
+      "feature": "Forms",
+      "scenario": "Discovered forms validate required fields safely",
+      "status": "passed",
+      "consoleErrors": [
+        "Position field not found!"
+      ],
+      "networkErrors": [
+        "[FAILED] https://folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED",
+        "[404] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff",
+        "[FAILED] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff :: net::ERR_ABORTED",
+        "[FAILED] https://ecommerce@folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/recaptcha/api2/clr?k=6LeWqRshAAAAAEnXyC7pwypil_fgdEv6noLL2Sl0 :: net::ERR_ABORTED"
+      ],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Static suite validation for \"Forms\" using discovered pages."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-3",
+      "feature": "Broken Link",
+      "scenario": "Site links return healthy HTTP responses",
+      "status": "passed",
+      "consoleErrors": [
+        "Position field not found!"
+      ],
+      "networkErrors": [
+        "[FAILED] https://folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED",
+        "[404] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff",
+        "[FAILED] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff :: net::ERR_ABORTED",
+        "[FAILED] https://ecommerce@folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED",
+        "[404] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff",
+        "[FAILED] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff :: net::ERR_ABORTED",
+        "[FAILED] https://folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED",
+        "[FAILED] https://forms.hsforms.com/embed/v3/counters.gif?key=collected-forms-embed-js-form-bind&count=1 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/recaptcha/api2/clr?k=6LeWqRshAAAAAEnXyC7pwypil_fgdEv6noLL2Sl0 :: net::ERR_ABORTED"
+      ],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Static suite validation for \"Broken Link\" using discovered pages."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-4",
+      "feature": "Responsive",
+      "scenario": "Responsive layout remains stable across breakpoints",
+      "status": "failed",
+      "errorReason": "Responsive issues detected on 3/6 viewports.",
+      "consoleErrors": [
+        "Position field not found!"
+      ],
+      "networkErrors": [
+        "[FAILED] https://folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED",
+        "[404] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff",
+        "[FAILED] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/recaptcha/api2/clr?k=6LeWqRshAAAAAEnXyC7pwypil_fgdEv6noLL2Sl0 :: net::ERR_ABORTED",
+        "[FAILED] https://ecommerce@folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED",
+        "[404] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff",
+        "[FAILED] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff :: net::ERR_ABORTED",
+        "[FAILED] https://folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED",
+        "[FAILED] https://forms.hsforms.com/embed/v3/counters.gif?key=collected-forms-embed-js-form-bind&count=1 :: net::ERR_ABORTED",
+        "[FAILED] https://csp.withgoogle.com/csp/frame-ancestors/38fac9d5b82543fc4729580d18ff2d3d :: net::ERR_BLOCKED_BY_ORB"
+      ],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Static suite validation for \"Responsive\" using discovered pages."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-5",
+      "feature": "Accessibility",
+      "scenario": "Accessibility risk checks run on key templates",
+      "status": "failed",
+      "errorReason": "6 high-severity accessibility risk finding(s) detected across sampled templates.",
+      "consoleErrors": [
+        "Position field not found!"
+      ],
+      "networkErrors": [
+        "[FAILED] https://www.google.com/recaptcha/api2/clr?k=6LeWqRshAAAAAEnXyC7pwypil_fgdEv6noLL2Sl0 :: net::ERR_ABORTED",
+        "[FAILED] https://folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED",
+        "[404] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff",
+        "[FAILED] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff :: net::ERR_ABORTED",
+        "[FAILED] https://ecommerce@folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED",
+        "[404] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff",
+        "[FAILED] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff :: net::ERR_ABORTED",
+        "[FAILED] https://folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED"
+      ],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Static suite validation for \"Accessibility\" using discovered pages."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-6",
+      "feature": "Navigation",
+      "scenario": "Primary navigation routes resolve correctly",
+      "status": "passed",
+      "consoleErrors": [
+        "Position field not found!"
+      ],
+      "networkErrors": [
+        "[FAILED] https://folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/recaptcha/api2/clr?k=6LeWqRshAAAAAEnXyC7pwypil_fgdEv6noLL2Sl0 :: net::ERR_ABORTED",
+        "[404] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff",
+        "[FAILED] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/recaptcha/api2/clr?k=6LeWqRshAAAAAEnXyC7pwypil_fgdEv6noLL2Sl0 :: net::ERR_ABORTED",
+        "[FAILED] https://ecommerce@folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED",
+        "[404] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff",
+        "[FAILED] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/recaptcha/api2/clr?k=6LeWqRshAAAAAEnXyC7pwypil_fgdEv6noLL2Sl0 :: net::ERR_ABORTED",
+        "[FAILED] https://folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/recaptcha/api2/clr?k=6LeWqRshAAAAAEnXyC7pwypil_fgdEv6noLL2Sl0 :: net::ERR_ABORTED"
+      ],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Static suite validation for \"Navigation\" using discovered pages."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-7",
+      "feature": "Static Pages",
+      "scenario": "Static informational pages load and render expected sections",
+      "status": "passed",
+      "consoleErrors": [
+        "Position field not found!"
+      ],
+      "networkErrors": [
+        "[FAILED] https://folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED",
+        "[404] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff",
+        "[FAILED] https://folio3.com/wp-content/themes/folio3/css/fonts/SFPRODISPLAYREGULAR.woff :: net::ERR_ABORTED",
+        "[FAILED] https://ecommerce@folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/recaptcha/api2/clr?k=6LeWqRshAAAAAEnXyC7pwypil_fgdEv6noLL2Sl0 :: net::ERR_ABORTED"
+      ],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Static suite validation for \"Static Pages\" using discovered pages."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    }
+  ],
+  "generatedAt": "2026-05-30T18:42:44.798Z"
+}

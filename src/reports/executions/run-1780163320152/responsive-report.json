@@ -1,0 +1,85 @@
+{
+  "baseUrl": "https://ecommerce.folio3.com",
+  "generatedAt": "2026-05-30T17:54:28.775Z",
+  "findings": [
+    {
+      "viewport": "Android viewport",
+      "layoutBreakage": true,
+      "hiddenCtas": true,
+      "horizontalScroll": false,
+      "menuUsabilityIssue": false,
+      "formVisibilityIssue": false,
+      "overlappingElements": false,
+      "cartOrSearchVisibilityIssue": false,
+      "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780163320152\\responsive-screenshots\\android-viewport.png",
+      "notes": [
+        "Potential layout breakage detected.",
+        "One or more CTAs appear hidden."
+      ]
+    },
+    {
+      "viewport": "iPhone viewport",
+      "layoutBreakage": true,
+      "hiddenCtas": true,
+      "horizontalScroll": false,
+      "menuUsabilityIssue": false,
+      "formVisibilityIssue": false,
+      "overlappingElements": false,
+      "cartOrSearchVisibilityIssue": false,
+      "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780163320152\\responsive-screenshots\\iphone-viewport.png",
+      "notes": [
+        "Potential layout breakage detected.",
+        "One or more CTAs appear hidden."
+      ]
+    },
+    {
+      "viewport": "iPad viewport",
+      "layoutBreakage": false,
+      "hiddenCtas": false,
+      "horizontalScroll": false,
+      "menuUsabilityIssue": false,
+      "formVisibilityIssue": false,
+      "overlappingElements": false,
+      "cartOrSearchVisibilityIssue": false,
+      "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780163320152\\responsive-screenshots\\ipad-viewport.png",
+      "notes": [
+        "Responsive audit failed for iPad viewport: page.waitForLoadState: Timeout 30000ms exceeded.\n=========================== logs ===========================\n  \"load\" event fired\n  \"commit\" event fired\n  \"domcontentloaded\" event fired\n  \"load\" event fired\n============================================================"
+      ]
+    },
+    {
+      "viewport": "Tablet viewport",
+      "layoutBreakage": true,
+      "hiddenCtas": true,
+      "horizontalScroll": false,
+      "menuUsabilityIssue": false,
+      "formVisibilityIssue": false,
+      "overlappingElements": false,
+      "cartOrSearchVisibilityIssue": false,
+      "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780163320152\\responsive-screenshots\\tablet-viewport.png",
+      "notes": [
+        "Potential layout breakage detected.",
+        "One or more CTAs appear hidden."
+      ]
+    },
+    {
+      "viewport": "Desktop viewport",
+      "layoutBreakage": true,
+      "hiddenCtas": true,
+      "horizontalScroll": false,
+      "menuUsabilityIssue": false,
+      "formVisibilityIssue": false,
+      "overlappingElements": false,
+      "cartOrSearchVisibilityIssue": false,
+      "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780163320152\\responsive-screenshots\\desktop-viewport.png",
+      "notes": [
+        "Potential layout breakage detected.",
+        "One or more CTAs appear hidden."
+      ]
+    }
+  ],
+  "summary": {
+    "totalViewports": 5,
+    "issueCount": 8,
+    "issueViewports": 4
+  }
+}

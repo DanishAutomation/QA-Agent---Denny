@@ -1,0 +1,708 @@
+{
+  "baseUrl": "https://ecommerce.folio3.com",
+  "checkedAt": "2026-05-30T18:15:45.283Z",
+  "checkedCount": 139,
+  "failedCount": 100,
+  "findings": [
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/industry/pharmaceutical-website-design-development/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/shopify-development-services/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/shopify-development-services/shopify-plus-development-agency/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/shopify-development-services/shopify-consulting-services/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/shopify-development-services/shopify-support-and-maintenance-services/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/shopify-development-services/shopify-speed-optimization-service/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/shopify-development-services/shopify-headless-development-service/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/shopify-development-services/shopify-theme-development-services/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/shopify-development-services/shopify-app-development-service/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/shopify-development-services/shopify-b2b-ecommerce-development-agency/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/shopify-website-design-services/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/shopify-migration-service/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/shopify-migration-service/magento-to-shopify-migration-service/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/shopify-migration-service/woocommerce-to-shopify-migration-services/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/shopify-migration-service/wix-to-shopify/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/shopify-integration-services/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/shopify-integration-services/shopify-erp-integrations-services/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/shopify-integration-services/shopify-mcp-integration-services/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/hire-shopify-developers/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/bigcommerce-development-company/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/bigcommerce-consultants/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/bigcommerce-app-development/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/headless-bigcommerce-development/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/bigcommerce-web-design-company/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/bigcommerce-support-services/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/bigcommerce-migration/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/bigcommerce-migration/woocommerce-to-bigcommerce-migration/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/bigcommerce-migration/opencart-to-bigcommerce-migration/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/bigcommerce-migration/magento-to-bigcommerce-migration/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/bigcommerce-migration/shopify-to-bigcommerce-migration/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/bigcommerce-v2-to-v3-migration",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/suitecommerce-to-bigcommerce-migration/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/bigcommerce-integration-services/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/bigcommerce-cbd/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/bigcommerce-b2b-agency/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/bigcommerce-ada-compliance/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/hire-bigcommerce-developers/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/wordpress-development-services/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/wordpress-ecommerce-development-services/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/woocommerce-development-company/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/woocommerce-b2b-solution/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/woocommerce-migration/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/bigcommerce-to-woocommerce-migration/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/magento-to-woocommerce-migration/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/woocommerce-integration/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/woocommerce-erp-integration/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/hire-woocommerce-developers/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/woocommerce-development-company-in-uk/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/magento-development/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/magento-development/pwa/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/magento-development/mobile-app/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/magento-development/extension/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/magento-development/headless/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/magento-development/customization/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/magento-development/b2b/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/magento-development/b2b-demo/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/magento-consultancy-services/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/magento-website-audit/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/magento-design/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/magento-1-to-2/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/hire-magento-developers/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/magento-integration/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/magento-integration/erp/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/adobe-commerce-development/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/wix-website-development-services/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/wix-web-design-services/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/wix-to-wix-studio/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/shopify-to-wix-migration-services/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/squarespace-to-wix-migration/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/woocommerce-to-wix-migration/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/sap-hybris-development-services/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/sap-hybris-support-maintenance/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/shopware-development/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/shopware-store-development/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/shopware-migration/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/magento-to-shopware-migration/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/shopware-integration-services/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/about-us/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/#",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/partners/shopify-plus-partners/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/partners/magento-partner/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/partners/shopware-partners/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/blog/category/shopify/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/blog/category/bigcommerce/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/blog/category/wordpress/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/blog/category/wix/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/blog/category/shopware/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/blog/category/salesforce-commerce-cloud/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/portfolio",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/events/shoptalk-spring-2026-las-vegas/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/events/shoptalk/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/magento-imagine/",
+      "category": "header",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/#footer-form",
+      "category": "internal",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/portfolio/eco-products/",
+      "category": "internal",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/portfolio/metroshoes-warehouse/",
+      "category": "internal",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/portfolio/easilocks-shopify/",
+      "category": "internal",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/portfolio/coldesi/",
+      "category": "internal",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjEwNTgzIiwidG9nZ2xlIjpmYWxzZX0%3D",
+      "category": "image-link",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjEwNjMwIiwidG9nZ2xlIjpmYWxzZX0%3D",
+      "category": "image-link",
+      "failureType": "404",
+      "statusCode": 403
+    },
+    {
+      "fromUrl": "https://ecommerce.folio3.com/",
+      "targetUrl": "https://ecommerce.folio3.com/#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjUzNDMyIiwidG9nZ2xlIjpmYWxzZX0%3D",
+      "category": "image-link",
+      "failureType": "404",
+      "statusCode": 403
+    }
+  ]
+}

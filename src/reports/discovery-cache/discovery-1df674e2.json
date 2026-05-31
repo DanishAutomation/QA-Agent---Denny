@@ -1,0 +1,50 @@
+{
+  "cacheKey": "{\"cacheVersion\":4,\"baseUrl\":\"https://uaat2.purelifedental.com/\",\"maxDepth\":2,\"maxPages\":20,\"maxLinksPerPage\":40}",
+  "baseUrl": "https://uaat2.purelifedental.com/",
+  "storedAtMs": 1780190251623,
+  "result": {
+    "baseUrl": "https://uaat2.purelifedental.com/",
+    "websiteType": "Static",
+    "capabilities": {
+      "login": false,
+      "signup": false,
+      "search": false,
+      "categories": false,
+      "productListing": false,
+      "productDetail": false,
+      "addToCart": false,
+      "cart": false,
+      "checkout": false,
+      "contactForm": false,
+      "newsletterForm": false,
+      "quoteForm": false,
+      "staticPages": false,
+      "blogPages": false,
+      "brokenLinks": false,
+      "responsiveRiskAreas": true
+    },
+    "pagesFound": [
+      {
+        "url": "https://uaat2.purelifedental.com/",
+        "title": "Unreachable Page",
+        "depth": 0,
+        "status": 0
+      }
+    ],
+    "formsFound": [],
+    "buttonsFound": [],
+    "linksFound": [],
+    "possibleJourneys": [],
+    "importantSelectors": [],
+    "detectedEcommerceSignals": [],
+    "detectedFormSignals": [],
+    "detectedStaticPages": [],
+    "startedAt": "2026-05-31T01:17:30.643Z",
+    "completedAt": "2026-05-31T01:17:31.623Z",
+    "crawlDepthUsed": 2,
+    "siteSuite": "static",
+    "classificationNotes": [
+      "Small surface area — static regression suite selected."
+    ]
+  }
+}

@@ -1,0 +1,1156 @@
+{
+  "runId": "run-1780164746904",
+  "startedAt": "2026-05-30T18:14:33.195Z",
+  "completedAt": "2026-05-30T18:15:45.822Z",
+  "durationMs": 72627,
+  "passed": 7,
+  "failed": 0,
+  "skipped": 0,
+  "reportPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780164746904\\result.json",
+  "scenarios": [
+    {
+      "scenarioId": "scenario-1",
+      "feature": "Contact Form",
+      "scenario": "Contact form can be submitted with valid data",
+      "status": "passed",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780164746904\\screenshots\\scenario-1-Desktop-landing.png"
+      ],
+      "consoleErrors": [
+        "intlTelInput is not loaded.",
+        "intlTelInput is not loaded.",
+        "intlTelInput is not loaded.",
+        "intlTelInput is not loaded.",
+        "intlTelInput is not loaded.",
+        "intlTelInput is not loaded.",
+        "intlTelInput is not loaded."
+      ],
+      "networkErrors": [
+        "[FAILED] https://www.google.com/ccm/collect?rcb=18&frm=0&ae=g&auid=1677502460.1780164935&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&en=page_view&dl=https%3A%2F%2Fecommerce.folio3.com%2F&scrsrc=www.googletagmanager.com&rnd=663979535.1780164935&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He65r2v892838296za200zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~118228215~119034493&apve=1&apvf=f&apvc=1&tft=1780164935177&tfd=41865 :: net::ERR_ABORTED",
+        "[FAILED] https://aplo-evnt.com/api/v1/intent_pixel/track_request?app_id=66332be360794d04382686aa :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/rmkt/collect/11470352680/?random=1780164935741&cv=11&fst=1780164935741&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&u_w=1440&u_h=900&url=https%3A%2F%2Fecommerce.folio3.com%2F&rcb=17&frm=0&tiba=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1677502460.1780164935&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&gcp=5 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/rmkt/collect/11470352680/?random=1780164935763&cv=11&fst=1780164935763&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&u_w=1440&u_h=900&url=https%3A%2F%2Fecommerce.folio3.com%2F&rcb=17&frm=0&tiba=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1677502460.1780164935&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&gcp=5 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/ccm/collect?rcb=17&frm=0&auid=1677502460.1780164935&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&en=page_view&dl=https%3A%2F%2Fecommerce.folio3.com%2F&scrsrc=www.googletagmanager.com&rnd=663979535.1780164935&navt=n&npa=0&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&apve=1&apvf=f&apvc=0&tids=AW-11470352680&tid=AW-11470352680&tft=1780164935769&tfd=42457 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/ccm/collect?rcb=17&frm=0&ae=g&auid=1677502460.1780164935&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&dl=https%3A%2F%2Fecommerce.folio3.com%2F&scrsrc=www.googletagmanager.com&rnd=663979535.1780164935&navt=n&npa=0&_tu=CA&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&apve=1&apvf=f&apvc=0&tids=AW-11470352680&tid=AW-11470352680&tft=1780164935770&tfd=42458 :: net::ERR_ABORTED",
+        "[FAILED] https://s3-us-west-2.amazonaws.com/b2bjsstore/b/Q6J2RHY8K96D/Q6J2RHY8K96D.js.gz :: net::ERR_BLOCKED_BY_ORB",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-DCLMD8MZ7Y&gtm=45je65r2v889965682z8892838296za20gzb892838296zd892838296&_p=1780164934376&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EAAAAGAC&are=1&cid=1000081320.1780164936&frm=0&ir=1&pscdl=noapi&rcb=15&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115616985~115938465~115938468~118128923~119027222~119034493&sid=1780164935&sct=1&seg=0&dl=https%3A%2F%2Fecommerce.folio3.com%2F&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&en=page_view&_fv=1&_nsi=1&_ss=1&gap.plf=5&tfd=42559 :: net::ERR_ABORTED"
+      ],
+      "pageUrl": "https://ecommerce.folio3.com/",
+      "timestamp": "2026-05-30T18:14:33.993Z",
+      "durationMs": 7197,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-2",
+      "feature": "Forms",
+      "scenario": "Discovered forms validate required fields safely",
+      "status": "passed",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780164746904\\screenshots\\scenario-2-Desktop-landing.png"
+      ],
+      "consoleErrors": [
+        "intlTelInput is not loaded.",
+        "intlTelInput is not loaded.",
+        "intlTelInput is not loaded.",
+        "intlTelInput is not loaded.",
+        "intlTelInput is not loaded.",
+        "intlTelInput is not loaded."
+      ],
+      "networkErrors": [
+        "[FAILED] https://www.google.com/ccm/collect?rcb=18&frm=0&ae=g&auid=1677502460.1780164935&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&en=page_view&dl=https%3A%2F%2Fecommerce.folio3.com%2F&scrsrc=www.googletagmanager.com&rnd=663979535.1780164935&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He65r2v892838296za200zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~118228215~119034493&apve=1&apvf=f&apvc=1&tft=1780164935177&tfd=41865 :: net::ERR_ABORTED",
+        "[FAILED] https://aplo-evnt.com/api/v1/intent_pixel/track_request?app_id=66332be360794d04382686aa :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/rmkt/collect/11470352680/?random=1780164935741&cv=11&fst=1780164935741&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&u_w=1440&u_h=900&url=https%3A%2F%2Fecommerce.folio3.com%2F&rcb=17&frm=0&tiba=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1677502460.1780164935&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&gcp=5 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/rmkt/collect/11470352680/?random=1780164935763&cv=11&fst=1780164935763&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&u_w=1440&u_h=900&url=https%3A%2F%2Fecommerce.folio3.com%2F&rcb=17&frm=0&tiba=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1677502460.1780164935&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&gcp=5 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/ccm/collect?rcb=17&frm=0&auid=1677502460.1780164935&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&en=page_view&dl=https%3A%2F%2Fecommerce.folio3.com%2F&scrsrc=www.googletagmanager.com&rnd=663979535.1780164935&navt=n&npa=0&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&apve=1&apvf=f&apvc=0&tids=AW-11470352680&tid=AW-11470352680&tft=1780164935769&tfd=42457 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/ccm/collect?rcb=17&frm=0&ae=g&auid=1677502460.1780164935&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&dl=https%3A%2F%2Fecommerce.folio3.com%2F&scrsrc=www.googletagmanager.com&rnd=663979535.1780164935&navt=n&npa=0&_tu=CA&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&apve=1&apvf=f&apvc=0&tids=AW-11470352680&tid=AW-11470352680&tft=1780164935770&tfd=42458 :: net::ERR_ABORTED",
+        "[FAILED] https://s3-us-west-2.amazonaws.com/b2bjsstore/b/Q6J2RHY8K96D/Q6J2RHY8K96D.js.gz :: net::ERR_BLOCKED_BY_ORB",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-DCLMD8MZ7Y&gtm=45je65r2v889965682z8892838296za20gzb892838296zd892838296&_p=1780164934376&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EAAAAGAC&are=1&cid=1000081320.1780164936&frm=0&ir=1&pscdl=noapi&rcb=15&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115616985~115938465~115938468~118128923~119027222~119034493&sid=1780164935&sct=1&seg=0&dl=https%3A%2F%2Fecommerce.folio3.com%2F&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&en=page_view&_fv=1&_nsi=1&_ss=1&gap.plf=5&tfd=42559 :: net::ERR_ABORTED"
+      ],
+      "pageUrl": "https://ecommerce.folio3.com/",
+      "timestamp": "2026-05-30T18:14:41.201Z",
+      "durationMs": 2423,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-3",
+      "feature": "Broken Link",
+      "scenario": "Site links return healthy HTTP responses",
+      "status": "passed",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780164746904\\screenshots\\scenario-3-Desktop-landing.png"
+      ],
+      "consoleErrors": [
+        "intlTelInput is not loaded.",
+        "intlTelInput is not loaded.",
+        "intlTelInput is not loaded.",
+        "intlTelInput is not loaded.",
+        "intlTelInput is not loaded."
+      ],
+      "networkErrors": [
+        "[FAILED] https://www.google.com/ccm/collect?rcb=18&frm=0&ae=g&auid=1677502460.1780164935&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&en=page_view&dl=https%3A%2F%2Fecommerce.folio3.com%2F&scrsrc=www.googletagmanager.com&rnd=663979535.1780164935&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He65r2v892838296za200zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~118228215~119034493&apve=1&apvf=f&apvc=1&tft=1780164935177&tfd=41865 :: net::ERR_ABORTED",
+        "[FAILED] https://aplo-evnt.com/api/v1/intent_pixel/track_request?app_id=66332be360794d04382686aa :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/rmkt/collect/11470352680/?random=1780164935741&cv=11&fst=1780164935741&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&u_w=1440&u_h=900&url=https%3A%2F%2Fecommerce.folio3.com%2F&rcb=17&frm=0&tiba=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1677502460.1780164935&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&gcp=5 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/rmkt/collect/11470352680/?random=1780164935763&cv=11&fst=1780164935763&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&u_w=1440&u_h=900&url=https%3A%2F%2Fecommerce.folio3.com%2F&rcb=17&frm=0&tiba=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1677502460.1780164935&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&gcp=5 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/ccm/collect?rcb=17&frm=0&auid=1677502460.1780164935&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&en=page_view&dl=https%3A%2F%2Fecommerce.folio3.com%2F&scrsrc=www.googletagmanager.com&rnd=663979535.1780164935&navt=n&npa=0&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&apve=1&apvf=f&apvc=0&tids=AW-11470352680&tid=AW-11470352680&tft=1780164935769&tfd=42457 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/ccm/collect?rcb=17&frm=0&ae=g&auid=1677502460.1780164935&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&dl=https%3A%2F%2Fecommerce.folio3.com%2F&scrsrc=www.googletagmanager.com&rnd=663979535.1780164935&navt=n&npa=0&_tu=CA&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&apve=1&apvf=f&apvc=0&tids=AW-11470352680&tid=AW-11470352680&tft=1780164935770&tfd=42458 :: net::ERR_ABORTED",
+        "[FAILED] https://s3-us-west-2.amazonaws.com/b2bjsstore/b/Q6J2RHY8K96D/Q6J2RHY8K96D.js.gz :: net::ERR_BLOCKED_BY_ORB",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-DCLMD8MZ7Y&gtm=45je65r2v889965682z8892838296za20gzb892838296zd892838296&_p=1780164934376&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EAAAAGAC&are=1&cid=1000081320.1780164936&frm=0&ir=1&pscdl=noapi&rcb=15&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115616985~115938465~115938468~118128923~119027222~119034493&sid=1780164935&sct=1&seg=0&dl=https%3A%2F%2Fecommerce.folio3.com%2F&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&en=page_view&_fv=1&_nsi=1&_ss=1&gap.plf=5&tfd=42559 :: net::ERR_ABORTED"
+      ],
+      "pageUrl": "https://ecommerce.folio3.com/",
+      "timestamp": "2026-05-30T18:14:43.634Z",
+      "durationMs": 2288,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-4",
+      "feature": "Responsive",
+      "scenario": "Responsive layout remains stable across breakpoints",
+      "status": "passed",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780164746904\\screenshots\\scenario-4-Desktop-landing.png"
+      ],
+      "consoleErrors": [
+        "intlTelInput is not loaded.",
+        "intlTelInput is not loaded.",
+        "intlTelInput is not loaded.",
+        "intlTelInput is not loaded."
+      ],
+      "networkErrors": [
+        "[FAILED] https://www.google.com/ccm/collect?rcb=18&frm=0&ae=g&auid=1677502460.1780164935&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&en=page_view&dl=https%3A%2F%2Fecommerce.folio3.com%2F&scrsrc=www.googletagmanager.com&rnd=663979535.1780164935&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He65r2v892838296za200zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~118228215~119034493&apve=1&apvf=f&apvc=1&tft=1780164935177&tfd=41865 :: net::ERR_ABORTED",
+        "[FAILED] https://aplo-evnt.com/api/v1/intent_pixel/track_request?app_id=66332be360794d04382686aa :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/rmkt/collect/11470352680/?random=1780164935741&cv=11&fst=1780164935741&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&u_w=1440&u_h=900&url=https%3A%2F%2Fecommerce.folio3.com%2F&rcb=17&frm=0&tiba=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1677502460.1780164935&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&gcp=5 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/rmkt/collect/11470352680/?random=1780164935763&cv=11&fst=1780164935763&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&u_w=1440&u_h=900&url=https%3A%2F%2Fecommerce.folio3.com%2F&rcb=17&frm=0&tiba=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1677502460.1780164935&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&gcp=5 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/ccm/collect?rcb=17&frm=0&auid=1677502460.1780164935&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&en=page_view&dl=https%3A%2F%2Fecommerce.folio3.com%2F&scrsrc=www.googletagmanager.com&rnd=663979535.1780164935&navt=n&npa=0&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&apve=1&apvf=f&apvc=0&tids=AW-11470352680&tid=AW-11470352680&tft=1780164935769&tfd=42457 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/ccm/collect?rcb=17&frm=0&ae=g&auid=1677502460.1780164935&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&dl=https%3A%2F%2Fecommerce.folio3.com%2F&scrsrc=www.googletagmanager.com&rnd=663979535.1780164935&navt=n&npa=0&_tu=CA&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&apve=1&apvf=f&apvc=0&tids=AW-11470352680&tid=AW-11470352680&tft=1780164935770&tfd=42458 :: net::ERR_ABORTED",
+        "[FAILED] https://s3-us-west-2.amazonaws.com/b2bjsstore/b/Q6J2RHY8K96D/Q6J2RHY8K96D.js.gz :: net::ERR_BLOCKED_BY_ORB",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-DCLMD8MZ7Y&gtm=45je65r2v889965682z8892838296za20gzb892838296zd892838296&_p=1780164934376&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EAAAAGAC&are=1&cid=1000081320.1780164936&frm=0&ir=1&pscdl=noapi&rcb=15&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115616985~115938465~115938468~118128923~119027222~119034493&sid=1780164935&sct=1&seg=0&dl=https%3A%2F%2Fecommerce.folio3.com%2F&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&en=page_view&_fv=1&_nsi=1&_ss=1&gap.plf=5&tfd=42559 :: net::ERR_ABORTED"
+      ],
+      "pageUrl": "https://ecommerce.folio3.com/",
+      "timestamp": "2026-05-30T18:14:45.930Z",
+      "durationMs": 2452,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-5",
+      "feature": "Accessibility",
+      "scenario": "Accessibility risk checks run on key templates",
+      "status": "passed",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780164746904\\screenshots\\scenario-5-Desktop-landing.png"
+      ],
+      "consoleErrors": [
+        "intlTelInput is not loaded.",
+        "intlTelInput is not loaded.",
+        "intlTelInput is not loaded."
+      ],
+      "networkErrors": [
+        "[FAILED] https://www.google.com/ccm/collect?rcb=18&frm=0&ae=g&auid=1677502460.1780164935&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&en=page_view&dl=https%3A%2F%2Fecommerce.folio3.com%2F&scrsrc=www.googletagmanager.com&rnd=663979535.1780164935&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He65r2v892838296za200zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~118228215~119034493&apve=1&apvf=f&apvc=1&tft=1780164935177&tfd=41865 :: net::ERR_ABORTED",
+        "[FAILED] https://aplo-evnt.com/api/v1/intent_pixel/track_request?app_id=66332be360794d04382686aa :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/rmkt/collect/11470352680/?random=1780164935741&cv=11&fst=1780164935741&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&u_w=1440&u_h=900&url=https%3A%2F%2Fecommerce.folio3.com%2F&rcb=17&frm=0&tiba=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1677502460.1780164935&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&gcp=5 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/rmkt/collect/11470352680/?random=1780164935763&cv=11&fst=1780164935763&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&u_w=1440&u_h=900&url=https%3A%2F%2Fecommerce.folio3.com%2F&rcb=17&frm=0&tiba=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1677502460.1780164935&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&gcp=5 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/ccm/collect?rcb=17&frm=0&auid=1677502460.1780164935&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&en=page_view&dl=https%3A%2F%2Fecommerce.folio3.com%2F&scrsrc=www.googletagmanager.com&rnd=663979535.1780164935&navt=n&npa=0&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&apve=1&apvf=f&apvc=0&tids=AW-11470352680&tid=AW-11470352680&tft=1780164935769&tfd=42457 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/ccm/collect?rcb=17&frm=0&ae=g&auid=1677502460.1780164935&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&dl=https%3A%2F%2Fecommerce.folio3.com%2F&scrsrc=www.googletagmanager.com&rnd=663979535.1780164935&navt=n&npa=0&_tu=CA&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&apve=1&apvf=f&apvc=0&tids=AW-11470352680&tid=AW-11470352680&tft=1780164935770&tfd=42458 :: net::ERR_ABORTED",
+        "[FAILED] https://s3-us-west-2.amazonaws.com/b2bjsstore/b/Q6J2RHY8K96D/Q6J2RHY8K96D.js.gz :: net::ERR_BLOCKED_BY_ORB",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-DCLMD8MZ7Y&gtm=45je65r2v889965682z8892838296za20gzb892838296zd892838296&_p=1780164934376&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EAAAAGAC&are=1&cid=1000081320.1780164936&frm=0&ir=1&pscdl=noapi&rcb=15&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115616985~115938465~115938468~118128923~119027222~119034493&sid=1780164935&sct=1&seg=0&dl=https%3A%2F%2Fecommerce.folio3.com%2F&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&en=page_view&_fv=1&_nsi=1&_ss=1&gap.plf=5&tfd=42559 :: net::ERR_ABORTED"
+      ],
+      "pageUrl": "https://ecommerce.folio3.com/",
+      "timestamp": "2026-05-30T18:14:48.392Z",
+      "durationMs": 2462,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-6",
+      "feature": "Navigation",
+      "scenario": "Primary navigation routes resolve correctly",
+      "status": "passed",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780164746904\\screenshots\\scenario-6-Desktop-landing.png"
+      ],
+      "consoleErrors": [
+        "intlTelInput is not loaded.",
+        "intlTelInput is not loaded."
+      ],
+      "networkErrors": [
+        "[FAILED] https://www.google.com/ccm/collect?rcb=18&frm=0&ae=g&auid=1677502460.1780164935&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&en=page_view&dl=https%3A%2F%2Fecommerce.folio3.com%2F&scrsrc=www.googletagmanager.com&rnd=663979535.1780164935&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He65r2v892838296za200zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~118228215~119034493&apve=1&apvf=f&apvc=1&tft=1780164935177&tfd=41865 :: net::ERR_ABORTED",
+        "[FAILED] https://aplo-evnt.com/api/v1/intent_pixel/track_request?app_id=66332be360794d04382686aa :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/rmkt/collect/11470352680/?random=1780164935741&cv=11&fst=1780164935741&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&u_w=1440&u_h=900&url=https%3A%2F%2Fecommerce.folio3.com%2F&rcb=17&frm=0&tiba=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1677502460.1780164935&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&gcp=5 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/rmkt/collect/11470352680/?random=1780164935763&cv=11&fst=1780164935763&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&u_w=1440&u_h=900&url=https%3A%2F%2Fecommerce.folio3.com%2F&rcb=17&frm=0&tiba=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1677502460.1780164935&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&gcp=5 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/ccm/collect?rcb=17&frm=0&auid=1677502460.1780164935&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&en=page_view&dl=https%3A%2F%2Fecommerce.folio3.com%2F&scrsrc=www.googletagmanager.com&rnd=663979535.1780164935&navt=n&npa=0&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&apve=1&apvf=f&apvc=0&tids=AW-11470352680&tid=AW-11470352680&tft=1780164935769&tfd=42457 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/ccm/collect?rcb=17&frm=0&ae=g&auid=1677502460.1780164935&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&dl=https%3A%2F%2Fecommerce.folio3.com%2F&scrsrc=www.googletagmanager.com&rnd=663979535.1780164935&navt=n&npa=0&_tu=CA&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&apve=1&apvf=f&apvc=0&tids=AW-11470352680&tid=AW-11470352680&tft=1780164935770&tfd=42458 :: net::ERR_ABORTED",
+        "[FAILED] https://s3-us-west-2.amazonaws.com/b2bjsstore/b/Q6J2RHY8K96D/Q6J2RHY8K96D.js.gz :: net::ERR_BLOCKED_BY_ORB",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-DCLMD8MZ7Y&gtm=45je65r2v889965682z8892838296za20gzb892838296zd892838296&_p=1780164934376&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EAAAAGAC&are=1&cid=1000081320.1780164936&frm=0&ir=1&pscdl=noapi&rcb=15&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115616985~115938465~115938468~118128923~119027222~119034493&sid=1780164935&sct=1&seg=0&dl=https%3A%2F%2Fecommerce.folio3.com%2F&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&en=page_view&_fv=1&_nsi=1&_ss=1&gap.plf=5&tfd=42559 :: net::ERR_ABORTED"
+      ],
+      "pageUrl": "https://ecommerce.folio3.com/",
+      "timestamp": "2026-05-30T18:14:50.861Z",
+      "durationMs": 2431,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-7",
+      "feature": "Static Pages",
+      "scenario": "Static informational pages load and render expected sections",
+      "status": "passed",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780164746904\\screenshots\\scenario-7-Desktop-landing.png"
+      ],
+      "consoleErrors": [
+        "intlTelInput is not loaded."
+      ],
+      "networkErrors": [
+        "[FAILED] https://www.google.com/ccm/collect?rcb=18&frm=0&ae=g&auid=1677502460.1780164935&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&en=page_view&dl=https%3A%2F%2Fecommerce.folio3.com%2F&scrsrc=www.googletagmanager.com&rnd=663979535.1780164935&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He65r2v892838296za200zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~118228215~119034493&apve=1&apvf=f&apvc=1&tft=1780164935177&tfd=41865 :: net::ERR_ABORTED",
+        "[FAILED] https://aplo-evnt.com/api/v1/intent_pixel/track_request?app_id=66332be360794d04382686aa :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/rmkt/collect/11470352680/?random=1780164935741&cv=11&fst=1780164935741&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&u_w=1440&u_h=900&url=https%3A%2F%2Fecommerce.folio3.com%2F&rcb=17&frm=0&tiba=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1677502460.1780164935&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&gcp=5 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/rmkt/collect/11470352680/?random=1780164935763&cv=11&fst=1780164935763&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&u_w=1440&u_h=900&url=https%3A%2F%2Fecommerce.folio3.com%2F&rcb=17&frm=0&tiba=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1677502460.1780164935&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=CA&gcp=5 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/ccm/collect?rcb=17&frm=0&auid=1677502460.1780164935&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&en=page_view&dl=https%3A%2F%2Fecommerce.folio3.com%2F&scrsrc=www.googletagmanager.com&rnd=663979535.1780164935&navt=n&npa=0&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&apve=1&apvf=f&apvc=0&tids=AW-11470352680&tid=AW-11470352680&tft=1780164935769&tfd=42457 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com/ccm/collect?rcb=17&frm=0&ae=g&auid=1677502460.1780164935&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&dl=https%3A%2F%2Fecommerce.folio3.com%2F&scrsrc=www.googletagmanager.com&rnd=663979535.1780164935&navt=n&npa=0&_tu=CA&gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938468~116701382~119027222~119034491~119064590&apve=1&apvf=f&apvc=0&tids=AW-11470352680&tid=AW-11470352680&tft=1780164935770&tfd=42458 :: net::ERR_ABORTED",
+        "[FAILED] https://s3-us-west-2.amazonaws.com/b2bjsstore/b/Q6J2RHY8K96D/Q6J2RHY8K96D.js.gz :: net::ERR_BLOCKED_BY_ORB",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-DCLMD8MZ7Y&gtm=45je65r2v889965682z8892838296za20gzb892838296zd892838296&_p=1780164934376&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EAAAAGAC&are=1&cid=1000081320.1780164936&frm=0&ir=1&pscdl=noapi&rcb=15&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115616985~115938465~115938468~118128923~119027222~119034493&sid=1780164935&sct=1&seg=0&dl=https%3A%2F%2Fecommerce.folio3.com%2F&dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&en=page_view&_fv=1&_nsi=1&_ss=1&gap.plf=5&tfd=42559 :: net::ERR_ABORTED"
+      ],
+      "pageUrl": "https://ecommerce.folio3.com/",
+      "timestamp": "2026-05-30T18:14:53.301Z",
+      "durationMs": 2491,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    }
+  ],
+  "bugReports": [],
+  "brokenLinksReport": {
+    "baseUrl": "https://ecommerce.folio3.com",
+    "checkedAt": "2026-05-30T18:15:45.283Z",
+    "checkedCount": 139,
+    "failedCount": 100,
+    "findings": [
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/industry/pharmaceutical-website-design-development/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/shopify-development-services/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/shopify-development-services/shopify-plus-development-agency/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/shopify-development-services/shopify-consulting-services/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/shopify-development-services/shopify-support-and-maintenance-services/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/shopify-development-services/shopify-speed-optimization-service/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/shopify-development-services/shopify-headless-development-service/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/shopify-development-services/shopify-theme-development-services/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/shopify-development-services/shopify-app-development-service/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/shopify-development-services/shopify-b2b-ecommerce-development-agency/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/shopify-website-design-services/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/shopify-migration-service/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/shopify-migration-service/magento-to-shopify-migration-service/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/shopify-migration-service/woocommerce-to-shopify-migration-services/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/shopify-migration-service/wix-to-shopify/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/shopify-integration-services/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/shopify-integration-services/shopify-erp-integrations-services/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/shopify-integration-services/shopify-mcp-integration-services/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/hire-shopify-developers/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/bigcommerce-development-company/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/bigcommerce-consultants/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/bigcommerce-app-development/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/headless-bigcommerce-development/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/bigcommerce-web-design-company/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/bigcommerce-support-services/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/bigcommerce-migration/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/bigcommerce-migration/woocommerce-to-bigcommerce-migration/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/bigcommerce-migration/opencart-to-bigcommerce-migration/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/bigcommerce-migration/magento-to-bigcommerce-migration/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/bigcommerce-migration/shopify-to-bigcommerce-migration/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/bigcommerce-v2-to-v3-migration",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/suitecommerce-to-bigcommerce-migration/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/bigcommerce-integration-services/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/bigcommerce-cbd/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/bigcommerce-b2b-agency/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/bigcommerce-ada-compliance/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/hire-bigcommerce-developers/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/wordpress-development-services/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/wordpress-ecommerce-development-services/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/woocommerce-development-company/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/woocommerce-b2b-solution/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/woocommerce-migration/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/bigcommerce-to-woocommerce-migration/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/magento-to-woocommerce-migration/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/woocommerce-integration/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/woocommerce-erp-integration/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/hire-woocommerce-developers/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/woocommerce-development-company-in-uk/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/magento-development/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/magento-development/pwa/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/magento-development/mobile-app/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/magento-development/extension/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/magento-development/headless/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/magento-development/customization/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/magento-development/b2b/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/magento-development/b2b-demo/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/magento-consultancy-services/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/magento-website-audit/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/magento-design/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/magento-1-to-2/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/hire-magento-developers/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/magento-integration/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/magento-integration/erp/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/adobe-commerce-development/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/wix-website-development-services/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/wix-web-design-services/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/wix-to-wix-studio/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/shopify-to-wix-migration-services/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/squarespace-to-wix-migration/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/woocommerce-to-wix-migration/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/sap-hybris-development-services/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/sap-hybris-support-maintenance/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/shopware-development/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/shopware-store-development/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/shopware-migration/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/magento-to-shopware-migration/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/shopware-integration-services/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/about-us/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/#",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/partners/shopify-plus-partners/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/partners/magento-partner/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/partners/shopware-partners/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/blog/category/shopify/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/blog/category/bigcommerce/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/blog/category/wordpress/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/blog/category/wix/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/blog/category/shopware/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/blog/category/salesforce-commerce-cloud/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/portfolio",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/events/shoptalk-spring-2026-las-vegas/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/events/shoptalk/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/magento-imagine/",
+        "category": "header",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/#footer-form",
+        "category": "internal",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/portfolio/eco-products/",
+        "category": "internal",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/portfolio/metroshoes-warehouse/",
+        "category": "internal",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/portfolio/easilocks-shopify/",
+        "category": "internal",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/portfolio/coldesi/",
+        "category": "internal",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjEwNTgzIiwidG9nZ2xlIjpmYWxzZX0%3D",
+        "category": "image-link",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjEwNjMwIiwidG9nZ2xlIjpmYWxzZX0%3D",
+        "category": "image-link",
+        "failureType": "404",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjUzNDMyIiwidG9nZ2xlIjpmYWxzZX0%3D",
+        "category": "image-link",
+        "failureType": "404",
+        "statusCode": 403
+      }
+    ]
+  },
+  "formsReport": {
+    "baseUrl": "https://ecommerce.folio3.com",
+    "checkedAt": "2026-05-30T18:15:45.283Z",
+    "formsDetected": 1,
+    "results": [
+      {
+        "pageUrl": "https://ecommerce.folio3.com/",
+        "formType": "other",
+        "requiredFieldsOk": true,
+        "invalidEmailValidationOk": true,
+        "validationMessageDetected": true,
+        "successfulSubmissionAttempted": true,
+        "successfulSubmissionPassed": false,
+        "notes": [
+          "Form screenshot: C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780164746904\\forms-screenshots\\form-0-other.png"
+        ]
+      }
+    ]
+  },
+  "accessibilityRiskReport": {
+    "baseUrl": "https://ecommerce.folio3.com",
+    "checkedAt": "2026-05-30T18:15:02.217Z",
+    "findings": [
+      {
+        "id": "cookie-consent-1",
+        "category": "cookie-consent",
+        "severity": "low",
+        "message": "Cookie consent UI was not detected on inspected page.",
+        "pageUrl": "https://ecommerce.folio3.com/"
+      },
+      {
+        "id": "missing-alt-text-2",
+        "category": "missing-alt-text",
+        "severity": "medium",
+        "message": "1 image(s) appear to be missing alt text.",
+        "pageUrl": "https://ecommerce.folio3.com/"
+      },
+      {
+        "id": "missing-form-labels-3",
+        "category": "missing-form-labels",
+        "severity": "high",
+        "message": "15 form control(s) appear unlabeled.",
+        "pageUrl": "https://ecommerce.folio3.com/"
+      },
+      {
+        "id": "focus-visibility-4",
+        "category": "focus-visibility",
+        "severity": "high",
+        "message": "Focus outline visibility may be insufficient on interactive elements.",
+        "pageUrl": "https://ecommerce.folio3.com/"
+      }
+    ],
+    "summary": {
+      "totalFindings": 4,
+      "high": 2,
+      "medium": 1,
+      "low": 1
+    },
+    "disclaimer": "Accessibility Risk Findings are heuristic indicators only and are not a certification for ADA, HIPAA, or legal compliance."
+  },
+  "responsiveReport": {
+    "baseUrl": "https://ecommerce.folio3.com",
+    "generatedAt": "2026-05-30T18:15:31.613Z",
+    "findings": [
+      {
+        "viewport": "Android viewport",
+        "layoutBreakage": true,
+        "hiddenCtas": true,
+        "horizontalScroll": false,
+        "menuUsabilityIssue": false,
+        "formVisibilityIssue": false,
+        "overlappingElements": false,
+        "cartOrSearchVisibilityIssue": false,
+        "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780164746904\\responsive-screenshots\\android-viewport.png",
+        "notes": [
+          "Potential layout breakage detected.",
+          "One or more CTAs appear hidden."
+        ]
+      },
+      {
+        "viewport": "iPhone viewport",
+        "layoutBreakage": true,
+        "hiddenCtas": true,
+        "horizontalScroll": false,
+        "menuUsabilityIssue": false,
+        "formVisibilityIssue": false,
+        "overlappingElements": false,
+        "cartOrSearchVisibilityIssue": false,
+        "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780164746904\\responsive-screenshots\\iphone-viewport.png",
+        "notes": [
+          "Potential layout breakage detected.",
+          "One or more CTAs appear hidden."
+        ]
+      },
+      {
+        "viewport": "iPad viewport",
+        "layoutBreakage": true,
+        "hiddenCtas": true,
+        "horizontalScroll": false,
+        "menuUsabilityIssue": false,
+        "formVisibilityIssue": false,
+        "overlappingElements": false,
+        "cartOrSearchVisibilityIssue": false,
+        "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780164746904\\responsive-screenshots\\ipad-viewport.png",
+        "notes": [
+          "Potential layout breakage detected.",
+          "One or more CTAs appear hidden."
+        ]
+      },
+      {
+        "viewport": "Tablet viewport",
+        "layoutBreakage": true,
+        "hiddenCtas": true,
+        "horizontalScroll": false,
+        "menuUsabilityIssue": false,
+        "formVisibilityIssue": false,
+        "overlappingElements": false,
+        "cartOrSearchVisibilityIssue": false,
+        "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780164746904\\responsive-screenshots\\tablet-viewport.png",
+        "notes": [
+          "Potential layout breakage detected.",
+          "One or more CTAs appear hidden."
+        ]
+      },
+      {
+        "viewport": "Desktop viewport",
+        "layoutBreakage": true,
+        "hiddenCtas": true,
+        "horizontalScroll": false,
+        "menuUsabilityIssue": false,
+        "formVisibilityIssue": false,
+        "overlappingElements": false,
+        "cartOrSearchVisibilityIssue": false,
+        "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780164746904\\responsive-screenshots\\desktop-viewport.png",
+        "notes": [
+          "Potential layout breakage detected.",
+          "One or more CTAs appear hidden."
+        ]
+      }
+    ],
+    "summary": {
+      "totalViewports": 5,
+      "issueCount": 10,
+      "issueViewports": 5
+    }
+  },
+  "responsiveReportPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780164746904\\responsive-report.json",
+  "brokenLinksReportPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780164746904\\broken-links-report.json",
+  "formsReportPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780164746904\\forms-report.json",
+  "accessibilityRiskReportPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780164746904\\accessibility-risk-report.json",
+  "productionReportPaths": {
+    "html": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780164746904\\client-report.html",
+    "json": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780164746904\\client-report.json",
+    "markdown": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780164746904\\summary.md"
+  }
+}

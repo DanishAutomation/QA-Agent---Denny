@@ -1,0 +1,412 @@
+{
+  "executiveSummary": {
+    "runId": "run-1780245515962",
+    "environment": "development",
+    "url": "https://ecommerce.folio3.com/",
+    "testType": "Broken Links",
+    "browser": "Chrome",
+    "devices": [
+      "Desktop"
+    ],
+    "totalCases": 7,
+    "passed": 5,
+    "failed": 2,
+    "skipped": 0,
+    "bugsFound": 4,
+    "confidenceScore": 88
+  },
+  "rootCauseAnalysis": [
+    "Contact Form: Site console error detected: intlTelInput is not loaded.: Site console error detected: intlTelInput is not loaded. Console: intlTelInput is not loaded.",
+    "Forms: Site console error detected: intlTelInput is not loaded.: Site console error detected: intlTelInput is not loaded. Console: intlTelInput is not loaded.",
+    "other form submission not confirmed: Submission was attempted but success could not be confirmed.",
+    "Console defect: intlTelInput is not loaded.: intlTelInput is not loaded."
+  ],
+  "recoveryAttempts": [
+    "Static suite validation for \"Contact Form\" using discovered pages.",
+    "Static suite validation for \"Forms\" using discovered pages.",
+    "Post-run analysis completed after scenario execution."
+  ],
+  "aiAssumptions": [
+    "Execution assertions rely on generated BDD scenario intent and detected capabilities.",
+    "Fallback test data may be used for missing non-sensitive fields where configured.",
+    "Sensitive/destructive operations are skipped unless safe test mode is explicitly enabled.",
+    "Browser/device matrix reflects configured run values: Chrome / Desktop."
+  ],
+  "screenshots": [
+    {
+      "scenarioId": "scenario-1",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780245515962\\screenshots\\scenario-1-step-1-contact-form-can-be-submitted-wi--Desktop-landing.png"
+    },
+    {
+      "scenarioId": "scenario-2",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780245515962\\screenshots\\scenario-2-step-1-discovered-forms-validate-requir--Desktop-landing.png"
+    },
+    {
+      "scenarioId": "scenario-3",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780245515962\\screenshots\\scenario-3-step-1-site-links-return-healthy-http-r--Desktop-landing.png"
+    },
+    {
+      "scenarioId": "scenario-4",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780245515962\\screenshots\\scenario-4-step-1-responsive-layout-remains-stable--Desktop-landing.png"
+    },
+    {
+      "scenarioId": "scenario-5",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780245515962\\screenshots\\scenario-5-step-1-accessibility-risk-checks-run-on--Desktop-landing.png"
+    },
+    {
+      "scenarioId": "scenario-6",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780245515962\\screenshots\\scenario-6-step-1-primary-navigation-routes-resolv--Desktop-landing.png"
+    },
+    {
+      "scenarioId": "scenario-7",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780245515962\\screenshots\\scenario-7-step-1-static-informational-pages-load---Desktop-landing.png"
+    }
+  ],
+  "bugs": [
+    {
+      "summary": "Contact Form: Site console error detected: intlTelInput is not loaded.",
+      "description": "While testing \"Contact form can be submitted with valid data\" on https://ecommerce.folio3.com/, the run failed because Site console error detected: intlTelInput is not loaded. Additional signals: Console: intlTelInput is not loaded..",
+      "stepsToReproduce": [
+        "Open https://ecommerce.folio3.com/",
+        "Static suite validation for \"Contact Form\" using discovered pages.",
+        "Observe failure signal in console, network, layout, or form behavior."
+      ],
+      "expectedResult": "Form should render without JavaScript errors and allow valid submission with clear success feedback.",
+      "actualResult": "Site console error detected: intlTelInput is not loaded.",
+      "screenshot": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780245515962\\screenshots\\scenario-1-step-1-contact-form-can-be-submitted-wi--Desktop-landing.png",
+      "suggestedFix": "Fix the JavaScript error on the page and retest the affected user flow.",
+      "severity": "Medium",
+      "priority": "P2",
+      "confidenceScore": 88,
+      "businessImpact": "Broken lead/contact flows can reduce inbound inquiries and support ticket quality.",
+      "userImpact": "Phone/country fields on contact forms may not initialize, blocking or confusing users who try to submit.",
+      "revenueImpact": "Indirect impact possible depending on page traffic and funnel position.",
+      "recoveryAttempts": [
+        "Static suite validation for \"Contact Form\" using discovered pages."
+      ],
+      "rootCauseAnalysis": "Site console error detected: intlTelInput is not loaded. Console: intlTelInput is not loaded.",
+      "technicalDetails": {
+        "errorReason": "Site console error detected: intlTelInput is not loaded.",
+        "consoleErrors": [
+          "intlTelInput is not loaded."
+        ],
+        "networkErrors": [],
+        "pageUrl": "https://ecommerce.folio3.com/",
+        "timestamp": "2026-05-31T16:38:47.674Z",
+        "selfHealing": {
+          "attempted": false,
+          "recovered": false,
+          "attempts": 0,
+          "strategyLogs": []
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [
+            "Static suite validation for \"Contact Form\" using discovered pages."
+          ],
+          "retryResult": "not-needed",
+          "investigationFindings": []
+        }
+      }
+    },
+    {
+      "summary": "Forms: Site console error detected: intlTelInput is not loaded.",
+      "description": "While testing \"Discovered forms validate required fields safely\" on https://ecommerce.folio3.com/, the run failed because Site console error detected: intlTelInput is not loaded. Additional signals: Console: intlTelInput is not loaded..",
+      "stepsToReproduce": [
+        "Open https://ecommerce.folio3.com/",
+        "Static suite validation for \"Forms\" using discovered pages.",
+        "Observe failure signal in console, network, layout, or form behavior."
+      ],
+      "expectedResult": "Form should render without JavaScript errors and allow valid submission with clear success feedback.",
+      "actualResult": "Site console error detected: intlTelInput is not loaded.",
+      "screenshot": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780245515962\\screenshots\\scenario-2-step-1-discovered-forms-validate-requir--Desktop-landing.png",
+      "suggestedFix": "Fix the JavaScript error on the page and retest the affected user flow.",
+      "severity": "Medium",
+      "priority": "P2",
+      "confidenceScore": 88,
+      "businessImpact": "Broken lead/contact flows can reduce inbound inquiries and support ticket quality.",
+      "userImpact": "Phone/country fields on contact forms may not initialize, blocking or confusing users who try to submit.",
+      "revenueImpact": "Indirect impact possible depending on page traffic and funnel position.",
+      "recoveryAttempts": [
+        "Static suite validation for \"Forms\" using discovered pages."
+      ],
+      "rootCauseAnalysis": "Site console error detected: intlTelInput is not loaded. Console: intlTelInput is not loaded.",
+      "technicalDetails": {
+        "errorReason": "Site console error detected: intlTelInput is not loaded.",
+        "consoleErrors": [
+          "intlTelInput is not loaded."
+        ],
+        "networkErrors": [],
+        "pageUrl": "https://ecommerce.folio3.com/",
+        "timestamp": "2026-05-31T16:38:53.773Z",
+        "selfHealing": {
+          "attempted": false,
+          "recovered": false,
+          "attempts": 0,
+          "strategyLogs": []
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [
+            "Static suite validation for \"Forms\" using discovered pages."
+          ],
+          "retryResult": "not-needed",
+          "investigationFindings": []
+        }
+      }
+    },
+    {
+      "summary": "other form submission not confirmed",
+      "description": "Form on https://ecommerce.folio3.com/ did not show a reliable success signal after submission.",
+      "stepsToReproduce": [
+        "Open https://ecommerce.folio3.com/",
+        "Review automated post-run analysis findings."
+      ],
+      "expectedResult": "Page should meet quality expectations without user-impacting defects.",
+      "actualResult": "Submission was attempted but success could not be confirmed.",
+      "screenshot": null,
+      "suggestedFix": "Verify form handler, validation messaging, and success confirmation UX.",
+      "severity": "High",
+      "priority": "P1",
+      "confidenceScore": 88,
+      "businessImpact": "Broken lead or conversion flows can reduce inbound inquiries and revenue.",
+      "userImpact": "Users submitting the form may not get confirmation that their request was received.",
+      "revenueImpact": "Indirect revenue impact possible depending on affected journeys.",
+      "recoveryAttempts": [
+        "Post-run analysis completed after scenario execution."
+      ],
+      "rootCauseAnalysis": "Submission was attempted but success could not be confirmed.",
+      "technicalDetails": {
+        "errorReason": "Submission was attempted but success could not be confirmed.",
+        "consoleErrors": [],
+        "networkErrors": [],
+        "pageUrl": "https://ecommerce.folio3.com/",
+        "timestamp": "2026-05-31T16:40:20.819Z",
+        "selfHealing": {
+          "attempted": false,
+          "recovered": false,
+          "attempts": 0,
+          "strategyLogs": []
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [],
+          "retryResult": "not-needed"
+        }
+      }
+    },
+    {
+      "summary": "Console defect: intlTelInput is not loaded.",
+      "description": "Runtime console error observed during Contact Form - Contact form can be submitted with valid data.",
+      "stepsToReproduce": [
+        "Open https://ecommerce.folio3.com/",
+        "Review automated post-run analysis findings."
+      ],
+      "expectedResult": "Page should meet quality expectations without user-impacting defects.",
+      "actualResult": "intlTelInput is not loaded.",
+      "screenshot": null,
+      "suggestedFix": "Fix missing script dependencies or initialization order for affected widgets.",
+      "severity": "Medium",
+      "priority": "P2",
+      "confidenceScore": 88,
+      "businessImpact": "Quality issues on public pages can increase bounce rate and support load.",
+      "userImpact": "JavaScript errors on the page can break widgets and form behavior for real users.",
+      "revenueImpact": "Indirect revenue impact possible depending on affected journeys.",
+      "recoveryAttempts": [
+        "Post-run analysis completed after scenario execution."
+      ],
+      "rootCauseAnalysis": "intlTelInput is not loaded.",
+      "technicalDetails": {
+        "errorReason": "intlTelInput is not loaded.",
+        "consoleErrors": [],
+        "networkErrors": [],
+        "pageUrl": "https://ecommerce.folio3.com/",
+        "timestamp": "2026-05-31T16:40:20.819Z",
+        "selfHealing": {
+          "attempted": false,
+          "recovered": false,
+          "attempts": 0,
+          "strategyLogs": []
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [],
+          "retryResult": "not-needed"
+        }
+      }
+    }
+  ],
+  "technicalLogs": [
+    {
+      "scenarioId": "scenario-1",
+      "feature": "Contact Form",
+      "scenario": "Contact form can be submitted with valid data",
+      "status": "failed",
+      "errorReason": "Site console error detected: intlTelInput is not loaded.",
+      "consoleErrors": [
+        "intlTelInput is not loaded."
+      ],
+      "networkErrors": [],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Static suite validation for \"Contact Form\" using discovered pages."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-2",
+      "feature": "Forms",
+      "scenario": "Discovered forms validate required fields safely",
+      "status": "failed",
+      "errorReason": "Site console error detected: intlTelInput is not loaded.",
+      "consoleErrors": [
+        "intlTelInput is not loaded."
+      ],
+      "networkErrors": [],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Static suite validation for \"Forms\" using discovered pages."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-3",
+      "feature": "Broken Link",
+      "scenario": "Site links return healthy HTTP responses",
+      "status": "passed",
+      "consoleErrors": [
+        "intlTelInput is not loaded."
+      ],
+      "networkErrors": [],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Static suite validation for \"Broken Link\" using discovered pages."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-4",
+      "feature": "Responsive",
+      "scenario": "Responsive layout remains stable across breakpoints",
+      "status": "passed",
+      "consoleErrors": [
+        "intlTelInput is not loaded."
+      ],
+      "networkErrors": [],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Static suite validation for \"Responsive\" using discovered pages."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-5",
+      "feature": "Accessibility",
+      "scenario": "Accessibility risk checks run on key templates",
+      "status": "passed",
+      "consoleErrors": [
+        "intlTelInput is not loaded."
+      ],
+      "networkErrors": [],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Static suite validation for \"Accessibility\" using discovered pages."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-6",
+      "feature": "Navigation",
+      "scenario": "Primary navigation routes resolve correctly",
+      "status": "passed",
+      "consoleErrors": [
+        "intlTelInput is not loaded."
+      ],
+      "networkErrors": [],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Static suite validation for \"Navigation\" using discovered pages."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-7",
+      "feature": "Static Pages",
+      "scenario": "Static informational pages load and render expected sections",
+      "status": "passed",
+      "consoleErrors": [
+        "intlTelInput is not loaded."
+      ],
+      "networkErrors": [],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Static suite validation for \"Static Pages\" using discovered pages."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    }
+  ],
+  "generatedAt": "2026-05-31T16:40:20.820Z"
+}

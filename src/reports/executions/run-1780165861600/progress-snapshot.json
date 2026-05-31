@@ -1,0 +1,148 @@
+{
+  "runId": "run-1780165861600",
+  "status": "failed",
+  "orchestrationState": "FAILED",
+  "currentPhase": "Reporting",
+  "totalGeneratedTestCases": 12,
+  "currentExecutingTestCaseNumber": 12,
+  "currentTestCaseTitle": "Remove item works from cart workflow",
+  "currentUrl": "https://uat2.purelifedental.com",
+  "browser": "Chrome",
+  "device": "Desktop",
+  "progressPercentage": 100,
+  "passCount": 7,
+  "failCount": 5,
+  "skippedCount": 0,
+  "liveLogs": [
+    "[11:31:01 pm] Run queued (run-1780165861600)",
+    "[11:31:01 pm] Discovery started for https://uat2.purelifedental.com",
+    "[11:31:08 pm] Crawled page 1/30: PureLife Dental | Dentistry Evolved | Dental Supplies",
+    "[11:31:10 pm] Crawled page 2/30: Customer Login",
+    "[11:31:11 pm] Crawled page 3/30: Shopping Cart",
+    "[11:31:17 pm] Crawled page 4/30: Dental disposable gloves | PureLife dental supplies",
+    "[11:31:20 pm] Crawled page 5/30: Gloves - Chloroprene Powder-Free - Gloves",
+    "[11:31:23 pm] Crawled page 6/30: Gloves - Latex Powder-Free - Gloves",
+    "[11:31:27 pm] Crawled page 7/30: Gloves - Nitrile Powder-Free - Gloves",
+    "[11:31:29 pm] Crawled page 8/30: Gloves - Sterile - Gloves",
+    "[11:31:31 pm] Crawled page 9/30: Gloves - Vinyl Powder-Free - Gloves",
+    "[11:31:37 pm] Crawled page 10/30: Gloves - Accessories/Dispensers - Gloves",
+    "[11:31:39 pm] Crawled page 11/30: Gloves - Nitrile Powder-FreeDefault Category - Gloves",
+    "[11:31:45 pm] Crawled page 12/30: PureLife dental materials and equipment | PureLife dental supplies",
+    "[11:31:47 pm] Crawled page 13/30: Absorbent Points - PureLife Collection",
+    "[11:31:50 pm] Crawled page 14/30: Air/Water Syringe Tips - PureLife Collection",
+    "[11:31:52 pm] Crawled page 15/30: Anesthetic Cartridges - Lidocaine - PureLife Collection",
+    "[11:31:55 pm] Crawled page 16/30: Aspirating Syringes - PureLife Collection",
+    "[11:31:57 pm] Crawled page 17/30: Articulating Accessories - PureLife Collection",
+    "[11:32:01 pm] Crawled page 18/30: Bibs - PureLife Collection",
+    "[11:32:03 pm] Crawled page 19/30: Bite Registration - PureLife Collection",
+    "[11:32:06 pm] Crawled page 20/30: Bite Trays - PureLife Collection",
+    "[11:32:09 pm] Crawled page 21/30: Bonding - PureLife Collection",
+    "[11:32:11 pm] Crawled page 22/30: Brushes - PureLife Collection",
+    "[11:32:14 pm] Crawled page 23/30: Cement & Liner Accessories - PureLife Collection",
+    "[11:32:16 pm] Crawled page 24/30: Cement & Liner Accessories - PureLife Collection",
+    "[11:32:18 pm] Crawled page 25/30: Composites - Bulk Fill - PureLife Collection",
+    "[11:32:21 pm] Crawled page 26/30: Composites - Flowable - PureLife Collection",
+    "[11:32:24 pm] Crawled page 27/30: Composites - Universal - PureLife Collection",
+    "[11:32:26 pm] Crawled page 28/30: Core Build-Up - PureLife Collection",
+    "[11:32:29 pm] Crawled page 29/30: Cotton Products - PureLife Collection",
+    "[11:32:31 pm] Crawled page 30/30: Cups - PureLife Collection",
+    "[11:32:32 pm] Discovery classified as Ecommerce (ecommerce suite). 30 pages, 129 forms.",
+    "[11:32:32 pm] Generated 29 scenarios (15 executable, 14 skipped).",
+    "[11:32:33 pm] Launching browser contexts.",
+    "[11:32:34 pm] Executing scenario 1/12: Execute command 1: Login:",
+    "[11:32:58 pm] Scenario completed: Execute command 1: Login: (passed)",
+    "[11:32:58 pm] Executing scenario 2/12: Address step validates correctly",
+    "[11:33:10 pm] Scenario completed: Address step validates correctly (passed)",
+    "[11:33:10 pm] Executing scenario 3/12: Shipping step validates correctly",
+    "[11:33:19 pm] Scenario completed: Shipping step validates correctly (passed)",
+    "[11:33:19 pm] Executing scenario 4/12: Billing step validates correctly",
+    "[11:33:24 pm] Scenario completed: Billing step validates correctly (passed)",
+    "[11:33:24 pm] Executing scenario 5/12: Payment step validates correctly",
+    "[11:33:51 pm] Scenario completed: Payment step validates correctly (passed)",
+    "[11:33:51 pm] Executing scenario 6/12: Review step validates correctly",
+    "[11:33:59 pm] Scenario completed: Review step validates correctly (passed)",
+    "[11:33:59 pm] Executing scenario 7/12: Login flow works as expected",
+    "[11:34:46 pm] Scenario completed: Login flow works as expected (failed)",
+    "[11:34:46 pm] Executing scenario 8/12: Signup flow works as expected",
+    "[11:34:55 pm] Scenario completed: Signup flow works as expected (passed)",
+    "[11:34:55 pm] Executing scenario 9/12: Forgot Password flow works as expected",
+    "[11:34:59 pm] Scenario completed: Forgot Password flow works as expected (failed)",
+    "[11:34:59 pm] Executing scenario 10/12: Guest Checkout flow works as expected",
+    "[11:34:59 pm] Scenario completed: Guest Checkout flow works as expected (failed)",
+    "[11:34:59 pm] Executing scenario 11/12: Update quantity works from cart workflow",
+    "[11:34:59 pm] Scenario completed: Update quantity works from cart workflow (failed)",
+    "[11:34:59 pm] Executing scenario 12/12: Remove item works from cart workflow",
+    "[11:35:00 pm] Scenario completed: Remove item works from cart workflow (failed)",
+    "[11:36:35 pm] Run failed: page.evaluate: Target page, context or browser has been closed"
+  ],
+  "testCases": [
+    {
+      "id": "scenario-1",
+      "title": "Execute command 1: Login:",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-2",
+      "title": "Address step validates correctly",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-3",
+      "title": "Shipping step validates correctly",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-4",
+      "title": "Billing step validates correctly",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-5",
+      "title": "Payment step validates correctly",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-6",
+      "title": "Review step validates correctly",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-7",
+      "title": "Login flow works as expected",
+      "status": "failed"
+    },
+    {
+      "id": "scenario-8",
+      "title": "Signup flow works as expected",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-9",
+      "title": "Forgot Password flow works as expected",
+      "status": "failed"
+    },
+    {
+      "id": "scenario-10",
+      "title": "Guest Checkout flow works as expected",
+      "status": "failed"
+    },
+    {
+      "id": "scenario-11",
+      "title": "Update quantity works from cart workflow",
+      "status": "failed"
+    },
+    {
+      "id": "scenario-12",
+      "title": "Remove item works from cart workflow",
+      "status": "failed"
+    }
+  ],
+  "updatedAt": "2026-05-30T18:36:35.575Z",
+  "log": "Run failed: page.evaluate: Target page, context or browser has been closed",
+  "testCaseUpdate": {
+    "id": "scenario-12",
+    "title": "Remove item works from cart workflow",
+    "status": "failed"
+  },
+  "error": "page.evaluate: Target page, context or browser has been closed"
+}

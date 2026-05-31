@@ -1,0 +1,50 @@
+{
+  "cacheKey": "{\"cacheVersion\":4,\"baseUrl\":\"https://uat2.purlifedental.com/\",\"maxDepth\":2,\"maxPages\":20,\"maxLinksPerPage\":40}",
+  "baseUrl": "https://uat2.purlifedental.com/",
+  "storedAtMs": 1780193145146,
+  "result": {
+    "baseUrl": "https://uat2.purlifedental.com/",
+    "websiteType": "Static",
+    "capabilities": {
+      "login": false,
+      "signup": false,
+      "search": false,
+      "categories": false,
+      "productListing": false,
+      "productDetail": false,
+      "addToCart": false,
+      "cart": false,
+      "checkout": false,
+      "contactForm": false,
+      "newsletterForm": false,
+      "quoteForm": false,
+      "staticPages": false,
+      "blogPages": false,
+      "brokenLinks": false,
+      "responsiveRiskAreas": true
+    },
+    "pagesFound": [
+      {
+        "url": "https://uat2.purlifedental.com/",
+        "title": "Unreachable Page",
+        "depth": 0,
+        "status": 0
+      }
+    ],
+    "formsFound": [],
+    "buttonsFound": [],
+    "linksFound": [],
+    "possibleJourneys": [],
+    "importantSelectors": [],
+    "detectedEcommerceSignals": [],
+    "detectedFormSignals": [],
+    "detectedStaticPages": [],
+    "startedAt": "2026-05-31T02:05:43.283Z",
+    "completedAt": "2026-05-31T02:05:45.146Z",
+    "crawlDepthUsed": 2,
+    "siteSuite": "static",
+    "classificationNotes": [
+      "Small surface area — static regression suite selected."
+    ]
+  }
+}

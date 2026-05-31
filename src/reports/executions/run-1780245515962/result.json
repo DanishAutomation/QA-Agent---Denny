@@ -1,0 +1,540 @@
+{
+  "runId": "run-1780245515962",
+  "startedAt": "2026-05-31T16:38:47.114Z",
+  "completedAt": "2026-05-31T16:40:20.817Z",
+  "durationMs": 93702,
+  "passed": 5,
+  "failed": 2,
+  "skipped": 0,
+  "reportPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780245515962\\result.json",
+  "scenarios": [
+    {
+      "scenarioId": "scenario-1",
+      "feature": "Contact Form",
+      "scenario": "Contact form can be submitted with valid data",
+      "status": "failed",
+      "errorReason": "Site console error detected: intlTelInput is not loaded.",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780245515962\\screenshots\\scenario-1-step-1-contact-form-can-be-submitted-wi--Desktop-landing.png"
+      ],
+      "consoleErrors": [
+        "intlTelInput is not loaded."
+      ],
+      "networkErrors": [],
+      "pageUrl": "https://ecommerce.folio3.com/",
+      "timestamp": "2026-05-31T16:38:47.674Z",
+      "durationMs": 6095,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Static suite validation for \"Contact Form\" using discovered pages."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-2",
+      "feature": "Forms",
+      "scenario": "Discovered forms validate required fields safely",
+      "status": "failed",
+      "errorReason": "Site console error detected: intlTelInput is not loaded.",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780245515962\\screenshots\\scenario-2-step-1-discovered-forms-validate-requir--Desktop-landing.png"
+      ],
+      "consoleErrors": [
+        "intlTelInput is not loaded."
+      ],
+      "networkErrors": [],
+      "pageUrl": "https://ecommerce.folio3.com/",
+      "timestamp": "2026-05-31T16:38:53.773Z",
+      "durationMs": 2003,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Static suite validation for \"Forms\" using discovered pages."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-3",
+      "feature": "Broken Link",
+      "scenario": "Site links return healthy HTTP responses",
+      "status": "passed",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780245515962\\screenshots\\scenario-3-step-1-site-links-return-healthy-http-r--Desktop-landing.png"
+      ],
+      "consoleErrors": [
+        "intlTelInput is not loaded."
+      ],
+      "networkErrors": [],
+      "pageUrl": "https://ecommerce.folio3.com/",
+      "timestamp": "2026-05-31T16:38:55.783Z",
+      "durationMs": 1795,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Static suite validation for \"Broken Link\" using discovered pages."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-4",
+      "feature": "Responsive",
+      "scenario": "Responsive layout remains stable across breakpoints",
+      "status": "passed",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780245515962\\screenshots\\scenario-4-step-1-responsive-layout-remains-stable--Desktop-landing.png"
+      ],
+      "consoleErrors": [
+        "intlTelInput is not loaded."
+      ],
+      "networkErrors": [],
+      "pageUrl": "https://ecommerce.folio3.com/",
+      "timestamp": "2026-05-31T16:38:57.585Z",
+      "durationMs": 1807,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Static suite validation for \"Responsive\" using discovered pages."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-5",
+      "feature": "Accessibility",
+      "scenario": "Accessibility risk checks run on key templates",
+      "status": "passed",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780245515962\\screenshots\\scenario-5-step-1-accessibility-risk-checks-run-on--Desktop-landing.png"
+      ],
+      "consoleErrors": [
+        "intlTelInput is not loaded."
+      ],
+      "networkErrors": [],
+      "pageUrl": "https://ecommerce.folio3.com/",
+      "timestamp": "2026-05-31T16:38:59.400Z",
+      "durationMs": 1752,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Static suite validation for \"Accessibility\" using discovered pages."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-6",
+      "feature": "Navigation",
+      "scenario": "Primary navigation routes resolve correctly",
+      "status": "passed",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780245515962\\screenshots\\scenario-6-step-1-primary-navigation-routes-resolv--Desktop-landing.png"
+      ],
+      "consoleErrors": [
+        "intlTelInput is not loaded."
+      ],
+      "networkErrors": [],
+      "pageUrl": "https://ecommerce.folio3.com/",
+      "timestamp": "2026-05-31T16:39:01.157Z",
+      "durationMs": 1918,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Static suite validation for \"Navigation\" using discovered pages."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-7",
+      "feature": "Static Pages",
+      "scenario": "Static informational pages load and render expected sections",
+      "status": "passed",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780245515962\\screenshots\\scenario-7-step-1-static-informational-pages-load---Desktop-landing.png"
+      ],
+      "consoleErrors": [
+        "intlTelInput is not loaded."
+      ],
+      "networkErrors": [],
+      "pageUrl": "https://ecommerce.folio3.com/",
+      "timestamp": "2026-05-31T16:39:03.077Z",
+      "durationMs": 1826,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Static suite validation for \"Static Pages\" using discovered pages."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    }
+  ],
+  "bugReports": [
+    {
+      "summary": "Contact Form: Site console error detected: intlTelInput is not loaded.",
+      "description": "While testing \"Contact form can be submitted with valid data\" on https://ecommerce.folio3.com/, the run failed because Site console error detected: intlTelInput is not loaded. Additional signals: Console: intlTelInput is not loaded..",
+      "stepsToReproduce": [
+        "Open https://ecommerce.folio3.com/",
+        "Static suite validation for \"Contact Form\" using discovered pages.",
+        "Observe failure signal in console, network, layout, or form behavior."
+      ],
+      "expectedResult": "Form should render without JavaScript errors and allow valid submission with clear success feedback.",
+      "actualResult": "Site console error detected: intlTelInput is not loaded.",
+      "screenshot": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780245515962\\screenshots\\scenario-1-step-1-contact-form-can-be-submitted-wi--Desktop-landing.png",
+      "suggestedFix": "Fix the JavaScript error on the page and retest the affected user flow.",
+      "severity": "Medium",
+      "priority": "P2",
+      "confidenceScore": 88,
+      "businessImpact": "Broken lead/contact flows can reduce inbound inquiries and support ticket quality.",
+      "userImpact": "Phone/country fields on contact forms may not initialize, blocking or confusing users who try to submit.",
+      "revenueImpact": "Indirect impact possible depending on page traffic and funnel position.",
+      "recoveryAttempts": [
+        "Static suite validation for \"Contact Form\" using discovered pages."
+      ],
+      "rootCauseAnalysis": "Site console error detected: intlTelInput is not loaded. Console: intlTelInput is not loaded.",
+      "technicalDetails": {
+        "errorReason": "Site console error detected: intlTelInput is not loaded.",
+        "consoleErrors": [
+          "intlTelInput is not loaded."
+        ],
+        "networkErrors": [],
+        "pageUrl": "https://ecommerce.folio3.com/",
+        "timestamp": "2026-05-31T16:38:47.674Z",
+        "selfHealing": {
+          "attempted": false,
+          "recovered": false,
+          "attempts": 0,
+          "strategyLogs": []
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [
+            "Static suite validation for \"Contact Form\" using discovered pages."
+          ],
+          "retryResult": "not-needed",
+          "investigationFindings": []
+        }
+      }
+    },
+    {
+      "summary": "Forms: Site console error detected: intlTelInput is not loaded.",
+      "description": "While testing \"Discovered forms validate required fields safely\" on https://ecommerce.folio3.com/, the run failed because Site console error detected: intlTelInput is not loaded. Additional signals: Console: intlTelInput is not loaded..",
+      "stepsToReproduce": [
+        "Open https://ecommerce.folio3.com/",
+        "Static suite validation for \"Forms\" using discovered pages.",
+        "Observe failure signal in console, network, layout, or form behavior."
+      ],
+      "expectedResult": "Form should render without JavaScript errors and allow valid submission with clear success feedback.",
+      "actualResult": "Site console error detected: intlTelInput is not loaded.",
+      "screenshot": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780245515962\\screenshots\\scenario-2-step-1-discovered-forms-validate-requir--Desktop-landing.png",
+      "suggestedFix": "Fix the JavaScript error on the page and retest the affected user flow.",
+      "severity": "Medium",
+      "priority": "P2",
+      "confidenceScore": 88,
+      "businessImpact": "Broken lead/contact flows can reduce inbound inquiries and support ticket quality.",
+      "userImpact": "Phone/country fields on contact forms may not initialize, blocking or confusing users who try to submit.",
+      "revenueImpact": "Indirect impact possible depending on page traffic and funnel position.",
+      "recoveryAttempts": [
+        "Static suite validation for \"Forms\" using discovered pages."
+      ],
+      "rootCauseAnalysis": "Site console error detected: intlTelInput is not loaded. Console: intlTelInput is not loaded.",
+      "technicalDetails": {
+        "errorReason": "Site console error detected: intlTelInput is not loaded.",
+        "consoleErrors": [
+          "intlTelInput is not loaded."
+        ],
+        "networkErrors": [],
+        "pageUrl": "https://ecommerce.folio3.com/",
+        "timestamp": "2026-05-31T16:38:53.773Z",
+        "selfHealing": {
+          "attempted": false,
+          "recovered": false,
+          "attempts": 0,
+          "strategyLogs": []
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [
+            "Static suite validation for \"Forms\" using discovered pages."
+          ],
+          "retryResult": "not-needed",
+          "investigationFindings": []
+        }
+      }
+    },
+    {
+      "summary": "other form submission not confirmed",
+      "description": "Form on https://ecommerce.folio3.com/ did not show a reliable success signal after submission.",
+      "stepsToReproduce": [
+        "Open https://ecommerce.folio3.com/",
+        "Review automated post-run analysis findings."
+      ],
+      "expectedResult": "Page should meet quality expectations without user-impacting defects.",
+      "actualResult": "Submission was attempted but success could not be confirmed.",
+      "screenshot": null,
+      "suggestedFix": "Verify form handler, validation messaging, and success confirmation UX.",
+      "severity": "High",
+      "priority": "P1",
+      "confidenceScore": 88,
+      "businessImpact": "Broken lead or conversion flows can reduce inbound inquiries and revenue.",
+      "userImpact": "Users submitting the form may not get confirmation that their request was received.",
+      "revenueImpact": "Indirect revenue impact possible depending on affected journeys.",
+      "recoveryAttempts": [
+        "Post-run analysis completed after scenario execution."
+      ],
+      "rootCauseAnalysis": "Submission was attempted but success could not be confirmed.",
+      "technicalDetails": {
+        "errorReason": "Submission was attempted but success could not be confirmed.",
+        "consoleErrors": [],
+        "networkErrors": [],
+        "pageUrl": "https://ecommerce.folio3.com/",
+        "timestamp": "2026-05-31T16:40:20.819Z",
+        "selfHealing": {
+          "attempted": false,
+          "recovered": false,
+          "attempts": 0,
+          "strategyLogs": []
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [],
+          "retryResult": "not-needed"
+        }
+      }
+    },
+    {
+      "summary": "Console defect: intlTelInput is not loaded.",
+      "description": "Runtime console error observed during Contact Form - Contact form can be submitted with valid data.",
+      "stepsToReproduce": [
+        "Open https://ecommerce.folio3.com/",
+        "Review automated post-run analysis findings."
+      ],
+      "expectedResult": "Page should meet quality expectations without user-impacting defects.",
+      "actualResult": "intlTelInput is not loaded.",
+      "screenshot": null,
+      "suggestedFix": "Fix missing script dependencies or initialization order for affected widgets.",
+      "severity": "Medium",
+      "priority": "P2",
+      "confidenceScore": 88,
+      "businessImpact": "Quality issues on public pages can increase bounce rate and support load.",
+      "userImpact": "JavaScript errors on the page can break widgets and form behavior for real users.",
+      "revenueImpact": "Indirect revenue impact possible depending on affected journeys.",
+      "recoveryAttempts": [
+        "Post-run analysis completed after scenario execution."
+      ],
+      "rootCauseAnalysis": "intlTelInput is not loaded.",
+      "technicalDetails": {
+        "errorReason": "intlTelInput is not loaded.",
+        "consoleErrors": [],
+        "networkErrors": [],
+        "pageUrl": "https://ecommerce.folio3.com/",
+        "timestamp": "2026-05-31T16:40:20.819Z",
+        "selfHealing": {
+          "attempted": false,
+          "recovered": false,
+          "attempts": 0,
+          "strategyLogs": []
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [],
+          "retryResult": "not-needed"
+        }
+      }
+    }
+  ],
+  "brokenLinksReport": {
+    "baseUrl": "https://ecommerce.folio3.com/",
+    "checkedAt": "2026-05-31T16:40:20.484Z",
+    "checkedCount": 50,
+    "failedCount": 15,
+    "confirmedFailedCount": 0,
+    "blockedCount": 15,
+    "pagesSampled": 1,
+    "findings": [
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/shopify-development-services/shopify-consulting-services/",
+        "category": "header",
+        "failureType": "403",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/shopify-development-services/shopify-support-and-maintenance-services/",
+        "category": "header",
+        "failureType": "403",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/shopify-development-services/shopify-speed-optimization-service/",
+        "category": "header",
+        "failureType": "403",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/shopify-development-services/shopify-headless-development-service/",
+        "category": "header",
+        "failureType": "403",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/shopify-development-services/shopify-theme-development-services/",
+        "category": "header",
+        "failureType": "403",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/shopify-development-services/shopify-theme-customization-services/",
+        "category": "header",
+        "failureType": "403",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/shopify-migration-service/magento-to-shopify-migration-service/",
+        "category": "header",
+        "failureType": "403",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/shopify-integration-services/",
+        "category": "header",
+        "failureType": "403",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/shopify-integration-services/shopify-mcp-integration-services/",
+        "category": "header",
+        "failureType": "403",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/hire-shopify-developers/",
+        "category": "header",
+        "failureType": "403",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/bigcommerce-development-company/",
+        "category": "header",
+        "failureType": "403",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/bigcommerce-consultants/",
+        "category": "header",
+        "failureType": "403",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/bigcommerce-app-development/",
+        "category": "header",
+        "failureType": "403",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/headless-bigcommerce-development/",
+        "category": "header",
+        "failureType": "403",
+        "statusCode": 403
+      },
+      {
+        "fromUrl": "https://ecommerce.folio3.com/",
+        "targetUrl": "https://ecommerce.folio3.com/bigcommerce-web-design-company/",
+        "category": "header",
+        "failureType": "403",
+        "statusCode": 403
+      }
+    ]
+  },
+  "formsReport": {
+    "baseUrl": "https://ecommerce.folio3.com/",
+    "checkedAt": "2026-05-31T16:40:20.484Z",
+    "formsDetected": 1,
+    "results": [
+      {
+        "pageUrl": "https://ecommerce.folio3.com/",
+        "formType": "other",
+        "requiredFieldsOk": true,
+        "invalidEmailValidationOk": true,
+        "validationMessageDetected": true,
+        "successfulSubmissionAttempted": true,
+        "successfulSubmissionPassed": false,
+        "notes": [
+          "Form screenshot: C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780245515962\\forms-screenshots\\form-0-other.png"
+        ]
+      }
+    ]
+  },
+  "brokenLinksReportPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780245515962\\broken-links-report.json",
+  "formsReportPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780245515962\\forms-report.json",
+  "productionReportPaths": {
+    "html": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780245515962\\client-report.html",
+    "json": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780245515962\\client-report.json",
+    "markdown": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780245515962\\summary.md"
+  }
+}

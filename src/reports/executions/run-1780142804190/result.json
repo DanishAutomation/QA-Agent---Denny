@@ -1,0 +1,202 @@
+{
+  "runId": "run-1780142804190",
+  "startedAt": "2026-05-30T12:06:46.517Z",
+  "completedAt": "2026-05-30T12:06:55.526Z",
+  "durationMs": 9009,
+  "passed": 2,
+  "failed": 0,
+  "skipped": 0,
+  "reportPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780142804190\\result.json",
+  "scenarios": [
+    {
+      "scenarioId": "scenario-1",
+      "feature": "Navigation",
+      "scenario": "Primary navigation routes resolve correctly",
+      "status": "passed",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780142804190\\screenshots\\scenario-1-Desktop-landing.png"
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "networkErrors": [],
+      "pageUrl": "https://example.com/",
+      "timestamp": "2026-05-30T12:06:47.235Z",
+      "durationMs": 1280,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed"
+      }
+    },
+    {
+      "scenarioId": "scenario-2",
+      "feature": "Accessibility",
+      "scenario": "Accessibility risk checks run on key templates",
+      "status": "passed",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780142804190\\screenshots\\scenario-2-Desktop-landing.png"
+      ],
+      "consoleErrors": [],
+      "networkErrors": [],
+      "pageUrl": "https://example.com/",
+      "timestamp": "2026-05-30T12:06:48.516Z",
+      "durationMs": 679,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed"
+      }
+    }
+  ],
+  "bugReports": [],
+  "brokenLinksReport": {
+    "baseUrl": "https://example.com",
+    "checkedAt": "2026-05-30T12:06:50.509Z",
+    "checkedCount": 0,
+    "failedCount": 0,
+    "findings": []
+  },
+  "formsReport": {
+    "baseUrl": "https://example.com",
+    "checkedAt": "2026-05-30T12:06:50.509Z",
+    "formsDetected": 0,
+    "results": []
+  },
+  "accessibilityRiskReport": {
+    "baseUrl": "https://example.com",
+    "checkedAt": "2026-05-30T12:06:50.463Z",
+    "findings": [
+      {
+        "id": "cookie-consent-1",
+        "category": "cookie-consent",
+        "severity": "low",
+        "message": "Cookie consent UI was not detected on inspected page.",
+        "pageUrl": "https://example.com/"
+      },
+      {
+        "id": "keyboard-navigation-2",
+        "category": "keyboard-navigation",
+        "severity": "medium",
+        "message": "Limited keyboard-focusable interactive controls detected.",
+        "pageUrl": "https://example.com/"
+      },
+      {
+        "id": "focus-visibility-3",
+        "category": "focus-visibility",
+        "severity": "high",
+        "message": "Focus outline visibility may be insufficient on interactive elements.",
+        "pageUrl": "https://example.com/"
+      }
+    ],
+    "summary": {
+      "totalFindings": 3,
+      "high": 1,
+      "medium": 1,
+      "low": 1
+    },
+    "disclaimer": "Accessibility Risk Findings are heuristic indicators only and are not a certification for ADA, HIPAA, or legal compliance."
+  },
+  "responsiveReport": {
+    "baseUrl": "https://example.com",
+    "generatedAt": "2026-05-30T12:06:55.345Z",
+    "findings": [
+      {
+        "viewport": "Android viewport",
+        "layoutBreakage": false,
+        "hiddenCtas": false,
+        "horizontalScroll": false,
+        "menuUsabilityIssue": true,
+        "formVisibilityIssue": false,
+        "overlappingElements": false,
+        "cartOrSearchVisibilityIssue": false,
+        "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780142804190\\responsive-screenshots\\android-viewport.png",
+        "notes": [
+          "Menu/navigation usability risk detected."
+        ]
+      },
+      {
+        "viewport": "iPhone viewport",
+        "layoutBreakage": false,
+        "hiddenCtas": false,
+        "horizontalScroll": false,
+        "menuUsabilityIssue": true,
+        "formVisibilityIssue": false,
+        "overlappingElements": false,
+        "cartOrSearchVisibilityIssue": false,
+        "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780142804190\\responsive-screenshots\\iphone-viewport.png",
+        "notes": [
+          "Menu/navigation usability risk detected."
+        ]
+      },
+      {
+        "viewport": "iPad viewport",
+        "layoutBreakage": false,
+        "hiddenCtas": false,
+        "horizontalScroll": false,
+        "menuUsabilityIssue": true,
+        "formVisibilityIssue": false,
+        "overlappingElements": false,
+        "cartOrSearchVisibilityIssue": false,
+        "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780142804190\\responsive-screenshots\\ipad-viewport.png",
+        "notes": [
+          "Menu/navigation usability risk detected."
+        ]
+      },
+      {
+        "viewport": "Tablet viewport",
+        "layoutBreakage": false,
+        "hiddenCtas": false,
+        "horizontalScroll": false,
+        "menuUsabilityIssue": true,
+        "formVisibilityIssue": false,
+        "overlappingElements": false,
+        "cartOrSearchVisibilityIssue": false,
+        "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780142804190\\responsive-screenshots\\tablet-viewport.png",
+        "notes": [
+          "Menu/navigation usability risk detected."
+        ]
+      },
+      {
+        "viewport": "Desktop viewport",
+        "layoutBreakage": false,
+        "hiddenCtas": false,
+        "horizontalScroll": false,
+        "menuUsabilityIssue": true,
+        "formVisibilityIssue": false,
+        "overlappingElements": false,
+        "cartOrSearchVisibilityIssue": false,
+        "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780142804190\\responsive-screenshots\\desktop-viewport.png",
+        "notes": [
+          "Menu/navigation usability risk detected."
+        ]
+      }
+    ],
+    "summary": {
+      "totalViewports": 5,
+      "issueCount": 5,
+      "issueViewports": 5
+    }
+  },
+  "responsiveReportPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780142804190\\responsive-report.json",
+  "brokenLinksReportPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780142804190\\broken-links-report.json",
+  "formsReportPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780142804190\\forms-report.json",
+  "accessibilityRiskReportPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780142804190\\accessibility-risk-report.json",
+  "productionReportPaths": {
+    "html": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780142804190\\client-report.html",
+    "json": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780142804190\\client-report.json",
+    "markdown": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780142804190\\summary.md"
+  }
+}

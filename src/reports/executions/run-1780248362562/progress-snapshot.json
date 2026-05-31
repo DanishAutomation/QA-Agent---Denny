@@ -1,0 +1,194 @@
+{
+  "runId": "run-1780248362562",
+  "status": "running",
+  "orchestrationState": "BUG_ANALYSIS",
+  "currentPhase": "Post-Run Analysis",
+  "totalGeneratedTestCases": 23,
+  "currentExecutingTestCaseNumber": 23,
+  "currentTestCaseTitle": "Post-run checks: responsive, links, forms, accessibility",
+  "currentUrl": "https://uat2.purelifedental.com/",
+  "browser": "Chrome",
+  "device": "Desktop",
+  "progressPercentage": 90,
+  "passCount": 16,
+  "failCount": 2,
+  "skippedCount": 0,
+  "liveLogs": [
+    "[10:26:02 pm] Run queued (run-1780248362562)",
+    "[10:26:02 pm] Discovery started for https://uat2.purelifedental.com/",
+    "[10:26:02 pm] Using cached discovery for https://uat2.purelifedental.com (20 pages, 800 links).",
+    "[10:26:02 pm] Discovery classified as Ecommerce (ecommerce suite). 20 pages, 101 forms.",
+    "[10:26:02 pm] Generated 30 scenarios (23 executable, 7 skipped).",
+    "[10:26:02 pm] Starting Playwright scenario execution.",
+    "[10:26:03 pm] Launching browser contexts.",
+    "[10:26:03 pm] Executing scenario 1/23: Login flow works as expected",
+    "[10:26:22 pm] Scenario completed: Login flow works as expected (passed)",
+    "[10:26:22 pm] Executing scenario 2/23: Forgot Password flow works as expected",
+    "[10:26:26 pm] Scenario completed: Forgot Password flow works as expected (passed)",
+    "[10:26:26 pm] Executing scenario 3/23: Product Listing behavior is correct",
+    "[10:26:40 pm] Scenario completed: Product Listing behavior is correct (passed)",
+    "[10:26:40 pm] Executing scenario 4/23: Search behavior is correct",
+    "[10:26:53 pm] Scenario completed: Search behavior is correct (passed)",
+    "[10:26:53 pm] Executing scenario 5/23: Categories behavior is correct",
+    "[10:26:55 pm] Scenario completed: Categories behavior is correct (passed)",
+    "[10:26:55 pm] Executing scenario 6/23: Filters behavior is correct",
+    "[10:27:05 pm] Scenario completed: Filters behavior is correct (passed)",
+    "[10:27:05 pm] Executing scenario 7/23: Pagination behavior is correct",
+    "[10:27:10 pm] Scenario completed: Pagination behavior is correct (passed)",
+    "[10:27:10 pm] Executing scenario 8/23: Add to cart behavior on product detail page",
+    "[10:27:35 pm] Scenario completed: Add to cart behavior on product detail page (passed)",
+    "[10:27:35 pm] Executing scenario 9/23: Child SKU selection behavior on product detail page",
+    "[10:27:50 pm] Scenario completed: Child SKU selection behavior on product detail page (passed)",
+    "[10:27:50 pm] Executing scenario 10/23: Inventory behavior on product detail page",
+    "[10:27:56 pm] Scenario completed: Inventory behavior on product detail page (passed)",
+    "[10:27:56 pm] Executing scenario 11/23: Product image behavior on product detail page",
+    "[10:27:58 pm] Scenario completed: Product image behavior on product detail page (passed)",
+    "[10:27:58 pm] Executing scenario 12/23: Quantity behavior on product detail page",
+    "[10:28:01 pm] Scenario completed: Quantity behavior on product detail page (passed)",
+    "[10:28:01 pm] Executing scenario 13/23: Add item works from cart workflow",
+    "[10:28:10 pm] Scenario completed: Add item works from cart workflow (passed)",
+    "[10:28:10 pm] Executing scenario 14/23: Coupon if available works from cart workflow",
+    "[10:28:10 pm] Scenario completed: Coupon if available works from cart workflow (passed)",
+    "[10:28:10 pm] Executing scenario 15/23: Remove item works from cart workflow",
+    "[10:29:01 pm] Scenario completed: Remove item works from cart workflow (passed)",
+    "[10:29:01 pm] Executing scenario 16/23: Update quantity works from cart workflow",
+    "[10:29:07 pm] Scenario completed: Update quantity works from cart workflow (passed)",
+    "[10:29:07 pm] Executing scenario 17/23: Address step validates correctly",
+    "[10:31:08 pm] Scenario completed: Address step validates correctly (failed)",
+    "[10:31:08 pm] Executing scenario 18/23: Shipping step validates correctly",
+    "[10:32:00 pm] Execution stopped by user.",
+    "[10:33:08 pm] Scenario completed: Shipping step validates correctly (failed)",
+    "[10:33:08 pm] Execution stopped by user.",
+    "[10:33:08 pm] Skipped after stop: Billing step validates correctly",
+    "[10:33:08 pm] Skipped after stop: Payment step validates correctly",
+    "[10:33:08 pm] Skipped after stop: Review step validates correctly",
+    "[10:33:08 pm] Skipped after stop: Orders section behaves as expected",
+    "[10:33:08 pm] Skipped after stop: Profile section behaves as expected",
+    "[10:33:08 pm] Running post-execution analysis checks (responsive/broken links/forms/accessibility)."
+  ],
+  "testCases": [
+    {
+      "id": "scenario-1",
+      "title": "Login flow works as expected",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-2",
+      "title": "Forgot Password flow works as expected",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-3",
+      "title": "Product Listing behavior is correct",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-4",
+      "title": "Search behavior is correct",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-5",
+      "title": "Categories behavior is correct",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-6",
+      "title": "Filters behavior is correct",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-7",
+      "title": "Pagination behavior is correct",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-8",
+      "title": "Add to cart behavior on product detail page",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-9",
+      "title": "Child SKU selection behavior on product detail page",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-10",
+      "title": "Inventory behavior on product detail page",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-11",
+      "title": "Product image behavior on product detail page",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-12",
+      "title": "Quantity behavior on product detail page",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-13",
+      "title": "Add item works from cart workflow",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-14",
+      "title": "Coupon if available works from cart workflow",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-15",
+      "title": "Remove item works from cart workflow",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-16",
+      "title": "Update quantity works from cart workflow",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-17",
+      "title": "Address step validates correctly",
+      "status": "failed"
+    },
+    {
+      "id": "scenario-18",
+      "title": "Shipping step validates correctly",
+      "status": "failed"
+    },
+    {
+      "id": "scenario-19",
+      "title": "Billing step validates correctly",
+      "status": "skipped"
+    },
+    {
+      "id": "scenario-20",
+      "title": "Payment step validates correctly",
+      "status": "skipped"
+    },
+    {
+      "id": "scenario-21",
+      "title": "Review step validates correctly",
+      "status": "skipped"
+    },
+    {
+      "id": "scenario-22",
+      "title": "Orders section behaves as expected",
+      "status": "skipped"
+    },
+    {
+      "id": "scenario-23",
+      "title": "Profile section behaves as expected",
+      "status": "skipped"
+    }
+  ],
+  "updatedAt": "2026-05-31T17:33:08.404Z",
+  "log": "Running post-execution analysis checks (responsive/broken links/forms/accessibility).",
+  "testCaseUpdate": {
+    "id": "scenario-23",
+    "title": "Profile section behaves as expected",
+    "status": "skipped"
+  },
+  "error": "Execution stopped by user."
+}

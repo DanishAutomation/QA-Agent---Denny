@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>DennyQA vNext Report - run-1780142912906</title>
+    <style>
+      body { font-family: Arial, sans-serif; margin: 24px; color: #1f2937; }
+      h1, h2, h3 { margin-bottom: 8px; }
+      .grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap: 10px; }
+      .card { border: 1px solid #e5e7eb; border-radius: 8px; padding: 10px; background: #fff; }
+      .muted { color: #6b7280; font-size: 13px; }
+      details { border: 1px solid #e5e7eb; border-radius: 8px; padding: 8px; margin-bottom: 8px; }
+      summary { cursor: pointer; font-weight: 600; }
+      ul { margin-top: 4px; }
+    </style>
+  </head>
+  <body>
+    <h1>DennyQA vNext Production Report</h1>
+    <p class="muted">Client-shareable test outcome report.</p>
+
+    <h2>Executive Summary</h2>
+    <div class="grid">
+      <div class="card"><strong>Run ID</strong><br/>run-1780142912906</div>
+      <div class="card"><strong>URL</strong><br/>https://practicetestautomation.com/practice-test-login/</div>
+      <div class="card"><strong>Test Type</strong><br/>Custom Command Automation</div>
+      <div class="card"><strong>Browser</strong><br/>Chrome</div>
+      <div class="card"><strong>Device(s)</strong><br/>Desktop</div>
+      <div class="card"><strong>Environment</strong><br/>development</div>
+      <div class="card"><strong>Total Cases</strong><br/>2</div>
+      <div class="card"><strong>Passed / Failed / Skipped</strong><br/>1 / 1 / 0</div>
+      <div class="card"><strong>Bugs Found</strong><br/>1</div>
+      <div class="card"><strong>Confidence Score</strong><br/>94%</div>
+    </div>
+
+    <h2>Root Cause Analysis</h2>
+    <ul><li>Custom Command issue: Execute command 1: login with qa.user@example.test and Password@123: Primary likely cause is backend/API instability reflected by network failures.</li></ul>
+
+    <h2>Recovery Attempts</h2>
+    <ul><li>Attempt 1: Root error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://practicetestautomation.com/practice-test-login/
+Call log:
+  - navigating to &quot;https://practicetestautomation.com/practice-test-login/&quot;, waiting until &quot;domcontentloaded&quot;
+</li><li>Attempt 1: Strategy 1: synchronized to domcontentloaded state.</li><li>Attempt 1: Strategy 2: no blocking overlays detected.</li><li>Attempt 1: Strategy 3 failed: page reload did not stabilize.</li><li>Attempt 1: Strategy 4 failed: base URL recovery navigation failed.</li><li>Attempt 2: Root error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://practicetestautomation.com/practice-test-login/
+Call log:
+  - navigating to &quot;https://practicetestautomation.com/practice-test-login/&quot;, waiting until &quot;domcontentloaded&quot;
+</li><li>Attempt 2: Strategy 1: synchronized to domcontentloaded state.</li><li>Attempt 2: Strategy 2: no blocking overlays detected.</li><li>Attempt 2: Strategy 3 failed: page reload did not stabilize.</li><li>Attempt 2: Strategy 4 failed: base URL recovery navigation failed.</li></ul>
+
+    <h2>AI Assumptions</h2>
+    <ul><li>Execution assertions rely on generated BDD scenario intent and detected capabilities.</li><li>Fallback test data may be used for missing non-sensitive fields where configured.</li><li>Sensitive/destructive operations are skipped unless safe test mode is explicitly enabled.</li><li>Browser/device matrix reflects configured run values: Chrome / Desktop.</li></ul>
+
+    <h2>Screenshots</h2>
+    <ul><li><strong>scenario-1</strong>: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780142912906\screenshots\scenario-1-Desktop-failure.png</li><li><strong>scenario-2</strong>: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780142912906\screenshots\scenario-2-Desktop-recovered.png</li></ul>
+
+    <h2>Bug Details</h2>
+    
+      <article>
+        <h4>Custom Command issue: Execute command 1: login with qa.user@example.test and Password@123 (High / P1)</h4>
+        <p>During automated validation of &quot;Custom Command - Execute command 1: login with qa.user@example.test and Password@123&quot;, the system encountered a blocker that prevented expected user behavior.</p>
+        <p><strong>Expected:</strong> User should be able to complete the intended flow without blockers.</p>
+        <p><strong>Actual:</strong> page.goto: net::ERR_NAME_NOT_RESOLVED at https://practicetestautomation.com/practice-test-login/
+Call log:
+  - navigating to &quot;https://practicetestautomation.com/practice-test-login/&quot;, waiting until &quot;domcontentloaded&quot;
+</p>
+        <p><strong>Suggested fix:</strong> Inspect failing module logic and stabilize related frontend/backend dependencies.</p>
+      </article>
+    
+
+    <h2>Technical Logs (Collapsible)</h2>
+    
+        <details>
+          <summary>scenario-1 - Custom Command (failed)</summary>
+          <p><strong>Scenario:</strong> Execute command 1: login with qa.user@example.test and Password@123</p>
+          <p><strong>Error reason:</strong> page.goto: net::ERR_NAME_NOT_RESOLVED at https://practicetestautomation.com/practice-test-login/
+Call log:
+  - navigating to &quot;https://practicetestautomation.com/practice-test-login/&quot;, waiting until &quot;domcontentloaded&quot;
+</p>
+          <p><strong>Page URL:</strong> https://practicetestautomation.com/practice-test-login/</p>
+          <p><strong>Recovery attempts:</strong> none</p>
+          <p><strong>Self-healing logs:</strong> Attempt 1: Root error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://practicetestautomation.com/practice-test-login/
+Call log:
+  - navigating to &quot;https://practicetestautomation.com/practice-test-login/&quot;, waiting until &quot;domcontentloaded&quot;
+ | Attempt 1: Strategy 1: synchronized to domcontentloaded state. | Attempt 1: Strategy 2: no blocking overlays detected. | Attempt 1: Strategy 3 failed: page reload did not stabilize. | Attempt 1: Strategy 4 failed: base URL recovery navigation failed. | Attempt 2: Root error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://practicetestautomation.com/practice-test-login/
+Call log:
+  - navigating to &quot;https://practicetestautomation.com/practice-test-login/&quot;, waiting until &quot;domcontentloaded&quot;
+ | Attempt 2: Strategy 1: synchronized to domcontentloaded state. | Attempt 2: Strategy 2: no blocking overlays detected. | Attempt 2: Strategy 3 failed: page reload did not stabilize. | Attempt 2: Strategy 4 failed: base URL recovery navigation failed.</p>
+          <p><strong>Console errors:</strong></p><ul><li>none</li></ul>
+          <p><strong>Network errors:</strong></p><ul><li>[FAILED] https://practicetestautomation.com/practice-test-login/ :: net::ERR_NAME_NOT_RESOLVED</li><li>[FAILED] https://practicetestautomation.com/practice-test-login/ :: net::ERR_NAME_NOT_RESOLVED</li><li>[FAILED] https://practicetestautomation.com/practice-test-login/ :: net::ERR_NAME_NOT_RESOLVED</li><li>[FAILED] https://practicetestautomation.com/practice-test-login/ :: net::ERR_NAME_NOT_RESOLVED</li><li>[FAILED] https://practicetestautomation.com/practice-test-login/ :: net::ERR_NAME_NOT_RESOLVED</li></ul>
+        </details>
+      
+        <details>
+          <summary>scenario-2 - Custom Command (passed)</summary>
+          <p><strong>Scenario:</strong> Execute command 2: login with qa.user@example.test and Password@123</p>
+          <p><strong>Error reason:</strong> none</p>
+          <p><strong>Page URL:</strong> https://practicetestautomation.com/practice-test-login/</p>
+          <p><strong>Recovery attempts:</strong> Filled login password from parsed/fallback data. | Filled login password from parsed/fallback data. | Filled login password from parsed/fallback data.</p>
+          <p><strong>Self-healing logs:</strong> Attempt 1: Root error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://practicetestautomation.com/practice-test-login/
+Call log:
+  - navigating to &quot;https://practicetestautomation.com/practice-test-login/&quot;, waiting until &quot;domcontentloaded&quot;
+ | Attempt 1: Strategy 1: synchronized to domcontentloaded state. | Attempt 1: Strategy 2: no blocking overlays detected. | Attempt 1: Strategy 3 failed: page reload did not stabilize. | Attempt 1: Strategy 4 failed: base URL recovery navigation failed. | Attempt 2: Root error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://practicetestautomation.com/practice-test-login/
+Call log:
+  - navigating to &quot;https://practicetestautomation.com/practice-test-login/&quot;, waiting until &quot;domcontentloaded&quot;
+ | Attempt 2: Strategy 1: synchronized to domcontentloaded state. | Attempt 2: Strategy 2: no blocking overlays detected. | Attempt 2: Strategy 3: reloaded page successfully. | Attempt 2: Strategy 4: navigated back to base URL and stabilized network.</p>
+          <p><strong>Console errors:</strong></p><ul><li>none</li></ul>
+          <p><strong>Network errors:</strong></p><ul><li>[FAILED] https://practicetestautomation.com/practice-test-login/ :: net::ERR_NAME_NOT_RESOLVED</li><li>[FAILED] https://practicetestautomation.com/practice-test-login/ :: net::ERR_NAME_NOT_RESOLVED</li><li>[FAILED] https://practicetestautomation.com/practice-test-login/ :: net::ERR_NAME_NOT_RESOLVED</li><li>[FAILED] https://practicetestautomation.com/cdn-cgi/rum? :: net::ERR_ABORTED</li><li>[FAILED] https://practicetestautomation.com/cdn-cgi/rum? :: net::ERR_ABORTED</li></ul>
+        </details>
+      
+  </body>
+</html>

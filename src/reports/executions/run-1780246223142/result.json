@@ -1,0 +1,1509 @@
+{
+  "runId": "run-1780246223142",
+  "startedAt": "2026-05-31T16:50:23.287Z",
+  "completedAt": "2026-05-31T16:59:06.209Z",
+  "durationMs": 522922,
+  "passed": 20,
+  "failed": 3,
+  "skipped": 0,
+  "reportPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780246223142\\result.json",
+  "scenarios": [
+    {
+      "scenarioId": "scenario-1",
+      "feature": "Authentication",
+      "scenario": "Login flow works as expected",
+      "status": "passed",
+      "screenshots": [],
+      "consoleErrors": [
+        "Refused to execute script from 'https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled."
+      ],
+      "networkErrors": [
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780246229348&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGAC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=8&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938466~115938469~119034491&sid=1780246232&sct=1&seg=0&dl=https%3A%2F%2Fuat2.purelifedental.com%2F&dt=PureLife%20Dental%20%7C%20Dentistry%20Evolved%20%7C%20Dental%20Supplies&en=page_view&_fv=1&_ss=1&tfd=8084 :: net::ERR_ABORTED",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/Magento_Ui/template/messages.html :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780246229348&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=8&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938466~115938469~119034491&sid=1780246232&sct=1&seg=0&dl=https%3A%2F%2Fuat2.purelifedental.com%2F&dt=PureLife%20Dental%20%7C%20Dentistry%20Evolved%20%7C%20Dental%20Supplies&en=user_engagement&_et=4256&tfd=12344 :: net::ERR_ABORTED",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/Magento_Captcha/template/checkout/captcha.html :: net::ERR_ABORTED",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/Magento_Ui/templates/collection.html :: net::ERR_ABORTED",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/Mageplaza_Core/lib/fileUploader/jquery.fileupload.min.js :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780246236956&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=12&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938466~115938469~119034491&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcustomer%2Faccount%2Flogin&dt=Customer%20Login&en=page_view&tfd=6552 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780246236956&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=12&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938466~115938469~119034491&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcustomer%2Faccount%2Flogin&dt=Customer%20Login&en=user_engagement&_et=19098&tfd=20647 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780246256220&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=0&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115616985~115938466~115938468~119034491&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcustomer%2Faccount%2Flogin&dt=Customer%20Login&en=user_engagement&gap.plf=1&_et=3822&tfd=5458 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780246256220&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=0&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115616985~115938466~115938468~119034491&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcustomer%2Faccount%2Flogin&dt=Customer%20Login&en=page_view&gap.plf=1&tfd=5457 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780246260198&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=9&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938465~115938469~118228215~119034491&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcustomer%2Faccount%2F%3Fis_logged_in%3D1&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fcustomer%2Faccount%2Flogin&dt=My%20Account&en=page_view&tfd=8538 :: net::ERR_ABORTED"
+      ],
+      "pageUrl": "https://uat2.purelifedental.com/customer/account/?is_logged_in=1",
+      "timestamp": "2026-05-31T16:50:24.265Z",
+      "durationMs": 50330,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Applied 1 memory-backed regression step(s) for \"Login flow works as expected\".",
+          "Detected action: login",
+          "Authenticated session already active; login step skipped.",
+          "Authenticated session established and stored for run."
+        ],
+        "retryResult": "failed",
+        "investigationFindings": [
+          "Iframe detected; target action may be inside nested browsing context.",
+          "Modal/dialog present; interactions may be blocked.",
+          "Overlay detected; click targets may be obscured.",
+          "Disabled controls present; prerequisite steps may be missing.",
+          "Validation/error messages detected on page."
+        ]
+      }
+    },
+    {
+      "scenarioId": "scenario-2",
+      "feature": "Authentication",
+      "scenario": "Forgot Password flow works as expected",
+      "status": "passed",
+      "screenshots": [],
+      "consoleErrors": [
+        "Refused to execute script from 'https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled."
+      ],
+      "networkErrors": [
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780246260198&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=9&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938465~115938469~118228215~119034491&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcustomer%2Faccount%2F%3Fis_logged_in%3D1&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fcustomer%2Faccount%2Flogin&dt=My%20Account&en=user_engagement&_et=16537&tfd=20072 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED"
+      ],
+      "pageUrl": "https://uat2.purelifedental.com/customer/account/",
+      "timestamp": "2026-05-31T16:51:14.603Z",
+      "durationMs": 4429,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Applied 1 memory-backed regression step(s) for \"Forgot Password flow works as expected\".",
+          "Detected action: navigateForgotPassword",
+          "Opened forgot password page."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-3",
+      "feature": "Catalog",
+      "scenario": "Product Listing behavior is correct",
+      "status": "passed",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780246223142\\screenshots\\scenario-3-step-1-product-listing-behavior-is-corr-product-ventyv-flamingo-nitrile-powder-f-Desktop-landing.png"
+      ],
+      "consoleErrors": [
+        "Refused to execute script from 'https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+        "paypalCheckout error r"
+      ],
+      "networkErrors": [
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780246276911&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=3&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115616986~115938465~115938468~119034491&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcustomer%2Faccount%2F&dt=My%20Account&en=page_view&up.user_id_dimension=20650&tfd=7408 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780246276911&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=3&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115616986~115938465~115938468~119034491&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcustomer%2Faccount%2F&dt=My%20Account&en=user_engagement&_et=7710&tfd=10112 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780246284824&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=0&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938465~115938468~119034491&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fgloves.html&dt=Dental%20disposable%20gloves%20%7C%20PureLife%20dental%20supplies&en=page_view&up.user_id_dimension=20650&tfd=10947 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780246284824&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=0&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938465~115938468~119034491&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fgloves.html&dt=Dental%20disposable%20gloves%20%7C%20PureLife%20dental%20supplies&en=user_engagement&_et=5601&tfd=11536 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED"
+      ],
+      "pageUrl": "https://uat2.purelifedental.com/product/ventyv-flamingo-nitrile-powder-free-gloves.html",
+      "timestamp": "2026-05-31T16:51:19.037Z",
+      "durationMs": 14172,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Applied 2 memory-backed regression step(s) for \"Product Listing behavior is correct\".",
+          "Detected action: navigateUrl",
+          "Navigated to https://uat2.purelifedental.com/gloves.html.",
+          "Resolved action using memory-url: https://uat2.purelifedental.com/gloves.html",
+          "Detected action: openProduct",
+          "Resolved action using product-listing-same-origin: .product-item-link"
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-4",
+      "feature": "Catalog",
+      "scenario": "Search behavior is correct",
+      "status": "passed",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780246223142\\screenshots\\scenario-4-step-1-search-behavior-is-correct-catalogsearch-result-Desktop-landing.png"
+      ],
+      "consoleErrors": [
+        "Refused to execute script from 'https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled."
+      ],
+      "networkErrors": [
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780246291060&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=12&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938465~115938469~119034493~119259606&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fventyv-flamingo-nitrile-powder-free-gloves.html&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fgloves.html&dt=Ventyv%C2%AE%20Flamingo%20Nitrile%20Powder-Free%20Gloves&en=page_view&up.user_id_dimension=20650&tfd=9414 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com.pk/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-WK1Z55XV42&cid=779749681.1780246232&gtm=45je65r2v873808596za20gzb842537924zd842537924&rcb=12&aip=1&uid=20650&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=0~115938465~115938469~119034493~119259606&z=1236546800 :: csp",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780246291060&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=12&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938465~115938469~119034493~119259606&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fventyv-flamingo-nitrile-powder-free-gloves.html&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fgloves.html&dt=Ventyv%C2%AE%20Flamingo%20Nitrile%20Powder-Free%20Gloves&en=user_engagement&_et=11522&tfd=15924 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780246303058&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAEAGQC&ae=a&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=15&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115616985~115938466~115938468~119034493&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fventyv-flamingo-nitrile-powder-free-gloves.html&dt=Search%20results%20for%3A%20%27powder%27&en=view_search_results&gap.plf=1&ep.search_term=powder&up.user_id_dimension=20650&tfd=9841 :: net::ERR_ABORTED"
+      ],
+      "pageUrl": "https://uat2.purelifedental.com/catalogsearch/result/?q=powder",
+      "timestamp": "2026-05-31T16:51:33.214Z",
+      "durationMs": 12531,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Applied 1 memory-backed regression step(s) for \"Search behavior is correct\".",
+          "Detected action: search",
+          "Search submitted with query \"powder\".",
+          "Resolved action using search-input: input[type='search']"
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-5",
+      "feature": "Catalog",
+      "scenario": "Categories behavior is correct",
+      "status": "passed",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780246223142\\screenshots\\scenario-5-step-1-categories-behavior-is-correct-gloves-html-Desktop-landing.png"
+      ],
+      "consoleErrors": [
+        "Refused to execute script from 'https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled."
+      ],
+      "networkErrors": [
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780246303058&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=15&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=3&tag_exp=0~115616985~115938466~115938468~119034493&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fventyv-flamingo-nitrile-powder-free-gloves.html&dt=Search%20results%20for%3A%20%27powder%27&en=user_engagement&gap.plf=1&_et=2590&tfd=12439 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780246303058&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=15&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115616985~115938466~115938468~119034493&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fventyv-flamingo-nitrile-powder-free-gloves.html&dt=Search%20results%20for%3A%20%27powder%27&en=page_view&gap.plf=1&_et=1&tfd=12438 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED"
+      ],
+      "pageUrl": "https://uat2.purelifedental.com/gloves.html",
+      "timestamp": "2026-05-31T16:51:45.751Z",
+      "durationMs": 2590,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Applied 1 memory-backed regression step(s) for \"Categories behavior is correct\".",
+          "Detected action: navigateUrl",
+          "Navigated to https://uat2.purelifedental.com/gloves.html.",
+          "Resolved action using memory-url: https://uat2.purelifedental.com/gloves.html"
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-6",
+      "feature": "Catalog",
+      "scenario": "Filters behavior is correct",
+      "status": "passed",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780246223142\\screenshots\\scenario-6-step-1-filters-behavior-is-correct-gloves-html-Desktop-landing.png"
+      ],
+      "consoleErrors": [
+        "Refused to execute script from 'https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled."
+      ],
+      "networkErrors": [
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780246305880&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=10&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938466~115938468~119034491&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fgloves.html&dt=Dental%20disposable%20gloves%20%7C%20PureLife%20dental%20supplies&en=user_engagement&_et=2364&tfd=2588 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780246305880&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=10&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938466~115938468~119034491&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fgloves.html&dt=Dental%20disposable%20gloves%20%7C%20PureLife%20dental%20supplies&en=page_view&up.user_id_dimension=20650&tfd=2588 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780246308418&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=11&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938465~115938468~119034493&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fgloves.html&dt=Dental%20disposable%20gloves%20%7C%20PureLife%20dental%20supplies&en=page_view&up.user_id_dimension=20650&tfd=5210 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780246308418&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=11&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938465~115938468~119034493&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fgloves.html&dt=Dental%20disposable%20gloves%20%7C%20PureLife%20dental%20supplies&en=user_engagement&_et=6817&tfd=7026 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED"
+      ],
+      "pageUrl": "https://uat2.purelifedental.com/gloves.html?price=0-10",
+      "timestamp": "2026-05-31T16:51:48.345Z",
+      "durationMs": 9733,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Applied 2 memory-backed regression step(s) for \"Filters behavior is correct\".",
+          "Detected action: navigateUrl",
+          "Navigated to https://uat2.purelifedental.com/gloves.html.",
+          "Resolved action using memory-url: https://uat2.purelifedental.com/gloves.html",
+          "Detected action: applyCatalogFilter",
+          "Applied Price layered filter (e.g. $0.00–$9.99) on category listing.",
+          "Resolved action using catalog-price-filter: https://uat2.purelifedental.com/gloves.html?price=0-10"
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-7",
+      "feature": "Catalog",
+      "scenario": "Pagination behavior is correct",
+      "status": "passed",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780246223142\\screenshots\\scenario-7-step-1-pagination-behavior-is-correct-gloves-html-Desktop-landing.png"
+      ],
+      "consoleErrors": [
+        "Refused to execute script from 'https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled."
+      ],
+      "networkErrors": [
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780246315431&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=13&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938465~115938468~119034491~119064591&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fgloves.html%3Fprice%3D0-10&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fgloves.html&dt=Dental%20disposable%20gloves%20%7C%20PureLife%20dental%20supplies&en=page_view&up.user_id_dimension=20650&tfd=7271 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780246315431&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=13&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938465~115938468~119034491~119064591&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fgloves.html%3Fprice%3D0-10&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fgloves.html&dt=Dental%20disposable%20gloves%20%7C%20PureLife%20dental%20supplies&en=user_engagement&_et=2530&tfd=7272 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780246318160&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=2&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938465~115938468~119034491&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fgloves.html&dt=Dental%20disposable%20gloves%20%7C%20PureLife%20dental%20supplies&en=page_view&up.user_id_dimension=20650&tfd=3837 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780246318160&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=2&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938465~115938468~119034491&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fgloves.html&dt=Dental%20disposable%20gloves%20%7C%20PureLife%20dental%20supplies&en=user_engagement&_et=3631&tfd=3837 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED"
+      ],
+      "pageUrl": "https://uat2.purelifedental.com/gloves.html?p=2",
+      "timestamp": "2026-05-31T16:51:58.083Z",
+      "durationMs": 5982,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Applied 2 memory-backed regression step(s) for \"Pagination behavior is correct\".",
+          "Detected action: navigateUrl",
+          "Navigated to https://uat2.purelifedental.com/gloves.html.",
+          "Resolved action using memory-url: https://uat2.purelifedental.com/gloves.html",
+          "Detected action: goToListingPage2",
+          "Pagination: products before=16 after=0 emptyState=yes url=https://uat2.purelifedental.com/gloves.html?p=2.",
+          "Listing pagination validated on page 2.",
+          "Resolved action using catalog-pagination-direct-url: pagination direct p=2"
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-8",
+      "feature": "PDP",
+      "scenario": "Add to cart behavior on product detail page",
+      "status": "passed",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780246223142\\screenshots\\scenario-8-step-1-add-to-cart-behavior-on-product--product-prophyflex-cleaning-powder-html-Desktop-landing.png"
+      ],
+      "consoleErrors": [
+        "Refused to execute script from 'https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+        "paypalCheckout error r"
+      ],
+      "networkErrors": [
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780246321969&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=0&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115616986~115938465~115938469~119034493&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fgloves.html%3Fp%3D2&dt=Dental%20disposable%20gloves%20%7C%20PureLife%20dental%20supplies&en=page_view&up.user_id_dimension=20650&tfd=6532 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780246321969&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=0&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115616986~115938465~115938469~119034493&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fgloves.html%3Fp%3D2&dt=Dental%20disposable%20gloves%20%7C%20PureLife%20dental%20supplies&en=user_engagement&_et=12624&tfd=14151 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780246334786&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAEAGQC&ae=a&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=12&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938466~115938468~118012008~119034491&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fgloves.html%3Fp%3D2&dt=Search%20results%20for%3A%20%27powder%27&en=view_search_results&ep.search_term=powder&up.user_id_dimension=20650&tfd=10687 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780246334786&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=12&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938466~115938468~118012008~119034491&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fgloves.html%3Fp%3D2&dt=Search%20results%20for%3A%20%27powder%27&en=page_view&_et=1&tfd=15696 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780246334786&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=12&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=3&tag_exp=0~115938466~115938468~118012008~119034491&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fgloves.html%3Fp%3D2&dt=Search%20results%20for%3A%20%27powder%27&en=user_engagement&_et=5872&tfd=16563 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780246340829&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=14&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938465~115938468~119034491&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fprophyflex-cleaning-powder.html%3Fsku%3Dpowder&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dt=PROPHYflex%20Cleaning%20Powder&en=page_view&up.user_id_dimension=20650&tfd=8757 :: net::ERR_ABORTED"
+      ],
+      "pageUrl": "https://uat2.purelifedental.com/product/prophyflex-cleaning-powder.html?sku=powder",
+      "timestamp": "2026-05-31T16:52:04.070Z",
+      "durationMs": 24324,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Applied 5 memory-backed regression step(s) for \"Add to cart behavior on product detail page\".",
+          "Skipped redundant login — authenticated session reused.",
+          "Detected action: search",
+          "Search submitted with query \"powder\".",
+          "Resolved action using search-input: input[type='search']",
+          "Detected action: openProduct",
+          "Resolved action using product-listing-same-origin: .product-item-link",
+          "Detected action: buyOnce",
+          "Buy once option not available on this product; skipped.",
+          "Detected action: addToCart",
+          "Quantity set to 1 via input-fill.",
+          "Added product to cart from PDP.",
+          "Resolved action using pdp-add-to-cart: #product-addtocart-button"
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-9",
+      "feature": "PDP",
+      "scenario": "Child SKU selection behavior on product detail page",
+      "status": "passed",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780246223142\\screenshots\\scenario-9-step-1-child-sku-selection-behavior-on--product-prophyflex-cleaning-powder-html-Desktop-landing.png"
+      ],
+      "consoleErrors": [
+        "Refused to execute script from 'https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+        "paypalCheckout error r"
+      ],
+      "networkErrors": [
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780246340829&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=14&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938465~115938468~119034491&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fprophyflex-cleaning-powder.html%3Fsku%3Dpowder&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dt=PROPHYflex%20Cleaning%20Powder&en=user_engagement&_et=17703&tfd=21464 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780246358785&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAEAGQC&ae=a&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=9&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938465~115938469~118128923~119027223~119034491~119064971&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fprophyflex-cleaning-powder.html%3Fsku%3Dpowder&dt=Search%20results%20for%3A%20%27powder%27&en=view_search_results&ep.search_term=powder&up.user_id_dimension=20650&tfd=10358 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780246358785&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=9&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938465~115938469~118128923~119027223~119034491~119064971&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fprophyflex-cleaning-powder.html%3Fsku%3Dpowder&dt=Search%20results%20for%3A%20%27powder%27&en=page_view&_et=1&tfd=12517 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780246358785&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=9&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=3&tag_exp=0~115938465~115938469~118128923~119027223~119034491~119064971&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fprophyflex-cleaning-powder.html%3Fsku%3Dpowder&dt=Search%20results%20for%3A%20%27powder%27&en=user_engagement&_et=2152&tfd=12518 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED"
+      ],
+      "pageUrl": "https://uat2.purelifedental.com/product/prophyflex-cleaning-powder.html?sku=powder",
+      "timestamp": "2026-05-31T16:52:28.402Z",
+      "durationMs": 15002,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Applied 3 memory-backed regression step(s) for \"Child SKU selection behavior on product detail page\".",
+          "Detected action: search",
+          "Search submitted with query \"powder\".",
+          "Resolved action using search-input: input[type='search']",
+          "Detected action: openProduct",
+          "Resolved action using product-listing-same-origin: .product-item-link",
+          "Detected action: buyOnce",
+          "Buy once option not available on this product; skipped."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-10",
+      "feature": "PDP",
+      "scenario": "Inventory behavior on product detail page",
+      "status": "passed",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780246223142\\screenshots\\scenario-10-step-1-inventory-behavior-on-product-de-product-encore-af-core-buildup-composite-Desktop-landing.png"
+      ],
+      "consoleErrors": [
+        "Refused to execute script from 'https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+        "paypalCheckout error r"
+      ],
+      "networkErrors": [
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780246361163&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=5&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938465~115938469~119027224~119034491&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fprophyflex-cleaning-powder.html%3Fsku%3Dpowder&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dt=PROPHYflex%20Cleaning%20Powder&en=page_view&up.user_id_dimension=20650&tfd=5247 :: net::ERR_ABORTED",
+        "[FAILED] https://www.google.com.pk/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-WK1Z55XV42&cid=779749681.1780246232&gtm=45je65r2v873808596za20gzb842537924zd842537924&rcb=5&aip=1&uid=20650&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=0~115938465~115938469~119027224~119034491&z=1857208761 :: csp",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780246361163&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=5&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938465~115938469~119027224~119034491&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fprophyflex-cleaning-powder.html%3Fsku%3Dpowder&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fcatalogsearch%2Fresult%2F%3Fq%3Dpowder&dt=PROPHYflex%20Cleaning%20Powder&en=user_engagement&_et=5548&tfd=5793 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED"
+      ],
+      "pageUrl": "https://uat2.purelifedental.com/product/encore-af-core-buildup-composite.html",
+      "timestamp": "2026-05-31T16:52:43.410Z",
+      "durationMs": 5994,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Applied 1 memory-backed regression step(s) for \"Inventory behavior on product detail page\".",
+          "Detected action: navigateUrl",
+          "Navigated to https://uat2.purelifedental.com/product/encore-af-core-buildup-composite.html.",
+          "Resolved action using memory-url: https://uat2.purelifedental.com/product/encore-af-core-buildup-composite.html"
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-11",
+      "feature": "PDP",
+      "scenario": "Product image behavior on product detail page",
+      "status": "passed",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780246223142\\screenshots\\scenario-11-step-1-product-image-behavior-on-produc-product-encore-af-core-buildup-composite-Desktop-landing.png"
+      ],
+      "consoleErrors": [
+        "Refused to execute script from 'https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+        "paypalCheckout error r"
+      ],
+      "networkErrors": [
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780246366904&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=19&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115616986~115938466~115938468~117776793~119027223~119034491&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fencore-af-core-buildup-composite.html&dt=Encore%C2%AE%20AF%20Core%20Buildup%20Composite&en=user_engagement&_et=2402&tfd=6027 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780246366904&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=19&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115616986~115938466~115938468~117776793~119027223~119034491&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fencore-af-core-buildup-composite.html&dt=Encore%C2%AE%20AF%20Core%20Buildup%20Composite&en=page_view&up.user_id_dimension=20650&tfd=6026 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED"
+      ],
+      "pageUrl": "https://uat2.purelifedental.com/product/encore-af-core-buildup-composite.html",
+      "timestamp": "2026-05-31T16:52:49.408Z",
+      "durationMs": 2596,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Applied 1 memory-backed regression step(s) for \"Product image behavior on product detail page\".",
+          "Detected action: navigateUrl",
+          "Navigated to https://uat2.purelifedental.com/product/encore-af-core-buildup-composite.html.",
+          "Resolved action using memory-url: https://uat2.purelifedental.com/product/encore-af-core-buildup-composite.html"
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-12",
+      "feature": "PDP",
+      "scenario": "Quantity behavior on product detail page",
+      "status": "passed",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780246223142\\screenshots\\scenario-12-step-1-quantity-behavior-on-product-det-product-encore-af-core-buildup-composite-Desktop-landing.png"
+      ],
+      "consoleErrors": [
+        "Refused to execute script from 'https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+        "paypalCheckout error r"
+      ],
+      "networkErrors": [
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780246369497&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=11&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938465~115938469~117776794~119034493~119064591&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fencore-af-core-buildup-composite.html&dt=Encore%C2%AE%20AF%20Core%20Buildup%20Composite&en=user_engagement&_et=2385&tfd=2606 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780246369497&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=11&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938465~115938469~117776794~119034493~119064591&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fencore-af-core-buildup-composite.html&dt=Encore%C2%AE%20AF%20Core%20Buildup%20Composite&en=page_view&up.user_id_dimension=20650&tfd=2604 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED"
+      ],
+      "pageUrl": "https://uat2.purelifedental.com/product/encore-af-core-buildup-composite.html",
+      "timestamp": "2026-05-31T16:52:52.009Z",
+      "durationMs": 2624,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Applied 2 memory-backed regression step(s) for \"Quantity behavior on product detail page\".",
+          "Detected action: navigateUrl",
+          "Navigated to https://uat2.purelifedental.com/product/encore-af-core-buildup-composite.html.",
+          "Resolved action using memory-url: https://uat2.purelifedental.com/product/encore-af-core-buildup-composite.html",
+          "Detected action: selectQuantity",
+          "Quantity set to 1 via input-fill.",
+          "Quantity set to 1 on product page.",
+          "Resolved action using input-fill: pdp input[type='number']"
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-13",
+      "feature": "Cart",
+      "scenario": "Add item works from cart workflow",
+      "status": "passed",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780246223142\\screenshots\\scenario-13-step-1-add-item-works-from-cart-workflo-checkout-cart-Desktop-landing.png"
+      ],
+      "consoleErrors": [
+        "Refused to execute script from 'https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled."
+      ],
+      "networkErrors": [
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780246372086&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=0&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938466~115938469~119034493&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fencore-af-core-buildup-composite.html&dt=Encore%C2%AE%20AF%20Core%20Buildup%20Composite&en=page_view&up.user_id_dimension=20650&tfd=5213 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780246372086&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=0&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938466~115938469~119034493&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fencore-af-core-buildup-composite.html&dt=Encore%C2%AE%20AF%20Core%20Buildup%20Composite&en=user_engagement&_et=5825&tfd=6027 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED"
+      ],
+      "pageUrl": "https://uat2.purelifedental.com/checkout/cart",
+      "timestamp": "2026-05-31T16:52:54.637Z",
+      "durationMs": 7505,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Applied 1 memory-backed regression step(s) for \"Add item works from cart workflow\".",
+          "Detected action: moveToCart"
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-14",
+      "feature": "Cart",
+      "scenario": "Coupon if available works from cart workflow",
+      "status": "passed",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780246223142\\screenshots\\scenario-14-step-1-coupon-if-available-works-from-c-checkout-cart-Desktop-landing.png"
+      ],
+      "consoleErrors": [],
+      "networkErrors": [],
+      "pageUrl": "https://uat2.purelifedental.com/checkout/cart",
+      "timestamp": "2026-05-31T16:53:02.147Z",
+      "durationMs": 423,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Applied 2 memory-backed regression step(s) for \"Coupon if available works from cart workflow\".",
+          "Detected action: moveToCart",
+          "Detected action: applyCoupon",
+          "Coupon apply attempted.",
+          "Resolved action using coupon-apply: coupon apply"
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-15",
+      "feature": "Cart",
+      "scenario": "Remove item works from cart workflow",
+      "status": "passed",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780246223142\\screenshots\\scenario-15-step-1-remove-item-works-from-cart-work-checkout-cart-Desktop-landing.png"
+      ],
+      "consoleErrors": [
+        "Refused to execute script from 'https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+        "paypalCheckout error r"
+      ],
+      "networkErrors": [
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780246378089&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=11&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938465~115938468~119034491&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcheckout%2Fcart&dt=Shopping%20Cart&en=page_view&up.user_id_dimension=20650&tfd=8582 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780246378089&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=11&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938465~115938468~119034491&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcheckout%2Fcart&dt=Shopping%20Cart&en=user_engagement&_et=8008&tfd=11582 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780246386272&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=9&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115616986~115938466~115938469~119027223~119034493&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fprophyflex-cleaning-powder.html&dt=PROPHYflex%20Cleaning%20Powder&en=page_view&up.user_id_dimension=20650&tfd=4932 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780246386272&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAGQC&ae=a&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=9&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115616986~115938466~115938469~119027223~119034493&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fprophyflex-cleaning-powder.html&dt=PROPHYflex%20Cleaning%20Powder&en=scroll&epn.percent_scrolled=90&_et=1185&tfd=9948 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780246386272&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=9&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=3&tag_exp=0~115616986~115938466~115938469~119027223~119034493&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fprophyflex-cleaning-powder.html&dt=PROPHYflex%20Cleaning%20Powder&en=user_engagement&_et=9741&tfd=14676 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://uat2.purelifedental.com/gtm/customer/datalayer :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780246397361&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=0&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938465~115938468~119027222~119034493&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcheckout%2Fcart&dt=Shopping%20Cart&en=page_view&up.user_id_dimension=20650&tfd=4037 :: net::ERR_ABORTED",
+        "[FAILED] https://uat2.purelifedental.com/livechat/getvisitor/ :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://content.hotjar.io/?site_id=2453105&gzip=1 :: net::ERR_ABORTED",
+        "[FAILED] https://uat2.purelifedental.com/gtm/customer/datalayer :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780246397763&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=19&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938465~115938468~119034491&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fprophyflex-cleaning-powder.html&dt=PROPHYflex%20Cleaning%20Powder&en=page_view&up.user_id_dimension=20650&tfd=483 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780246398238&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=1&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938465~115938469~118228215~119027223~119034493~119064591&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fencore-af-core-buildup-composite.html&dt=Encore%C2%AE%20AF%20Core%20Buildup%20Composite&en=page_view&up.user_id_dimension=20650&tfd=244 :: net::ERR_ABORTED",
+        "[FAILED] https://uat2.purelifedental.com/gtm/customer/datalayer :: net::ERR_ABORTED",
+        "[FAILED] https://uat2.purelifedental.com/livechat/getvisitor/ :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780246398463&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=3&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938465~115938469~119034493~119259605&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fencore-af-core-buildup-composite.html&dt=Encore%C2%AE%20AF%20Core%20Buildup%20Composite&en=page_view&up.user_id_dimension=20650&tfd=1713 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780246398463&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAGQC&ae=a&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=3&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938465~115938469~119034493~119259605&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fencore-af-core-buildup-composite.html&dt=Encore%C2%AE%20AF%20Core%20Buildup%20Composite&en=scroll&epn.percent_scrolled=90&_et=1514&tfd=6714 :: net::ERR_ABORTED",
+        "[FAILED] https://uat2.purelifedental.com/checkout/cart :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780246398463&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=3&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=3&tag_exp=0~115938465~115938469~119034493~119259605&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fproduct%2Fencore-af-core-buildup-composite.html&dt=Encore%C2%AE%20AF%20Core%20Buildup%20Composite&en=user_engagement&_et=11476&tfd=13192 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780246411678&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=9&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115616986~115938466~115938469~118228215~119034491~119064590&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcheckout%2Fcart&dt=Shopping%20Cart&en=page_view&up.user_id_dimension=20650&tfd=11205 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780246411678&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=9&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115616986~115938466~115938469~118228215~119034491~119064590&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcheckout%2Fcart&dt=Shopping%20Cart&en=user_engagement&_et=8285&tfd=14491 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED"
+      ],
+      "pageUrl": "https://uat2.purelifedental.com/checkout/cart",
+      "timestamp": "2026-05-31T16:53:02.574Z",
+      "durationMs": 41939,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Applied 3 memory-backed regression step(s) for \"Remove item works from cart workflow\".",
+          "Detected action: moveToCart",
+          "Detected action: ensureSecondCartLine",
+          "Cart line items after second-item attempt: 0 (second-line-not-created).",
+          "Detected action: ensureSecondCartLine",
+          "Cart line items after second-item attempt: 2 (cart-already-has-multiple-lines).",
+          "Detected action: removeCartItem",
+          "Cart removal: before=2 after=1 secondItemAdded=no modal=no.",
+          "Cart had multiple line items, so one item was removed safely.",
+          "Resolved action using no-confirm-modal: cart remove script"
+        ],
+        "retryResult": "failed",
+        "investigationFindings": [
+          "Iframe detected; target action may be inside nested browsing context.",
+          "Modal/dialog present; interactions may be blocked.",
+          "Overlay detected; click targets may be obscured.",
+          "Validation/error messages detected on page."
+        ]
+      }
+    },
+    {
+      "scenarioId": "scenario-16",
+      "feature": "Cart",
+      "scenario": "Update quantity works from cart workflow",
+      "status": "passed",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780246223142\\screenshots\\scenario-16-step-1-update-quantity-works-from-cart--checkout-cart-Desktop-landing.png"
+      ],
+      "consoleErrors": [],
+      "networkErrors": [
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780246420144&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=4&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115616986~115938466~115938469~119027224~119034491&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcheckout%2Fcart&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fcheckout%2Fcart&dt=Shopping%20Cart&en=page_view&up.user_id_dimension=20650&tfd=10656 :: net::ERR_ABORTED"
+      ],
+      "pageUrl": "https://uat2.purelifedental.com/checkout/cart",
+      "timestamp": "2026-05-31T16:53:44.519Z",
+      "durationMs": 1797,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Applied 2 memory-backed regression step(s) for \"Update quantity works from cart workflow\".",
+          "Detected action: moveToCart",
+          "Detected action: updateCartQuantity",
+          "Updated cart quantity to 2 and clicked Update Shopping Cart.",
+          "Resolved action using cart-qty-update-submit: button[name='update_cart_action']"
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-17",
+      "feature": "Checkout",
+      "scenario": "Address step validates correctly",
+      "status": "failed",
+      "errorReason": "Scenario timed out after 120 seconds: Address step validates correctly",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780246223142\\screenshots\\scenario-17-step-1-address-step-validates-correctly-checkout-Desktop-failure.png"
+      ],
+      "consoleErrors": [
+        "Refused to execute script from 'https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled."
+      ],
+      "networkErrors": [
+        "[FAILED] https://www.google.com.pk/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-WK1Z55XV42&cid=779749681.1780246232&gtm=45je65r2v873808596za20gzb842537924zd842537924&rcb=4&aip=1&uid=20650&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=0~115616986~115938466~115938469~119027224~119034491&z=110119052 :: csp",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780246420144&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=4&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115616986~115938466~115938469~119027224~119034491&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcheckout%2Fcart&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fcheckout%2Fcart&dt=Shopping%20Cart&en=user_engagement&_et=11029&tfd=16679 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780246439887&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=1&pscdl=noapi&rcb=6&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938466~115938469~119034491~119064971&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fautoshipconsolidation%2Fautoship%2Fedit%2Faddressid%2F1658654&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fcheckout%2F&dt=&en=page_view&up.user_id_dimension=20650&tfd=2326 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780246439887&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAGQC&ae=a&are=1&cid=779749681.1780246232&frm=1&pscdl=noapi&rcb=6&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938466~115938469~119034491~119064971&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fautoshipconsolidation%2Fautoship%2Fedit%2Faddressid%2F1658654&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fcheckout%2F&dt=&en=scroll&epn.percent_scrolled=90&tfd=7328 :: net::ERR_ABORTED"
+      ],
+      "pageUrl": "https://uat2.purelifedental.com/",
+      "timestamp": "2026-05-31T16:53:46.320Z",
+      "durationMs": 120124,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Applied 4 memory-backed regression step(s) for \"Address step validates correctly\".",
+          "Detected action: moveToCart",
+          "Detected action: restoreCart",
+          "Cart restored with at least one line item for downstream checkout.",
+          "Detected action: proceedToCheckout",
+          "Reached checkout shipping step after Proceed to Checkout.",
+          "Detected action: clickCheckoutNext",
+          "Shipping address already selected; attempting Next click only.",
+          "Scenario timed out: Scenario timed out after 120 seconds: Address step validates correctly",
+          "Shipping address already selected; attempting Next click only."
+        ],
+        "retryResult": "failed",
+        "investigationFindings": [
+          "Iframe detected; target action may be inside nested browsing context.",
+          "Modal/dialog present; interactions may be blocked.",
+          "Overlay detected; click targets may be obscured.",
+          "Disabled controls present; prerequisite steps may be missing."
+        ]
+      }
+    },
+    {
+      "scenarioId": "scenario-18",
+      "feature": "Checkout",
+      "scenario": "Shipping step validates correctly",
+      "status": "failed",
+      "errorReason": "Scenario timed out after 120 seconds: Shipping step validates correctly",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780246223142\\screenshots\\scenario-18-step-1-shipping-step-validates-correctl-checkout-Desktop-failure.png"
+      ],
+      "consoleErrors": [],
+      "networkErrors": [],
+      "pageUrl": "https://uat2.purelifedental.com/",
+      "timestamp": "2026-05-31T16:55:46.448Z",
+      "durationMs": 120234,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Applied 1 memory-backed regression step(s) for \"Shipping step validates correctly\".",
+          "Shipping address already selected; attempting Next click only.",
+          "Scenario timed out: Scenario timed out after 120 seconds: Shipping step validates correctly"
+        ],
+        "retryResult": "failed",
+        "investigationFindings": [
+          "Iframe detected; target action may be inside nested browsing context.",
+          "Modal/dialog present; interactions may be blocked.",
+          "Overlay detected; click targets may be obscured.",
+          "Disabled controls present; prerequisite steps may be missing."
+        ]
+      }
+    },
+    {
+      "scenarioId": "scenario-19",
+      "feature": "Checkout",
+      "scenario": "Billing step validates correctly",
+      "status": "passed",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780246223142\\screenshots\\scenario-19-step-1-billing-step-validates-correctly-checkout-Desktop-landing.png"
+      ],
+      "consoleErrors": [],
+      "networkErrors": [],
+      "pageUrl": "https://uat2.purelifedental.com/checkout/#payment",
+      "timestamp": "2026-05-31T16:57:46.687Z",
+      "durationMs": 5421,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Applied 1 memory-backed regression step(s) for \"Billing step validates correctly\".",
+          "Detected action: selectBillingAddress",
+          "Selected default/same-as-shipping billing address.",
+          "Resolved action using billing-checkbox: billing-same-as-shipping"
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-20",
+      "feature": "Checkout",
+      "scenario": "Payment step validates correctly",
+      "status": "passed",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780246223142\\screenshots\\scenario-20-step-1-payment-step-validates-correctly-checkout-Desktop-landing.png"
+      ],
+      "consoleErrors": [
+        "Refused to execute script from 'https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled."
+      ],
+      "networkErrors": [
+        "[FAILED] https://www.google.com.pk/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-WK1Z55XV42&cid=779749681.1780246232&gtm=45je65r2v873808596za20gzb842537924zd842537924&rcb=6&aip=1&uid=20650&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=1&tag_exp=0~115938466~115938469~119034491~119064971&z=2022083978 :: csp",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780246439887&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=1&pscdl=noapi&rcb=6&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=3&tag_exp=0~115938466~115938469~119034491~119064971&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fautoshipconsolidation%2Fautoship%2Fedit%2Faddressid%2F1658654&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fcheckout%2F&dt=&en=user_engagement&_et=122591&tfd=241746 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED"
+      ],
+      "pageUrl": "https://uat2.purelifedental.com/checkout/#payment",
+      "timestamp": "2026-05-31T16:57:52.111Z",
+      "durationMs": 8136,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Applied 1 memory-backed regression step(s) for \"Payment step validates correctly\".",
+          "Detected action: makePayment",
+          "Clicked MAKE PAYMENT on checkout payment step.",
+          "Saved payment credentials on file; checkout marked complete at Make Payment.",
+          "Resolved action using make-payment: role=button[name~=make payment]"
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-21",
+      "feature": "Checkout",
+      "scenario": "Review step validates correctly",
+      "status": "failed",
+      "errorReason": "No executable regression plan for \"Review step validates correctly\" — store a successful custom command journey first.",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780246223142\\screenshots\\scenario-21-step-1-review-step-validates-correctly-checkout-onepage-success-Desktop-failure.png"
+      ],
+      "consoleErrors": [],
+      "networkErrors": [
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED"
+      ],
+      "pageUrl": "https://uat2.purelifedental.com/",
+      "timestamp": "2026-05-31T16:58:00.251Z",
+      "durationMs": 1126,
+      "selfHealing": {
+        "attempted": true,
+        "recovered": false,
+        "attempts": 2,
+        "strategyLogs": [
+          "Attempt 1: Root error: No executable regression plan for \"Review step validates correctly\" — store a successful custom command journey first.",
+          "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 1: Strategy 2: no blocking overlays detected.",
+          "Attempt 1: Strategy 3 skipped: reload avoided on checkout flow to preserve session.",
+          "Attempt 1: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+          "Attempt 1: retry failed (No executable regression plan for \"Review step validates correctly\" — store a successful custom command journey first.)",
+          "Attempt 2: Root error: No executable regression plan for \"Review step validates correctly\" — store a successful custom command journey first.",
+          "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+          "Attempt 2: Strategy 2: no blocking overlays detected.",
+          "Attempt 2: Strategy 3 skipped: reload avoided on checkout flow to preserve session.",
+          "Attempt 2: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+          "Attempt 2: retry failed (No executable regression plan for \"Review step validates correctly\" — store a successful custom command journey first.)"
+        ]
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-22",
+      "feature": "Account",
+      "scenario": "Orders section behaves as expected",
+      "status": "passed",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780246223142\\screenshots\\scenario-22-step-1-orders-section-behaves-as-expect-customer-account-order-history-Desktop-landing.png"
+      ],
+      "consoleErrors": [
+        "Refused to execute script from 'https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled."
+      ],
+      "networkErrors": [
+        "[404] https://uat2.purelifedental.com/customer/account/order/history/",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780246679643&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=11&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938466~115938468~117776793~119034493~119168154&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcheckout%2Fonepage%2Fsuccess%2F&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fcheckout%2F&dt=Success%20Page&en=page_view&up.user_id_dimension=20650&tfd=6692 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780246679643&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=11&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938466~115938468~117776793~119034493~119168154&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcheckout%2Fonepage%2Fsuccess%2F&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fcheckout%2F&dt=Success%20Page&en=user_engagement&_et=2231&tfd=6693 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780246683158&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=7&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938466~115938469~118128923~119027224~119034491&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcustomer%2Faccount%2Forder%2Fhistory%2F&dt=No%20Page%20Found&en=page_view&up.user_id_dimension=20650&tfd=1965 :: net::ERR_ABORTED"
+      ],
+      "pageUrl": "https://uat2.purelifedental.com/customer/account/order/history/",
+      "timestamp": "2026-05-31T16:58:01.380Z",
+      "durationMs": 3919,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Applied 1 memory-backed regression step(s) for \"Orders section behaves as expected\".",
+          "Detected action: navigateAccountOrders",
+          "Opened account orders page."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-23",
+      "feature": "Account",
+      "scenario": "Profile section behaves as expected",
+      "status": "passed",
+      "screenshots": [
+        "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780246223142\\screenshots\\scenario-23-step-1-profile-section-behaves-as-expec-customer-account-Desktop-landing.png"
+      ],
+      "consoleErrors": [
+        "Refused to execute script from 'https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled."
+      ],
+      "networkErrors": [
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780246683158&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAGQC&ae=a&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=7&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938466~115938469~118128923~119027224~119034491&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcustomer%2Faccount%2Forder%2Fhistory%2F&dt=No%20Page%20Found&en=scroll&epn.percent_scrolled=90&_et=5&tfd=5432 :: net::ERR_ABORTED",
+        "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780246683158&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=7&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=3&tag_exp=0~115938466~115938469~118128923~119027224~119034491&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcustomer%2Faccount%2Forder%2Fhistory%2F&dt=No%20Page%20Found&en=user_engagement&_et=3460&tfd=5433 :: net::ERR_ABORTED",
+        "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+        "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+        "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED"
+      ],
+      "pageUrl": "https://uat2.purelifedental.com/customer/account/",
+      "timestamp": "2026-05-31T16:58:05.302Z",
+      "durationMs": 3781,
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Applied 1 memory-backed regression step(s) for \"Profile section behaves as expected\".",
+          "Detected action: navigateAccountProfile",
+          "Opened account profile page."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    }
+  ],
+  "bugReports": [
+    {
+      "summary": "Checkout: Scenario timed out after 120 seconds: Address step validates correctly",
+      "description": "While testing \"Address step validates correctly\" on https://uat2.purelifedental.com/, the run failed because Scenario timed out after 120 seconds: Address step validates correctly Additional signals: Network: [404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js; Network: [FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED; Iframe detected; target action may be inside nested browsing context.; Modal/dialog present; interactions may be blocked..",
+      "stepsToReproduce": [
+        "Open https://uat2.purelifedental.com/",
+        "Applied 4 memory-backed regression step(s) for \"Address step validates correctly\".",
+        "Detected action: moveToCart",
+        "Detected action: restoreCart",
+        "Observe failure signal in console, network, layout, or form behavior."
+      ],
+      "expectedResult": "Users should complete \"Address step validates correctly\" on https://uat2.purelifedental.com/ without defects.",
+      "actualResult": "Scenario timed out after 120 seconds: Address step validates correctly",
+      "screenshot": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780246223142\\screenshots\\scenario-17-step-1-address-step-validates-correctly-checkout-Desktop-failure.png",
+      "suggestedFix": "Investigate failing same-origin network requests and stabilize the API or asset endpoints.",
+      "severity": "Critical",
+      "priority": "P0",
+      "confidenceScore": 99,
+      "businessImpact": "Checkout instability directly threatens conversion and revenue.",
+      "userImpact": "Users on https://uat2.purelifedental.com/ may hit the defect while attempting: Address step validates correctly.",
+      "revenueImpact": "Conversion or lead-generation paths may lose measurable traffic.",
+      "recoveryAttempts": [
+        "Applied 4 memory-backed regression step(s) for \"Address step validates correctly\".",
+        "Detected action: moveToCart",
+        "Detected action: restoreCart",
+        "Cart restored with at least one line item for downstream checkout.",
+        "Detected action: proceedToCheckout",
+        "Reached checkout shipping step after Proceed to Checkout.",
+        "Detected action: clickCheckoutNext",
+        "Shipping address already selected; attempting Next click only.",
+        "Scenario timed out: Scenario timed out after 120 seconds: Address step validates correctly",
+        "Shipping address already selected; attempting Next click only."
+      ],
+      "rootCauseAnalysis": "Scenario timed out after 120 seconds: Address step validates correctly Network: [404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js Network: [FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED Iframe detected; target action may be inside nested browsing context. Modal/dialog present; interactions may be blocked.",
+      "technicalDetails": {
+        "errorReason": "Scenario timed out after 120 seconds: Address step validates correctly",
+        "consoleErrors": [
+          "Refused to execute script from 'https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled."
+        ],
+        "networkErrors": [
+          "[FAILED] https://www.google.com.pk/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-WK1Z55XV42&cid=779749681.1780246232&gtm=45je65r2v873808596za20gzb842537924zd842537924&rcb=4&aip=1&uid=20650&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=0~115616986~115938466~115938469~119027224~119034491&z=110119052 :: csp",
+          "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780246420144&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=0&pscdl=noapi&rcb=4&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115616986~115938466~115938469~119027224~119034491&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fcheckout%2Fcart&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fcheckout%2Fcart&dt=Shopping%20Cart&en=user_engagement&_et=11029&tfd=16679 :: net::ERR_ABORTED",
+          "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+          "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+          "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED",
+          "[404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js",
+          "[FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED",
+          "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596z8842537924za20gzb842537924zd842537924&_p=1780246439887&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=779749681.1780246232&frm=1&pscdl=noapi&rcb=6&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938466~115938469~119034491~119064971&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fautoshipconsolidation%2Fautoship%2Fedit%2Faddressid%2F1658654&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fcheckout%2F&dt=&en=page_view&up.user_id_dimension=20650&tfd=2326 :: net::ERR_ABORTED",
+          "[FAILED] https://analytics.google.com/g/collect?v=2&tid=G-WK1Z55XV42&gtm=45je65r2v873808596za20gzb842537924zd842537924&_p=1780246439887&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAGQC&ae=a&are=1&cid=779749681.1780246232&frm=1&pscdl=noapi&rcb=6&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&gaf=2&_s=2&tag_exp=0~115938466~115938469~119034491~119064971&uid=20650&sid=1780246232&sct=1&seg=1&dl=https%3A%2F%2Fuat2.purelifedental.com%2Fautoshipconsolidation%2Fautoship%2Fedit%2Faddressid%2F1658654&dr=https%3A%2F%2Fuat2.purelifedental.com%2Fcheckout%2F&dt=&en=scroll&epn.percent_scrolled=90&tfd=7328 :: net::ERR_ABORTED"
+        ],
+        "pageUrl": "https://uat2.purelifedental.com/",
+        "timestamp": "2026-05-31T16:53:46.320Z",
+        "selfHealing": {
+          "attempted": false,
+          "recovered": false,
+          "attempts": 0,
+          "strategyLogs": []
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [
+            "Applied 4 memory-backed regression step(s) for \"Address step validates correctly\".",
+            "Detected action: moveToCart",
+            "Detected action: restoreCart",
+            "Cart restored with at least one line item for downstream checkout.",
+            "Detected action: proceedToCheckout",
+            "Reached checkout shipping step after Proceed to Checkout.",
+            "Detected action: clickCheckoutNext",
+            "Shipping address already selected; attempting Next click only.",
+            "Scenario timed out: Scenario timed out after 120 seconds: Address step validates correctly",
+            "Shipping address already selected; attempting Next click only."
+          ],
+          "retryResult": "failed",
+          "investigationFindings": [
+            "Iframe detected; target action may be inside nested browsing context.",
+            "Modal/dialog present; interactions may be blocked.",
+            "Overlay detected; click targets may be obscured.",
+            "Disabled controls present; prerequisite steps may be missing."
+          ]
+        }
+      }
+    },
+    {
+      "summary": "Checkout: Scenario timed out after 120 seconds: Shipping step validates correctly",
+      "description": "While testing \"Shipping step validates correctly\" on https://uat2.purelifedental.com/, the run failed because Scenario timed out after 120 seconds: Shipping step validates correctly Additional signals: Iframe detected; target action may be inside nested browsing context.; Modal/dialog present; interactions may be blocked..",
+      "stepsToReproduce": [
+        "Open https://uat2.purelifedental.com/",
+        "Applied 1 memory-backed regression step(s) for \"Shipping step validates correctly\".",
+        "Shipping address already selected; attempting Next click only.",
+        "Scenario timed out: Scenario timed out after 120 seconds: Shipping step validates correctly",
+        "Observe failure signal in console, network, layout, or form behavior."
+      ],
+      "expectedResult": "Users should complete \"Shipping step validates correctly\" on https://uat2.purelifedental.com/ without defects.",
+      "actualResult": "Scenario timed out after 120 seconds: Shipping step validates correctly",
+      "screenshot": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780246223142\\screenshots\\scenario-18-step-1-shipping-step-validates-correctl-checkout-Desktop-failure.png",
+      "suggestedFix": "Investigate the failure on https://uat2.purelifedental.com/ and fix the underlying UI or backend dependency.",
+      "severity": "Critical",
+      "priority": "P0",
+      "confidenceScore": 85,
+      "businessImpact": "Checkout instability directly threatens conversion and revenue.",
+      "userImpact": "Users on https://uat2.purelifedental.com/ may hit the defect while attempting: Shipping step validates correctly.",
+      "revenueImpact": "Conversion or lead-generation paths may lose measurable traffic.",
+      "recoveryAttempts": [
+        "Applied 1 memory-backed regression step(s) for \"Shipping step validates correctly\".",
+        "Shipping address already selected; attempting Next click only.",
+        "Scenario timed out: Scenario timed out after 120 seconds: Shipping step validates correctly"
+      ],
+      "rootCauseAnalysis": "Scenario timed out after 120 seconds: Shipping step validates correctly Iframe detected; target action may be inside nested browsing context. Modal/dialog present; interactions may be blocked.",
+      "technicalDetails": {
+        "errorReason": "Scenario timed out after 120 seconds: Shipping step validates correctly",
+        "consoleErrors": [],
+        "networkErrors": [],
+        "pageUrl": "https://uat2.purelifedental.com/",
+        "timestamp": "2026-05-31T16:55:46.448Z",
+        "selfHealing": {
+          "attempted": false,
+          "recovered": false,
+          "attempts": 0,
+          "strategyLogs": []
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [
+            "Applied 1 memory-backed regression step(s) for \"Shipping step validates correctly\".",
+            "Shipping address already selected; attempting Next click only.",
+            "Scenario timed out: Scenario timed out after 120 seconds: Shipping step validates correctly"
+          ],
+          "retryResult": "failed",
+          "investigationFindings": [
+            "Iframe detected; target action may be inside nested browsing context.",
+            "Modal/dialog present; interactions may be blocked.",
+            "Overlay detected; click targets may be obscured.",
+            "Disabled controls present; prerequisite steps may be missing."
+          ]
+        }
+      }
+    },
+    {
+      "summary": "Checkout: No executable regression plan for \"Review step validates correctly\" —...",
+      "description": "While testing \"Review step validates correctly\" on https://uat2.purelifedental.com/, the run failed because No executable regression plan for \"Review step validates correctly\" — store a successful custom command journey first.",
+      "stepsToReproduce": [
+        "Open https://uat2.purelifedental.com/",
+        "Run check: Checkout — Review step validates correctly",
+        "Observe failure signal in console, network, layout, or form behavior."
+      ],
+      "expectedResult": "Users should complete \"Review step validates correctly\" on https://uat2.purelifedental.com/ without defects.",
+      "actualResult": "No executable regression plan for \"Review step validates correctly\" — store a successful custom command journey first.",
+      "screenshot": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780246223142\\screenshots\\scenario-21-step-1-review-step-validates-correctly-checkout-onepage-success-Desktop-failure.png",
+      "suggestedFix": "Investigate the failure on https://uat2.purelifedental.com/ and fix the underlying UI or backend dependency.",
+      "severity": "Critical",
+      "priority": "P0",
+      "confidenceScore": 94,
+      "businessImpact": "Checkout instability directly threatens conversion and revenue.",
+      "userImpact": "Users on https://uat2.purelifedental.com/ may hit the defect while attempting: Review step validates correctly.",
+      "revenueImpact": "Conversion or lead-generation paths may lose measurable traffic.",
+      "recoveryAttempts": [
+        "Attempt 1: Root error: No executable regression plan for \"Review step validates correctly\" — store a successful custom command journey first.",
+        "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+        "Attempt 1: Strategy 2: no blocking overlays detected.",
+        "Attempt 1: Strategy 3 skipped: reload avoided on checkout flow to preserve session.",
+        "Attempt 1: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+        "Attempt 1: retry failed (No executable regression plan for \"Review step validates correctly\" — store a successful custom command journey first.)",
+        "Attempt 2: Root error: No executable regression plan for \"Review step validates correctly\" — store a successful custom command journey first.",
+        "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+        "Attempt 2: Strategy 2: no blocking overlays detected.",
+        "Attempt 2: Strategy 3 skipped: reload avoided on checkout flow to preserve session.",
+        "Attempt 2: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+        "Attempt 2: retry failed (No executable regression plan for \"Review step validates correctly\" — store a successful custom command journey first.)"
+      ],
+      "rootCauseAnalysis": "No executable regression plan for \"Review step validates correctly\" — store a successful custom command journey first.",
+      "technicalDetails": {
+        "errorReason": "No executable regression plan for \"Review step validates correctly\" — store a successful custom command journey first.",
+        "consoleErrors": [],
+        "networkErrors": [
+          "[FAILED] https://cdn.oribi.io/XzExMjgxMTkzNDY/oribi.js :: net::ERR_NAME_NOT_RESOLVED"
+        ],
+        "pageUrl": "https://uat2.purelifedental.com/",
+        "timestamp": "2026-05-31T16:58:00.251Z",
+        "selfHealing": {
+          "attempted": true,
+          "recovered": false,
+          "attempts": 2,
+          "strategyLogs": [
+            "Attempt 1: Root error: No executable regression plan for \"Review step validates correctly\" — store a successful custom command journey first.",
+            "Attempt 1: Strategy 1: synchronized to domcontentloaded state.",
+            "Attempt 1: Strategy 2: no blocking overlays detected.",
+            "Attempt 1: Strategy 3 skipped: reload avoided on checkout flow to preserve session.",
+            "Attempt 1: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+            "Attempt 1: retry failed (No executable regression plan for \"Review step validates correctly\" — store a successful custom command journey first.)",
+            "Attempt 2: Root error: No executable regression plan for \"Review step validates correctly\" — store a successful custom command journey first.",
+            "Attempt 2: Strategy 1: synchronized to domcontentloaded state.",
+            "Attempt 2: Strategy 2: no blocking overlays detected.",
+            "Attempt 2: Strategy 3 skipped: reload avoided on checkout flow to preserve session.",
+            "Attempt 2: Strategy 4 skipped: base URL recovery disabled for session continuity.",
+            "Attempt 2: retry failed (No executable regression plan for \"Review step validates correctly\" — store a successful custom command journey first.)"
+          ]
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [],
+          "retryResult": "not-needed",
+          "investigationFindings": []
+        }
+      }
+    },
+    {
+      "summary": "Accessibility risk: missing-alt-text",
+      "description": "22 image(s) appear to be missing alt text.",
+      "stepsToReproduce": [
+        "Open https://uat2.purelifedental.com/",
+        "Review automated post-run analysis findings."
+      ],
+      "expectedResult": "Page should meet quality expectations without user-impacting defects.",
+      "actualResult": "22 image(s) appear to be missing alt text.",
+      "screenshot": null,
+      "suggestedFix": "Review template markup, labels, focus states, and media alternatives.",
+      "severity": "High",
+      "priority": "P1",
+      "confidenceScore": 88,
+      "businessImpact": "Quality issues on public pages can increase bounce rate and support load.",
+      "userImpact": "Keyboard and screen-reader users may be unable to complete tasks on affected templates.",
+      "revenueImpact": "Indirect revenue impact possible depending on affected journeys.",
+      "recoveryAttempts": [
+        "Post-run analysis completed after scenario execution."
+      ],
+      "rootCauseAnalysis": "22 image(s) appear to be missing alt text.",
+      "technicalDetails": {
+        "errorReason": "22 image(s) appear to be missing alt text.",
+        "consoleErrors": [],
+        "networkErrors": [],
+        "pageUrl": "https://uat2.purelifedental.com/",
+        "timestamp": "2026-05-31T16:59:06.211Z",
+        "selfHealing": {
+          "attempted": false,
+          "recovered": false,
+          "attempts": 0,
+          "strategyLogs": []
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [],
+          "retryResult": "not-needed"
+        }
+      }
+    },
+    {
+      "summary": "Accessibility risk: missing-form-labels",
+      "description": "34 form control(s) appear unlabeled.",
+      "stepsToReproduce": [
+        "Open https://uat2.purelifedental.com/",
+        "Review automated post-run analysis findings."
+      ],
+      "expectedResult": "Page should meet quality expectations without user-impacting defects.",
+      "actualResult": "34 form control(s) appear unlabeled.",
+      "screenshot": null,
+      "suggestedFix": "Review template markup, labels, focus states, and media alternatives.",
+      "severity": "High",
+      "priority": "P1",
+      "confidenceScore": 88,
+      "businessImpact": "Broken lead or conversion flows can reduce inbound inquiries and revenue.",
+      "userImpact": "Keyboard and screen-reader users may be unable to complete tasks on affected templates.",
+      "revenueImpact": "Indirect revenue impact possible depending on affected journeys.",
+      "recoveryAttempts": [
+        "Post-run analysis completed after scenario execution."
+      ],
+      "rootCauseAnalysis": "34 form control(s) appear unlabeled.",
+      "technicalDetails": {
+        "errorReason": "34 form control(s) appear unlabeled.",
+        "consoleErrors": [],
+        "networkErrors": [],
+        "pageUrl": "https://uat2.purelifedental.com/",
+        "timestamp": "2026-05-31T16:59:06.211Z",
+        "selfHealing": {
+          "attempted": false,
+          "recovered": false,
+          "attempts": 0,
+          "strategyLogs": []
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [],
+          "retryResult": "not-needed"
+        }
+      }
+    },
+    {
+      "summary": "Accessibility risk: focus-visibility",
+      "description": "Focus outline visibility may be insufficient on interactive elements.",
+      "stepsToReproduce": [
+        "Open https://uat2.purelifedental.com/",
+        "Review automated post-run analysis findings."
+      ],
+      "expectedResult": "Page should meet quality expectations without user-impacting defects.",
+      "actualResult": "Focus outline visibility may be insufficient on interactive elements.",
+      "screenshot": null,
+      "suggestedFix": "Review template markup, labels, focus states, and media alternatives.",
+      "severity": "High",
+      "priority": "P1",
+      "confidenceScore": 88,
+      "businessImpact": "Quality issues on public pages can increase bounce rate and support load.",
+      "userImpact": "Keyboard and screen-reader users may be unable to complete tasks on affected templates.",
+      "revenueImpact": "Indirect revenue impact possible depending on affected journeys.",
+      "recoveryAttempts": [
+        "Post-run analysis completed after scenario execution."
+      ],
+      "rootCauseAnalysis": "Focus outline visibility may be insufficient on interactive elements.",
+      "technicalDetails": {
+        "errorReason": "Focus outline visibility may be insufficient on interactive elements.",
+        "consoleErrors": [],
+        "networkErrors": [],
+        "pageUrl": "https://uat2.purelifedental.com/",
+        "timestamp": "2026-05-31T16:59:06.211Z",
+        "selfHealing": {
+          "attempted": false,
+          "recovered": false,
+          "attempts": 0,
+          "strategyLogs": []
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [],
+          "retryResult": "not-needed"
+        }
+      }
+    }
+  ],
+  "accessibilityRiskReport": {
+    "baseUrl": "https://uat2.purelifedental.com/",
+    "checkedAt": "2026-05-31T16:58:46.803Z",
+    "findings": [
+      {
+        "id": "missing-alt-text-1",
+        "category": "missing-alt-text",
+        "severity": "high",
+        "message": "22 image(s) appear to be missing alt text.",
+        "pageUrl": "https://uat2.purelifedental.com/"
+      },
+      {
+        "id": "missing-form-labels-2",
+        "category": "missing-form-labels",
+        "severity": "high",
+        "message": "34 form control(s) appear unlabeled.",
+        "pageUrl": "https://uat2.purelifedental.com/"
+      },
+      {
+        "id": "focus-visibility-3",
+        "category": "focus-visibility",
+        "severity": "high",
+        "message": "Focus outline visibility may be insufficient on interactive elements.",
+        "pageUrl": "https://uat2.purelifedental.com/"
+      },
+      {
+        "id": "missing-alt-text-1",
+        "category": "missing-alt-text",
+        "severity": "medium",
+        "message": "2 image(s) appear to be missing alt text.",
+        "pageUrl": "https://uat2.purelifedental.com/customer/account/login/referer/aHR0cHM6Ly91YXQyLnB1cmVsaWZlZGVudGFsLmNvbS8~"
+      },
+      {
+        "id": "missing-form-labels-2",
+        "category": "missing-form-labels",
+        "severity": "high",
+        "message": "5 form control(s) appear unlabeled.",
+        "pageUrl": "https://uat2.purelifedental.com/customer/account/login/referer/aHR0cHM6Ly91YXQyLnB1cmVsaWZlZGVudGFsLmNvbS8~"
+      },
+      {
+        "id": "focus-visibility-3",
+        "category": "focus-visibility",
+        "severity": "high",
+        "message": "Focus outline visibility may be insufficient on interactive elements.",
+        "pageUrl": "https://uat2.purelifedental.com/customer/account/login/referer/aHR0cHM6Ly91YXQyLnB1cmVsaWZlZGVudGFsLmNvbS8~"
+      },
+      {
+        "id": "heading-structure-4",
+        "category": "heading-structure",
+        "severity": "low",
+        "message": "Heading hierarchy appears to skip levels in some sections.",
+        "pageUrl": "https://uat2.purelifedental.com/customer/account/login/referer/aHR0cHM6Ly91YXQyLnB1cmVsaWZlZGVudGFsLmNvbS8~"
+      },
+      {
+        "id": "missing-alt-text-1",
+        "category": "missing-alt-text",
+        "severity": "medium",
+        "message": "2 image(s) appear to be missing alt text.",
+        "pageUrl": "https://uat2.purelifedental.com/checkout/cart"
+      },
+      {
+        "id": "missing-form-labels-2",
+        "category": "missing-form-labels",
+        "severity": "medium",
+        "message": "3 form control(s) appear unlabeled.",
+        "pageUrl": "https://uat2.purelifedental.com/checkout/cart"
+      },
+      {
+        "id": "focus-visibility-3",
+        "category": "focus-visibility",
+        "severity": "high",
+        "message": "Focus outline visibility may be insufficient on interactive elements.",
+        "pageUrl": "https://uat2.purelifedental.com/checkout/cart"
+      },
+      {
+        "id": "heading-structure-4",
+        "category": "heading-structure",
+        "severity": "low",
+        "message": "Heading hierarchy appears to skip levels in some sections.",
+        "pageUrl": "https://uat2.purelifedental.com/checkout/cart"
+      },
+      {
+        "id": "missing-alt-text-1",
+        "category": "missing-alt-text",
+        "severity": "medium",
+        "message": "2 image(s) appear to be missing alt text.",
+        "pageUrl": "https://uat2.purelifedental.com/gloves.html"
+      },
+      {
+        "id": "missing-form-labels-2",
+        "category": "missing-form-labels",
+        "severity": "high",
+        "message": "52 form control(s) appear unlabeled.",
+        "pageUrl": "https://uat2.purelifedental.com/gloves.html"
+      },
+      {
+        "id": "focus-visibility-3",
+        "category": "focus-visibility",
+        "severity": "high",
+        "message": "Focus outline visibility may be insufficient on interactive elements.",
+        "pageUrl": "https://uat2.purelifedental.com/gloves.html"
+      },
+      {
+        "id": "heading-structure-4",
+        "category": "heading-structure",
+        "severity": "low",
+        "message": "Heading hierarchy appears to skip levels in some sections.",
+        "pageUrl": "https://uat2.purelifedental.com/gloves.html"
+      },
+      {
+        "id": "missing-alt-text-1",
+        "category": "missing-alt-text",
+        "severity": "medium",
+        "message": "2 image(s) appear to be missing alt text.",
+        "pageUrl": "https://uat2.purelifedental.com/gloves/gloves-chloroprene-powder-free.html"
+      },
+      {
+        "id": "missing-form-labels-2",
+        "category": "missing-form-labels",
+        "severity": "high",
+        "message": "7 form control(s) appear unlabeled.",
+        "pageUrl": "https://uat2.purelifedental.com/gloves/gloves-chloroprene-powder-free.html"
+      },
+      {
+        "id": "focus-visibility-3",
+        "category": "focus-visibility",
+        "severity": "high",
+        "message": "Focus outline visibility may be insufficient on interactive elements.",
+        "pageUrl": "https://uat2.purelifedental.com/gloves/gloves-chloroprene-powder-free.html"
+      },
+      {
+        "id": "heading-structure-4",
+        "category": "heading-structure",
+        "severity": "low",
+        "message": "Heading hierarchy appears to skip levels in some sections.",
+        "pageUrl": "https://uat2.purelifedental.com/gloves/gloves-chloroprene-powder-free.html"
+      }
+    ],
+    "summary": {
+      "totalFindings": 19,
+      "high": 10,
+      "medium": 5,
+      "low": 4
+    },
+    "disclaimer": "Accessibility Risk Findings are heuristic indicators only and are not a certification for ADA, HIPAA, or legal compliance."
+  },
+  "accessibilityRiskReportPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780246223142\\accessibility-risk-report.json",
+  "productionReportPaths": {
+    "html": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780246223142\\client-report.html",
+    "json": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780246223142\\client-report.json",
+    "markdown": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780246223142\\summary.md"
+  }
+}

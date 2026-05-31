@@ -1,0 +1,81 @@
+{
+  "baseUrl": "https://example.com",
+  "generatedAt": "2026-05-29T20:55:12.917Z",
+  "findings": [
+    {
+      "viewport": "Android viewport",
+      "layoutBreakage": false,
+      "hiddenCtas": false,
+      "horizontalScroll": false,
+      "menuUsabilityIssue": true,
+      "formVisibilityIssue": false,
+      "overlappingElements": false,
+      "cartOrSearchVisibilityIssue": false,
+      "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\full-1780088103\\responsive-screenshots\\android-viewport.png",
+      "notes": [
+        "Menu/navigation usability risk detected."
+      ]
+    },
+    {
+      "viewport": "iPhone viewport",
+      "layoutBreakage": false,
+      "hiddenCtas": false,
+      "horizontalScroll": false,
+      "menuUsabilityIssue": true,
+      "formVisibilityIssue": false,
+      "overlappingElements": false,
+      "cartOrSearchVisibilityIssue": false,
+      "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\full-1780088103\\responsive-screenshots\\iphone-viewport.png",
+      "notes": [
+        "Menu/navigation usability risk detected."
+      ]
+    },
+    {
+      "viewport": "iPad viewport",
+      "layoutBreakage": false,
+      "hiddenCtas": false,
+      "horizontalScroll": false,
+      "menuUsabilityIssue": true,
+      "formVisibilityIssue": false,
+      "overlappingElements": false,
+      "cartOrSearchVisibilityIssue": false,
+      "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\full-1780088103\\responsive-screenshots\\ipad-viewport.png",
+      "notes": [
+        "Menu/navigation usability risk detected."
+      ]
+    },
+    {
+      "viewport": "Tablet viewport",
+      "layoutBreakage": false,
+      "hiddenCtas": false,
+      "horizontalScroll": false,
+      "menuUsabilityIssue": true,
+      "formVisibilityIssue": false,
+      "overlappingElements": false,
+      "cartOrSearchVisibilityIssue": false,
+      "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\full-1780088103\\responsive-screenshots\\tablet-viewport.png",
+      "notes": [
+        "Menu/navigation usability risk detected."
+      ]
+    },
+    {
+      "viewport": "Desktop viewport",
+      "layoutBreakage": false,
+      "hiddenCtas": false,
+      "horizontalScroll": false,
+      "menuUsabilityIssue": true,
+      "formVisibilityIssue": false,
+      "overlappingElements": false,
+      "cartOrSearchVisibilityIssue": false,
+      "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\full-1780088103\\responsive-screenshots\\desktop-viewport.png",
+      "notes": [
+        "Menu/navigation usability risk detected."
+      ]
+    }
+  ],
+  "summary": {
+    "totalViewports": 5,
+    "issueCount": 5,
+    "issueViewports": 5
+  }
+}

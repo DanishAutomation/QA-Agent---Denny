@@ -1,0 +1,117 @@
+{
+  "baseUrl": "https://uat2.purelifedental.com/",
+  "generatedAt": "2026-05-31T18:01:13.349Z",
+  "findings": [
+    {
+      "viewport": "Android viewport",
+      "layoutBreakage": true,
+      "hiddenCtas": true,
+      "horizontalScroll": false,
+      "menuUsabilityIssue": false,
+      "formVisibilityIssue": false,
+      "overlappingElements": false,
+      "cartOrSearchVisibilityIssue": false,
+      "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780250078546\\responsive-screenshots\\android-viewport.png",
+      "notes": [
+        "Potential layout breakage detected.",
+        "One or more CTAs appear hidden."
+      ]
+    },
+    {
+      "viewport": "iPhone viewport",
+      "layoutBreakage": true,
+      "hiddenCtas": true,
+      "horizontalScroll": false,
+      "menuUsabilityIssue": false,
+      "formVisibilityIssue": false,
+      "overlappingElements": false,
+      "cartOrSearchVisibilityIssue": false,
+      "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780250078546\\responsive-screenshots\\iphone-viewport.png",
+      "notes": [
+        "Potential layout breakage detected.",
+        "One or more CTAs appear hidden."
+      ]
+    },
+    {
+      "viewport": "iPad viewport",
+      "layoutBreakage": false,
+      "hiddenCtas": true,
+      "horizontalScroll": false,
+      "menuUsabilityIssue": false,
+      "formVisibilityIssue": false,
+      "overlappingElements": true,
+      "cartOrSearchVisibilityIssue": false,
+      "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780250078546\\responsive-screenshots\\ipad-viewport.png",
+      "notes": [
+        "One or more CTAs appear hidden.",
+        "Potential overlapping clickable elements detected."
+      ]
+    },
+    {
+      "viewport": "Tablet viewport",
+      "layoutBreakage": false,
+      "hiddenCtas": true,
+      "horizontalScroll": false,
+      "menuUsabilityIssue": false,
+      "formVisibilityIssue": false,
+      "overlappingElements": true,
+      "cartOrSearchVisibilityIssue": false,
+      "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780250078546\\responsive-screenshots\\tablet-viewport.png",
+      "notes": [
+        "One or more CTAs appear hidden.",
+        "Potential overlapping clickable elements detected."
+      ]
+    },
+    {
+      "viewport": "Desktop viewport",
+      "layoutBreakage": false,
+      "hiddenCtas": true,
+      "horizontalScroll": false,
+      "menuUsabilityIssue": false,
+      "formVisibilityIssue": false,
+      "overlappingElements": true,
+      "cartOrSearchVisibilityIssue": false,
+      "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780250078546\\responsive-screenshots\\desktop-viewport.png",
+      "notes": [
+        "One or more CTAs appear hidden.",
+        "Potential overlapping clickable elements detected."
+      ]
+    },
+    {
+      "viewport": "Desktop viewport",
+      "layoutBreakage": false,
+      "hiddenCtas": true,
+      "horizontalScroll": false,
+      "menuUsabilityIssue": false,
+      "formVisibilityIssue": true,
+      "overlappingElements": true,
+      "cartOrSearchVisibilityIssue": false,
+      "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780250078546\\responsive-screenshots\\desktop-https-uat2-purelifedental-com-customer-a.png",
+      "notes": [
+        "One or more CTAs appear hidden.",
+        "Form visibility issue detected.",
+        "Potential overlapping clickable elements detected."
+      ]
+    },
+    {
+      "viewport": "Desktop viewport",
+      "layoutBreakage": false,
+      "hiddenCtas": true,
+      "horizontalScroll": false,
+      "menuUsabilityIssue": false,
+      "formVisibilityIssue": false,
+      "overlappingElements": true,
+      "cartOrSearchVisibilityIssue": false,
+      "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780250078546\\responsive-screenshots\\desktop-https-uat2-purelifedental-com-checkout-c.png",
+      "notes": [
+        "One or more CTAs appear hidden.",
+        "Potential overlapping clickable elements detected."
+      ]
+    }
+  ],
+  "summary": {
+    "totalViewports": 7,
+    "issueCount": 15,
+    "issueViewports": 7
+  }
+}

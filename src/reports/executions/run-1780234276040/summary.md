@@ -1,0 +1,146 @@
+# DennyQA vNext Test Report
+
+## Executive Summary
+- Run ID: run-1780234276040
+- URL: https://uat2.purelifedental.com/
+- Test type: Full Regression
+- Browser: Chrome
+- Device(s): Desktop
+- Environment: development
+- Total cases: 24
+- Passed: 9
+- Failed: 15
+- Skipped: 0
+- Bugs found: 12
+- Confidence score: 96%
+
+## Root Cause Analysis
+- Authentication: Step failed after 3 attempts: Loop protection triggered: repeated log...: Step failed after 3 attempts: Loop protection triggered: repeated login attempts exceeded threshold. Network: [404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js Network: [FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED Iframe detected; target action may be inside nested browsing context. Modal/dialog present; interactions may be blocked.
+- Authentication: Step failed after 3 attempts: No executable UI action matched intent:...: Step failed after 3 attempts: No executable UI action matched intent: "Navigate to customer account create page". Network: [404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js Network: [FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED Iframe detected; target action may be inside nested browsing context. Modal/dialog present; interactions may be blocked.
+- Catalog: Product listing scenario "Product Listing behavior is correct" did no...: Product listing scenario "Product Listing behavior is correct" did not end on a category listing page (https://www.purelifedental.com/product/microflex-ultraform-nitrile-powder-free.html?sku=ansell). Network: [FAILED] https://www.purelifedental.com/static/version1779358902/frontend/Folio3/asnan/en_US/jquery/ui-modules/focusable.min.js :: net::ERR_ABORTED Network: [FAILED] https://www.purelifedental.com/static/version1779358902/frontend/Folio3/asnan/en_US/jquery/ui-modules/form.min.js :: net::ERR_ABORTED
+- Catalog: Filter scenario completed without applying a catalog filter.: Filter scenario completed without applying a catalog filter. Network: [404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js Network: [FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED Iframe detected; target action may be inside nested browsing context. Modal/dialog present; interactions may be blocked.
+- Catalog: Step failed after 3 attempts: No executable UI action matched intent:...: Step failed after 3 attempts: No executable UI action matched intent: "Go to page 2 of product listing if pagination exists". Network: [404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js Network: [FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED Iframe detected; target action may be inside nested browsing context. Modal/dialog present; interactions may be blocked.
+- Cart: Cart scenario passed on an empty cart page.: Cart scenario passed on an empty cart page. Network: [404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js Network: [FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED Iframe detected; target action may be inside nested browsing context. Modal/dialog present; interactions may be blocked.
+- Cart: Step failed after 3 attempts: No executable UI action matched intent:...: Step failed after 3 attempts: No executable UI action matched intent: "Update quantity in cart to 2". Iframe detected; target action may be inside nested browsing context. Modal/dialog present; interactions may be blocked.
+- Checkout: Step failed after 3 attempts: No executable UI action matched intent:...: Step failed after 3 attempts: No executable UI action matched intent: "Move to cart and click "proceed to checkout" to reach shipping address screen". Network: [404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js Network: [FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED Iframe detected; target action may be inside nested browsing context. Modal/dialog present; interactions may be blocked.
+- Account: Step failed after 3 attempts: No executable UI action matched intent:...: Step failed after 3 attempts: No executable UI action matched intent: "Navigate to customer orders page". Network: [404] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js Network: [FAILED] https://uat2.purelifedental.com/static/version1778588221/frontend/Folio3/asnan/en_US/mage/ie-class-fixer.min.js :: net::ERR_ABORTED Iframe detected; target action may be inside nested browsing context. Modal/dialog present; interactions may be blocked.
+- Accessibility risk: missing-alt-text: 22 image(s) appear to be missing alt text.
+- Accessibility risk: missing-form-labels: 34 form control(s) appear unlabeled.
+- Accessibility risk: focus-visibility: Focus outline visibility may be insufficient on interactive elements.
+
+## Recovery Attempts
+- Applied 1 memory-backed regression step(s) for "Login flow works as expected".
+- Detected action: login
+- Login field fill: email=true password=false
+- Login credentials could not be entered on the visible login form.
+- Attempt 1: Root error: Step failed after 3 attempts: Loop protection triggered: repeated login attempts exceeded threshold.
+- Attempt 1: Strategy 1: synchronized to domcontentloaded state.
+- Attempt 1: Strategy 2: no blocking overlays detected.
+- Attempt 1: Strategy 3: reloaded page successfully.
+- Attempt 1: Strategy 4 skipped: base URL recovery disabled for session continuity.
+- Attempt 1: retry failed (Step failed after 3 attempts: Loop protection triggered: repeated identical action "login" exceeded threshold.)
+- Attempt 2: Root error: Step failed after 3 attempts: Loop protection triggered: repeated login attempts exceeded threshold.
+- Attempt 2: Strategy 1: synchronized to domcontentloaded state.
+- Attempt 2: Strategy 2: no blocking overlays detected.
+- Attempt 2: Strategy 3: reloaded page successfully.
+- Attempt 2: Strategy 4 skipped: base URL recovery disabled for session continuity.
+- Attempt 2: retry failed (Step failed after 3 attempts: Loop protection triggered: maximum step action threshold exceeded.)
+- Applied 1 memory-backed regression step(s) for "Signup flow works as expected".
+- Detected action: navigateUrl
+- Attempt 1: Root error: Step failed after 3 attempts: No executable UI action matched intent: "Navigate to customer account create page".
+- Attempt 1: retry failed (Step failed after 3 attempts: No executable UI action matched intent: "Navigate to customer account create page".)
+- Attempt 2: Root error: Step failed after 3 attempts: No executable UI action matched intent: "Navigate to customer account create page".
+- Applied 2 memory-backed regression step(s) for "Product Listing behavior is correct".
+- Navigated to https://uat2.purelifedental.com/gloves.html.
+- Resolved action using memory-url: https://uat2.purelifedental.com/gloves.html
+- Detected action: openProduct
+- Resolved action using product-listing: a[href*='/product/']
+- Attempt 1: Root error: Product listing scenario "Product Listing behavior is correct" did not end on a category listing page (https://www.purelifedental.com/product/microflex-ultraform-nitrile-powder-free.html?sku=ansell).
+- Attempt 1: retry failed (Product listing scenario "Product Listing behavior is correct" did not end on a category listing page (https://www.purelifedental.com/product/microflex-ultraform-nitrile-powder-free.html?sku=ansell).)
+- Attempt 2: Root error: Product listing scenario "Product Listing behavior is correct" did not end on a category listing page (https://www.purelifedental.com/product/microflex-ultraform-nitrile-powder-free.html?sku=ansell).
+- Attempt 2: retry failed (Product listing scenario "Product Listing behavior is correct" did not end on a category listing page (https://www.purelifedental.com/product/microflex-ultraform-nitrile-powder-free.html?sku=ansell).)
+- Applied 2 memory-backed regression step(s) for "Filters behavior is correct".
+- Detected action: applyCatalogFilter
+- Applied first available catalog filter.
+- Resolved action using catalog-filter-click: catalog filter link
+- Attempt 1: Root error: Filter scenario completed without applying a catalog filter.
+- Attempt 1: retry failed (Filter scenario completed without applying a catalog filter.)
+- Attempt 2: Root error: Filter scenario completed without applying a catalog filter.
+- Attempt 2: retry failed (Filter scenario completed without applying a catalog filter.)
+- Applied 2 memory-backed regression step(s) for "Pagination behavior is correct".
+- Detected action: goToListingPage2
+- Attempt 1: Root error: Step failed after 3 attempts: No executable UI action matched intent: "Go to page 2 of product listing if pagination exists".
+- Attempt 1: retry failed (Step failed after 3 attempts: Loop protection triggered: maximum step action threshold exceeded.)
+- Attempt 2: Root error: Step failed after 3 attempts: No executable UI action matched intent: "Go to page 2 of product listing if pagination exists".
+- Applied 2 memory-backed regression step(s) for "Remove item works from cart workflow".
+- Detected action: moveToCart
+- Detected action: removeCartItem
+- Remove action completed on cart.
+- Resolved action using no-confirm-modal: .cart.item .action.action-delete
+- Attempt 1: Root error: Cart scenario passed on an empty cart page.
+- Attempt 1: Strategy 3 skipped: reload avoided on checkout flow to preserve session.
+- Attempt 1: retry failed (Step failed after 3 attempts: No executable UI action matched intent: "Remove item from cart".)
+- Attempt 2: Root error: Cart scenario passed on an empty cart page.
+- Attempt 2: Strategy 3 skipped: reload avoided on checkout flow to preserve session.
+- Applied 2 memory-backed regression step(s) for "Update quantity works from cart workflow".
+- Detected action: updateCartQuantity
+- Not on product detail page; skipped PDP preparation.
+- Attempt 1: Root error: Step failed after 3 attempts: No executable UI action matched intent: "Update quantity in cart to 2".
+- Attempt 2: Root error: Step failed after 3 attempts: No executable UI action matched intent: "Update quantity in cart to 2".
+- Applied 3 memory-backed regression step(s) for "Address step validates correctly".
+- Detected action: proceedToCheckout
+- Attempt 1: Root error: Step failed after 3 attempts: No executable UI action matched intent: "Move to cart and click "proceed to checkout" to reach shipping address screen".
+- Attempt 2: Root error: Step failed after 3 attempts: No executable UI action matched intent: "Move to cart and click "proceed to checkout" to reach shipping address screen".
+- Applied 1 memory-backed regression step(s) for "Orders section behaves as expected".
+- Attempt 1: Root error: Step failed after 3 attempts: No executable UI action matched intent: "Navigate to customer orders page".
+- Attempt 1: retry failed (Step failed after 3 attempts: No executable UI action matched intent: "Navigate to customer orders page".)
+- Attempt 2: Root error: Step failed after 3 attempts: No executable UI action matched intent: "Navigate to customer orders page".
+- Post-run analysis completed after scenario execution.
+
+## AI Assumptions
+- Execution assertions rely on generated BDD scenario intent and detected capabilities.
+- Fallback test data may be used for missing non-sensitive fields where configured.
+- Sensitive/destructive operations are skipped unless safe test mode is explicitly enabled.
+- Browser/device matrix reflects configured run values: Chrome / Desktop.
+
+## Screenshots
+- scenario-4: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780234276040\screenshots\scenario-4-step-1-product-listing-behavior-is-corr-product-microflex-ultraform-nitrile-powd-Desktop-failure.png
+- scenario-5: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780234276040\screenshots\scenario-5-step-1-search-behavior-is-correct-catalogsearch-result-Desktop-landing.png
+- scenario-6: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780234276040\screenshots\scenario-6-step-1-categories-behavior-is-correct-gloves-html-Desktop-landing.png
+- scenario-7: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780234276040\screenshots\scenario-7-step-1-filters-behavior-is-correct-gloves-gloves-chloroprene-powder-free-ht-Desktop-failure.png
+- scenario-8: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780234276040\screenshots\scenario-8-step-1-pagination-behavior-is-correct-gloves-html-Desktop-failure.png
+- scenario-9: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780234276040\screenshots\scenario-9-step-1-add-to-cart-behavior-on-product--product-prophyflex-cleaning-powder-html-Desktop-landing.png
+- scenario-10: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780234276040\screenshots\scenario-10-step-1-child-sku-selection-behavior-on--product-prophyflex-cleaning-powder-html-Desktop-landing.png
+- scenario-11: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780234276040\screenshots\scenario-11-step-1-inventory-behavior-on-product-de-product-encore-af-core-buildup-composite-Desktop-landing.png
+- scenario-12: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780234276040\screenshots\scenario-12-step-1-product-image-behavior-on-produc-product-encore-af-core-buildup-composite-Desktop-landing.png
+- scenario-13: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780234276040\screenshots\scenario-13-step-1-quantity-behavior-on-product-det-product-encore-af-core-buildup-composite-Desktop-landing.png
+- scenario-14: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780234276040\screenshots\scenario-14-step-1-add-item-works-from-cart-workflo-checkout-cart-Desktop-landing.png
+- scenario-15: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780234276040\screenshots\scenario-15-step-1-coupon-if-available-works-from-c-checkout-cart-Desktop-landing.png
+- scenario-16: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780234276040\screenshots\scenario-16-step-1-remove-item-works-from-cart-work-checkout-cart-Desktop-failure.png
+- scenario-17: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780234276040\screenshots\scenario-17-step-1-update-quantity-works-from-cart--checkout-cart-Desktop-failure.png
+
+## Technical Logs
+- scenario-1 (failed) :: error=Step failed after 3 attempts: Loop protection triggered: repeated login attempts exceeded threshold., console=1, network=13
+- scenario-2 (failed) :: error=Step failed after 3 attempts: No executable UI action matched intent: "Navigate to customer account create page"., console=1, network=10
+- scenario-3 (failed) :: error=Step failed after 3 attempts: No executable UI action matched intent: "Navigate to forgot password page"., console=1, network=10
+- scenario-4 (failed) :: error=Product listing scenario "Product Listing behavior is correct" did not end on a category listing page (https://www.purelifedental.com/product/microflex-ultraform-nitrile-powder-free.html?sku=ansell)., console=1, network=125
+- scenario-5 (passed) :: error=none, console=0, network=66
+- scenario-6 (passed) :: error=none, console=1, network=29
+- scenario-7 (failed) :: error=Filter scenario completed without applying a catalog filter., console=1, network=57
+- scenario-8 (failed) :: error=Step failed after 3 attempts: No executable UI action matched intent: "Go to page 2 of product listing if pagination exists"., console=1, network=31
+- scenario-9 (passed) :: error=none, console=2, network=13
+- scenario-10 (passed) :: error=none, console=2, network=12
+- scenario-11 (passed) :: error=none, console=2, network=5
+- scenario-12 (passed) :: error=none, console=2, network=7
+- scenario-13 (passed) :: error=none, console=2, network=5
+- scenario-14 (passed) :: error=none, console=1, network=5
+- scenario-15 (passed) :: error=none, console=0, network=0
+- scenario-16 (failed) :: error=Cart scenario passed on an empty cart page., console=1, network=7
+- scenario-17 (failed) :: error=Step failed after 3 attempts: No executable UI action matched intent: "Update quantity in cart to 2"., console=0, network=0
+- scenario-18 (failed) :: error=Step failed after 3 attempts: No executable UI action matched intent: "Move to cart and click "proceed to checkout" to reach shipping address screen"., console=1, network=5
+- scenario-19 (failed) :: error=Step failed after 3 attempts: No executable UI action matched intent: "Move to cart and click "proceed to checkout" to reach shipping address screen"., console=1, network=5
+- scenario-20 (failed) :: error=Step failed after 3 attempts: No executable UI action matched intent: "Move to cart and click "proceed to checkout" to reach shipping address screen"., console=1, network=8
+- scenario-21 (failed) :: error=Step failed after 3 attempts: No executable UI action matched intent: "Move to cart and click "proceed to checkout" to reach shipping address screen"., console=1, network=6
+- scenario-22 (failed) :: error=Step failed after 3 attempts: No executable UI action matched intent: "Move to cart and click "proceed to checkout" to reach shipping address screen"., console=1, network=6
+- scenario-23 (failed) :: error=Step failed after 3 attempts: No executable UI action matched intent: "Navigate to customer orders page"., console=1, network=6
+- scenario-24 (failed) :: error=Step failed after 3 attempts: No executable UI action matched intent: "Navigate to customer account profile"., console=1, network=15

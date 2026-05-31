@@ -1,0 +1,23 @@
+{
+  "domain": "ecommerce.folio3.com",
+  "updatedAt": "2026-05-31T16:39:04.902Z",
+  "successfulSelectors": [],
+  "failedSelectors": [],
+  "successfulFlowPaths": [
+    "https://ecommerce.folio3.com/",
+    "https://ecommerce.folio3.com/industry/fashion-ecommerce/",
+    "https://ecommerce.folio3.com/headless-ecommerce-solutions/",
+    "https://ecommerce.folio3.com/solutions/virtual-try-on/",
+    "https://ecommerce.folio3.com/solutions/b2b-ecommerce-catalog/"
+  ],
+  "failedFlowPaths": [
+    "https://ecommerce.folio3.com"
+  ],
+  "provenJourneySteps": [],
+  "assumptions": [
+    "Iframe detected; target action may be inside nested browsing context.",
+    "Overlay detected; click targets may be obscured.",
+    "Disabled controls present; prerequisite steps may be missing."
+  ],
+  "customCommandMappings": []
+}

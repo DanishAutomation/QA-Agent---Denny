@@ -1,0 +1,12 @@
+{
+  "domain": "folio3.com",
+  "updatedAt": "2026-05-30T18:38:36.930Z",
+  "successfulSelectors": [],
+  "failedSelectors": [],
+  "successfulFlowPaths": [
+    "https://folio3.com/app-development"
+  ],
+  "failedFlowPaths": [],
+  "assumptions": [],
+  "customCommandMappings": []
+}

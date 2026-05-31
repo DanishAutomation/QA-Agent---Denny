@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>DennyQA vNext Report - run-1780187409061</title>
+    <style>
+      body { font-family: Arial, sans-serif; margin: 24px; color: #1f2937; }
+      h1, h2, h3 { margin-bottom: 8px; }
+      .grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap: 10px; }
+      .card { border: 1px solid #e5e7eb; border-radius: 8px; padding: 10px; background: #fff; }
+      .muted { color: #6b7280; font-size: 13px; }
+      details { border: 1px solid #e5e7eb; border-radius: 8px; padding: 8px; margin-bottom: 8px; }
+      summary { cursor: pointer; font-weight: 600; }
+      ul { margin-top: 4px; }
+    </style>
+  </head>
+  <body>
+    <h1>DennyQA vNext Production Report</h1>
+    <p class="muted">Client-shareable test outcome report.</p>
+
+    <h2>Executive Summary</h2>
+    <div class="grid">
+      <div class="card"><strong>Run ID</strong><br/>run-1780187409061</div>
+      <div class="card"><strong>URL</strong><br/>https://ecommerce.folio3.com/</div>
+      <div class="card"><strong>Test Type</strong><br/>Full Regression</div>
+      <div class="card"><strong>Browser</strong><br/>Chrome</div>
+      <div class="card"><strong>Device(s)</strong><br/>Desktop</div>
+      <div class="card"><strong>Environment</strong><br/>development</div>
+      <div class="card"><strong>Total Cases</strong><br/>7</div>
+      <div class="card"><strong>Passed / Failed / Skipped</strong><br/>3 / 4 / 0</div>
+      <div class="card"><strong>Bugs Found</strong><br/>9</div>
+      <div class="card"><strong>Confidence Score</strong><br/>90%</div>
+    </div>
+
+    <h2>Root Cause Analysis</h2>
+    <ul><li>Contact Form: Site console error detected: intlTelInput is not loaded.: Site console error detected: intlTelInput is not loaded. Console: intlTelInput is not loaded.</li><li>Forms: Site console error detected: intlTelInput is not loaded.: Site console error detected: intlTelInput is not loaded. Console: intlTelInput is not loaded.</li><li>Responsive: Responsive issues detected on 7/7 viewports.: Responsive issues detected on 7/7 viewports. Console: intlTelInput is not loaded. Network: [FAILED] https://ecommerce.folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED</li><li>Accessibility: 14 high-severity accessibility risk finding(s) detected across sample...: 14 high-severity accessibility risk finding(s) detected across sampled templates. Console: intlTelInput is not loaded. Network: [FAILED] https://ecommerce.folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED Network: [FAILED] https://ecommerce.folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED</li><li>Accessibility risk: missing-alt-text: 1 image(s) appear to be missing alt text.</li><li>Accessibility risk: missing-form-labels: 15 form control(s) appear unlabeled.</li><li>Accessibility risk: focus-visibility: Focus outline visibility may be insufficient on interactive elements.</li><li>Responsive layout issues across multiple viewports: Potential layout breakage detected. One or more CTAs appear hidden. Potential layout breakage detected.</li><li>Console defect: intlTelInput is not loaded.: intlTelInput is not loaded.</li></ul>
+
+    <h2>Recovery Attempts</h2>
+    <ul><li>Static suite validation for &quot;Contact Form&quot; using discovered pages.</li><li>Static suite validation for &quot;Forms&quot; using discovered pages.</li><li>Static suite validation for &quot;Responsive&quot; using discovered pages.</li><li>Static suite validation for &quot;Accessibility&quot; using discovered pages.</li><li>Post-run analysis completed after scenario execution.</li></ul>
+
+    <h2>AI Assumptions</h2>
+    <ul><li>Execution assertions rely on generated BDD scenario intent and detected capabilities.</li><li>Fallback test data may be used for missing non-sensitive fields where configured.</li><li>Sensitive/destructive operations are skipped unless safe test mode is explicitly enabled.</li><li>Browser/device matrix reflects configured run values: Chrome / Desktop.</li></ul>
+
+    <h2>Screenshots</h2>
+    <ul><li><strong>scenario-1</strong>: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780187409061\screenshots\scenario-1-Desktop-landing.png</li><li><strong>scenario-2</strong>: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780187409061\screenshots\scenario-2-Desktop-landing.png</li><li><strong>scenario-3</strong>: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780187409061\screenshots\scenario-3-Desktop-landing.png</li><li><strong>scenario-4</strong>: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780187409061\screenshots\scenario-4-Desktop-landing.png</li><li><strong>scenario-5</strong>: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780187409061\screenshots\scenario-5-Desktop-landing.png</li><li><strong>scenario-6</strong>: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780187409061\screenshots\scenario-6-Desktop-landing.png</li><li><strong>scenario-7</strong>: C:\Users\mdanish\Desktop\qa-agent-playwright\src\reports\executions\run-1780187409061\screenshots\scenario-7-Desktop-landing.png</li></ul>
+
+    <h2>Bug Details</h2>
+    
+      <article>
+        <h4>Contact Form: Site console error detected: intlTelInput is not loaded. (Medium / P2)</h4>
+        <p>While testing &quot;Contact form can be submitted with valid data&quot; on https://ecommerce.folio3.com/, the run failed because Site console error detected: intlTelInput is not loaded. Additional signals: Console: intlTelInput is not loaded..</p>
+        <p><strong>Expected:</strong> Form should render without JavaScript errors and allow valid submission with clear success feedback.</p>
+        <p><strong>Actual:</strong> Site console error detected: intlTelInput is not loaded.</p>
+        <p><strong>Suggested fix:</strong> Fix the JavaScript error on the page and retest the affected user flow.</p>
+      </article>
+    
+      <article>
+        <h4>Forms: Site console error detected: intlTelInput is not loaded. (Medium / P2)</h4>
+        <p>While testing &quot;Discovered forms validate required fields safely&quot; on https://ecommerce.folio3.com/, the run failed because Site console error detected: intlTelInput is not loaded. Additional signals: Console: intlTelInput is not loaded..</p>
+        <p><strong>Expected:</strong> Form should render without JavaScript errors and allow valid submission with clear success feedback.</p>
+        <p><strong>Actual:</strong> Site console error detected: intlTelInput is not loaded.</p>
+        <p><strong>Suggested fix:</strong> Fix the JavaScript error on the page and retest the affected user flow.</p>
+      </article>
+    
+      <article>
+        <h4>Responsive: Responsive issues detected on 7/7 viewports. (Medium / P2)</h4>
+        <p>While testing &quot;Responsive layout remains stable across breakpoints&quot; on https://ecommerce.folio3.com/headless-ecommerce-solutions/, the run failed because Responsive issues detected on 7/7 viewports. Additional signals: Console: intlTelInput is not loaded.; Network: [FAILED] https://ecommerce.folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED.</p>
+        <p><strong>Expected:</strong> Layout, CTAs, and navigation should remain usable across mobile, tablet, and desktop viewports.</p>
+        <p><strong>Actual:</strong> Responsive issues detected on 7/7 viewports.</p>
+        <p><strong>Suggested fix:</strong> Adjust responsive CSS/breakpoints so CTAs stay visible and layouts do not break on affected viewports.</p>
+      </article>
+    
+      <article>
+        <h4>Accessibility: 14 high-severity accessibility risk finding(s) detected across sample... (High / P1)</h4>
+        <p>While testing &quot;Accessibility risk checks run on key templates&quot; on https://ecommerce.folio3.com/headless-ecommerce-solutions/, the run failed because 14 high-severity accessibility risk finding(s) detected across sampled templates. Additional signals: Console: intlTelInput is not loaded.; Network: [FAILED] https://ecommerce.folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED; Network: [FAILED] https://ecommerce.folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED.</p>
+        <p><strong>Expected:</strong> Key templates should not expose high-severity accessibility risks (labels, focus, contrast).</p>
+        <p><strong>Actual:</strong> 14 high-severity accessibility risk finding(s) detected across sampled templates.</p>
+        <p><strong>Suggested fix:</strong> Fix template markup: add labels/ARIA, restore visible focus outlines, and provide alt text where missing.</p>
+      </article>
+    
+      <article>
+        <h4>Accessibility risk: missing-alt-text (Medium / P2)</h4>
+        <p>1 image(s) appear to be missing alt text.</p>
+        <p><strong>Expected:</strong> Page should meet quality expectations without user-impacting defects.</p>
+        <p><strong>Actual:</strong> 1 image(s) appear to be missing alt text.</p>
+        <p><strong>Suggested fix:</strong> Review template markup, labels, focus states, and media alternatives.</p>
+      </article>
+    
+      <article>
+        <h4>Accessibility risk: missing-form-labels (High / P1)</h4>
+        <p>15 form control(s) appear unlabeled.</p>
+        <p><strong>Expected:</strong> Page should meet quality expectations without user-impacting defects.</p>
+        <p><strong>Actual:</strong> 15 form control(s) appear unlabeled.</p>
+        <p><strong>Suggested fix:</strong> Review template markup, labels, focus states, and media alternatives.</p>
+      </article>
+    
+      <article>
+        <h4>Accessibility risk: focus-visibility (High / P1)</h4>
+        <p>Focus outline visibility may be insufficient on interactive elements.</p>
+        <p><strong>Expected:</strong> Page should meet quality expectations without user-impacting defects.</p>
+        <p><strong>Actual:</strong> Focus outline visibility may be insufficient on interactive elements.</p>
+        <p><strong>Suggested fix:</strong> Review template markup, labels, focus states, and media alternatives.</p>
+      </article>
+    
+      <article>
+        <h4>Responsive layout issues across multiple viewports (Medium / P2)</h4>
+        <p>Responsive audit flagged issues on 7 of 7 viewports.</p>
+        <p><strong>Expected:</strong> Page should meet quality expectations without user-impacting defects.</p>
+        <p><strong>Actual:</strong> Potential layout breakage detected. One or more CTAs appear hidden. Potential layout breakage detected.</p>
+        <p><strong>Suggested fix:</strong> Review mobile/tablet breakpoints, hidden CTAs, and layout overflow rules.</p>
+      </article>
+    
+      <article>
+        <h4>Console defect: intlTelInput is not loaded. (Medium / P2)</h4>
+        <p>Runtime console error observed during Contact Form - Contact form can be submitted with valid data.</p>
+        <p><strong>Expected:</strong> Page should meet quality expectations without user-impacting defects.</p>
+        <p><strong>Actual:</strong> intlTelInput is not loaded.</p>
+        <p><strong>Suggested fix:</strong> Fix missing script dependencies or initialization order for affected widgets.</p>
+      </article>
+    
+
+    <h2>Technical Logs (Collapsible)</h2>
+    
+        <details>
+          <summary>scenario-1 - Contact Form (failed)</summary>
+          <p><strong>Scenario:</strong> Contact form can be submitted with valid data</p>
+          <p><strong>Error reason:</strong> Site console error detected: intlTelInput is not loaded.</p>
+          <p><strong>Page URL:</strong> https://ecommerce.folio3.com/</p>
+          <p><strong>Recovery attempts:</strong> Static suite validation for &quot;Contact Form&quot; using discovered pages.</p>
+          <p><strong>Self-healing logs:</strong> none</p>
+          <p><strong>Console errors:</strong></p><ul><li>intlTelInput is not loaded.</li></ul>
+          <p><strong>Network errors:</strong></p><ul><li>none</li></ul>
+        </details>
+      
+        <details>
+          <summary>scenario-2 - Forms (failed)</summary>
+          <p><strong>Scenario:</strong> Discovered forms validate required fields safely</p>
+          <p><strong>Error reason:</strong> Site console error detected: intlTelInput is not loaded.</p>
+          <p><strong>Page URL:</strong> https://ecommerce.folio3.com/</p>
+          <p><strong>Recovery attempts:</strong> Static suite validation for &quot;Forms&quot; using discovered pages.</p>
+          <p><strong>Self-healing logs:</strong> none</p>
+          <p><strong>Console errors:</strong></p><ul><li>intlTelInput is not loaded.</li></ul>
+          <p><strong>Network errors:</strong></p><ul><li>none</li></ul>
+        </details>
+      
+        <details>
+          <summary>scenario-3 - Broken Link (passed)</summary>
+          <p><strong>Scenario:</strong> Site links return healthy HTTP responses</p>
+          <p><strong>Error reason:</strong> none</p>
+          <p><strong>Page URL:</strong> https://ecommerce.folio3.com/headless-ecommerce-solutions/</p>
+          <p><strong>Recovery attempts:</strong> Static suite validation for &quot;Broken Link&quot; using discovered pages.</p>
+          <p><strong>Self-healing logs:</strong> none</p>
+          <p><strong>Console errors:</strong></p><ul><li>intlTelInput is not loaded.</li></ul>
+          <p><strong>Network errors:</strong></p><ul><li>none</li></ul>
+        </details>
+      
+        <details>
+          <summary>scenario-4 - Responsive (failed)</summary>
+          <p><strong>Scenario:</strong> Responsive layout remains stable across breakpoints</p>
+          <p><strong>Error reason:</strong> Responsive issues detected on 7/7 viewports.</p>
+          <p><strong>Page URL:</strong> https://ecommerce.folio3.com/headless-ecommerce-solutions/</p>
+          <p><strong>Recovery attempts:</strong> Static suite validation for &quot;Responsive&quot; using discovered pages.</p>
+          <p><strong>Self-healing logs:</strong> none</p>
+          <p><strong>Console errors:</strong></p><ul><li>intlTelInput is not loaded.</li></ul>
+          <p><strong>Network errors:</strong></p><ul><li>[FAILED] https://ecommerce.folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED</li></ul>
+        </details>
+      
+        <details>
+          <summary>scenario-5 - Accessibility (failed)</summary>
+          <p><strong>Scenario:</strong> Accessibility risk checks run on key templates</p>
+          <p><strong>Error reason:</strong> 14 high-severity accessibility risk finding(s) detected across sampled templates.</p>
+          <p><strong>Page URL:</strong> https://ecommerce.folio3.com/headless-ecommerce-solutions/</p>
+          <p><strong>Recovery attempts:</strong> Static suite validation for &quot;Accessibility&quot; using discovered pages.</p>
+          <p><strong>Self-healing logs:</strong> none</p>
+          <p><strong>Console errors:</strong></p><ul><li>intlTelInput is not loaded.</li><li>true</li></ul>
+          <p><strong>Network errors:</strong></p><ul><li>[FAILED] https://www.google.com/ccm/collect?rcb=15&amp;frm=0&amp;ae=g&amp;auid=2028859993.1780187505&amp;dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&amp;en=page_view&amp;dl=https%3A%2F%2Fecommerce.folio3.com%2F&amp;scrsrc=www.googletagmanager.com&amp;rnd=665711841.1780187505&amp;navt=n&amp;npa=0&amp;ep.ads_data_redaction=0&amp;gtm=45He65r2v892838296za200zd892838296xea&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=0~115616985~115938465~115938469~116701381~119034493&amp;apve=1&amp;apvf=f&amp;gap.plf=5&amp;apvc=1&amp;tft=1780187505484&amp;tfd=1713 :: net::ERR_ABORTED</li><li>[FAILED] https://www.google.com/rmkt/collect/11470352680/?random=1780187506171&amp;cv=11&amp;fst=1780187506171&amp;fmt=8&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xea&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=0~115938465~115938468~116701381~119034491&amp;u_w=1440&amp;u_h=900&amp;url=https%3A%2F%2Fecommerce.folio3.com%2F&amp;rcb=8&amp;frm=0&amp;tiba=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&amp;hn=www.googleadservices.com&amp;npa=0&amp;pscdl=noapi&amp;auid=2028859993.1780187505&amp;uaa=x86&amp;uab=64&amp;uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&amp;uamb=0&amp;uam=&amp;uap=Windows&amp;uapv=10.0&amp;uaw=0&amp;_tu=CA&amp;gcp=5 :: net::ERR_ABORTED</li><li>[FAILED] https://www.google.com/ccm/collect?rcb=8&amp;frm=0&amp;auid=2028859993.1780187505&amp;dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&amp;en=page_view&amp;dl=https%3A%2F%2Fecommerce.folio3.com%2F&amp;scrsrc=www.googletagmanager.com&amp;rnd=665711841.1780187505&amp;navt=n&amp;npa=0&amp;gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xec&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=0~115938465~115938468~116701381~119034491&amp;apve=1&amp;apvf=f&amp;apvc=0&amp;tids=AW-11470352680&amp;tid=AW-11470352680&amp;tft=1780187506178&amp;tfd=2408 :: net::ERR_ABORTED</li><li>[FAILED] https://www.google.com/ccm/collect?rcb=8&amp;frm=0&amp;ae=g&amp;auid=2028859993.1780187505&amp;dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&amp;dl=https%3A%2F%2Fecommerce.folio3.com%2F&amp;scrsrc=www.googletagmanager.com&amp;rnd=665711841.1780187505&amp;navt=n&amp;npa=0&amp;_tu=CA&amp;gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xea&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=0~115938465~115938468~116701381~119034491&amp;apve=1&amp;apvf=f&amp;apvc=0&amp;tids=AW-11470352680&amp;tid=AW-11470352680&amp;tft=1780187506179&amp;tfd=2409 :: net::ERR_ABORTED</li><li>[FAILED] https://analytics.google.com/g/collect?v=2&amp;tid=G-DCLMD8MZ7Y&amp;gtm=45je65r2v889965682z8892838296za20gzb892838296zd892838296&amp;_p=1780187504586&amp;_gaz=1&amp;gcd=13l3l3l3l1l1&amp;npa=0&amp;dma=0&amp;_eu=EAAAAGAC&amp;are=1&amp;cid=1784182751.1780187506&amp;frm=0&amp;ir=1&amp;pscdl=noapi&amp;rcb=5&amp;sr=1440x900&amp;uaa=x86&amp;uab=64&amp;uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&amp;uam=&amp;uamb=0&amp;uap=Windows&amp;uapv=10.0&amp;uaw=0&amp;ul=en-us&amp;gaf=2&amp;_s=1&amp;tag_exp=0~115938465~115938469~119034491&amp;sid=1780187506&amp;sct=1&amp;seg=0&amp;dl=https%3A%2F%2Fecommerce.folio3.com%2F&amp;dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&amp;en=page_view&amp;_fv=1&amp;_nsi=1&amp;_ss=1&amp;tfd=2480 :: net::ERR_ABORTED</li><li>[FAILED] https://www.google.com/rmkt/collect/11470352680/?random=1780187506139&amp;cv=11&amp;fst=1780187506139&amp;fmt=8&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;en=gtag.config&amp;gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xec&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=0~115938465~115938468~116701381~119034491&amp;u_w=1440&amp;u_h=900&amp;url=https%3A%2F%2Fecommerce.folio3.com%2F&amp;rcb=8&amp;frm=0&amp;tiba=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&amp;hn=www.googleadservices.com&amp;npa=0&amp;pscdl=noapi&amp;auid=2028859993.1780187505&amp;uaa=x86&amp;uab=64&amp;uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&amp;uamb=0&amp;uam=&amp;uap=Windows&amp;uapv=10.0&amp;uaw=0&amp;data=event%3Dgtag.config&amp;gcp=5 :: net::ERR_ABORTED</li><li>[FAILED] https://va.tawk.to/log-performance/v3 :: net::ERR_ABORTED</li><li>[FAILED] https://analytics.google.com/g/collect?v=2&amp;tid=G-DCLMD8MZ7Y&amp;gtm=45je65r2v889965682za20gzb892838296zd892838296&amp;_p=1780187504586&amp;gcd=13l3l3l3l1l1&amp;npa=0&amp;dma=0&amp;_eu=EAAAAGQC&amp;are=1&amp;cid=1784182751.1780187506&amp;frm=0&amp;ir=1&amp;pscdl=noapi&amp;rcb=5&amp;sr=1440x900&amp;uaa=x86&amp;uab=64&amp;uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&amp;uam=&amp;uamb=0&amp;uap=Windows&amp;uapv=10.0&amp;uaw=0&amp;ul=en-us&amp;gaf=2&amp;_s=2&amp;tag_exp=0~115938465~115938469~119034491&amp;sid=1780187506&amp;sct=1&amp;seg=0&amp;dl=https%3A%2F%2Fecommerce.folio3.com%2F&amp;dt=%231%20US-based%20Ecommerce%20Development%20Company%20-%20Folio3&amp;_tu=CA&amp;en=user_engagement&amp;_et=2861&amp;tfd=5345 :: net::ERR_ABORTED</li><li>[FAILED] https://ecommerce.folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED</li><li>[FAILED] https://hn.inspectlet.com/pdata?d=mr,633,undefined,undefined,undefined,undefined)s,634,0,0)cinmi,2336,6188,MDg1ZjA4YzM0OQ==,hidden)cinmi,2336,6189,Lw==,hidden)cinmi,2336,6193,,text)cinmi,2336,6197,,text)cinmi,2336,6201,,email)cinmi,2336,6206,,tel)cinmi,2336,6214,,hidden)cinmi,2336,6216,MTc4MDA3NTExNg==,hidden)cinmi,2336,6220,,hidden)cinmi,2336,6222,,hidden)cinmi,2337,6224,T3RoZXI=,hidden)cinmi,2337,6226,V2ViIC0gT3RoZXIgUGFnZXM=,hidden)cinmi,2337,6228,T3JnYW5pYw==,hidden)cinmi,2337,6230,aHR0cHM6Ly9lY29tbWVyY2UuZm9saW8zLmNvbS8=,hidden)cinmi,2337,6232,R29vZ2xlU3RhY2tkcml2ZXJNb25pdG9yaW5nLVVwdGltZUNoZWNrcyhodHRwczovL2Nsb3VkLmdvb2dsZS5jb20vbW9uaXRvcmluZyk=,hidden)cinmi,2337,6234,MzUuMjM2LjIwNy42OA==,hidden)cinmi,2337,6236,,hidden)cinmi,2337,6238,,hidden)cinmi,2337,6247,U3VibWl0IE5vdw==,submit)&amp;w=1502151182&amp;r=3664342043&amp;sid=3356140399&amp;pad=1&amp;dn=dn&amp;fadd=true&amp;oid=72584619&amp;lpt=0&amp;rrtn=1780187509098 :: net::ERR_ABORTED</li><li>[FAILED] https://hn.inspectlet.com/mlsi?jv=7&amp;r=3664342043&amp;w=1502151182&amp;k=8c103887&amp;oid=72584619&amp;sid=3356140399&amp;pad=1&amp;mlrc=3&amp;isfpayload=W3sidCI6MjYwNywiayI6InhociIsImQiOnsiZCI6W251bGwseyIwIjoiUE9TVCIsIjEiOiJodHRwczovL3EuY2xhcml0eS5tcy9jb2xsZWN0IiwiMiI6dHJ1ZX0sbnVsbCwyMDQsMjcwXSwicG4iOjF9fSx7InQiOjI2MTMsImsiOiJkIiwiZCI6W1tdLFtdLFt7Im5vZGVUeXBlIjoxLCJpZCI6MjgyNSwidGFnTmFtZSI6IkRJViIsImF0dHJpYnV0ZXMiOnsic3R5bGUiOiJ0cmFuc2Zvcm06IHRyYW5zbGF0ZTNkKC0xNzA5LjMzcHgsIDBweCwgMHB4KTsgdHJhbnNpdGlvbi1kdXJhdGlvbjogNTAwbXM7In19LHsibm9kZVR5cGUiOjEsImlkIjoyODI2LCJ0YWdOYW1lIjoiRElWIiwiYXR0cmlidXRlcyI6eyJjbGFzcyI6InN3aXBlci1zbGlkZSBzd2lwZXItc2xpZGUtZHVwbGljYXRlIHN3aXBlci1zbGlkZS1kdXBsaWNhdGUtYWN0aXZlIn19LHsibm9kZVR5cGUiOjEsImlkIjoyOTQxLCJ0YWdOYW1lIjoiRElWIiwiYXR0cmlidXRlcyI6eyJjbGFzcyI6InN3aXBlci1zbGlkZSBzd2lwZXItc2xpZGUtZHVwbGljYXRlIHN3aXBlci1zbGlkZS1kdXBsaWNhdGUtbmV4dCJ9fSx7Im5vZGVUeXBlIjoxLCJpZCI6MzA1OCwidGFnTmFtZSI6IkRJViIsImF0dHJpYnV0ZXMiOnsiY2xhc3MiOiJzd2lwZXItc2xpZGUgc3dpcGVyLXNsaWRlLWR1cGxpY2F0ZSJ9fSx7Im5vZGVUeXBlIjoxLCJpZCI6MzE3NCwidGFnTmFtZSI6IkRJViIsImF0dHJpYnV0ZXMiOnsiY2xhc3MiOiJzd2lwZXItc2xpZGUgc3dpcGVyLXNsaWRlLXByZXYifX0seyJub2RlVHlwZSI6MSwiaWQiOjMyOTAsInRhZ05hbWUiOiJESVYiLCJhdHRyaWJ1dGVzIjp7ImNsYXNzIjoic3dpcGVyLXNsaWRlIHN3aXBlci1zbGlkZS1hY3RpdmUifX0seyJub2RlVHlwZSI6MSwiaWQiOjM0MDYsInRhZ05hbWUiOiJESVYiLCJhdHRyaWJ1dGVzIjp7ImNsYXNzIjoic3dpcGVyLXNsaWRlIHN3aXBlci1zbGlkZS1uZXh0In19LHsibm9kZVR5cGUiOjEsImlkIjozNTI0LCJ0YWdOYW1lIjoiRElWIiwiYXR0cmlidXRlcyI6eyJjbGFzcyI6InN3aXBlci1zbGlkZSJ9fSx7Im5vZGVUeXBlIjoxLCJpZCI6MzY0MCwidGFnTmFtZSI6IkRJViIsImF0dHJpYnV0ZXMiOnsiY2xhc3MiOiJzd2lwZXItc2xpZGUgc3dpcGVyLXNsaWRlLWR1cGxpY2F0ZSBzd2lwZXItc2xpZGUtZHVwbGljYXRlLXByZXYifX0seyJub2RlVHlwZSI6MSwiaWQiOjM3NTUsInRhZ05hbWUiOiJESVYiLCJhdHRyaWJ1dGVzIjp7ImNsYXNzIjoic3dpcGVyLXNsaWRlIHN3aXBlci1zbGlkZS1kdXBsaWNhdGUgc3dpcGVyLXNsaWRlLWR1cGxpY2F0ZS1hY3RpdmUifX0seyJub2RlVHlwZSI6MSwiaWQiOjM4NzAsInRhZ05hbWUiOiJESVYiLCJhdHRyaWJ1dGVzIjp7ImNsYXNzIjoic3dpcGVyLXNsaWRlIHN3aXBlci1zbGlkZS1kdXBsaWNhdGUgc3dpcGVyLXNsaWRlLWR1cGxpY2F0ZS1uZXh0In19LHsibm9kZVR5cGUiOjEsImlkIjo1MTk2LCJ0YWdOYW1lIjoiRElWIiwiYXR0cmlidXRlcyI6eyJjbGFzcyI6InN3aXBlci1zbGlkZSBzd2lwZXItc2xpZGUtYWN0aXZlIn19LHsibm9kZVR5cGUiOjEsImlkIjo1MjM4LCJ0YWdOYW1lIjoiRElWIiwiYXR0cmlidXRlcyI6eyJjbGFzcyI6InN3aXBlci1zbGlkZSBzd2lwZXItc2xpZGUtbmV4dCJ9fSx7Im5vZGVUeXBlIjoxLCJpZCI6NTI4NiwidGFnTmFtZSI6IkRJViIsImF0dHJpYnV0ZXMiOnsiY2xhc3MiOiJzd2lwZXItc2xpZGUifX0seyJub2RlVHlwZSI6MSwiaWQiOjU0OTYsInRhZ05hbWUiOiJESVYiLCJhdHRyaWJ1dGVzIjp7InN0eWxlIjoidHJhbnNmb3JtOiB0cmFuc2xhdGUzZCgtMTY0MHB4LCAwcHgsIDBweCk7IHRyYW5zaXRpb24tZHVyYXRpb246IDUwMG1zOyJ9fSx7Im5vZGVUeXBlIjoxLCJpZCI6NTQ5NywidGFnTmFtZSI6IkRJViIsImF0dHJpYnV0ZXMiOnsiY2xhc3MiOiJzd2lwZXItc2xpZGUgc3dpcGVyLXNsaWRlLWR1cGxpY2F0ZSBzd2lwZXItc2xpZGUtZHVwbGljYXRlLXByZXYifX0seyJub2RlVHlwZSI6MSwiaWQiOjU1MjMsInRhZ05hbWUiOiJESVYiLCJhdHRyaWJ1dGVzIjp7ImNsYXNzIjoic3dpcGVyLXNsaWRlIHN3aXBlci1zbGlkZS1kdXBsaWNhdGUgc3dpcGVyLXNsaWRlLWR1cGxpY2F0ZS1hY3RpdmUifX0seyJub2RlVHlwZSI6MSwiaWQiOjU1NDksInRhZ05hbWUiOiJESVYiLCJhdHRyaWJ1dGVzIjp7ImNsYXNzIjoic3dpcGVyLXNsaWRlIHN3aXBlci1zbGlkZS1kdXBsaWNhdGUgc3dpcGVyLXNsaWRlLWR1cGxpY2F0ZS1uZXh0In19LHsibm9kZVR5cGUiOjEsImlkIjo1NTc2LCJ0YWdOYW1lIjoiRElWIiwiYXR0cmlidXRlcyI6eyJjbGFzcyI6InN3aXBlci1zbGlkZSBzd2lwZXItc2xpZGUtcHJldiJ9fSx7Im5vZGVUeXBlIjoxLCJpZCI6NTYwMywidGFnTmFtZSI6IkRJViIsImF0dHJpYnV0ZXMiOnsiY2xhc3MiOiJzd2lwZXItc2xpZGUgc3dpcGVyLXNsaWRlLWFjdGl2ZSJ9fSx7Im5vZGVUeXBlIjoxLCJpZCI6NTYzMCwidGFnTmFtZSI6IkRJViIsImF0dHJpYnV0ZXMiOnsiY2xhc3MiOiJzd2lwZXItc2xpZGUgc3dpcGVyLXNsaWRlLW5leHQifX0seyJub2RlVHlwZSI6MSwiaWQiOjU2NTcsInRhZ05hbWUiOiJESVYiLCJhdHRyaWJ1dGVzIjp7ImNsYXNzIjoic3dpcGVyLXNsaWRlIHN3aXBlci1zbGlkZS1kdXBsaWNhdGUgc3dpcGVyLXNsaWRlLWR1cGxpY2F0ZS1wcmV2In19LHsibm9kZVR5cGUiOjEsImlkIjo1NjgzLCJ0YWdOYW1lIjoiRElWIiwiYXR0cmlidXRlcyI6eyJjbGFzcyI6InN3aXBlci1zbGlkZSBzd2lwZXItc2xpZGUtZHVwbGljYXRlIHN3aXBlci1zbGlkZS1kdXBsaWNhdGUtYWN0aXZlIn19LHsibm9kZVR5cGUiOjEsImlkIjo1NzA5LCJ0YWdOYW1lIjoiRElWIiwiYXR0cmlidXRlcyI6eyJjbGFzcyI6InN3aXBlci1zbGlkZSBzd2lwZXItc2xpZGUtZHVwbGljYXRlIHN3aXBlci1zbGlkZS1kdXBsaWNhdGUtbmV4dCJ9fV0sW11dfV0=&amp;isfnum=1&amp;isftotal=1&amp;rrtn=1780187509099 :: net::ERR_ABORTED</li><li>[FAILED] https://ecommerce.folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED</li></ul>
+        </details>
+      
+        <details>
+          <summary>scenario-6 - Navigation (passed)</summary>
+          <p><strong>Scenario:</strong> Primary navigation routes resolve correctly</p>
+          <p><strong>Error reason:</strong> none</p>
+          <p><strong>Page URL:</strong> https://ecommerce.folio3.com/solutions/virtual-try-on/</p>
+          <p><strong>Recovery attempts:</strong> Static suite validation for &quot;Navigation&quot; using discovered pages.</p>
+          <p><strong>Self-healing logs:</strong> none</p>
+          <p><strong>Console errors:</strong></p><ul><li>intlTelInput is not loaded.</li></ul>
+          <p><strong>Network errors:</strong></p><ul><li>[FAILED] https://ecommerce.folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED</li></ul>
+        </details>
+      
+        <details>
+          <summary>scenario-7 - Static Pages (passed)</summary>
+          <p><strong>Scenario:</strong> Static informational pages load and render expected sections</p>
+          <p><strong>Error reason:</strong> none</p>
+          <p><strong>Page URL:</strong> https://ecommerce.folio3.com/solutions/b2b-ecommerce-catalog/</p>
+          <p><strong>Recovery attempts:</strong> Static suite validation for &quot;Static Pages&quot; using discovered pages.</p>
+          <p><strong>Self-healing logs:</strong> none</p>
+          <p><strong>Console errors:</strong></p><ul><li>intlTelInput is not loaded.</li></ul>
+          <p><strong>Network errors:</strong></p><ul><li>[FAILED] https://ecommerce.folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED</li><li>[FAILED] https://ecommerce.folio3.com/cdn-cgi/rum? :: net::ERR_ABORTED</li><li>[FAILED] https://www.google.com/ccm/collect?rcb=0&amp;frm=0&amp;ae=g&amp;auid=2028859993.1780187505&amp;dt=B2B%20Ecommerce%20Catalog%20Solutions%3A%20Build%20%26%20Scale%20Your%20Business&amp;en=page_view&amp;dl=https%3A%2F%2Fecommerce.folio3.com%2Fsolutions%2Fb2b-ecommerce-catalog%2F&amp;scrsrc=www.googletagmanager.com&amp;rnd=414587526.1780187530&amp;navt=n&amp;npa=0&amp;ep.ads_data_redaction=0&amp;gtm=45He65r2v892838296za200zd892838296xea&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=0~115938466~115938469~116701381~119027223~119034493~119168154&amp;apve=1&amp;apvf=f&amp;apvc=1&amp;tft=1780187530424&amp;tfd=4749 :: net::ERR_ABORTED</li><li>[FAILED] https://www.google.com/rmkt/collect/11470352680/?random=1780187530464&amp;cv=11&amp;fst=1780187530464&amp;fmt=8&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;en=gtag.config&amp;gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xec&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=0~115616985~115938466~115938469~116701381~119034491&amp;u_w=1440&amp;u_h=900&amp;url=https%3A%2F%2Fecommerce.folio3.com%2Fsolutions%2Fb2b-ecommerce-catalog%2F&amp;rcb=18&amp;frm=0&amp;tiba=B2B%20Ecommerce%20Catalog%20Solutions%3A%20Build%20%26%20Scale%20Your%20Business&amp;hn=www.googleadservices.com&amp;npa=0&amp;pscdl=noapi&amp;auid=2028859993.1780187505&amp;uaa=x86&amp;uab=64&amp;uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&amp;uamb=0&amp;uam=&amp;uap=Windows&amp;uapv=10.0&amp;uaw=0&amp;data=event%3Dgtag.config&amp;gap.plf=5&amp;gcp=5 :: net::ERR_ABORTED</li><li>[FAILED] https://www.google.com/ccm/collect?rcb=18&amp;frm=0&amp;auid=2028859993.1780187505&amp;dt=B2B%20Ecommerce%20Catalog%20Solutions%3A%20Build%20%26%20Scale%20Your%20Business&amp;en=page_view&amp;dl=https%3A%2F%2Fecommerce.folio3.com%2Fsolutions%2Fb2b-ecommerce-catalog%2F&amp;scrsrc=www.googletagmanager.com&amp;rnd=414587526.1780187530&amp;navt=n&amp;npa=0&amp;gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xec&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=0~115616985~115938466~115938469~116701381~119034491&amp;apve=1&amp;apvf=f&amp;gap.plf=5&amp;apvc=0&amp;tids=AW-11470352680&amp;tid=AW-11470352680&amp;tft=1780187530504&amp;tfd=4829 :: net::ERR_ABORTED</li><li>[FAILED] https://www.google.com/ccm/collect?rcb=18&amp;frm=0&amp;ae=g&amp;auid=2028859993.1780187505&amp;dt=B2B%20Ecommerce%20Catalog%20Solutions%3A%20Build%20%26%20Scale%20Your%20Business&amp;dl=https%3A%2F%2Fecommerce.folio3.com%2Fsolutions%2Fb2b-ecommerce-catalog%2F&amp;scrsrc=www.googletagmanager.com&amp;rnd=414587526.1780187530&amp;navt=n&amp;npa=0&amp;_tu=CA&amp;gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xea&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=0~115616985~115938466~115938469~116701381~119034491&amp;apve=1&amp;apvf=f&amp;gap.plf=5&amp;apvc=0&amp;tids=AW-11470352680&amp;tid=AW-11470352680&amp;tft=1780187530505&amp;tfd=4829 :: net::ERR_ABORTED</li><li>[FAILED] https://www.google.com/rmkt/collect/11470352680/?random=1780187530495&amp;cv=11&amp;fst=1780187530495&amp;fmt=8&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be65r2v9213395260z8892838296za20gzb892838296zd892838296xea&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=0~115616985~115938466~115938469~116701381~119034491&amp;u_w=1440&amp;u_h=900&amp;url=https%3A%2F%2Fecommerce.folio3.com%2Fsolutions%2Fb2b-ecommerce-catalog%2F&amp;rcb=18&amp;frm=0&amp;tiba=B2B%20Ecommerce%20Catalog%20Solutions%3A%20Build%20%26%20Scale%20Your%20Business&amp;hn=www.googleadservices.com&amp;npa=0&amp;pscdl=noapi&amp;auid=2028859993.1780187505&amp;uaa=x86&amp;uab=64&amp;uafvl=Chromium%3B148.0.7778.179%7CGoogle%2520Chrome%3B148.0.7778.179%7CNot%252FA)Brand%3B99.0.0.0&amp;uamb=0&amp;uam=&amp;uap=Windows&amp;uapv=10.0&amp;uaw=0&amp;_tu=CA&amp;gap.plf=5&amp;gcp=5 :: net::ERR_ABORTED</li></ul>
+        </details>
+      
+  </body>
+</html>

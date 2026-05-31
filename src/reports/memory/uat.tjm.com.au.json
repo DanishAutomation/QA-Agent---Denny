@@ -1,0 +1,13 @@
+{
+  "domain": "uat.tjm.com.au",
+  "updatedAt": "2026-05-31T18:47:00.585Z",
+  "successfulSelectors": [],
+  "failedSelectors": [],
+  "successfulFlowPaths": [
+    "https://uat.tjm.com.au/"
+  ],
+  "failedFlowPaths": [],
+  "provenJourneySteps": [],
+  "assumptions": [],
+  "customCommandMappings": []
+}

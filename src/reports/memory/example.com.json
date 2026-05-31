@@ -1,0 +1,45 @@
+{
+  "domain": "example.com",
+  "updatedAt": "2026-05-30T13:10:55.855Z",
+  "successfulSelectors": [],
+  "failedSelectors": [],
+  "successfulFlowPaths": [
+    "https://example.com/"
+  ],
+  "failedFlowPaths": [
+    "https://example.com"
+  ],
+  "assumptions": [],
+  "customCommandMappings": [
+    {
+      "command": "login with provided credentials",
+      "mappedAction": "Execute command 1: login with provided credentials",
+      "success": false,
+      "recordedAt": "2026-05-30T13:08:54.899Z"
+    },
+    {
+      "command": "search implant",
+      "mappedAction": "Execute command 1: login with provided credentials",
+      "success": false,
+      "recordedAt": "2026-05-30T13:08:54.899Z"
+    },
+    {
+      "command": "login with provided credentials",
+      "mappedAction": "Execute command 2: search implant",
+      "success": false,
+      "recordedAt": "2026-05-30T13:08:57.248Z"
+    },
+    {
+      "command": "search implant",
+      "mappedAction": "Execute command 2: search implant",
+      "success": false,
+      "recordedAt": "2026-05-30T13:08:57.248Z"
+    },
+    {
+      "command": "login and search shoes",
+      "mappedAction": "Execute command 1: login and search shoes",
+      "success": false,
+      "recordedAt": "2026-05-30T13:09:13.381Z"
+    }
+  ]
+}

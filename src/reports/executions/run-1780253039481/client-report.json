@@ -1,0 +1,148 @@
+{
+  "executiveSummary": {
+    "runId": "run-1780253039481",
+    "environment": "development",
+    "url": "https://uat.tjm.com.au/",
+    "testType": "Full Regression",
+    "browser": "Chrome",
+    "devices": [
+      "Desktop"
+    ],
+    "totalCases": 3,
+    "passed": 3,
+    "failed": 0,
+    "skipped": 0,
+    "bugsFound": 0,
+    "confidenceScore": 96
+  },
+  "rootCauseAnalysis": [
+    "No major root-cause signals detected in this run."
+  ],
+  "recoveryAttempts": [
+    "No recovery attempts were required."
+  ],
+  "aiAssumptions": [
+    "Execution assertions rely on generated BDD scenario intent and detected capabilities.",
+    "Fallback test data may be used for missing non-sensitive fields where configured.",
+    "Sensitive/destructive operations are skipped unless safe test mode is explicitly enabled.",
+    "Browser/device matrix reflects configured run values: Chrome / Desktop."
+  ],
+  "screenshots": [
+    {
+      "scenarioId": "scenario-1",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780253039481\\screenshots\\scenario-1-step-1-discovered-forms-validate-requir--Desktop-landing.png"
+    },
+    {
+      "scenarioId": "scenario-2",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780253039481\\screenshots\\scenario-2-step-1-site-links-return-healthy-http-r--Desktop-landing.png"
+    },
+    {
+      "scenarioId": "scenario-3",
+      "path": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780253039481\\screenshots\\scenario-3-step-1-responsive-layout-remains-stable--Desktop-landing.png"
+    }
+  ],
+  "bugs": [],
+  "technicalLogs": [
+    {
+      "scenarioId": "scenario-1",
+      "feature": "Forms",
+      "scenario": "Discovered forms validate required fields safely",
+      "status": "passed",
+      "consoleErrors": [],
+      "networkErrors": [
+        "[FAILED] https://uat.tjm.com.au/static/version1779355168/frontend/Folio3/retailer/en_US/mage/dropdowns.js :: net::ERR_ABORTED",
+        "[FAILED] https://uat.tjm.com.au/static/version1779355168/frontend/Folio3/retailer/en_US/Folio3_BuildYour4x4/js/build-your-4x4-renderer.js :: net::ERR_ABORTED",
+        "[FAILED] https://uat.tjm.com.au/static/version1779355168/frontend/Folio3/retailer/en_US/Magento_Theme/js/cookie-status.js :: net::ERR_ABORTED",
+        "[FAILED] https://uat.tjm.com.au/static/version1779355168/frontend/Folio3/retailer/en_US/Magento_Catalog/js/view/image.js :: net::ERR_ABORTED",
+        "[FAILED] https://uat.tjm.com.au/static/version1779355168/frontend/Folio3/retailer/en_US/Magento_PageCache/js/page-cache.js :: net::ERR_ABORTED",
+        "[FAILED] https://uat.tjm.com.au/static/version1779355168/frontend/Folio3/retailer/en_US/Magento_Search/js/form-mini.js :: net::ERR_ABORTED",
+        "[FAILED] https://uat.tjm.com.au/static/version1779355168/frontend/Folio3/retailer/en_US/Ves_Megamenu/js/megamenu.js :: net::ERR_ABORTED",
+        "[FAILED] https://uat.tjm.com.au/static/version1779355168/frontend/Folio3/retailer/en_US/Magento_Checkout/js/view/cart-item-renderer.js :: net::ERR_ABORTED",
+        "[FAILED] https://uat.tjm.com.au/static/version1779355168/frontend/Folio3/retailer/en_US/Swissup_Ajaxsearch/js/ajaxsearch.js :: net::ERR_ABORTED",
+        "[FAILED] https://uat.tjm.com.au/static/version1779355168/frontend/Folio3/retailer/en_US/Folio3_StorepickupOverride/js/main.js :: net::ERR_ABORTED",
+        "[FAILED] https://uat.tjm.com.au/static/version1779355168/frontend/Folio3/retailer/en_US/Magento_Theme/js/view/messages.js :: net::ERR_ABORTED",
+        "[FAILED] https://uat.tjm.com.au/static/version1779355168/frontend/Folio3/retailer/en_US/Magento_Checkout/js/view/minicart.js :: net::ERR_ABORTED",
+        "[FAILED] https://uat.tjm.com.au/static/version1779355168/frontend/Folio3/retailer/en_US/Magento_PageBuilder/js/widget-initializer.js :: net::ERR_ABORTED",
+        "[FAILED] https://uat.tjm.com.au/static/version1779355168/frontend/Folio3/retailer/en_US/Magento_Customer/js/view/customer.js :: net::ERR_ABORTED",
+        "[FAILED] https://uat.tjm.com.au/static/version1779355168/frontend/Folio3/retailer/en_US/mage/tabs.js :: net::ERR_ABORTED",
+        "[FAILED] https://uat.tjm.com.au/static/version1779355168/frontend/Folio3/retailer/en_US/Magezon_Builder/js/magezon-builder.js :: net::ERR_ABORTED",
+        "[FAILED] https://uat.tjm.com.au/static/version1779355168/frontend/Folio3/retailer/en_US/mage/cookies.js :: net::ERR_ABORTED",
+        "[FAILED] https://uat.tjm.com.au/static/version1779355168/frontend/Folio3/retailer/en_US/Magento_Ui/js/lib/core/collection.js :: net::ERR_ABORTED",
+        "[FAILED] https://uat.tjm.com.au/static/version1779355168/frontend/Folio3/retailer/en_US/Folio3_QuickQuote/js/build4x4QQ.js :: net::ERR_ABORTED",
+        "[FAILED] https://uat.tjm.com.au/static/version1779355168/frontend/Folio3/retailer/en_US/mage/menu.js :: net::ERR_ABORTED",
+        "[FAILED] https://uat.tjm.com.au/static/version1779355168/frontend/Folio3/retailer/en_US/Magento_Msrp/js/view/checkout/minicart/subtotal/totals.js :: net::ERR_ABORTED",
+        "[FAILED] https://uat.tjm.com.au/static/version1779355168/frontend/Folio3/retailer/en_US/Magento_Catalog/js/storage-manager.js :: net::ERR_ABORTED",
+        "[FAILED] https://uat.tjm.com.au/static/version1779355168/frontend/Folio3/retailer/en_US/Magento_Customer/js/invalidation-processor.js :: net::ERR_ABORTED",
+        "[FAILED] https://uat.tjm.com.au/static/version1779355168/frontend/Folio3/retailer/en_US/mage/dropdown.js :: net::ERR_ABORTED",
+        "[FAILED] https://uat.tjm.com.au/static/version1779355168/frontend/Folio3/retailer/en_US/mage/loader.js :: net::ERR_ABORTED",
+        "[FAILED] https://uat.tjm.com.au/static/version1779355168/frontend/Folio3/retailer/en_US/Magento_Ui/js/block-loader.js :: net::ERR_ABORTED",
+        "[FAILED] https://uat.tjm.com.au/static/version1779355168/frontend/Folio3/retailer/en_US/Magento_Tax/js/view/checkout/minicart/subtotal/totals.js :: net::ERR_ABORTED",
+        "[FAILED] https://uat.tjm.com.au/static/version1779355168/frontend/Folio3/retailer/en_US/mage/validation/validation.js :: net::ERR_ABORTED",
+        "[FAILED] https://uat.tjm.com.au/static/version1779355168/frontend/Folio3/retailer/en_US/Magento_Theme/js/custom-header-section.js :: net::ERR_ABORTED"
+      ],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Static suite validation for \"Forms\" using discovered pages."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-2",
+      "feature": "Broken Link",
+      "scenario": "Site links return healthy HTTP responses",
+      "status": "passed",
+      "consoleErrors": [],
+      "networkErrors": [
+        "[FAILED] https://uat.tjm.com.au/media/wysiwyg/aus-b2c/Web_Assets_2_1_-mob.jpg :: net::ERR_ABORTED"
+      ],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Static suite validation for \"Broken Link\" using discovered pages."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    },
+    {
+      "scenarioId": "scenario-3",
+      "feature": "Responsive",
+      "scenario": "Responsive layout remains stable across breakpoints",
+      "status": "passed",
+      "consoleErrors": [],
+      "networkErrors": [
+        "[FAILED] https://uat.tjm.com.au/media/wysiwyg/aus-b2c/Web_Assets_2_1_-mob.jpg :: net::ERR_ABORTED"
+      ],
+      "selfHealing": {
+        "attempted": false,
+        "recovered": false,
+        "attempts": 0,
+        "strategyLogs": []
+      },
+      "preconditionDiscovery": {
+        "missingPreconditions": [],
+        "actionsTaken": [
+          "Static suite validation for \"Responsive\" using discovered pages."
+        ],
+        "retryResult": "not-needed",
+        "investigationFindings": []
+      }
+    }
+  ],
+  "generatedAt": "2026-05-31T18:47:01.105Z"
+}

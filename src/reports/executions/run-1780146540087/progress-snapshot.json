@@ -1,0 +1,243 @@
+{
+  "runId": "run-1780146540087",
+  "status": "completed",
+  "orchestrationState": "COMPLETE",
+  "currentPhase": "Reporting",
+  "totalGeneratedTestCases": 2,
+  "currentExecutingTestCaseNumber": 2,
+  "currentTestCaseTitle": "Execution completed",
+  "currentUrl": "https://example.com/",
+  "browser": "Chrome",
+  "device": "Desktop",
+  "progressPercentage": 100,
+  "passCount": 2,
+  "failCount": 0,
+  "skippedCount": 0,
+  "liveLogs": [
+    "[6:09:00 pm] Run queued (run-1780146540087)",
+    "[6:09:00 pm] Discovery started for https://example.com",
+    "[6:09:01 pm] Discovery completed: 1 pages, 0 forms.",
+    "[6:09:01 pm] Generated 7 scenarios (2 executable, 5 skipped).",
+    "[6:09:01 pm] Launching browser contexts.",
+    "[6:09:01 pm] Executing scenario 1/2: Primary navigation routes resolve correctly",
+    "[6:09:02 pm] Scenario completed: Primary navigation routes resolve correctly (passed)",
+    "[6:09:02 pm] Executing scenario 2/2: Accessibility risk checks run on key templates",
+    "[6:09:03 pm] Scenario completed: Accessibility risk checks run on key templates (passed)",
+    "[6:09:09 pm] Execution reports generated.",
+    "[6:09:09 pm] Run completed and reports generated."
+  ],
+  "testCases": [
+    {
+      "id": "scenario-1",
+      "title": "Primary navigation routes resolve correctly",
+      "status": "passed"
+    },
+    {
+      "id": "scenario-2",
+      "title": "Accessibility risk checks run on key templates",
+      "status": "passed"
+    }
+  ],
+  "updatedAt": "2026-05-30T13:09:09.833Z",
+  "log": "Run completed and reports generated.",
+  "result": {
+    "runId": "run-1780146540087",
+    "startedAt": "2026-05-30T13:09:01.204Z",
+    "completedAt": "2026-05-30T13:09:09.826Z",
+    "durationMs": 8622,
+    "passed": 2,
+    "failed": 0,
+    "skipped": 0,
+    "reportPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780146540087\\result.json",
+    "scenarios": [
+      {
+        "scenarioId": "scenario-1",
+        "feature": "Navigation",
+        "scenario": "Primary navigation routes resolve correctly",
+        "status": "passed",
+        "screenshots": [],
+        "consoleErrors": [
+          "Failed to load resource: the server responded with a status of 404 ()"
+        ],
+        "networkErrors": [],
+        "pageUrl": "https://example.com/",
+        "timestamp": "2026-05-30T13:09:01.660Z",
+        "durationMs": 1318,
+        "selfHealing": {
+          "attempted": false,
+          "recovered": false,
+          "attempts": 0,
+          "strategyLogs": []
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [],
+          "retryResult": "not-needed",
+          "investigationFindings": []
+        }
+      },
+      {
+        "scenarioId": "scenario-2",
+        "feature": "Accessibility",
+        "scenario": "Accessibility risk checks run on key templates",
+        "status": "passed",
+        "screenshots": [],
+        "consoleErrors": [],
+        "networkErrors": [],
+        "pageUrl": "https://example.com/",
+        "timestamp": "2026-05-30T13:09:02.980Z",
+        "durationMs": 626,
+        "selfHealing": {
+          "attempted": false,
+          "recovered": false,
+          "attempts": 0,
+          "strategyLogs": []
+        },
+        "preconditionDiscovery": {
+          "missingPreconditions": [],
+          "actionsTaken": [],
+          "retryResult": "not-needed",
+          "investigationFindings": []
+        }
+      }
+    ],
+    "bugReports": [],
+    "brokenLinksReport": {
+      "baseUrl": "https://example.com",
+      "checkedAt": "2026-05-30T13:09:04.872Z",
+      "checkedCount": 0,
+      "failedCount": 0,
+      "findings": []
+    },
+    "formsReport": {
+      "baseUrl": "https://example.com",
+      "checkedAt": "2026-05-30T13:09:04.872Z",
+      "formsDetected": 0,
+      "results": []
+    },
+    "accessibilityRiskReport": {
+      "baseUrl": "https://example.com",
+      "checkedAt": "2026-05-30T13:09:04.928Z",
+      "findings": [
+        {
+          "id": "cookie-consent-1",
+          "category": "cookie-consent",
+          "severity": "low",
+          "message": "Cookie consent UI was not detected on inspected page.",
+          "pageUrl": "https://example.com/"
+        },
+        {
+          "id": "keyboard-navigation-2",
+          "category": "keyboard-navigation",
+          "severity": "medium",
+          "message": "Limited keyboard-focusable interactive controls detected.",
+          "pageUrl": "https://example.com/"
+        },
+        {
+          "id": "focus-visibility-3",
+          "category": "focus-visibility",
+          "severity": "high",
+          "message": "Focus outline visibility may be insufficient on interactive elements.",
+          "pageUrl": "https://example.com/"
+        }
+      ],
+      "summary": {
+        "totalFindings": 3,
+        "high": 1,
+        "medium": 1,
+        "low": 1
+      },
+      "disclaimer": "Accessibility Risk Findings are heuristic indicators only and are not a certification for ADA, HIPAA, or legal compliance."
+    },
+    "responsiveReport": {
+      "baseUrl": "https://example.com",
+      "generatedAt": "2026-05-30T13:09:09.647Z",
+      "findings": [
+        {
+          "viewport": "Android viewport",
+          "layoutBreakage": false,
+          "hiddenCtas": false,
+          "horizontalScroll": false,
+          "menuUsabilityIssue": true,
+          "formVisibilityIssue": false,
+          "overlappingElements": false,
+          "cartOrSearchVisibilityIssue": false,
+          "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780146540087\\responsive-screenshots\\android-viewport.png",
+          "notes": [
+            "Menu/navigation usability risk detected."
+          ]
+        },
+        {
+          "viewport": "iPhone viewport",
+          "layoutBreakage": false,
+          "hiddenCtas": false,
+          "horizontalScroll": false,
+          "menuUsabilityIssue": true,
+          "formVisibilityIssue": false,
+          "overlappingElements": false,
+          "cartOrSearchVisibilityIssue": false,
+          "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780146540087\\responsive-screenshots\\iphone-viewport.png",
+          "notes": [
+            "Menu/navigation usability risk detected."
+          ]
+        },
+        {
+          "viewport": "iPad viewport",
+          "layoutBreakage": false,
+          "hiddenCtas": false,
+          "horizontalScroll": false,
+          "menuUsabilityIssue": true,
+          "formVisibilityIssue": false,
+          "overlappingElements": false,
+          "cartOrSearchVisibilityIssue": false,
+          "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780146540087\\responsive-screenshots\\ipad-viewport.png",
+          "notes": [
+            "Menu/navigation usability risk detected."
+          ]
+        },
+        {
+          "viewport": "Tablet viewport",
+          "layoutBreakage": false,
+          "hiddenCtas": false,
+          "horizontalScroll": false,
+          "menuUsabilityIssue": true,
+          "formVisibilityIssue": false,
+          "overlappingElements": false,
+          "cartOrSearchVisibilityIssue": false,
+          "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780146540087\\responsive-screenshots\\tablet-viewport.png",
+          "notes": [
+            "Menu/navigation usability risk detected."
+          ]
+        },
+        {
+          "viewport": "Desktop viewport",
+          "layoutBreakage": false,
+          "hiddenCtas": false,
+          "horizontalScroll": false,
+          "menuUsabilityIssue": true,
+          "formVisibilityIssue": false,
+          "overlappingElements": false,
+          "cartOrSearchVisibilityIssue": false,
+          "screenshotPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780146540087\\responsive-screenshots\\desktop-viewport.png",
+          "notes": [
+            "Menu/navigation usability risk detected."
+          ]
+        }
+      ],
+      "summary": {
+        "totalViewports": 5,
+        "issueCount": 5,
+        "issueViewports": 5
+      }
+    },
+    "responsiveReportPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780146540087\\responsive-report.json",
+    "brokenLinksReportPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780146540087\\broken-links-report.json",
+    "formsReportPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780146540087\\forms-report.json",
+    "accessibilityRiskReportPath": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780146540087\\accessibility-risk-report.json",
+    "productionReportPaths": {
+      "html": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780146540087\\client-report.html",
+      "json": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780146540087\\client-report.json",
+      "markdown": "C:\\Users\\mdanish\\Desktop\\qa-agent-playwright\\src\\reports\\executions\\run-1780146540087\\summary.md"
+    }
+  }
+}

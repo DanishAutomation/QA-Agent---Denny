@@ -1,0 +1,113 @@
+{
+  "runId": "run-1780155625905",
+  "status": "failed",
+  "orchestrationState": "FAILED",
+  "currentPhase": "Reporting",
+  "totalGeneratedTestCases": 16,
+  "currentExecutingTestCaseNumber": 0,
+  "currentTestCaseTitle": "Preparing execution contexts",
+  "currentUrl": "https://uat2.purelifedental.com/",
+  "browser": "Firefox",
+  "device": "Desktop",
+  "progressPercentage": 100,
+  "passCount": 0,
+  "failCount": 0,
+  "skippedCount": 0,
+  "liveLogs": [
+    "[8:40:25 pm] Run queued (run-1780155625905)",
+    "[8:40:25 pm] Discovery started for https://uat2.purelifedental.com",
+    "[8:41:08 pm] Discovery completed: 14 pages, 82 forms.",
+    "[8:41:08 pm] Generated 16 scenarios (16 executable, 0 skipped).",
+    "[8:41:08 pm] Run failed: Unable to launch Firefox browser."
+  ],
+  "testCases": [
+    {
+      "id": "scenario-1",
+      "title": "Execute command 1: Go to Login page where you will find Email, Password fields and a login button",
+      "status": "pending"
+    },
+    {
+      "id": "scenario-2",
+      "title": "Execute command 2: Enter  email: mdanish+1@folio3.com",
+      "status": "pending"
+    },
+    {
+      "id": "scenario-3",
+      "title": "Execute command 3: Enter password: Click@1234",
+      "status": "pending"
+    },
+    {
+      "id": "scenario-4",
+      "title": "Execute command 4: Hit Login button",
+      "status": "pending"
+    },
+    {
+      "id": "scenario-5",
+      "title": "Execute command 5: Wait for Login and then click Search bar",
+      "status": "pending"
+    },
+    {
+      "id": "scenario-6",
+      "title": "Execute command 6: Search for 'powder\"",
+      "status": "pending"
+    },
+    {
+      "id": "scenario-7",
+      "title": "Execute command 7: Open first product from the results",
+      "status": "pending"
+    },
+    {
+      "id": "scenario-8",
+      "title": "Execute command 8: Wait for all the items to be visible on the page",
+      "status": "pending"
+    },
+    {
+      "id": "scenario-9",
+      "title": "Execute command 9: Click \"buy once\" checkbox for the first sku",
+      "status": "pending"
+    },
+    {
+      "id": "scenario-10",
+      "title": "Execute command 10: Select Quantity from Qty dropdown",
+      "status": "pending"
+    },
+    {
+      "id": "scenario-11",
+      "title": "Execute command 11: Click Add to Cart",
+      "status": "pending"
+    },
+    {
+      "id": "scenario-12",
+      "title": "Execute command 12: Move to cart and click \"proceed to checkout\" to reach shipping address screen",
+      "status": "pending"
+    },
+    {
+      "id": "scenario-13",
+      "title": "Execute command 13: On shipping address screen click \"next button\" to reach payment and billing info page",
+      "status": "pending"
+    },
+    {
+      "id": "scenario-14",
+      "title": "Execute command 14: On payment page choose customer's default address as billing address",
+      "status": "pending"
+    },
+    {
+      "id": "scenario-15",
+      "title": "Execute command 15: Enter Card Details:",
+      "status": "pending"
+    },
+    {
+      "id": "scenario-16",
+      "title": "Execute command 16: Place Order",
+      "status": "pending"
+    }
+  ],
+  "updatedAt": "2026-05-30T15:41:08.954Z",
+  "log": "Run failed: Unable to launch Firefox browser.",
+  "testCaseUpdate": {
+    "id": "scenario-16",
+    "title": "Execute command 16: Place Order",
+    "status": "pending"
+  },
+  "error": "Unable to launch Firefox browser."
+}
